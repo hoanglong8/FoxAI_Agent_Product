@@ -17,6 +17,6 @@
 |Hình ảnh|[ComfyUI](https://github.com/cubiq/ComfyUI_IPAdapter_plus)|Mở|Tạo hình ảnh và hỗ trợ khách hàng, [link gốc](https://github.com/comfyanonymous/ComfyUI)|
 |Hình ảnh|[GFPGAN](https://github.com/TencentARC/GFPGAN)|Mở|Mục tiêu phát triển các thuật toán thực tế để phục hồi khuôn mặt trong thế giới hiện tại.|
 |Hình ảnh|[SUPUR](https://github.com/Fanghua-Yu/SUPIR)|Mở|Phục hồi ảnh mờ|
-|Agent AI|[LLM](https://github.com/langgenius/dify)|Mở|Giao diện của Dify kết hợp quy trình làm việc AI, đường ống RAG, khả năng của tác nhân, quản lý mô hình, tính năng quan sát|
+|Agent AI|[Dify](https://github.com/langgenius/dify)|Mở|Giao diện của Dify kết hợp quy trình làm việc AI, đường ống RAG để tăng khả năng của tác nhân, quản lý mô hình và tăng tính năng quan sát|
 |Agent AI|---|---||
 |Agent AI|---|---||
