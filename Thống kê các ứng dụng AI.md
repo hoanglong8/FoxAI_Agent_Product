@@ -9,13 +9,13 @@
 |Nền tảng|[HuggingFace Transformers](https://github.com/huggingface/transformers)|Mở|Công nghệ học máy tiên tiến dành cho Pytorch, TensorFlow và JAX.|
 |Nền tảng|[Pinokio](https://github.com/pinokiocomputer/pinokio)|Mở|AI Browser|
 |Văn bản|[Allegro](https://github.com/rhymes-ai/Allegro)|Mở|Mô hình chuyển văn bản thành video, có thể tạo ra các video chất lượng cao lên đến 6 giây ở tốc độ 15 FPS và độ phân giải 720p|
-|Nền tảng|N8N|Mở|Tự động hóa quy trình làm việc theo mã công bằng với khả năng AI gốc. Kết hợp xây dựng trực quan với mã tùy chỉnh, tự lưu trữ hoặc đám mây, hơn 400 tích hợp.|
+|Nền tảng|[N8N](https://github.com/n8n-io/n8n)|Mở|Tự động hóa quy trình làm việc theo mã công bằng với khả năng AI gốc. Kết hợp xây dựng trực quan với mã tùy chỉnh, tự lưu trữ hoặc đám mây, hơn 400 tích hợp.|
 |---|---|---|---|
 |---|---|---|---|
 |Đào coin|[Rainbow Miner](https://github.com/RainbowMiner/RainbowMiner)|Mở|Khai thác GPU với chức năng chuyển đổi lợi nhuận thông minh giữa các nhóm khai thác, thuật toán, thợ đào, sử dụng mọi tổ hợp thiết bị có thể (NVIDIA, AMD, CPU).|
 |Đào coin|[MultiPoolMiner](https://github.com/MultiPoolMiner/MultiPoolMiner)|Mở|Giám sát các nhóm khai thác tiền điện tử theo thời gian thực để tìm ra nhóm có lợi nhuận cao nhất cho máy của bạn. Kiểm soát bất kỳ thợ đào nào có sẵn thông qua dòng lệnh.|
 |Hình ảnh|[ComfyUI](https://github.com/cubiq/ComfyUI_IPAdapter_plus)|Mở|Tạo hình ảnh và hỗ trợ khách hàng|
-|---|---|---|---|
+|Hình ảnh|[GFPGAN](https://github.com/TencentARC/GFPGAN)|Mở|Mục tiêu phát triển các thuật toán thực tế để phục hồi khuôn mặt trong thế giới thực|
 |---|---|---|---|
 |---|---|---|---|
 |---|---|---|---|
