@@ -13,3 +13,4 @@
 |---|---|---|---|---|
 |---|---|---|---|---|
 |Đào coin|Rainbow Miner|Mở|Khai thác GPU với chức năng chuyển đổi lợi nhuận thông minh giữa các nhóm khai thác, thuật toán, thợ đào, sử dụng mọi tổ hợp thiết bị có thể (NVIDIA, AMD, CPU).|[Rainbow Miner](https://github.com/RainbowMiner/RainbowMiner)|
+|Đào coin|MultiPoolMiner|Mở|Giám sát các nhóm khai thác tiền điện tử theo thời gian thực để tìm ra nhóm có lợi nhuận cao nhất cho máy của bạn. Kiểm soát bất kỳ thợ đào nào có sẵn thông qua dòng lệnh.|[MultiPoolMiner](https://github.com/MultiPoolMiner/MultiPoolMiner)|
