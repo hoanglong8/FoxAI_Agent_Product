@@ -6,10 +6,10 @@
 | Phương thức| Tên ứng dụng| Mã nguồn|Tính năng chính|Đường link|
 |---|---|---|---|---|
 |Văn bản|ChatGPT| Đóng |Tạo nội dung, trả lời câu hỏi, viết mã, dịch thuật.|[chat.openai.com](https://chat.openai.com) |
-|Văn bản|HuggingFace Transformers|Mở|Tạo văn bản, dịch thuật, tóm tắt bằng các mô hình ngôn ngữ như BERT, GPT, T5.|[HuggingFace](https://github.com/huggingface/transformers)|
+|Văn bản|HuggingFace Transformers|Mở|Công nghệ học máy tiên tiến dành cho Pytorch, TensorFlow và JAX.|[HuggingFace](https://github.com/huggingface/transformers)|
 |---|---|---|---|---|
 |---|---|---|---|---|
 |---|---|---|---|---|
 |---|---|---|---|---|
 |---|---|---|---|---|
-|---|---|---|---|---|
+|Đào coin|Rainbow Miner|Mở|Khai thác GPU với chức năng chuyển đổi lợi nhuận thông minh giữa các nhóm khai thác, thuật toán, thợ đào, sử dụng mọi tổ hợp thiết bị có thể (NVIDIA, AMD, CPU).|[Rainbow Miner](https://github.com/RainbowMiner/RainbowMiner)|
