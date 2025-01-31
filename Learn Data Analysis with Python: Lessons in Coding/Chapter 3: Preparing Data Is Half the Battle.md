@@ -47,11 +47,14 @@ Outliers can be detected using **two methods**:
 
 Let's see these methods in action.
 
-### Method 1: Standard Deviation
+# Chapter 3: Preparing Data Is Half the Battle
+
+## Listing 3-1: Method 1 - Standard Deviation
 ```python
 import pandas as pd
 
 Location = "datasets/gradedata.csv"
+
 df = pd.read_csv(Location)
 
 meangrade = df['grade'].mean()
@@ -60,137 +63,56 @@ stdgrade = df['grade'].std()
 toprange = meangrade + stdgrade * 1.96
 botrange = meangrade - stdgrade * 1.96
 
-df = df.drop(df[df['grade'] > toprange].index)
-df = df.drop(df[df['grade'] < botrange].index)
+copydf = df
+copydf = copydf.drop(copydf[copydf['grade'] > toprange].index)
+copydf = copydf.drop(copydf[copydf['grade'] < botrange].index)
 
-df
+copydf
 ```
-### Method 2: Interquartile Range
-```python
+* Line 6: Calculate the upper boundary (1.96 * standard deviation + mean).
+* Line 7: Calculate the lower boundary (mean - 1.96 * standard deviation).
+* Line 9: Drop rows where grade is higher than toprange.
+* Line 11: Drop rows where grade is lower than botrange.
 
+## Listing 3-2: Method 2 - Interquartile Range (IQR)
+
+```python
 import pandas as pd
 
 Location = "datasets/gradedata.csv"
+
 df = pd.read_csv(Location)
 
-q1 = df['grade'].quantile(0.25)
-q3 = df['grade'].quantile(0.75)
+q1 = df['grade'].quantile(.25)
+q3 = df['grade'].quantile(.75)
 iqr = q3 - q1
 
 toprange = q3 + iqr * 1.5
 botrange = q1 - iqr * 1.5
 
-df = df.drop(df[df['grade'] > toprange].index)
-df = df.drop(df[df['grade'] < botrange].index)
+copydf = df
+copydf = copydf.drop(copydf[copydf['grade'] > toprange].index)
+copydf = copydf.drop(copydf[copydf['grade'] < botrange].index)
 
-df
+copydf
 ```
+
+* Line 9: Compute upper boundary (Q3 + 1.5 * IQR).
+* Line 10: Compute lower boundary (Q1 - 1.5 * IQR).
+* Line 13: Drop rows where grade is higher than toprange.
+* Line 14: Drop rows where grade is lower than botrange.
+
 ### Your Turn
-Can you remove outliers from datasets/test_scores.csv using both methods?
+Load the dataset datasets/outlierdata.csv. Can you remove the outliers?
+Try using both methods (Standard Deviation & IQR).
 
-## Missing Data in Pandas DataFrames
-Sometimes datasets contain missing values that need to be handled.
-
-### Method 1: Drop Missing Values
+### Listing 3-3: Creating Dataframe with Missing Data
 ```python
-
-df = df.dropna()
-```
-### Method 2: Fill Missing Values with a Default
-```python
-
-df = df.fillna(0)
-```
-### Method 3: Fill Missing Values with the Column Mean
-```python
-
-df['grade'] = df['grade'].fillna(df['grade'].mean())
-```
-### Filtering Inappropriate Values
-Some values in datasets don’t make sense (e.g., grades over 100).
-We can filter them out.
-
-#### Create a DataFrame with Invalid Grades
-```python
-
 import pandas as pd
 
-names = ['Bob', 'Jessica', 'Mary', 'John', 'Mel']
-grades = [76, -2, 77, 78, 101]
+df = pd.read_csv("datasets/gradedatamissing.csv")
 
-df = pd.DataFrame(list(zip(names, grades)), columns=['Names', 'Grades'])
-df
+df.head()
 ```
-#### Filter Out Impossible Grades
-```python
+This dataset contains missing data, which will be used to practice handling missing values.
 
-df = df[df['Grades'] <= 100]
-```
-#### Replace Out-of-Range Values with Max/Min
-
-```python
-
-df.loc[df['Grades'] > 100, 'Grades'] = 100
-df.loc[df['Grades'] < 0, 'Grades'] = 0
-```
-### Finding Duplicate Rows
-Duplicate rows can exist in datasets and should be handled properly.
-
-#### Create a DataFrame with Duplicates
-```python
- as pd
-
-names = ['Jan', 'John', 'Bob', 'Jan', 'Mary', 'Jon', 'Mel', 'Mel']
-grades = [95, 78, 76, 95, 77, 78, 99, 100]
-
-df = pd.DataFrame(list(zip(names, grades)), columns=['Names', 'Grades'])
-df
-```
-#### Detect Duplicates
-```python
-
-df.duplicated()
-```
-#### Remove Duplicates
-```python
-
-df = df.drop_duplicates()
-```
-### Your Turn
-Can you load datasets/dupedata.csv and remove duplicate addresses?
-
-### Removing Punctuation from Column Contents
-Punctuation sometimes appears in text columns and needs to be removed.
-
-Example: Cleaning Address Data
-```python
-
-import string
-
-def remove_punctuation(text):
-    return ''.join(char for char in text if char not in string.punctuation)
-
-df['address'] = df['address'].apply(remove_punctuation)
-```
-#### Removing Whitespace from Column Contents
-Whitespace can cause errors when analyzing text data.
-
-```python
-
-df['address'] = df['address'].str.strip()
-```
-#### Standardizing Dates
-Different sources format dates differently (01/03/80, 1980/01/03, etc.). We can standardize them.
-
-Example: Standardizing Birthdates
-```python
-
-from datetime import datetime
-
-def standardize_date(date):
-    return datetime.strptime(date, '%m/%d/%Y').strftime('%Y-%m-%d')
-
-df['birthdate'] = df['birthdate'].apply(standardize_date)
-```
-### Your Turn
-Can you convert datasets/employees.csv birthdates into YYYY-MM-DD format?
