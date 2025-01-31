@@ -255,38 +255,37 @@ sql = 'SELECT * FROM test WHERE Grades IN (76,77,78)'
 
 sales_data_df = pd.read_sql(sql, engine)
 sales_data_df
+```
 This code creates a link to the gradedata.db database and executes a query to fetch relevant data.
 
-If you don't know the names of the tables in a SQLite database,
-use Listing 2-18 to find them:
+If you don't know the names of the tables in a SQLite database, use Listing 2-18 to find them:
 
-python
-Sao chép
-Chỉnh sửa
+```python
+
 sql = "SELECT name FROM sqlite_master WHERE type='table';"
+```
 Once you identify a table name, you can retrieve all its contents using Listing 2-19:
 
-python
-Sao chép
-Chỉnh sửa
+```python
+
 sql = "SELECT * FROM test;"
+```
 Now, running sales_data_df.head() will display the first few rows of the table.
 
 For additional help, run Listing 2-20:
 
-python
-Sao chép
-Chỉnh sửa
+```python
+
 sales_data_df.read_sql?
-Your Turn
+```
+### Your Turn
 Can you load data from the datasets/salesdata.db database?
 
-Saving Data to SQL
+### Saving Data to SQL
 To save a DataFrame to an SQL database, use Listing 2-21:
 
-python
-Sao chép
-Chỉnh sửa
+```python
+
 import pandas as pd
 
 names = ['Bob', 'Jessica', 'Mary', 'John', 'Mel']
@@ -296,11 +295,11 @@ GradeList = zip(names, grades)
 df = pd.DataFrame(data=GradeList, columns=['Names', 'Grades'])
 
 df
+```
 Now, let's export this DataFrame to a SQLite database (Listing 2-22):
 
-python
-Sao chép
-Chỉnh sửa
+```python
+
 import os
 import sqlite3 as lite
 
@@ -310,66 +309,66 @@ con = lite.connect(db_filename)
 df.to_sql('mytable', con, if_exists='replace')
 
 con.close()
-Line 14: mydb.db is the path and name of the SQLite database.
-Line 18: 'mytable' is the name of the table created in the database.
+```
+* Line 14: mydb.db is the path and name of the SQLite database.
+* Line 18: 'mytable' is the name of the table created in the database.
 For more details, check Listing 2-23:
 
-python
-Sao chép
-Chỉnh sửa
+```python
+
 df.to_sql?
-Your Turn
+```
+### Your Turn
 Can you create a SQLite table containing data from datasets/gradedata.csv?
 
-Random Numbers and Creating Random Data
-In most cases, you will use these techniques on real datasets,
-but sometimes you need to generate random data.
+### Random Numbers and Creating Random Data
+In most cases, you will use these techniques on real datasets, but sometimes you need to generate random data.
 
 Let’s create a random list of baby names (Listing 2-24).
 
-python
-Sao chép
-Chỉnh sửa
+```python
+
 import pandas as pd
 from numpy import random
 from numpy.random import randint
 
 names = ['Bob', 'Jessica', 'Mary', 'John', 'Mel']
+```
 First, we import necessary libraries and define a list of names.
 
 Next, seed the random generator (Listing 2-25):
 
-python
-Sao chép
-Chỉnh sửa
+```python
+
 random.seed(500)
+```
 Why seed the random generator?
 If you use the same seed, you will always get the same "random" numbers.
 
 We will perform the following steps:
 
-randint(low=0, high=len(names))
+`randint(low=0, high=len(names))`
+* Generates a random integer between 0 and len(names)-1.
 
-Generates a random integer between 0 and len(names)-1.
-names[n]
+`names[n]`
+* Selects the name at index n.
 
-Selects the name at index n.
-for i in range(n)
+`for i in range(n)`
+* Loops n times.
 
-Loops n times.
-random_names = [...]
+`random_names = [...]`
+* Selects random names n times.
 
-Selects random names n times.
 Now, let's generate 1000 random names (Listing 2-26):
 
-python
-Sao chép
-Chỉnh sửa
+```python
+
 randnames = []
 
 for i in range(1000):
     name = names[randint(low=0, high=len(names))]
     randnames.append(name)
+```
 We now have 1000 random names stored in randnames.
 
 Now, let’s generate 1000 random numbers (Listing 2-27):
