@@ -1,4 +1,4 @@
-## Phân loại các GenAI
+## Phân loại các phân nhánh và ứng dụng của AI
 
 ![GenAI Universe](https://www.lucid-analytics.ai/wp-content/uploads/2024/07/AI-2.png)
 
@@ -62,9 +62,9 @@
 
 ---
 
+## 5.1.Nhóm các mô hình ngôn ngữ lớn LLM & tạo sinh văn bản
 ![[Hình ảnh 5.1](https://www.youtube.com/watch?v=feRlFMYnJcw&ab_channel=VIETECH)](https://i.ytimg.com/vi/feRlFMYnJcw/maxresdefault.jpg)
 
-## 5.1.Nhóm các mô hình ngôn ngữ lớn LLM & tạo sinh văn bản
 |Tên mô hình|Link nguồn|Tóm tắt|
 |---|---|---|
 |![Logo OpenAI](https://avatars.githubusercontent.com/u/14957082?s=48&v=4)[ChatGPT](https://github.com/openai/openai-python)|https://github.com/openai/openai-python|The official Python library for the OpenAI API ([pypi.org/project/openai](https://pypi.org/project/openai/)) và [ChatGPT-2](https://github.com/openai/gpt-2)|
