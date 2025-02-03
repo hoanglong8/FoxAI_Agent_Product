@@ -84,9 +84,15 @@ Video giới thiệu về LLM:
 |GPT-Neo|[GitHub](https://github.com/EleutherAI/gpt-neo)|Mô hình LLM mở, tương đương GPT-3, do EleutherAI phát triển.|
 |BERT|[GitHub](https://github.com/google-research/bert)|Mô hình NLP từ Google, hỗ trợ các tác vụ xử lý ngôn ngữ tự nhiên.|
 |LLaMA|[GitHub](https://github.com/facebookresearch/llama)|Mô hình LLM từ Meta AI, với nhiều phiên bản từ 7B đến 65B.|
+|PhoGPT|[GitHub](https://github.com/VinAIResearch/PhoGPT)|Mô hình ngôn ngữ lớn tiếng Việt với 3,7 tỷ tham số, được huấn luyện trên 102 tỷ token tiếng Việt.|
+|ViGPT|[VinBigdata](https://github.com/phamvanhoang9/vigpt_chatbot)|Mô hình ngôn ngữ lớn tiếng Việt, sở hữu hơn 600GB dữ liệu tiếng Việt từ nhiều lĩnh vực như pháp luật, lịch sử, văn hóa.|
+|Zalo AI LLM|[ai.zalo](https://zalo.ai/)|Mô hình ngôn ngữ lớn tiếng Việt do Zalo AI phát triển, dựa trên kiến trúc Transformer|
 |Sailor2|[GitHub](https://github.com/sail-sg/sailor2)|Mô hình AI hỗ trợ các ngôn ngữ Đông Nam Á, bao gồm tiếng Việt.|
 |Vietcuna|[GitHub](https://github.com/vilm-ai)|Mô hình ngôn ngữ dành riêng cho tiếng Việt, từ nhóm VILM-AI.|
 |Sailor-1.8B-Chat|[Hugging Face](https://huggingface.co/sail/Sailor-1.8B-Chat)|Mô hình tối ưu hóa cho giao tiếp ngôn ngữ Đông Nam Á.|
+|Vietnamese-LLMs|[GitHub](https://github.com/VietnamAIHub/Vietnamese_LLMs)|Dự án xây dựng bộ dữ liệu Vietnamese instruction và thực hiện Supervised instruction fine-tuning trên các Open-source mô hình ngôn ngữ Bloom, OpenLLaMA, GPT-J, MPT, Pythia và nhiều mô hình khác.|
+|VinaLLaMA|[ArXiv](https://arxiv.org/abs/2312.11011)|Mô hình ngôn ngữ lớn tiếng Việt dựa trên LLaMA-2, được huấn luyện thêm trên 800 tỷ token.|
+|LaVy|[ArXiv](https://arxiv.org/abs/2404.07922)|Mô hình ngôn ngữ lớn đa phương thức tiếng Việt, kết hợp giữa văn bản và hình ảnh.|
 
 ---
 
