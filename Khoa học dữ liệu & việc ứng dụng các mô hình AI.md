@@ -69,14 +69,24 @@
 ---
 
 ## 5.1.Nhóm các mô hình ngôn ngữ lớn LLM & tạo sinh văn bản
-![[Hình ảnh 5.1](https://www.youtube.com/watch?v=feRlFMYnJcw&ab_channel=VIETECH)](https://i.ytimg.com/vi/feRlFMYnJcw/maxresdefault.jpg)
+
+![Hình ảnh động](https://github.com/Hannibal046/Awesome-LLM/raw/main/resources/image8.gif)
+
+Video giới thiệu về LLM:
+![[Video giới thiệu](https://www.youtube.com/watch?v=feRlFMYnJcw&ab_channel=VIETECH)](https://i.ytimg.com/vi/feRlFMYnJcw/maxresdefault.jpg)
 
 |Tên mô hình|Link nguồn|Tóm tắt|
 |---|---|---|
-|![Logo OpenAI](https://avatars.githubusercontent.com/u/14957082?s=48&v=4)[ChatGPT](https://github.com/openai/openai-python)|https://github.com/openai/openai-python|The official Python library for the OpenAI API ([pypi.org/project/openai](https://pypi.org/project/openai/)) và [ChatGPT-2](https://github.com/openai/gpt-2)|
-|![Logo DeepSeek](https://avatars.githubusercontent.com/u/148330874?s=48&v=4) [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1)|https://github.com/deepseek-ai/DeepSeek-R1|Mã nguồn mở của DeepSeek-R1 và [V3](https://github.com/deepseek-ai/DeepSeek-V3)|
-|[DeepSeek-Zero](https://github.com/Jiayi-Pan/TinyZero)|https://github.com/Jiayi-Pan/TinyZero|DeepSeek Tiny Zero - mô hình ngôn ngữ nhỏ mô phỏng lại DeepSeek|
-
+|Awesome-LLM|[Tổng hợp LLM](https://github.com/Hannibal046/Awesome-LLM?utm_source=chatgpt.com)|Danh sách các bài báo chọn lọc về các mô hình ngôn ngữ lớn như ChatGPT, DeepSeek, Qwen2.5-Max... các công cụ triển khai LLM, các khóa học, check-points và API|
+|![Logo OpenAI](https://avatars.githubusercontent.com/u/14957082?s=48&v=4) OpenAI|[GitHub](https://github.com/openai/openai-python)|Thư viện OpenAI API ([pypi.org/project/openai](https://pypi.org/project/openai/)) và [ChatGPT-2](https://github.com/openai/gpt-2)|
+|![Logo DeepSeek](https://avatars.githubusercontent.com/u/148330874?s=48&v=4) DeepSeek| [GitHub](https://github.com/deepseek-ai/DeepSeek-R1)|Mã nguồn mở bản [R1](https://github.com/deepseek-ai/DeepSeek-R1) và [V3](https://github.com/deepseek-ai/DeepSeek-V3)|
+|DeepSeek-Zero|[GitHub](https://github.com/Jiayi-Pan/TinyZero)|DeepSeek Tiny Zero - mô hình ngôn ngữ nhỏ mô phỏng lại DeepSeek|
+|GPT-Neo|[GitHub](https://github.com/EleutherAI/gpt-neo)|Mô hình LLM mở, tương đương GPT-3, do EleutherAI phát triển.|
+|BERT|[GitHub](https://github.com/google-research/bert)|Mô hình NLP từ Google, hỗ trợ các tác vụ xử lý ngôn ngữ tự nhiên.|
+|LLaMA|[GitHub](https://github.com/facebookresearch/llama)|Mô hình LLM từ Meta AI, với nhiều phiên bản từ 7B đến 65B.|
+|Sailor2|[GitHub](https://github.com/sail-sg/sailor2)|Mô hình AI hỗ trợ các ngôn ngữ Đông Nam Á, bao gồm tiếng Việt.|
+|Vietcuna|[GitHub](https://github.com/vilm-ai)|Mô hình ngôn ngữ dành riêng cho tiếng Việt, từ nhóm VILM-AI.|
+|Sailor-1.8B-Chat|[Hugging Face](https://huggingface.co/sail/Sailor-1.8B-Chat)|Mô hình tối ưu hóa cho giao tiếp ngôn ngữ Đông Nam Á.|
 
 ---
 
