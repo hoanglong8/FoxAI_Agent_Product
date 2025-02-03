@@ -1,3 +1,64 @@
+## Phân loại các GenAI
+
+![GenAI Universe](https://www.lucid-analytics.ai/wp-content/uploads/2024/07/AI-2.png)
+
+**1. Trí tuệ nhân tạo (Artificial Intelligence) tổng quát**
+* Lập kế hoạch và lập lịch trình (Planning and Scheduling)
+* Xử lý ngôn ngữ tự nhiên (Natural Language Processing)
+* Nhận diện giọng nói (Speech Recognition)
+* Nhận diện tri thức (Knowledge Representation)
+* Hệ thống chuyên gia (Expert Systems)
+* Thị giác máy tính (Computer Vision)
+* Robotics
+* Lý luận tự động (Automated Reasoning)
+* Logic mờ (Fuzzy Logic)
+* Đạo đức AI (AI Ethics)
+* Điện toán nhận thức (Cognitive Computing)
+
+**2. Học máy (Machine Learning)**
+* Giảm chiều dữ liệu (Dimensionality Reduction)
+* Học không giám sát (Unsupervised Learning)
+* Cây quyết định (Decision Trees)
+* Học bán giám sát (Semi-Supervised Learning)
+* Máy vector hỗ trợ (Support Vector Machines)
+* Học tăng cường (Reinforcement Learning)
+* Học máy tổ hợp (Ensemble Learning)
+* Phân loại (Classification)
+* Hồi quy (Regression)
+* Phân cụm (Clustering)
+* Kỹ thuật tính năng (Feature Engineering)
+
+**3. Mạng nơ-ron (Neural Networks)**
+* Mạng nhận thức (Perception)
+* Mạng nơ-ron tích chập (Convolutional Neural Networks - CNNs)
+* Mạng nơ-ron truyền thẳng nhiều lớp (Multi-Layer Perceptron - MLP)
+* Truyền ngược (Backpropagation)
+* Bộ nhớ dài ngắn hạn (Long Short-Term Memory - LSTM)
+* Các hàm kích hoạt (Activation Functions)
+
+**4. Học sâu (Deep Learning)**
+* Mạng đối kháng tạo sinh (Generative Adversarial Networks - GANs)
+* Mạng nơ-ron sâu (Deep Neural Networks - DNNs)
+* Mạng nơ-ron tích chập sâu (Deep Convolutional Neural Networks - CNNs)
+* Học tăng cường sâu (Deep Reinforcement Learning)
+* Mạng capsule (Capsule Networks)
+* Học chuyển giao (Transfer Learning)
+* Bỏ nút (Dropout)
+* Mạng nơ-ron hồi quy (Recurrent Neural Networks - RNNs)
+* Bản đồ tự tổ chức (Self-Organizing Maps - SOMs)
+* Mạng niềm tin sâu (Deep Belief Networks - DBNs)
+
+**5. AI tạo sinh (Generative AI)**
+* Mô hình ngôn ngữ (Language Modeling)
+* Học chuyển giao (Transfer Learning)
+* Kiến trúc Transformer (Transformer Architecture)
+* Cơ chế tự chú ý (Self-attention Mechanism)
+* Hiểu ngôn ngữ tự nhiên (Natural Language Understanding)
+* Tổng hợp (Summarization)
+* Hệ thống đối thoại (Dialogue Systems)
+* Sinh văn bản (Text Generation)
+
+## Nhóm 1: 
 |Tên mô hình|Link nguồn|Tóm tắt|
 |---|---|---|
 |[Ultralytics](https://github.com/ultralytics/ultralytics?tab=readme-ov-file) YOLO11|https://github.com/ultralytics/ultralytics?tab=readme-ov-file|Ứng dụng AI để phát hiện và theo dõi đối tượng, phân đoạn trường hợp, phân loại hình ảnh và ước tính tư thế|
@@ -6,3 +67,7 @@
 |[DeepSeek](https://github.com/Jiayi-Pan/TinyZero)|https://github.com/Jiayi-Pan/TinyZero|Mã nguồn của DeepSeek Tiny Zero|
 |[ComfyUI](https://github.com/ltdrdata/ComfyUI-extension-tutorials/tree/Main)|https://github.com/ltdrdata/ComfyUI-extension-tutorials/tree/Main|Hướng dẫn ComfyUI cơ bản|
 |[Best ML](https://github.com/ml-tooling/best-of-ml-python)|https://github.com/ml-tooling/best-of-ml-python|Tổng hợp các thư viện Python cho ML|
+|![Logo N8N](https://avatars.githubusercontent.com/u/45487711?s=48&v=4)[N8N](https://github.com/n8n-io/n8n)|https://github.com/n8n-io/n8n|Ứng dụng xây dựng workflow automation|
+||||
+
+![Hình ảnh bìa](https://briansolis.com/wp-content/uploads/2023/12/53404929226_98b2a28e3d_k-1024x916.jpg)
