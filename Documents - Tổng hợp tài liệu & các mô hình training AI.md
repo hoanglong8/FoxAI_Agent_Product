@@ -60,37 +60,51 @@
 * Sinh âm thanh (Audio Gen) và âm nhạc
 * Sinh hình ảnh (Image Gen) và video
 
-## Nhóm các mô hình ngôn ngữ lớn LLM & tạo sinh văn bản
+---
+
+## 5.1.Nhóm các mô hình ngôn ngữ lớn LLM & tạo sinh văn bản
 |Tên mô hình|Link nguồn|Tóm tắt|
 |---|---|---|
 |![Logo OpenAI](https://avatars.githubusercontent.com/u/14957082?s=48&v=4)[ChatGPT](https://github.com/openai/openai-python)|https://github.com/openai/openai-python|The official Python library for the OpenAI API ([pypi.org/project/openai](https://pypi.org/project/openai/)) và [ChatGPT-2](https://github.com/openai/gpt-2)|
 |![Logo DeepSeek](https://avatars.githubusercontent.com/u/148330874?s=48&v=4) [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1)|https://github.com/deepseek-ai/DeepSeek-R1|Mã nguồn mở của DeepSeek-R1 và [V3](https://github.com/deepseek-ai/DeepSeek-V3)|
 |[DeepSeek-Zero](https://github.com/Jiayi-Pan/TinyZero)|https://github.com/Jiayi-Pan/TinyZero|DeepSeek Tiny Zero - mô hình ngôn ngữ nhỏ mô phỏng lại DeepSeek|
 
-## Nhóm các mô hình tạo sinh hình ảnh và video
+---
+
+## 5.2.Nhóm các mô hình tạo sinh hình ảnh và video
 |Tên mô hình|Link nguồn|Tóm tắt|
 |---|---|---|
 |[ComfyUI](https://github.com/ltdrdata/ComfyUI-extension-tutorials/tree/Main)|https://github.com/ltdrdata/ComfyUI-extension-tutorials/tree/Main|Hướng dẫn ComfyUI cơ bản|
 
-## Nhóm các mô hình tạo sinh âm thanh và âm nhạc
+---
+
+## 5.3.Nhóm các mô hình tạo sinh âm thanh và âm nhạc
 |Tên mô hình|Link nguồn|Tóm tắt|
 |---|---|---|
 
+---
+
 ![Hình ảnh bìa](https://briansolis.com/wp-content/uploads/2023/12/53404929226_98b2a28e3d_k-1024x916.jpg)
 
-## Nhóm các mô hình Machine Learning
+## 5.4.Nhóm các mô hình Machine Learning
 |Tên mô hình|Link nguồn|Tóm tắt|
 |---|---|---|
 |[Best ML](https://github.com/ml-tooling/best-of-ml-python)|https://github.com/ml-tooling/best-of-ml-python|Tổng hợp các thư viện Python cho ML|
 
-## Nhóm các mô hình Thị giác máy tính
+---
+
+## 5.5.Nhóm các mô hình Thị giác máy tính
 |Tên mô hình|Link nguồn|Tóm tắt|
 |---|---|---|
 |[Ultralytics](https://github.com/ultralytics/ultralytics?tab=readme-ov-file) YOLO11|https://github.com/ultralytics/ultralytics?tab=readme-ov-file|Ứng dụng AI để phát hiện và theo dõi đối tượng, phân đoạn trường hợp, phân loại hình ảnh và ước tính tư thế|
 |[Roboflow](https://roboflow.com/)|https://roboflow.com/|Quản lý các workflow tự động về nhận diện hình ảnh|
 |[Pyresearch](https://github.com/pyresearch/notebooks?tab=readme-ov-file)|https://github.com/pyresearch/notebooks?tab=readme-ov-file|Dự án Pyresearch|
 
-## Nhóm các mô hình tác nhân nhân tạo (AI Agent & Robotics)
+---
+
+## 5.6.Nhóm các mô hình tác nhân nhân tạo (AI Agent & Robotics)
 |Tên mô hình|Link nguồn|Tóm tắt|
 |---|---|---|
 |![Logo N8N](https://avatars.githubusercontent.com/u/45487711?s=48&v=4) [N8N](https://github.com/n8n-io/n8n)|https://github.com/n8n-io/n8n|Ứng dụng xây dựng workflow automation|
+
+---
