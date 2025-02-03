@@ -78,7 +78,7 @@ Video giới thiệu về LLM:
 |Tên mô hình|Link nguồn|Tóm tắt|
 |---|---|---|
 |Awesome-LLM|[Tổng hợp LLM](https://github.com/Hannibal046/Awesome-LLM)|Danh sách các bài báo chọn lọc về các mô hình ngôn ngữ lớn như ChatGPT, DeepSeek, Qwen2.5-Max... cùng framework huấn luyện, các công cụ triển khai LLM, các khóa học, check-points và API|
-|![Logo OpenAI](https://avatars.githubusercontent.com/u/14957082?s=48&v=4) OpenAI|[GitHub](https://github.com/openai/openai-python)|Thư viện OpenAI API ([pypi.org/project/openai](https://pypi.org/project/openai/)) và [ChatGPT-2](https://github.com/openai/gpt-2)|
+|![Logo OpenAI](https://avatars.githubusercontent.com/u/14957082?s=48&v=4) OpenAI|[GitHub](https://github.com/openai/openai-python)|Hiện chưa công khai mã nguồn, kết nối thông qua OpenAI API ([pypi.org/project/openai](https://pypi.org/project/openai/)) và [ChatGPT-2](https://github.com/openai/gpt-2)|
 |![Logo DeepSeek](https://avatars.githubusercontent.com/u/148330874?s=48&v=4) DeepSeek| [GitHub](https://github.com/deepseek-ai/DeepSeek-R1)|Mã nguồn mở bản [R1](https://github.com/deepseek-ai/DeepSeek-R1) và [V3](https://github.com/deepseek-ai/DeepSeek-V3)|
 |DeepSeek-Zero|[GitHub](https://github.com/Jiayi-Pan/TinyZero)|DeepSeek Tiny Zero - mô hình ngôn ngữ nhỏ mô phỏng lại DeepSeek|
 |Qwen-2.5Max|[Alibaba](https://qwenlm.github.io/blog/qwen2.5-max/)|Hiện chưa công khai mã nguồn|
