@@ -62,12 +62,15 @@
 
 ---
 
+![[Hình ảnh 5.1](https://www.youtube.com/watch?v=feRlFMYnJcw&ab_channel=VIETECH)](https://i.ytimg.com/vi/feRlFMYnJcw/maxresdefault.jpg)
+
 ## 5.1.Nhóm các mô hình ngôn ngữ lớn LLM & tạo sinh văn bản
 |Tên mô hình|Link nguồn|Tóm tắt|
 |---|---|---|
 |![Logo OpenAI](https://avatars.githubusercontent.com/u/14957082?s=48&v=4)[ChatGPT](https://github.com/openai/openai-python)|https://github.com/openai/openai-python|The official Python library for the OpenAI API ([pypi.org/project/openai](https://pypi.org/project/openai/)) và [ChatGPT-2](https://github.com/openai/gpt-2)|
 |![Logo DeepSeek](https://avatars.githubusercontent.com/u/148330874?s=48&v=4) [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1)|https://github.com/deepseek-ai/DeepSeek-R1|Mã nguồn mở của DeepSeek-R1 và [V3](https://github.com/deepseek-ai/DeepSeek-V3)|
 |[DeepSeek-Zero](https://github.com/Jiayi-Pan/TinyZero)|https://github.com/Jiayi-Pan/TinyZero|DeepSeek Tiny Zero - mô hình ngôn ngữ nhỏ mô phỏng lại DeepSeek|
+
 
 ---
 
