@@ -4,14 +4,14 @@
 
 **1. Trí tuệ nhân tạo (Artificial Intelligence) tổng quát**
 * Lập kế hoạch và lập lịch trình (Planning and Scheduling)
-* Xử lý ngôn ngữ tự nhiên (Natural Language Processing)
+* Xử lý ngôn ngữ tự nhiên NLP (Natural Language Processing)
 * Nhận diện giọng nói (Speech Recognition)
 * Nhận diện tri thức (Knowledge Representation)
 * Hệ thống chuyên gia (Expert Systems)
 * Thị giác máy tính (Computer Vision)
-* Robotics
+* Tác nhân nhân tạo (Robotics & AI Agent)
 * Lý luận tự động (Automated Reasoning)
-* Logic mờ (Fuzzy Logic)
+* Logic mập mờ (Fuzzy Logic)
 * Đạo đức AI (AI Ethics)
 * Điện toán nhận thức (Cognitive Computing)
 
