@@ -1,4 +1,10 @@
-## Phân loại các phân nhánh và ứng dụng của AI
+# A.Phân loại các nhánh của Khoa học dữ liệu và ứng dụng của chúng
+
+![Hình ảnh 2](https://positivethinking.tech/wp-content/uploads/2023/06/data_science_venn_diagram.png)
+
+
+
+# B.Phân loại các nhánh của AI và ứng dụng của chúng
 
 ![GenAI Universe](https://www.lucid-analytics.ai/wp-content/uploads/2024/07/AI-2.png)
 
