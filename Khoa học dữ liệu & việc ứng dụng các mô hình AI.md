@@ -1,8 +1,33 @@
 # A.Phân loại các nhánh của Khoa học dữ liệu và ứng dụng của chúng
 
-![Hình ảnh 2](https://positivethinking.tech/wp-content/uploads/2023/06/data_science_venn_diagram.png)
+![Hình ảnh 1](https://positivethinking.tech/wp-content/uploads/2023/06/data_science_venn_diagram.png)
 
+Hãy tưởng tượng **Data Analyst, Data Engineer, Data Scientist, và AI Engineer** là bốn vai trò quan trọng trong một đoàn làm phim, nơi **dữ liệu Data** chính là nguyên liệu thô và thành phẩm tạo ra là **một bộ phim AI** được công chiếu cho 1 nhóm **đối tượng khán giả** cụ thể.
 
+-Data Engineer: Người xây dựng hậu trường, đảm bảo dữ liệu sẵn sàng.
+-Data Analyst: Biên tập viên, phân tích dữ liệu và trực quan hóa thông tin.
+-Data Scientist: Đạo diễn sáng tạo, khám phá và dự đoán từ dữ liệu.
+-AI Engineer: Kỹ sư hiệu ứng đặc biệt, đưa AI vào thực tiễn.
+
+**1. Data Engineer - người thiết kế hậu trường, sân khấu**
+* Nhiệm vụ: thiết lập kho dữ liệu để các nhóm khác có thể dễ dàng truy cập và sử dụng.
+* Vai trò: Xây dựng hệ thống lưu trữ dữ liệu, thiết lập cơ sở hạ tầng, đảm bảo dữ liệu được thu thập, làm sạch và sẵn sàng để sử dụng.
+* Điểm mạnh: Thành thạo các công cụ lưu trữ dữ liệu lớn (SQL, Hadoop, Spark) và xử lý Pipeline dữ liệu.
+
+**2. Data Analyst - biên tập viên, người dẫn truyện**
+* Nhiệm vụ: Phân tích, chọn lọc và trình bày những cảnh quay quan trọng để tạo nên một câu chuyện mạch lạc.
+* Vai trò: Phân tích dữ liệu, tạo bảng biểu, báo cáo và trực quan hóa thông tin để giúp doanh nghiệp đưa ra quyết định. Ví dụ như tạo báo cáo doanh thu từ dữ liệu khách hàng để giúp công ty tối ưu chiến lược kinh doanh.
+* Điểm mạnh: Thành thạo SQL, Excel, Tableau, Power BI và có tư duy phân tích mạnh mẽ.
+
+**3. Data Scientist - đạo diễn của bộ phim**
+* Nhiệm vụ: người tìm kiếm những góc quay độc đáo và khám phá những cách kể chuyện sáng tạo.
+* Vai trò: Sử dụng thống kê, machine learning và mô hình hóa dữ liệu để khám phá các mẫu ẩn và dự đoán xu hướng. Ví dụ: xây dựng mô hình dự đoán nhu cầu sản phẩm dựa trên dữ liệu lịch sử.
+* Điểm mạnh: Thành thạo Python, R, machine learning, deep learning và thống kê.
+
+4. AI Engineer - kỹ sư hiệu ứng đặc biệt (VFX),
+* Nhiệm vụ: người biến những ý tưởng của đạo diễn thành những cảnh quay hoành tráng và sống động.
+* Vai trò: Chuyển đổi các mô hình AI từ Data Scientist thành ứng dụng thực tế, tối ưu hóa và triển khai chúng vào sản phẩm. Ví dụ: triển khai chatbot AI trên website để tự động trả lời câu hỏi của khách hàng.
+* Điểm mạnh: Thành thạo TensorFlow, PyTorch, MLOps, API, và kỹ thuật triển khai AI vào hệ thống thực tế.
 
 # B.Phân loại các nhánh của AI và ứng dụng của chúng
 
