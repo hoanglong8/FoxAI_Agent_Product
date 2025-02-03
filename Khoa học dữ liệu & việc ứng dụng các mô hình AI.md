@@ -5,8 +5,11 @@
 Hãy tưởng tượng **Data Analyst, Data Engineer, Data Scientist, và AI Engineer** là bốn vai trò quan trọng trong một đoàn làm phim, nơi **dữ liệu Data** chính là nguyên liệu thô và thành phẩm tạo ra là **một bộ phim AI** được công chiếu cho 1 nhóm **đối tượng khán giả** cụ thể.
 
 -Data Engineer: Người xây dựng hậu trường, đảm bảo dữ liệu sẵn sàng.
+
 -Data Analyst: Biên tập viên, phân tích dữ liệu và trực quan hóa thông tin.
+
 -Data Scientist: Đạo diễn sáng tạo, khám phá và dự đoán từ dữ liệu.
+
 -AI Engineer: Kỹ sư hiệu ứng đặc biệt, đưa AI vào thực tiễn.
 
 **1. Data Engineer - người thiết kế hậu trường, sân khấu**
@@ -24,7 +27,7 @@ Hãy tưởng tượng **Data Analyst, Data Engineer, Data Scientist, và AI Eng
 * Vai trò: Sử dụng thống kê, machine learning và mô hình hóa dữ liệu để khám phá các mẫu ẩn và dự đoán xu hướng. Ví dụ: xây dựng mô hình dự đoán nhu cầu sản phẩm dựa trên dữ liệu lịch sử.
 * Điểm mạnh: Thành thạo Python, R, machine learning, deep learning và thống kê.
 
-4. AI Engineer - kỹ sư hiệu ứng đặc biệt (VFX),
+**4. AI Engineer - kỹ sư hiệu ứng đặc biệt (VFX)**
 * Nhiệm vụ: người biến những ý tưởng của đạo diễn thành những cảnh quay hoành tráng và sống động.
 * Vai trò: Chuyển đổi các mô hình AI từ Data Scientist thành ứng dụng thực tế, tối ưu hóa và triển khai chúng vào sản phẩm. Ví dụ: triển khai chatbot AI trên website để tự động trả lời câu hỏi của khách hàng.
 * Điểm mạnh: Thành thạo TensorFlow, PyTorch, MLOps, API, và kỹ thuật triển khai AI vào hệ thống thực tế.
