@@ -77,16 +77,22 @@ Video giới thiệu về LLM:
 
 |Tên mô hình|Link nguồn|Tóm tắt|
 |---|---|---|
-|Awesome-LLM|[Tổng hợp LLM](https://github.com/Hannibal046/Awesome-LLM?utm_source=chatgpt.com)|Danh sách các bài báo chọn lọc về các mô hình ngôn ngữ lớn như ChatGPT, DeepSeek, Qwen2.5-Max... các công cụ triển khai LLM, các khóa học, check-points và API|
+|Awesome-LLM|[Tổng hợp LLM](https://github.com/Hannibal046/Awesome-LLM)|Danh sách các bài báo chọn lọc về các mô hình ngôn ngữ lớn như ChatGPT, DeepSeek, Qwen2.5-Max... cùng framework huấn luyện, các công cụ triển khai LLM, các khóa học, check-points và API|
 |![Logo OpenAI](https://avatars.githubusercontent.com/u/14957082?s=48&v=4) OpenAI|[GitHub](https://github.com/openai/openai-python)|Thư viện OpenAI API ([pypi.org/project/openai](https://pypi.org/project/openai/)) và [ChatGPT-2](https://github.com/openai/gpt-2)|
 |![Logo DeepSeek](https://avatars.githubusercontent.com/u/148330874?s=48&v=4) DeepSeek| [GitHub](https://github.com/deepseek-ai/DeepSeek-R1)|Mã nguồn mở bản [R1](https://github.com/deepseek-ai/DeepSeek-R1) và [V3](https://github.com/deepseek-ai/DeepSeek-V3)|
 |DeepSeek-Zero|[GitHub](https://github.com/Jiayi-Pan/TinyZero)|DeepSeek Tiny Zero - mô hình ngôn ngữ nhỏ mô phỏng lại DeepSeek|
+|Qwen-2.5Max|[Alibaba](https://qwenlm.github.io/blog/qwen2.5-max/)|Hiện chưa công khai mã nguồn|
+|Mistral 7B|[Mistral AI](https://mistral.ai/news/announcing-mistral-7b/)|Tinh chỉnh mô hình Mistral-7B trên [GPU 3090s, A100s, H100s](https://github.com/abacaj/fine-tune-mistral)|
+|Claude 3.5 Sonet|Anthropic|Hiện chưa công khai mã nguồn|
+|Gemini|Google|Hiện chưa công khai mã nguồn|
+|Phi-4|Microsoft|Hiện chưa công khai mã nguồn|
+|Falcon 180B|Viện Đổi mới Công nghệ||
 |GPT-Neo|[GitHub](https://github.com/EleutherAI/gpt-neo)|Mô hình LLM mở, tương đương GPT-3, do EleutherAI phát triển.|
 |BERT|[GitHub](https://github.com/google-research/bert)|Mô hình NLP từ Google, hỗ trợ các tác vụ xử lý ngôn ngữ tự nhiên.|
-|LLaMA|[GitHub](https://github.com/facebookresearch/llama)|Mô hình LLM từ Meta AI, với nhiều phiên bản từ 7B đến 65B.|
-|PhoGPT|[GitHub](https://github.com/VinAIResearch/PhoGPT)|Mô hình ngôn ngữ lớn tiếng Việt với 3,7 tỷ tham số, được huấn luyện trên 102 tỷ token tiếng Việt.|
+|LLaMA 3.1|[GitHub](https://github.com/facebookresearch/llama)|Mô hình LLM từ Meta AI, với nhiều phiên bản từ 7B đến 65B.|
+|PhoGPT|[VinAI](https://github.com/VinAIResearch/PhoGPT)|Mô hình ngôn ngữ lớn tiếng Việt với 3,7 tỷ tham số, được huấn luyện trên 102 tỷ token tiếng Việt.|
 |ViGPT|[VinBigdata](https://github.com/phamvanhoang9/vigpt_chatbot)|Mô hình ngôn ngữ lớn tiếng Việt, sở hữu hơn 600GB dữ liệu tiếng Việt từ nhiều lĩnh vực như pháp luật, lịch sử, văn hóa.|
-|Zalo AI LLM|[ai.zalo](https://zalo.ai/)|Mô hình ngôn ngữ lớn tiếng Việt do Zalo AI phát triển, dựa trên kiến trúc Transformer|
+|Zalo AI LLM|[Zalo.AI](https://zalo.ai/)|Mô hình ngôn ngữ lớn tiếng Việt do Zalo AI phát triển, dựa trên kiến trúc Transformer|
 |Sailor2|[GitHub](https://github.com/sail-sg/sailor2)|Mô hình AI hỗ trợ các ngôn ngữ Đông Nam Á, bao gồm tiếng Việt.|
 |Vietcuna|[GitHub](https://github.com/vilm-ai)|Mô hình ngôn ngữ dành riêng cho tiếng Việt, từ nhóm VILM-AI.|
 |Sailor-1.8B-Chat|[Hugging Face](https://huggingface.co/sail/Sailor-1.8B-Chat)|Mô hình tối ưu hóa cho giao tiếp ngôn ngữ Đông Nam Á.|
