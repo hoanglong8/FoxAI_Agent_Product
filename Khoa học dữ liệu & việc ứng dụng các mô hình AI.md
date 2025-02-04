@@ -1,6 +1,6 @@
 # A.Phân loại các nhánh của Khoa học dữ liệu và ứng dụng của chúng
 
-![Hình ảnh 1](https://positivethinking.tech/wp-content/uploads/2023/06/data_science_venn_diagram.png)
+<img src="https://positivethinking.tech/wp-content/uploads/2023/06/data_science_venn_diagram.png" alt="Hình ảnh" width="50%" />
 
 Hãy tưởng tượng **Data Analyst, Data Engineer, Data Scientist, và AI Engineer** là bốn vai trò quan trọng trong một đoàn làm phim, nơi **dữ liệu Data** chính là nguyên liệu thô và thành phẩm tạo ra là **một bộ phim AI** được công chiếu cho 1 nhóm **đối tượng khán giả** cụ thể.
 
@@ -133,7 +133,7 @@ Video giới thiệu về LLM:
 ## 5.2.Nhóm các mô hình tạo sinh hình ảnh và video
 |Tên mô hình|Link nguồn|Tóm tắt|
 |---|---|---|
-|Stable Diffusion|[GitHub-WebUI](https://github.com/cubiq/ComfyUI_IPAdapter_plus)|Ứng dụng tạo hình ảnh được fork từ [link gốc](https://github.com/comfyanonymous/ComfyUI)|
+|Stable Diffusion|[GitHub-WebUI](https://github.com/cubiq/ComfyUI_IPAdapter_plus)|Ứng dụng tạo hình ảnh có 2 dạng: [Web-UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) và [Back-end](https://github.com/comfyanonymous/ComfyUI)|
 |ComfyUI|[ComfyUI-GitHub-fork](https://github.com/ltdrdata/ComfyUI-extension-tutorials/tree/Main)|Hướng dẫn ComfyUI cơ bản|
 |Allegro|[Allegro](https://github.com/rhymes-ai/Allegro)|Mô hình chuyển văn bản thành video, có thể tạo ra các video chất lượng cao lên đến 6 giây ở tốc độ 15 FPS và độ phân giải 720p|
 |GFPGAN|[GFPGAN](https://github.com/TencentARC/GFPGAN)|Mục tiêu phát triển các thuật toán thực tế để phục hồi khuôn mặt trong thế giới hiện tại.|
