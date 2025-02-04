@@ -111,10 +111,10 @@ Video giới thiệu về LLM:
 |DeepSeek-Zero|[GitHub](https://github.com/Jiayi-Pan/TinyZero)|DeepSeek Tiny Zero - mô hình ngôn ngữ nhỏ mô phỏng lại DeepSeek|
 |Qwen-2.5Max|[Alibaba](https://qwenlm.github.io/blog/qwen2.5-max/)|Hiện chưa công khai mã nguồn|
 |Mistral 7B|[Mistral AI](https://mistral.ai/news/announcing-mistral-7b/)|Tinh chỉnh mô hình Mistral-7B trên [GPU 3090s, A100s, H100s](https://github.com/abacaj/fine-tune-mistral)|
-|Claude 3.5 Sonet|Anthropic|Hiện chưa công khai mã nguồn|
-|Gemini|Google|Hiện chưa công khai mã nguồn|
-|Phi-4|Microsoft|Hiện chưa công khai mã nguồn|
-|Falcon 180B|Viện Đổi mới Công nghệ||
+|Claude 3.5 Sonet|[Anthropic](https://www.anthropic.com/)|Hiện chưa công khai mã nguồn|
+|Gemini|[Google](https://gemini.google.com/)|Hiện chưa công khai mã nguồn|
+|Grok|[X.com](https://x.ai/)|Hiện chưa công khai mã nguồn|
+|Perplexity|[Perplexity.Ai](https://www.perplexity.ai/)|Hiện chưa công khai mã nguồn|
 |GPT-Neo|[GitHub](https://github.com/EleutherAI/gpt-neo)|Mô hình LLM mở, tương đương GPT-3, do EleutherAI phát triển.|
 |BERT|[GitHub](https://github.com/google-research/bert)|Mô hình NLP từ Google, hỗ trợ các tác vụ xử lý ngôn ngữ tự nhiên.|
 |LLaMA 3.1|[GitHub](https://github.com/facebookresearch/llama)|Mô hình LLM từ Meta AI, với nhiều phiên bản từ [7B](https://github.com/meta-llama/llama3) đến 65B.|
@@ -138,6 +138,10 @@ Video giới thiệu về LLM:
 |Allegro|[Allegro](https://github.com/rhymes-ai/Allegro)|Mô hình chuyển văn bản thành video, có thể tạo ra các video chất lượng cao lên đến 6 giây ở tốc độ 15 FPS và độ phân giải 720p|
 |GFPGAN|[GFPGAN](https://github.com/TencentARC/GFPGAN)|Mục tiêu phát triển các thuật toán thực tế để phục hồi khuôn mặt trong thế giới hiện tại.|
 |SUPUR|[SUPUR](https://github.com/Fanghua-Yu/SUPIR)|Ứng dụng phục hồi ảnh mờ.|
+|HeyGen|[HeyGen AI](https://www.heygen.com/)|Công cụ AI dịch video, hỗ trợ đa ngôn ngữ.|
+|D.id|D.id||
+|Persona|[Persona AI](https://persona.com/)|Trình tạo AI chatbot và nhân vật ảo.|
+|Midjourney|[Midjourney](https://www.midjourney.com/)|AI tạo hình ảnh nghệ thuật từ văn bản.|
 
 ---
 
@@ -146,6 +150,10 @@ Video giới thiệu về LLM:
 |---|---|---|
 |Mango RVC|[Mango-RVC-fork](https://github.com/Mangio621/Mangio-RVC-Fork)|Một nhánh thử nghiệm của kho lưu trữ Retrieval-based-Voice-Conversion-WebUI|
 |Applio RVC|[Applio-RVC-fork](https://github.com/SayanoAI/Applio-RVC-Fork)|Tạo sinh, nhân bản và TTS, được fork từ [bản gốc](https://github.com/IAHispano/Applio)|
+|Delphi|Delphi AI|AI tạo văn bản và giọng nói, giúp cá nhân hóa nội dung.|
+|ElevenLabs|[ElevenLabs.io](https://elevenlabs.io/)|AI tạo giọng nói chân thực.|
+|Suno|[Suno AI](https://suno.com/)|AI tạo nhạc tự động.|
+|Riffusion|Riffusion|AI tạo nhạc miễn phí|
 
 
 ---
@@ -177,6 +185,19 @@ Video giới thiệu về LLM:
 |Dify|[Dify](https://github.com/langgenius/dify)|Thiết lập quy trình làm việc AI, đường ống RAG để tăng khả năng của tác nhân, quản lý mô hình và tăng tính giám sát.|
 |Groq-deep-researcher|[Groq](https://github.com/thanh-abaii/groq-deep-researcher?fbclid=IwY2xjawIOSBFleHRuA2FlbQIxMAABHRq82yH9DVFbylCEzm1VFFh8h9OIfUK6DlxbxQA1jArghDYEfZ49vh3LHw_aem_wGKW2VGZByj7K8GAJf4xqw)|Trợ lý nghiên cứu web hoàn toàn tự động, sử dụng bất kỳ mô hình LLM nào được cung cấp bởi Groq.|
 |Perplexica|[GitHub](https://github.com/ItzCrazyKns/Perplexica)|Perplexica là một công cụ tìm kiếm deep research, giải pháp thay thế nguồn mở cho Perplexity|
+|Adobe PDF Chat|[Adobe PDF Chat](https://www.adobe.com/)|Công cụ AI hỗ trợ đọc và phân tích tài liệu PDF.|
+|Gamma|[Gamma](https://gamma.app/)|AI tạo slide thuyết trình tự động.|
+|WisprFlow|[Wispr AI](https://wispr.ai/)|Công cụ AI hỗ trợ nhập văn bản bằng giọng nói.|
+|NotebookLM|[NotebookLM](https://notebooklm.google/)|Trợ lý ghi chú AI từ Google.|
+
+---
+
+## 1.3.Nhóm các mô hình hỗ trợ viết code
+|Tên mô hình|Link nguồn|Tóm tắt|
+|---|---|---|
+|Cursor|[Cursor.sh](https://www.cursor.sh/)|Trình soạn thảo AI hỗ trợ lập trình, thay thế Visual Studio Code.|
+|Windsurf|[Windsurf](https://windsurf.ai/)|Trợ lý lập trình AI hỗ trợ viết và tối ưu mã.|
+|Copilot|[GitHub Copilot](https://github.com/features/copilot)|AI lập trình viên từ GitHub, hỗ trợ code tự động.|
 
 ---
 
