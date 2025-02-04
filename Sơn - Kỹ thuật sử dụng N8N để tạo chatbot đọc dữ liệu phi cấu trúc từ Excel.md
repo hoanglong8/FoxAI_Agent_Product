@@ -72,6 +72,6 @@ Diễn Giải:
 
 ### Video demo:
 
-Video
+![Ảnh gif](https://imgur.com/a/KOYQwwz)
 
 [File Workflow n8n.json](https://github.com/hoanglong8/Document-Data-science/blob/main/n8n.json)
