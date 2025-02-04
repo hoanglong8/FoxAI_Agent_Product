@@ -157,8 +157,7 @@ Video giới thiệu về LLM:
 |---|---|---|
 |[Best ML](https://github.com/ml-tooling/best-of-ml-python)|https://github.com/ml-tooling/best-of-ml-python|Tổng hợp các thư viện Python cho ML|
 |HuggingFace Transformers|[HuggingFace Transformers](https://github.com/huggingface/transformers)|Tổng hợp các công nghệ học máy tiên tiến dành cho Pytorch, TensorFlow và JAX.|
-|Pinokio|[Pinokio](https://github.com/pinokiocomputer/pinokio)|AI Browsers với hơn 100 dự án AI uy tín|
-|
+|Pinokio|[Pinokio](https://github.com/pinokiocomputer/pinokio)|Nền tảng AI Browser với hơn 100 dự án AI uy tín.|
 
 ---
 
@@ -180,3 +179,9 @@ Video giới thiệu về LLM:
 |Perplexica|[GitHub](https://github.com/ItzCrazyKns/Perplexica)|Perplexica là một công cụ tìm kiếm deep research, giải pháp thay thế nguồn mở cho Perplexity|
 
 ---
+
+## 6.1.Nhóm các mô hình khác
+|Tên mô hình|Link nguồn|Tóm tắt|
+|---|---|---|
+|Đào coin|[Rainbow Miner](https://github.com/RainbowMiner/RainbowMiner)|Khai thác GPU với chức năng chuyển đổi lợi nhuận thông minh giữa các nhóm khai thác, thuật toán, thợ đào, sử dụng mọi tổ hợp thiết bị có thể (NVIDIA, AMD, CPU).|
+|Đào coin|[MultiPoolMiner](https://github.com/MultiPoolMiner/MultiPoolMiner)|Giám sát các nhóm khai thác tiền điện tử theo thời gian thực để tìm ra nhóm có lợi nhuận cao nhất cho máy của bạn. Kiểm soát bất kỳ thợ đào nào có sẵn thông qua dòng lệnh.|
