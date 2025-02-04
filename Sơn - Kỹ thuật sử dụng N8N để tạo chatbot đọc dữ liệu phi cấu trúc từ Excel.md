@@ -72,7 +72,6 @@ Diễn Giải:
 
 ### Video demo:
 
+Video
 
-### File n8n json:
-
-Tại đây
+[File Workflow n8n.json](https://github.com/hoanglong8/Document-Data-science/blob/main/n8n.json)
