@@ -165,5 +165,6 @@ Video giới thiệu về LLM:
 |Tên mô hình|Link nguồn|Tóm tắt|
 |---|---|---|
 |![Logo N8N](https://avatars.githubusercontent.com/u/45487711?s=48&v=4) [N8N](https://github.com/n8n-io/n8n)|https://github.com/n8n-io/n8n|Ứng dụng xây dựng workflow automation|
+|Groq-deep-researcher|[Groq](https://github.com/thanh-abaii/groq-deep-researcher?fbclid=IwY2xjawIOSBFleHRuA2FlbQIxMAABHRq82yH9DVFbylCEzm1VFFh8h9OIfUK6DlxbxQA1jArghDYEfZ49vh3LHw_aem_wGKW2VGZByj7K8GAJf4xqw)|Trợ lý nghiên cứu web hoàn toàn tự động, sử dụng bất kỳ mô hình LLM nào được cung cấp bởi Groq.|
 
 ---
