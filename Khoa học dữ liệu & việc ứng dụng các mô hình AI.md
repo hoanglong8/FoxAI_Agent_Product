@@ -90,9 +90,9 @@ Hãy tưởng tượng **Data Analyst, Data Engineer, Data Scientist, và AI Eng
 * Hiểu ngôn ngữ tự nhiên (Natural Language Understanding)
 * Tổng hợp (Summarization)
 * Hệ thống đối thoại (Dialogue Systems)
-* Sinh văn bản (Text Generation)
-* Sinh âm thanh (Audio Gen) và âm nhạc
-* Sinh hình ảnh (Image Gen) và video
+* 📝 Tạo sinh văn bản (Text Generation): phân loại văn bản, trích xuất thông tin, trả lời câu hỏi, tóm tắt, dịch thuật theo ngôn ngữ tự nhiên.
+* 🗣️ Tạo sinh âm thanh (Audio Gen): nhận dạng giọng nói, phân loại âm thanh, tạo sinh và chỉnh sửa âm thanh, âm nhạc.
+* 🖼️ Tạo sinh hình ảnh (Image Gen): phân loại hình ảnh, nhận diện đối tượng, phân đoạn, tạo sinh và chỉnh sửa hình ảnh, video.
 
 ---
 
@@ -117,7 +117,7 @@ Video giới thiệu về LLM:
 |Falcon 180B|Viện Đổi mới Công nghệ||
 |GPT-Neo|[GitHub](https://github.com/EleutherAI/gpt-neo)|Mô hình LLM mở, tương đương GPT-3, do EleutherAI phát triển.|
 |BERT|[GitHub](https://github.com/google-research/bert)|Mô hình NLP từ Google, hỗ trợ các tác vụ xử lý ngôn ngữ tự nhiên.|
-|LLaMA 3.1|[GitHub](https://github.com/facebookresearch/llama)|Mô hình LLM từ Meta AI, với nhiều phiên bản từ 7B đến 65B.|
+|LLaMA 3.1|[GitHub](https://github.com/facebookresearch/llama)|Mô hình LLM từ Meta AI, với nhiều phiên bản từ [7B](https://github.com/meta-llama/llama3) đến 65B.|
 |PhoGPT|[VinAI](https://github.com/VinAIResearch/PhoGPT)|Mô hình ngôn ngữ lớn tiếng Việt với 3,7 tỷ tham số, được huấn luyện trên 102 tỷ token tiếng Việt.|
 |ViGPT|[VinBigdata](https://github.com/phamvanhoang9/vigpt_chatbot)|Mô hình ngôn ngữ lớn tiếng Việt, sở hữu hơn 600GB dữ liệu tiếng Việt từ nhiều lĩnh vực như pháp luật, lịch sử, văn hóa.|
 |Zalo AI LLM|[Zalo.AI](https://zalo.ai/)|Mô hình ngôn ngữ lớn tiếng Việt do Zalo AI phát triển, dựa trên kiến trúc Transformer|
@@ -133,7 +133,11 @@ Video giới thiệu về LLM:
 ## 5.2.Nhóm các mô hình tạo sinh hình ảnh và video
 |Tên mô hình|Link nguồn|Tóm tắt|
 |---|---|---|
+|Stable Diffusion|[GitHub-WebUI](https://github.com/cubiq/ComfyUI_IPAdapter_plus)|Ứng dụng tạo hình ảnh được fork từ [link gốc](https://github.com/comfyanonymous/ComfyUI)|
 |ComfyUI|[ComfyUI-GitHub-fork](https://github.com/ltdrdata/ComfyUI-extension-tutorials/tree/Main)|Hướng dẫn ComfyUI cơ bản|
+|Allegro|[Allegro](https://github.com/rhymes-ai/Allegro)|Mô hình chuyển văn bản thành video, có thể tạo ra các video chất lượng cao lên đến 6 giây ở tốc độ 15 FPS và độ phân giải 720p|
+|GFPGAN|[GFPGAN](https://github.com/TencentARC/GFPGAN)|Mục tiêu phát triển các thuật toán thực tế để phục hồi khuôn mặt trong thế giới hiện tại.|
+|SUPUR|[SUPUR](https://github.com/Fanghua-Yu/SUPIR)|Ứng dụng phục hồi ảnh mờ.|
 
 ---
 
@@ -141,7 +145,7 @@ Video giới thiệu về LLM:
 |Tên mô hình|Link nguồn|Tóm tắt|
 |---|---|---|
 |Mango RVC|[Mango-RVC-fork](https://github.com/Mangio621/Mangio-RVC-Fork)|Một nhánh thử nghiệm của kho lưu trữ Retrieval-based-Voice-Conversion-WebUI|
-|Applio|||
+|Applio RVC|[Applio-RVC-fork](https://github.com/SayanoAI/Applio-RVC-Fork)|Tạo sinh, nhân bản và TTS, được fork từ [bản gốc](https://github.com/IAHispano/Applio)|
 
 
 ---
@@ -152,6 +156,9 @@ Video giới thiệu về LLM:
 |Tên mô hình|Link nguồn|Tóm tắt|
 |---|---|---|
 |[Best ML](https://github.com/ml-tooling/best-of-ml-python)|https://github.com/ml-tooling/best-of-ml-python|Tổng hợp các thư viện Python cho ML|
+|HuggingFace Transformers|[HuggingFace Transformers](https://github.com/huggingface/transformers)|Tổng hợp các công nghệ học máy tiên tiến dành cho Pytorch, TensorFlow và JAX.|
+|Pinokio|[Pinokio](https://github.com/pinokiocomputer/pinokio)|AI Browsers với hơn 100 dự án AI uy tín|
+|
 
 ---
 
@@ -167,7 +174,8 @@ Video giới thiệu về LLM:
 ## 1.2.Nhóm các mô hình tác nhân nhân tạo (AI Agent & Robotics)
 |Tên mô hình|Link nguồn|Tóm tắt|
 |---|---|---|
-|![Logo N8N](https://avatars.githubusercontent.com/u/45487711?s=48&v=4) [N8N](https://github.com/n8n-io/n8n)|https://github.com/n8n-io/n8n|Ứng dụng xây dựng workflow automation|
+|![Logo N8N](https://avatars.githubusercontent.com/u/45487711?s=48&v=4) [N8N](https://github.com/n8n-io/n8n)|https://github.com/n8n-io/n8n|Tự động hóa (Automate workflow) quy trình làm việc kết hợp hơn 400 node tác vụ, self-host hoặc cloud|
+|Dify|[Dify](https://github.com/langgenius/dify)|Thiết lập quy trình làm việc AI, đường ống RAG để tăng khả năng của tác nhân, quản lý mô hình và tăng tính giám sát.|
 |Groq-deep-researcher|[Groq](https://github.com/thanh-abaii/groq-deep-researcher?fbclid=IwY2xjawIOSBFleHRuA2FlbQIxMAABHRq82yH9DVFbylCEzm1VFFh8h9OIfUK6DlxbxQA1jArghDYEfZ49vh3LHw_aem_wGKW2VGZByj7K8GAJf4xqw)|Trợ lý nghiên cứu web hoàn toàn tự động, sử dụng bất kỳ mô hình LLM nào được cung cấp bởi Groq.|
 |Perplexica|[GitHub](https://github.com/ItzCrazyKns/Perplexica)|Perplexica là một công cụ tìm kiếm deep research, giải pháp thay thế nguồn mở cho Perplexity|
 
