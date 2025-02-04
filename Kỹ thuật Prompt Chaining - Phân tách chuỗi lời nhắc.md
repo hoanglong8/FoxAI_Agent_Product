@@ -1,6 +1,8 @@
 ## Khái niệm Prompt Chaining
 Prompt Chaining là kỹ thuật chia nhỏ một tác vụ phức tạp thành một chuỗi các bước nhỏ, mỗi bước được giải quyết thông qua một prompt riêng biệt. Quá trình này có nghĩa là kết quả đầu ra của prompt ở bước trước sẽ được sử dụng làm đầu vào cho bước tiếp theo.
 
+![Hình ảnh](https://scontent.fhan17-1.fna.fbcdn.net/v/t39.30808-6/476233904_122197652438079187_1572653832622564964_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_eui2=AeFxSfbF4vVqchb4P09umCacwNdE3GBn-U_A10TcYGf5TzTELliE5hb_kC6uj1eVJNA&_nc_ohc=jziIdgEAU7UQ7kNvgEZ6gKm&_nc_oc=AdggMCD0ehYD91FKuZRaC4XIqN8hzGSdKUlxW4nKbewvuYw6ZH1it9B5N1f0PpbQnRU&_nc_zt=23&_nc_ht=scontent.fhan17-1.fna&_nc_gid=AhLuKeFv_1fnXE1xihJptfs&oh=00_AYDcTu7f-yxOOJb0w0X_EdiILYdCwIK2zZred7VVhZEhDA&oe=67A79C81)
+
 ## Đặc điểm chính:
 * Chia nhỏ nhiệm vụ: Thay vì yêu cầu mô hình thực hiện toàn bộ nhiệm vụ trong một lần (một prompt “to” duy nhất), prompt chaining giúp chia nhỏ vấn đề thành nhiều bước như: soạn thảo, phản biện và tinh chỉnh.
 * Tăng tính kiểm soát: Mỗi bước được thiết lập riêng, cho phép người dùng kiểm soát tốt hơn quá trình xử lý và điều chỉnh từng phần nếu cần.
