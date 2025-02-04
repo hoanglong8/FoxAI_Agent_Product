@@ -116,3 +116,39 @@ Nghề nghiệp có thể làm được sau Module 2:
 | 11 | Database - SQL (2)                       | Các thao tác nâng cao với SQL như JOIN, GROUP BY, HAVING. | [Mode - SQL Tutorial](https://mode.com/sql-tutorial/) |
 | 12 | Database - SQL (3)                       | Xử lý dữ liệu lớn với SQL, tối ưu truy vấn và indexing. | [SQL Indexing Guide](https://use-the-index-luke.com/) |
 
+## Module 3 - Cấp độ Immediate - Đẳng 1:
+Module 3 tập trung vào khoa học dữ liệu (Data Science) và các thuật toán máy học (Machine Learning - ML) cơ bản.
+
+Nội dung đào tạo bao gồm trực quan hóa dữ liệu (Data Visualization), phân tích dữ liệu bảng (Tabular Data), và thuật toán phân loại (KNN, Decision Tree).
+
+Dự án thực tế: Phân loại chủ đề văn bản, chẩn đoán bệnh dựa trên dữ liệu y tế – kỹ năng quan trọng trong ngành AI & Data Science.
+
+Nghề nghiệp có thể làm được sau Module 3:
+* 📍 Dành cho học viên muốn bước vào lĩnh vực Khoa học Dữ liệu và AI:
+  * ✅ Data Scientist (Junior) – Xử lý dữ liệu bảng, áp dụng thuật toán ML vào dự đoán và phân loại.
+  * ✅ Machine Learning Engineer (Entry-Level) – Xây dựng mô hình học máy cơ bản, trực quan hóa dữ liệu.
+  * ✅ Data Analyst – Làm việc với dữ liệu lớn, tối ưu hóa truy vấn và phân tích thông tin.
+  * ✅ Big Data Engineer – Làm việc với PySpark, thiết kế hệ thống ETL Pipelines.
+  * ✅ AI Application Developer – Ứng dụng AI vào xử lý văn bản, phân tích dữ liệu y tế.
+* 📍 Dành cho người muốn chuyên sâu vào AI & Big Data:
+  * ✅ Chuẩn bị kiến thức nền tảng để học sâu về Machine Learning nâng cao và Deep Learning.
+  * ✅ Làm chủ kỹ thuật xử lý dữ liệu lớn, lưu trữ và quản lý dữ liệu trong AI.
+  * ✅ Sẵn sàng tham gia các nhóm nghiên cứu AI hoặc phát triển sản phẩm AI thực tế.
+
+| #  | Môn Học                                   | Tóm tắt nội dung                               | Link Tài Liệu |
+|----|-------------------------------------------|-----------------------------------------------|--------------|
+| 1  | Data Visualization and Analysis (1)      | Giới thiệu về trực quan hóa dữ liệu, biểu đồ và biểu diễn dữ liệu. | [Seaborn Guide](https://seaborn.pydata.org/) |
+| 2  | Data Visualization and Analysis (2)      | Phân tích dữ liệu bằng biểu đồ, sử dụng Matplotlib và Seaborn. | [Matplotlib Documentation](https://matplotlib.org/stable/contents.html) |
+| 3  | K-Mean                                   | Thuật toán phân cụm K-Means và ứng dụng trong phân tích dữ liệu. | [Scikit-Learn - KMeans](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html) |
+| 4  | K Nearest Neighbor (KNN)                 | Thuật toán KNN, cách hoạt động và ứng dụng trong phân loại dữ liệu. | [KNN Algorithm](https://www.datacamp.com/tutorial/k-nearest-neighbor-classification-scikit-learn) |
+| 5  | Bài toán phân loại dùng Decision Tree    | Giới thiệu về cây quyết định, cách xây dựng và áp dụng vào phân loại dữ liệu. | [Decision Tree Guide](https://scikit-learn.org/stable/modules/tree.html) |
+| 6  | Bài toán dự đoán dùng Decision Tree      | Áp dụng cây quyết định vào các bài toán dự báo. | [Machine Learning Mastery - Decision Trees](https://machinelearningmastery.com/implement-decision-tree-algorithm-scratch-python/) |
+| 7  | Text Project: Phân loại chủ đề của một bài báo | Ứng dụng Machine Learning vào xử lý văn bản, phân loại chủ đề. | [NLTK - Text Classification](https://www.nltk.org/book/ch06.html) |
+| 8  | Tabular Data Project: Phân loại khả năng mắc bệnh tim dựa vào các triệu chứng | Xây dựng mô hình phân loại bệnh tim dựa trên dữ liệu bảng. | [Heart Disease Dataset - Kaggle](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset) |
+| 9  | ETL Pipelines                            | Giới thiệu về quy trình trích xuất, biến đổi và tải dữ liệu (ETL). | [ETL Basics](https://towardsdatascience.com/etl-extract-transform-load-explained-4428e9a4c21e) |
+| 10 | PySpark for Data Processing              | Xử lý dữ liệu lớn bằng PySpark, các thao tác trên RDD và DataFrame. | [PySpark Documentation](https://spark.apache.org/docs/latest/api/python/getting_started/index.html) |
+| 11 | Cloud for Data Storage and Management    | Lưu trữ dữ liệu trên cloud, ứng dụng trong Big Data. | [AWS Data Lakes Guide](https://aws.amazon.com/data-lakes-and-analytics/) |
+| 12 | Decomposition and Applications           | Phân rã dữ liệu, ứng dụng trong xử lý tín hiệu và AI. | [Matrix Decomposition - SciPy](https://docs.scipy.org/doc/scipy/reference/generated/scipy.linalg.lu.html) |
+| 13 | SVD và ứng dụng                          | Singular Value Decomposition (SVD) và ứng dụng trong giảm chiều dữ liệu. | [SVD Tutorial](https://towardsdatascience.com/singular-value-decomposition-svd-8c2f72e264f) |
+| 14 | PCA và ứng dụng                          | Phân tích thành phần chính (PCA) và ứng dụng trong giảm chiều dữ liệu. | [PCA Guide](https://scikit-learn.org/stable/modules/decomposition.html#principal-component-analysis-pca) |
+
