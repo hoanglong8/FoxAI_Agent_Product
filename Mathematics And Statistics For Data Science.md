@@ -53,21 +53,20 @@
 # 3.Khóa học chuyên sâu của AI Vietnam:
 ## Module 1 - Cấp độ Beginnes - Đẳng 1:
 
-Module 1 – Nền tảng vững chắc cho AI & Data Science
-
+Module 1 – Nền tảng vững chắc cho AI & Data Science:
 * Module 1 không yêu cầu kinh nghiệm lập trình trước, phù hợp cho người mới bắt đầu.
 * Với người đã biết lập trình, khóa học giúp củng cố thuật toán, tối ưu hóa code và kết nối với Toán ứng dụng trong AI.
 * Cung cấp tư duy lập trình và khả năng xử lý dữ liệu, là nền tảng để học tiếp Machine Learning, Deep Learning.
 
 Nghề nghiệp có thể làm được sau Module 1:
-📍 Dành cho người mới bắt đầu:
-  ✅ Junior Python Developer – Viết script, xử lý dữ liệu, xây dựng ứng dụng cơ bản.
-  ✅ Data Analyst (mức cơ bản) – Làm việc với dữ liệu, xử lý và trực quan hóa thông tin.
-  ✅ AI/ML Enthusiast – Sẵn sàng học tiếp về Machine Learning, Deep Learning.
-📍 Dành cho người đã có nền tảng lập trình:
-  ✅ Data Engineer (mức cơ bản) – Xây dựng pipeline xử lý dữ liệu với Python, Pandas, NumPy.
-  ✅ AI Research Assistant – Hỗ trợ nghiên cứu AI, triển khai thuật toán xử lý dữ liệu.
-  ✅ Automation Developer – Ứng dụng Python để tự động hóa quy trình, xử lý văn bản, chatbot.
+* 📍 Dành cho người mới bắt đầu:
+  * ✅ Junior Python Developer – Viết script, xử lý dữ liệu, xây dựng ứng dụng cơ bản.
+  * ✅ Data Analyst (mức cơ bản) – Làm việc với dữ liệu, xử lý và trực quan hóa thông tin.
+  * ✅ AI/ML Enthusiast – Sẵn sàng học tiếp về Machine Learning, Deep Learning.
+* 📍 Dành cho người đã có nền tảng lập trình:
+  * ✅ Data Engineer (mức cơ bản) – Xây dựng pipeline xử lý dữ liệu với Python, Pandas, NumPy.
+  * ✅ AI Research Assistant – Hỗ trợ nghiên cứu AI, triển khai thuật toán xử lý dữ liệu.
+  * ✅ Automation Developer – Ứng dụng Python để tự động hóa quy trình, xử lý văn bản, chatbot.
 
 | #  | Môn Học                                   | Tóm tắt nội dung                               | Link Tài Liệu |
 |----|-------------------------------------------|-----------------------------------------------|--------------|
@@ -82,5 +81,38 @@ Nghề nghiệp có thể làm được sau Module 1:
 | 9  | Dữ liệu ảnh và video                     | Xử lý dữ liệu ảnh và video, các kỹ thuật tiền xử lý và trích xuất đặc trưng. | [Deep Learning for Computer Vision](https://www.pyimagesearch.com/deep-learning-computer-vision-python/) |
 | 10 | Dữ liệu văn bản và âm thanh              | Giới thiệu về NLP và xử lý âm thanh với Python. | [Speech Processing Guide](https://www.kdnuggets.com/2020/02/complete-guide-speech-recognition.html) |
 
+## Module 2 - Cấp độ Beginnes - Đẳng 2:
 
+Nội dung chuyên sâu hơn với Xác suất thống kê, Thống kê ứng dụng, Phân loại dữ liệu, Ma trận, Correlation Coefficient – những kiến thức cốt lõi để hiểu và triển khai thuật toán AI.
+Học viên được thực hành với Numpy, SQL, thuật toán cây, đồ thị, lập trình động, giúp tối ưu hóa dữ liệu và thuật toán trong AI.
+
+Dự án thực tế: Đánh giá cảm xúc khách hàng qua bình luận, xây dựng hệ thống tìm kiếm hình ảnh.
+
+Nghề nghiệp có thể làm được sau Module 2:
+* 📍 Dành cho học viên đã có nền tảng lập trình và muốn mở rộng chuyên môn:
+  * ✅ Data Scientist (mức cơ bản - trung cấp) – Phân tích dữ liệu, xây dựng mô hình thống kê và học máy.
+  * ✅ Machine Learning Engineer – Áp dụng thuật toán phân loại (Naive Bayes), thống kê vào AI.
+  * ✅ AI Research Assistant – Hỗ trợ nghiên cứu AI, triển khai mô hình học sâu.
+  * ✅ Data Engineer – Làm việc với SQL, tối ưu hóa truy vấn dữ liệu lớn.
+  * ✅ Software Developer hướng AI – Xây dựng ứng dụng có khả năng học từ dữ liệu.
+* 📍 Dành cho người muốn làm AI chuyên nghiệp:
+  * ✅ Nền tảng vững chắc để bước vào Deep Learning, NLP, Computer Vision.
+  * ✅ Chuẩn bị cho các khóa nâng cao về AI như Reinforcement Learning, Generative AI.
+  * ✅ Kết nối Toán học với Lập trình, sẵn sàng cho nghiên cứu hoặc ứng dụng AI thực tiễn.
+
+
+| #  | Môn Học                                   | Tóm tắt nội dung                               | Link Tài Liệu |
+|----|-------------------------------------------|-----------------------------------------------|--------------|
+| 1  | Lập trình Numpy: Vector and Matrix       | Giới thiệu về Numpy, cách thao tác với vector và ma trận trong Python. | [NumPy Documentation](https://numpy.org/doc/) |
+| 2  | Đo mức độ tương đồng của dữ liệu using Cosine similarity | Hiểu về độ đo Cosine similarity và ứng dụng trong tìm kiếm tương tự. | [Scikit-Learn - Cosine Similarity](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise.cosine_similarity.html) |
+| 3  | Xác suất cơ bản và ứng dụng vào AI       | Học về xác suất cơ bản, quy luật phân phối và ứng dụng trong AI. | [Khan Academy - Probability](https://www.khanacademy.org/math/statistics-probability/probability-library) |
+| 4  | Phân loại dữ liệu dùng Naive Bayes classifier | Tìm hiểu về thuật toán Naive Bayes trong phân loại dữ liệu. | [Scikit-Learn - Naive Bayes](https://scikit-learn.org/stable/modules/naive_bayes.html) |
+| 5  | Thống kê cơ bản và ứng dụng vào AI        | Giới thiệu về các khái niệm thống kê cơ bản và cách áp dụng vào Machine Learning. | [StatQuest - Statistics](https://statquest.org/video-index/#statistics) |
+| 6  | Ứng dụng Correlation Coefficient vào các bài toán thực tế | Hiểu về hệ số tương quan và ứng dụng trong phân tích dữ liệu. | [Khan Academy - Correlation](https://www.khanacademy.org/math/statistics-probability/describing-relationships-quantitative-data) |
+| 7  | Tree Algorithm                           | Giới thiệu về thuật toán cây, cách xây dựng và ứng dụng trong AI. | [GeeksforGeeks - Tree Data Structure](https://www.geeksforgeeks.org/binary-tree-data-structure/) |
+| 8  | Graph Algorithms                         | Các thuật toán đồ thị phổ biến như Dijkstra, Floyd-Warshall, BFS, DFS. | [GeeksforGeeks - Graph Algorithms](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/) |
+| 9  | Dynamic Programming                      | Học về lập trình động, cách tối ưu hóa bài toán bằng quy hoạch động. | [Dynamic Programming Guide](https://www.geeksforgeeks.org/dynamic-programming/) |
+| 10 | Database - SQL (1)                       | Cơ bản về SQL, cách truy vấn dữ liệu từ cơ sở dữ liệu. | [W3Schools - SQL](https://www.w3schools.com/sql/) |
+| 11 | Database - SQL (2)                       | Các thao tác nâng cao với SQL như JOIN, GROUP BY, HAVING. | [Mode - SQL Tutorial](https://mode.com/sql-tutorial/) |
+| 12 | Database - SQL (3)                       | Xử lý dữ liệu lớn với SQL, tối ưu truy vấn và indexing. | [SQL Indexing Guide](https://use-the-index-luke.com/) |
 
