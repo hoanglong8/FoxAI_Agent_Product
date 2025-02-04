@@ -133,7 +133,7 @@ Video giới thiệu về LLM:
 ## 5.2.Nhóm các mô hình tạo sinh hình ảnh và video
 |Tên mô hình|Link nguồn|Tóm tắt|
 |---|---|---|
-|Stable Diffusion|[GitHub-WebUI](https://github.com/cubiq/ComfyUI_IPAdapter_plus)|Ứng dụng tạo hình ảnh có 2 dạng: [Web-UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) và [Back-end](https://github.com/comfyanonymous/ComfyUI)|
+|[Stable Diffusion](https://github.com/CompVis/stable-diffusion)|[GitHub-WebUI](https://github.com/cubiq/ComfyUI_IPAdapter_plus)|Ứng dụng tạo hình ảnh có 2 dạng: [Web-UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) và [Back-end](https://github.com/comfyanonymous/ComfyUI)|
 |ComfyUI|[ComfyUI-GitHub-fork](https://github.com/ltdrdata/ComfyUI-extension-tutorials/tree/Main)|Hướng dẫn ComfyUI cơ bản|
 |Allegro|[Allegro](https://github.com/rhymes-ai/Allegro)|Mô hình chuyển văn bản thành video, có thể tạo ra các video chất lượng cao lên đến 6 giây ở tốc độ 15 FPS và độ phân giải 720p|
 |GFPGAN|[GFPGAN](https://github.com/TencentARC/GFPGAN)|Mục tiêu phát triển các thuật toán thực tế để phục hồi khuôn mặt trong thế giới hiện tại.|
@@ -142,6 +142,8 @@ Video giới thiệu về LLM:
 |D.id|D.id||
 |Persona|[Persona AI](https://persona.com/)|Trình tạo AI chatbot và nhân vật ảo.|
 |Midjourney|[Midjourney](https://www.midjourney.com/)|AI tạo hình ảnh nghệ thuật từ văn bản.|
+|Shortcut|[Shortcut](https://github.com/mltframework/shotcut)|A free, open source, cross-platform video editor.|
+|Darktable|[Darktable](https://github.com/darktable-org/darktable)|An open source photography workflow application and raw developer.|
 
 ---
 
@@ -154,7 +156,8 @@ Video giới thiệu về LLM:
 |ElevenLabs|[ElevenLabs.io](https://elevenlabs.io/)|AI tạo giọng nói chân thực.|
 |Suno|[Suno AI](https://suno.com/)|AI tạo nhạc tự động.|
 |Riffusion|Riffusion|AI tạo nhạc miễn phí|
-
+|Mozilla TTS|[Mozilla TTS](https://github.com/mozilla/TTS)|Deep learning for Text to Speech|
+|Magenta|[Magenta](https://github.com/magenta/magenta)|Music and Art Generation with Machine Intelligence.|
 
 ---
 
