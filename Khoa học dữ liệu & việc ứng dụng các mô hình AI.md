@@ -192,6 +192,7 @@ Video giới thiệu về LLM:
 |Gamma|[Gamma](https://gamma.app/)|AI tạo slide thuyết trình tự động.|
 |WisprFlow|[Wispr AI](https://wispr.ai/)|Công cụ AI hỗ trợ nhập văn bản bằng giọng nói.|
 |NotebookLM|[NotebookLM](https://notebooklm.google/)|Trợ lý ghi chú AI từ Google.|
+|CrewAI|[CrewAI](https://github.com/crewAIInc/crewAI)|Framework for orchestrating role-playing, autonomous AI agents.|
 
 ---
 
