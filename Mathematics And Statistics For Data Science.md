@@ -7,7 +7,7 @@
 ---
 
 # 2.Khóa học của VietAI: 
-## Tuần 1:
+## Cấp độ Beginners: 15 buổi kiến thức nền
 
 | #  | Môn Học                                   | Tóm tắt nội dung                               | Link Tài Liệu |
 |----|-------------------------------------------|-----------------------------------------------|--------------|
@@ -30,7 +30,7 @@
 
 [Quizze](https://github.com/PacktPublishing/Statistics-Mathematics-for-Data-Science-Data-Analytics/tree/main/Quizzes) cuối phần 1.
 
-## Tuần 2:
+## Cấp độ Immediate: 15 buổi kiến thức nền
 
 | #  | Môn Học                                   | Tóm tắt nội dung                               | Link Tài Liệu |
 |----|-------------------------------------------|-----------------------------------------------|--------------|
@@ -49,6 +49,38 @@
 | 13 | Essential Library (Matplotlib, Seaborn, Scikit-Learn, …) | Tìm hiểu và sử dụng các thư viện quan trọng cho trực quan hóa dữ liệu và Machine Learning. | [Scikit-Learn Documentation](https://scikit-learn.org/stable/) |
 | 14 | TensorFlow Practice                       | Thực hành với TensorFlow, xây dựng mô hình Machine Learning đơn giản. | [TensorFlow Guide](https://www.tensorflow.org/tutorials) |
 | 15 | PyTorch + TensorFlow Practice             | So sánh và thực hành với hai thư viện phổ biến trong Deep Learning: PyTorch và TensorFlow. | [PyTorch Documentation](https://pytorch.org/tutorials/) |
+
+# 3.Khóa học chuyên sâu của AI Vietnam:
+## Module 1 - Cấp độ Beginnes - Đẳng 1:
+
+Module 1 – Nền tảng vững chắc cho AI & Data Science
+
+* Module 1 không yêu cầu kinh nghiệm lập trình trước, phù hợp cho người mới bắt đầu.
+* Với người đã biết lập trình, khóa học giúp củng cố thuật toán, tối ưu hóa code và kết nối với Toán ứng dụng trong AI.
+* Cung cấp tư duy lập trình và khả năng xử lý dữ liệu, là nền tảng để học tiếp Machine Learning, Deep Learning.
+
+Nghề nghiệp có thể làm được sau Module 1:
+📍 Dành cho người mới bắt đầu:
+  ✅ Junior Python Developer – Viết script, xử lý dữ liệu, xây dựng ứng dụng cơ bản.
+  ✅ Data Analyst (mức cơ bản) – Làm việc với dữ liệu, xử lý và trực quan hóa thông tin.
+  ✅ AI/ML Enthusiast – Sẵn sàng học tiếp về Machine Learning, Deep Learning.
+📍 Dành cho người đã có nền tảng lập trình:
+  ✅ Data Engineer (mức cơ bản) – Xây dựng pipeline xử lý dữ liệu với Python, Pandas, NumPy.
+  ✅ AI Research Assistant – Hỗ trợ nghiên cứu AI, triển khai thuật toán xử lý dữ liệu.
+  ✅ Automation Developer – Ứng dụng Python để tự động hóa quy trình, xử lý văn bản, chatbot.
+
+| #  | Môn Học                                   | Tóm tắt nội dung                               | Link Tài Liệu |
+|----|-------------------------------------------|-----------------------------------------------|--------------|
+| 1  | Data Structure (List–IoU, Top-K Searching) | Giới thiệu về cấu trúc dữ liệu danh sách, thuật toán tìm kiếm Top-K và IoU. | [GeeksforGeeks - Data Structures](https://www.geeksforgeeks.org/data-structures/) |
+| 2  | Data Structure (Non-maximum suppression and Histogram) | Tìm hiểu về thuật toán loại bỏ cực đại (NMS) và ứng dụng histogram trong xử lý dữ liệu. | [OpenCV - Histogram](https://docs.opencv.org/master/dc/da5/tutorial_py_histograms.html) |
+| 3  | Data Structure (Graph and Tree)          | Học về cây và đồ thị, các thuật toán tìm kiếm và duyệt trên đồ thị. | [Khan Academy - Graphs](https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation) |
+| 4  | OOP with Python (Custom PyTorch Class)   | Lập trình hướng đối tượng với Python, tạo class tùy chỉnh trong PyTorch. | [Real Python - OOP](https://realpython.com/python3-object-oriented-programming/) |
+| 5  | Searching Algorithms                     | Học về các thuật toán tìm kiếm như tìm kiếm nhị phân, DFS, BFS. | [GeeksforGeeks - Searching Algorithms](https://www.geeksforgeeks.org/searching-algorithms/) |
+| 6  | Sorting Algorithms                       | Các thuật toán sắp xếp phổ biến như QuickSort, MergeSort, HeapSort. | [Sorting Algorithm Visualizer](https://visualgo.net/en/sorting) |
+| 7  | Tree Data Structure (and KDTree)         | Cấu trúc dữ liệu cây, ứng dụng KD-Tree trong tìm kiếm không gian. | [Scipy KDTree Documentation](https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.KDTree.html) |
+| 8  | Dữ liệu bảng và time-series              | Phân tích dữ liệu dạng bảng và chuỗi thời gian (Time Series). | [Time Series Forecasting Guide](https://otexts.com/fpp3/) |
+| 9  | Dữ liệu ảnh và video                     | Xử lý dữ liệu ảnh và video, các kỹ thuật tiền xử lý và trích xuất đặc trưng. | [Deep Learning for Computer Vision](https://www.pyimagesearch.com/deep-learning-computer-vision-python/) |
+| 10 | Dữ liệu văn bản và âm thanh              | Giới thiệu về NLP và xử lý âm thanh với Python. | [Speech Processing Guide](https://www.kdnuggets.com/2020/02/complete-guide-speech-recognition.html) |
 
 
 
