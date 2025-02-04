@@ -59,7 +59,7 @@ Hãy tưởng tượng **Data Analyst, Data Engineer, Data Scientist, và AI Eng
 * Học máy tổ hợp (Ensemble Learning)
 * Phân loại (Classification)
 * Hồi quy (Regression)
-* Phân cụm (Clustering)
+* Phân cụm (Clustering). Ví dụ: [Bài toán phân cụm khách hàng](https://www.youtube.com/watch?v=t9L8tfqMlmg)
 * Kỹ thuật tính năng (Feature Engineering)
 
 **3. Mạng nơ-ron (Neural Networks)**
