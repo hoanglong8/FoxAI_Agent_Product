@@ -133,13 +133,16 @@ Video giới thiệu về LLM:
 ## 5.2.Nhóm các mô hình tạo sinh hình ảnh và video
 |Tên mô hình|Link nguồn|Tóm tắt|
 |---|---|---|
-|[ComfyUI](https://github.com/ltdrdata/ComfyUI-extension-tutorials/tree/Main)|https://github.com/ltdrdata/ComfyUI-extension-tutorials/tree/Main|Hướng dẫn ComfyUI cơ bản|
+|ComfyUI|[ComfyUI-GitHub-fork](https://github.com/ltdrdata/ComfyUI-extension-tutorials/tree/Main)|Hướng dẫn ComfyUI cơ bản|
 
 ---
 
 ## 5.3.Nhóm các mô hình tạo sinh âm thanh và âm nhạc
 |Tên mô hình|Link nguồn|Tóm tắt|
 |---|---|---|
+|Mango RVC|[Mango-RVC-fork](https://github.com/Mangio621/Mangio-RVC-Fork)|Một nhánh thử nghiệm của kho lưu trữ Retrieval-based-Voice-Conversion-WebUI|
+|Applio|||
+
 
 ---
 
