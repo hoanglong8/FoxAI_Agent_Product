@@ -42,6 +42,13 @@
 | 6  | Step into Image Data (Numpy, OpenCV)     | Làm quen với dữ liệu hình ảnh, sử dụng NumPy và OpenCV để xử lý ảnh. | [OpenCV Guide](https://opencv.org/) |
 | 7  | Basic Hand Linear Regression             | Hiểu về hồi quy tuyến tính cơ bản, cách tính toán hệ số hồi quy bằng tay. | [StatQuest - Linear Regression](https://statquest.org/video-index/#regression) |
 | 8  | Linear Regression                        | Phát triển mô hình hồi quy tuyến tính, tối ưu hóa tham số và đánh giá mô hình. | [Coursera - Regression Models](https://www.coursera.org/learn/regression-models) |
+| 9  | Tabular Data & Pandas                     | Giới thiệu về dữ liệu bảng, xử lý và thao tác dữ liệu bằng thư viện Pandas. | [Pandas Documentation](https://pandas.pydata.org/docs/) |
+| 10 | Linear Regression Project                 | Ứng dụng hồi quy tuyến tính vào bài toán thực tế, phân tích và đánh giá kết quả. | [Hands-On Machine Learning (Ch.4)](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/) |
+| 11 | Matrix Exercises                          | Bài tập thực hành về ma trận, phép biến đổi và ứng dụng trong lập trình. | [MIT OpenCourseWare - Linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/) |
+| 12 | Matrix Manipulation (Linear Algebra)      | Xử lý và biến đổi ma trận, ứng dụng vào Machine Learning và AI. | [DeepAI - Linear Algebra for ML](https://deepai.org/machine-learning-glossary-and-terms/linear-algebra) |
+| 13 | Essential Library (Matplotlib, Seaborn, Scikit-Learn, …) | Tìm hiểu và sử dụng các thư viện quan trọng cho trực quan hóa dữ liệu và Machine Learning. | [Scikit-Learn Documentation](https://scikit-learn.org/stable/) |
+| 14 | TensorFlow Practice                       | Thực hành với TensorFlow, xây dựng mô hình Machine Learning đơn giản. | [TensorFlow Guide](https://www.tensorflow.org/tutorials) |
+| 15 | PyTorch + TensorFlow Practice             | So sánh và thực hành với hai thư viện phổ biến trong Deep Learning: PyTorch và TensorFlow. | [PyTorch Documentation](https://pytorch.org/tutorials/) |
 
 
 
