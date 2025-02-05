@@ -27,6 +27,8 @@ Tổng quan: Sử dụng phương pháp RAG với công cụ Pinecone
 Triển khai:
 ![Hình ảnh 1](https://shrub-midnight-a8f.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F043a9a8f-6006-44cb-b853-e7caf25e509c%2Fee4e5047-7d32-4192-be6b-4e9cc28195bd%2Fimage.png?table=block&id=184527e5-35d9-8027-98ad-c5641028362a&spaceId=043a9a8f-6006-44cb-b853-e7caf25e509c&width=1420&userId=&cache=v2)
 
+![Gif 1](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGJweGQxOHF1ZzVzMjk2aTdlbmR5MTJsejJjdDJleTJoaHNrZWg5cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8xEj3WObFBKvBJexCa/giphy.gif)
+
 Diễn Giải:
 
 | Công cụ lõi | Tính năng | Chi phí |
@@ -50,6 +52,8 @@ Diễn Giải:
 Triển khai:
 ![Hình ảnh 2](https://shrub-midnight-a8f.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F043a9a8f-6006-44cb-b853-e7caf25e509c%2Fa89b5bdc-d5dc-466c-9c8a-5f642bf48c69%2Fimage.png?table=block&id=184527e5-35d9-80cd-9c27-fe83b352d36e&spaceId=043a9a8f-6006-44cb-b853-e7caf25e509c&width=1420&userId=&cache=v2)
 
+![Gif 2](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTgybXVzcnczNTlleTVubjE4N3Njb2lvb2txODZrbHFuZ2doZjVqbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ODA5iIQqJwiIRV2EyS/giphy.gif)
+
 Diễn Giải:
 |Công cụ lõi|Tính năng|Chi phí|
 |---|---|---|
@@ -65,6 +69,8 @@ Diễn Giải:
 Triển khai:
 ![Hình ảnh 3](https://shrub-midnight-a8f.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F043a9a8f-6006-44cb-b853-e7caf25e509c%2F425f17e6-eb0a-4b91-80a0-5ba5f3a7d3f2%2Fimage.png?table=block&id=184527e5-35d9-80e4-a321-ef5d31032723&spaceId=043a9a8f-6006-44cb-b853-e7caf25e509c&width=1420&userId=&cache=v2)
 
+![Gif 3](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZG82bjZhd2N4em5hd3l2ZXlkYmU0MWE1bG55YjEzM2Y3ZXE0NG02dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VZiQEkLL3ma2lPViT9/giphy.gif)
+
 Diễn Giải:
 |Công cụ lõi|Tính năng|Chi phí|
 |---|---|---|
@@ -72,6 +78,6 @@ Diễn Giải:
 
 ### Video demo:
 
-![Ảnh gif](https://imgur.com/a/KOYQwwz)
+https://imgur.com/a/KOYQwwz
 
 [File Workflow n8n.json](https://github.com/hoanglong8/Document-Data-science/blob/main/n8n.json)
