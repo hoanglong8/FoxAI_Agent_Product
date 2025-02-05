@@ -152,3 +152,42 @@ Nghề nghiệp có thể làm được sau Module 3:
 | 13 | SVD và ứng dụng                          | Singular Value Decomposition (SVD) và ứng dụng trong giảm chiều dữ liệu. | [SVD Tutorial](https://towardsdatascience.com/singular-value-decomposition-svd-8c2f72e264f) |
 | 14 | PCA và ứng dụng                          | Phân tích thành phần chính (PCA) và ứng dụng trong giảm chiều dữ liệu. | [PCA Guide](https://scikit-learn.org/stable/modules/decomposition.html#principal-component-analysis-pca) |
 
+## Module 4 - Cấp độ Immediate - Đẳng 2:
+Module 4 tập trung vào các thuật toán học máy nâng cao (Advanced Machine Learning), đặc biệt trên dữ liệu bảng (tabular data) và chuỗi thời gian (time-series data).
+
+* Học viên được đào tạo chuyên sâu về Random Forest, Gradient Boosting (XGBoost, LightGBM, CatBoost) – những thuật toán mạnh nhất trong AI hiện nay.
+* Nội dung mở rộng sang quy trình triển khai AI (ML Deployment) với Streamlit, FastAPI, Docker, giúp học viên có thể triển khai mô hình AI vào thực tế.
+
+Dự án thực tế:
+* Time-series Project – Dự đoán ô nhiễm môi trường theo dữ liệu cảm biến thời gian.
+* Tabular Data Project – Dự đoán giá phòng Airbnb dựa trên các đặc điểm dữ liệu.
+
+Nghề nghiệp có thể làm được sau Module 4:
+* 📍 Dành cho học viên muốn phát triển chuyên sâu trong AI & Khoa học Dữ liệu:
+  * ✅ Data Scientist (Intermediate - Advanced) – Xử lý dữ liệu lớn, tối ưu hóa mô hình AI trên dữ liệu thực tế.
+  * ✅ Machine Learning Engineer (ML Engineer) – Phát triển và triển khai thuật toán AI vào ứng dụng thực tế.
+  * ✅ AI Research Engineer – Làm việc với các mô hình boosting (XGBoost, LightGBM, CatBoost) để tối ưu hóa dự đoán.
+  * ✅ Data Engineer (Big Data) – Làm việc với PySpark, xây dựng hệ thống xử lý dữ liệu thời gian thực.
+  * ✅ MLOps Engineer – Triển khai mô hình AI với FastAPI, Docker, làm việc với pipeline dữ liệu.
+* 📍 Dành cho người muốn xây dựng sản phẩm AI thực tế:
+  * ✅ Tạo và triển khai mô hình dự đoán thực tế, áp dụng vào kinh doanh, tài chính, IoT.
+  * ✅ Chuẩn bị cho các công việc yêu cầu Machine Learning nâng cao, như AI for Finance, AI for Healthcare.
+  * ✅ Mở rộng khả năng nghiên cứu AI, sẵn sàng bước vào Deep Learning và AI triển khai thực tế.
+
+| #  | Môn Học                                   | Tóm tắt nội dung                               | Link Tài Liệu |
+|----|-------------------------------------------|-----------------------------------------------|--------------|
+| 1  | Random Forest                            | Giới thiệu thuật toán Random Forest, cách hoạt động và ứng dụng. | [Scikit-Learn - Random Forest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html) |
+| 2  | AdaBoost                                 | Tìm hiểu về Adaptive Boosting (AdaBoost) và ứng dụng trong phân loại. | [AdaBoost Tutorial](https://towardsdatascience.com/understanding-adaboost-2f94f22d5bfe) |
+| 3  | Gradient Boost                           | Hiểu về Gradient Boosting, cách sử dụng và ứng dụng trong AI. | [XGBoost Documentation](https://xgboost.readthedocs.io/en/stable/) |
+| 4  | XGBoost                                  | Học về thuật toán XGBoost, tối ưu hóa và ứng dụng trong thực tế. | [XGBoost - Practical Guide](https://xgboost.readthedocs.io/en/latest/tutorials/index.html) |
+| 5  | LightGBM                                 | Tìm hiểu LightGBM, một thuật toán boosting tối ưu cho tốc độ và hiệu suất. | [LightGBM Documentation](https://lightgbm.readthedocs.io/en/latest/) |
+| 6  | CatBoost                                 | Giới thiệu về CatBoost, một thuật toán boosting mạnh mẽ cho dữ liệu phân loại. | [CatBoost Guide](https://catboost.ai/en/docs/) |
+| 7  | Time-series Project: Dự đoán mức độ ô nhiễm từ các thông tin đặc trưng | Xây dựng mô hình dự đoán chuỗi thời gian (Time-series) để phân tích mức độ ô nhiễm. | [Time-Series Forecasting](https://otexts.com/fpp3/) |
+| 8  | Tabular Data Project: Dự đoán giá thuê phòng dựa vào dữ liệu Airbnb | Ứng dụng Machine Learning để dự đoán giá phòng trên Airbnb từ dữ liệu bảng. | [Kaggle - Airbnb Dataset](https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data) |
+| 9  | Streamlit and Gradio                     | Học về cách triển khai mô hình Machine Learning với Streamlit và Gradio. | [Streamlit Guide](https://docs.streamlit.io/) |
+| 10 | Web Deployment Using FastAPI and Gradio  | Xây dựng API cho mô hình Machine Learning bằng FastAPI và Gradio. | [FastAPI Documentation](https://fastapi.tiangolo.com/) |
+| 11 | Dockerize FastAPI and Gradio             | Đóng gói ứng dụng Machine Learning bằng Docker và triển khai. | [Docker Guide](https://docs.docker.com/) |
+| 12 | Advanced Data Visualization              | Kỹ thuật trực quan hóa dữ liệu nâng cao để khám phá dữ liệu. | [Matplotlib & Seaborn Guide](https://seaborn.pydata.org/) |
+| 13 | PySpark for Data Processing              | Xử lý dữ liệu lớn với PySpark, làm việc với RDD và DataFrame. | [PySpark API](https://spark.apache.org/docs/latest/api/python/) |
+| 14 | SVM                                      | Giới thiệu về Support Vector Machines (SVM), cách hoạt động và ứng dụng. | [Scikit-Learn - SVM](https://scikit-learn.org/stable/modules/svm.html) |
+
