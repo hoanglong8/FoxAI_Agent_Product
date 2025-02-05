@@ -347,3 +347,46 @@ Module 9 tập trung vào Deep Learning cho Computer Vision, bao gồm chuyển 
 | 13 | Mamba (2)                                 | Hiểu sâu hơn về Mamba và cách triển khai. | [Mamba Paper](https://arxiv.org/abs/2310.00288) |
 | 14 | Mamba: Research Directions                | Các hướng nghiên cứu mới về kiến trúc Mamba. | [Mamba Research](https://arxiv.org/abs/2310.00288) |
 
+## Module 10 - Cấp độ Expert - Đẳng 1:
+Module 10 tập trung vào Deep Learning cho văn bản, bao gồm Text Classification, POS Tagging, Summarization, Text Generation, Machine Translation.
+* Học viên làm việc với NER (Named Entity Recognition) trên dữ liệu y tế và các kỹ thuật nhúng văn bản nâng cao như SBERT, Multi-Granularity Text Embedding.
+
+📌 Dự án thực tế:
+* Xây dựng hệ thống sinh lời thoại cho truyện tranh.
+* Xây dựng hệ thống dịch đa ngôn ngữ.
+* 
+📌 Nghề nghiệp sau Module 10:
+* ✅ NLP Engineer – Làm việc với Text Classification, Summarization, Machine Translation.
+* ✅ AI Research Engineer – Phát triển Embedding Models, Tokenization, Contrastive Learning trong NLP.
+* ✅ Speech & Language Processing Engineer – Ứng dụng AI vào Question Answering, Speech Recognition, Document Retrieval.
+* ✅ MLOps Engineer – Tối ưu và triển khai mô hình NLP trên quy mô lớn.
+
+| #  | Môn Học                                   | Tóm tắt nội dung                               | Link Tài Liệu |
+|----|-------------------------------------------|-----------------------------------------------|--------------|
+| 1  | From Text Classification to POS Tagging  | Học về phân loại văn bản và gán nhãn từ loại (POS Tagging) trong NLP. | [POS Tagging](https://www.nltk.org/book/ch05.html) |
+| 2  | NER for Medical Data                     | Nhận diện thực thể có tên (NER) trong dữ liệu y tế. | [Named Entity Recognition](https://spacy.io/api/entityrecognizer) |
+| 3  | Summarization                            | Xây dựng mô hình tóm tắt văn bản bằng Deep Learning. | [Text Summarization](https://towardsdatascience.com/abstractive-text-summarization-using-transformers-in-python-59f72e02025f) |
+| 4  | Text Generation                          | Học cách tạo văn bản tự động bằng mô hình AI như GPT. | [Text Generation Guide](https://huggingface.co/blog/how-to-generate) |
+| 5  | Machine Translation                      | Dịch máy bằng các mô hình như Transformer, seq2seq. | [Neural Machine Translation](https://jalammar.github.io/illustrated-transformer/) |
+| 6  | Project: Xây dựng hệ thống sinh lời thoại cho truyện tranh | Ứng dụng NLP để tạo hội thoại tự động cho truyện tranh. | [Chatbot NLP](https://towardsdatascience.com/how-to-build-your-own-chatbot-using-deep-learning-bb41f970e281) |
+| 7  | Project: Xây dựng hệ thống dịch đa ngôn ngữ | Phát triển hệ thống dịch tự động nhiều ngôn ngữ bằng AI. | [Multilingual NLP](https://arxiv.org/abs/1907.05019) |
+| 8  | Question Answering                       | Xây dựng hệ thống trả lời câu hỏi sử dụng NLP. | [QA with Transformers](https://huggingface.co/transformers/task_summary.html#question-answering) |
+| 9  | Document Retrieval                       | Truy xuất tài liệu từ kho dữ liệu bằng mô hình NLP. | [Information Retrieval](https://www.oreilly.com/library/view/introduction-to-information/9781408297211/) |
+| 10 | Speech Recognition                       | Nhận diện giọng nói bằng mô hình AI như Wav2Vec. | [Speech Recognition](https://huggingface.co/blog/fine-tune-xlsr-wav2vec2) |
+| 11 | Advances in Tokenization                 | Học về các kỹ thuật tokenization hiện đại trong NLP. | [Tokenization Techniques](https://huggingface.co/transformers/preprocessing.html) |
+| 12 | Embedding: Augment SBERT                 | Cải tiến vector biểu diễn văn bản bằng Sentence-BERT. | [SBERT Documentation](https://www.sbert.net/) |
+| 13 | Multi-Granularity Text Embedding         | Nghiên cứu phương pháp embedding đa cấp độ cho văn bản. | [Word Embeddings](https://jalammar.github.io/illustrated-word2vec/) |
+
+## Module 11 - Cấp độ Expert - Đẳng 2:
+Module 11 tập trung vào các mô hình sinh dữ liệu (Generative Models) như Style Transfer, GAN (CDGAN, Pix2Pix, Cycle GAN), và Diffusion Models.
+* Học viên sẽ thực hành biến đổi phong cách ảnh, tạo dữ liệu tổng hợp, và sinh ảnh bằng AI.
+
+Dự án thực tế:
+* Diffusion-based Image Colorization – Tô màu ảnh bằng AI.
+* Image Generation – Sinh ảnh thực tế từ mô hình AI.
+
+📌 Nghề nghiệp sau Module 11:
+* ✅ Generative AI Engineer – Phát triển GAN, Diffusion Models trong sáng tạo nội dung số.
+* ✅ Computer Vision Engineer – Ứng dụng AI trong xử lý ảnh, biến đổi phong cách và phục chế ảnh.
+* ✅ AI Research Engineer – Nghiên cứu các mô hình 3D Data, Flow Matching, Mamba Architectures.
+* ✅ MLOps Engineer – Tối ưu và triển khai AI sáng tạo vào sản phẩm thực tế.
