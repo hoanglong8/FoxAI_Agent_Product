@@ -53,12 +53,12 @@
 # 3.Khóa học chuyên sâu của AI Vietnam:
 ## Module 1 - Cấp độ Beginnes - Đẳng 1:
 
-Module 1 – Nền tảng vững chắc cho AI & Data Science:
+📌 Module 1 – Nền tảng vững chắc cho AI & Data Science:
 * Module 1 không yêu cầu kinh nghiệm lập trình trước, phù hợp cho người mới bắt đầu.
 * Với người đã biết lập trình, khóa học giúp củng cố thuật toán, tối ưu hóa code và kết nối với Toán ứng dụng trong AI.
 * Cung cấp tư duy lập trình và khả năng xử lý dữ liệu, là nền tảng để học tiếp Machine Learning, Deep Learning.
 
-Nghề nghiệp có thể làm được sau Module 1:
+📌 Nghề nghiệp có thể làm được sau Module 1:
 * 📍 Dành cho người mới bắt đầu:
   * ✅ Junior Python Developer – Viết script, xử lý dữ liệu, xây dựng ứng dụng cơ bản.
   * ✅ Data Analyst (mức cơ bản) – Làm việc với dữ liệu, xử lý và trực quan hóa thông tin.
@@ -82,13 +82,12 @@ Nghề nghiệp có thể làm được sau Module 1:
 | 10 | Dữ liệu văn bản và âm thanh              | Giới thiệu về NLP và xử lý âm thanh với Python. | [Speech Processing Guide](https://www.kdnuggets.com/2020/02/complete-guide-speech-recognition.html) |
 
 ## Module 2 - Cấp độ Beginnes - Đẳng 2:
+Module 2 chuyên sâu hơn với Xác suất thống kê, Thống kê ứng dụng, Phân loại dữ liệu, Ma trận, Correlation Coefficient – những kiến thức cốt lõi để hiểu và triển khai thuật toán AI.
+* Học viên được thực hành với Numpy, SQL, thuật toán cây, đồ thị, lập trình động, giúp tối ưu hóa dữ liệu và thuật toán trong AI.
 
-Nội dung chuyên sâu hơn với Xác suất thống kê, Thống kê ứng dụng, Phân loại dữ liệu, Ma trận, Correlation Coefficient – những kiến thức cốt lõi để hiểu và triển khai thuật toán AI.
-Học viên được thực hành với Numpy, SQL, thuật toán cây, đồ thị, lập trình động, giúp tối ưu hóa dữ liệu và thuật toán trong AI.
+📌 Dự án thực tế: Đánh giá cảm xúc khách hàng qua bình luận, xây dựng hệ thống tìm kiếm hình ảnh.
 
-Dự án thực tế: Đánh giá cảm xúc khách hàng qua bình luận, xây dựng hệ thống tìm kiếm hình ảnh.
-
-Nghề nghiệp có thể làm được sau Module 2:
+📌 Nghề nghiệp có thể làm được sau Module 2:
 * 📍 Dành cho học viên đã có nền tảng lập trình và muốn mở rộng chuyên môn:
   * ✅ Data Scientist (mức cơ bản - trung cấp) – Phân tích dữ liệu, xây dựng mô hình thống kê và học máy.
   * ✅ Machine Learning Engineer – Áp dụng thuật toán phân loại (Naive Bayes), thống kê vào AI.
@@ -116,14 +115,13 @@ Nghề nghiệp có thể làm được sau Module 2:
 | 11 | Database - SQL (2)                       | Các thao tác nâng cao với SQL như JOIN, GROUP BY, HAVING. | [Mode - SQL Tutorial](https://mode.com/sql-tutorial/) |
 | 12 | Database - SQL (3)                       | Xử lý dữ liệu lớn với SQL, tối ưu truy vấn và indexing. | [SQL Indexing Guide](https://use-the-index-luke.com/) |
 
-## Module 3 - Cấp độ Immediate - Đẳng 1:
+## Module 3 - Cấp độ Beginners - Đẳng 3:
 Module 3 tập trung vào khoa học dữ liệu (Data Science) và các thuật toán máy học (Machine Learning - ML) cơ bản.
+* Nội dung đào tạo bao gồm trực quan hóa dữ liệu (Data Visualization), phân tích dữ liệu bảng (Tabular Data), và thuật toán phân loại (KNN, Decision Tree).
 
-Nội dung đào tạo bao gồm trực quan hóa dữ liệu (Data Visualization), phân tích dữ liệu bảng (Tabular Data), và thuật toán phân loại (KNN, Decision Tree).
+📌 Dự án thực tế: Phân loại chủ đề văn bản, chẩn đoán bệnh dựa trên dữ liệu y tế – kỹ năng quan trọng trong ngành AI & Data Science.
 
-Dự án thực tế: Phân loại chủ đề văn bản, chẩn đoán bệnh dựa trên dữ liệu y tế – kỹ năng quan trọng trong ngành AI & Data Science.
-
-Nghề nghiệp có thể làm được sau Module 3:
+📌 Nghề nghiệp có thể làm được sau Module 3:
 * 📍 Dành cho học viên muốn bước vào lĩnh vực Khoa học Dữ liệu và AI:
   * ✅ Data Scientist (Junior) – Xử lý dữ liệu bảng, áp dụng thuật toán ML vào dự đoán và phân loại.
   * ✅ Machine Learning Engineer (Entry-Level) – Xây dựng mô hình học máy cơ bản, trực quan hóa dữ liệu.
@@ -152,17 +150,17 @@ Nghề nghiệp có thể làm được sau Module 3:
 | 13 | SVD và ứng dụng                          | Singular Value Decomposition (SVD) và ứng dụng trong giảm chiều dữ liệu. | [SVD Tutorial](https://towardsdatascience.com/singular-value-decomposition-svd-8c2f72e264f) |
 | 14 | PCA và ứng dụng                          | Phân tích thành phần chính (PCA) và ứng dụng trong giảm chiều dữ liệu. | [PCA Guide](https://scikit-learn.org/stable/modules/decomposition.html#principal-component-analysis-pca) |
 
-## Module 4 - Cấp độ Immediate - Đẳng 2:
+## Module 4 - Cấp độ Immediate - Đẳng 1:
 Module 4 tập trung vào các thuật toán học máy nâng cao (Advanced Machine Learning), đặc biệt trên dữ liệu bảng (tabular data) và chuỗi thời gian (time-series data).
 
 * Học viên được đào tạo chuyên sâu về Random Forest, Gradient Boosting (XGBoost, LightGBM, CatBoost) – những thuật toán mạnh nhất trong AI hiện nay.
 * Nội dung mở rộng sang quy trình triển khai AI (ML Deployment) với Streamlit, FastAPI, Docker, giúp học viên có thể triển khai mô hình AI vào thực tế.
 
-Dự án thực tế:
+📌 Dự án thực tế:
 * Time-series Project – Dự đoán ô nhiễm môi trường theo dữ liệu cảm biến thời gian.
 * Tabular Data Project – Dự đoán giá phòng Airbnb dựa trên các đặc điểm dữ liệu.
 
-Nghề nghiệp có thể làm được sau Module 4:
+📌 Nghề nghiệp có thể làm được sau Module 4:
 * 📍 Dành cho học viên muốn phát triển chuyên sâu trong AI & Khoa học Dữ liệu:
   * ✅ Data Scientist (Intermediate - Advanced) – Xử lý dữ liệu lớn, tối ưu hóa mô hình AI trên dữ liệu thực tế.
   * ✅ Machine Learning Engineer (ML Engineer) – Phát triển và triển khai thuật toán AI vào ứng dụng thực tế.
@@ -190,4 +188,162 @@ Nghề nghiệp có thể làm được sau Module 4:
 | 12 | Advanced Data Visualization              | Kỹ thuật trực quan hóa dữ liệu nâng cao để khám phá dữ liệu. | [Matplotlib & Seaborn Guide](https://seaborn.pydata.org/) |
 | 13 | PySpark for Data Processing              | Xử lý dữ liệu lớn với PySpark, làm việc với RDD và DataFrame. | [PySpark API](https://spark.apache.org/docs/latest/api/python/) |
 | 14 | SVM                                      | Giới thiệu về Support Vector Machines (SVM), cách hoạt động và ứng dụng. | [Scikit-Learn - SVM](https://scikit-learn.org/stable/modules/svm.html) |
+
+## Module 5 - Cấp độ Immediate - Đẳng 2:
+Module 5 là bước đệm vào Deep Learning, tập trung vào Linear Regression nâng cao (L1, L2, Huber losses), vector hóa và thuật toán tiến hóa (Genetic Algorithms).
+* Học viên học cách tối ưu hóa mô hình ML, tăng tốc suy luận với Numba, TorchScript, và triển khai mô hình bằng Triton Inference Server.
+
+📌 Dự án thực tế: Đánh giá thuật toán xâm nhập mạng bằng Linear & Non-linear Regression.
+
+📌 Nghề nghiệp sau Module 5:
+* ✅ Machine Learning Engineer – Xây dựng và tối ưu mô hình AI.
+* ✅ Deep Learning Engineer (Entry-Level) – Hiểu cơ chế tối ưu mô hình, chuẩn bị nền tảng cho Deep Learning.
+* ✅ AI Research Engineer – Nghiên cứu thuật toán tiến hóa, tối ưu hóa AI.
+* ✅ Data Scientist (Nâng cao) – Ứng dụng Regression và Optimization vào dữ liệu thực tế.
+* ✅ MLOps Engineer – Tối ưu hóa và triển khai mô hình AI vào hệ thống sản xuất.
+
+| #  | Môn Học                                   | Tóm tắt nội dung                               | Link Tài Liệu |
+|----|-------------------------------------------|-----------------------------------------------|--------------|
+| 1  | Linear Regression (L1, L2, and Huber losses) | Hiểu về hồi quy tuyến tính với các hàm mất mát L1, L2, và Huber. | [StatQuest - Regression](https://statquest.org/video-index/#regression) |
+| 2  | Vectorization for Linear Regression (1)   | Tối ưu hóa hồi quy tuyến tính bằng vectorization. | [Linear Regression - Coursera](https://www.coursera.org/learn/machine-learning) |
+| 3  | Vectorization for Linear Regression (2)   | Thực hành sử dụng vectorization trong tối ưu hóa mô hình hồi quy. | [DeepAI - Linear Algebra](https://deepai.org/machine-learning-glossary-and-terms/linear-algebra) |
+| 4  | Randomness and Genetic Algorithms         | Giới thiệu về thuật toán di truyền (GA) và ứng dụng tối ưu hóa. | [Genetic Algorithms - GeeksforGeeks](https://www.geeksforgeeks.org/genetic-algorithms/) |
+| 5  | Genetic Algorithms (Optimization and Linear Regression) | Áp dụng GA để tối ưu hóa hồi quy tuyến tính. | [Evolutionary Optimization](https://towardsdatascience.com/genetic-algorithms-explained-a-python-implementation-874d6103c141) |
+| 6  | Project: Đánh giá các thuật toán trên bài toán xâm nhập mạng | Phân tích và đánh giá hiệu suất thuật toán trên bài toán bảo mật. | [Cybersecurity AI Guide](https://arxiv.org/pdf/1805.05296.pdf) |
+| 7  | Research Directions for GAs               | Hướng nghiên cứu trong thuật toán di truyền và ứng dụng nâng cao. | [Nature Inspired Optimization](https://www.springer.com/gp/book/9783319676680) |
+| 8  | Basic Linear Regression                   | Ôn tập hồi quy tuyến tính và cách triển khai trong Python. | [Linear Regression with Python](https://realpython.com/linear-regression-in-python/) |
+| 9  | Linear Regression Using Numpy             | Xây dựng mô hình hồi quy tuyến tính sử dụng thư viện NumPy. | [NumPy - Linear Algebra](https://numpy.org/doc/stable/reference/routines.linalg.html) |
+| 10 | Basic Genetic Algorithms                  | Cách triển khai thuật toán di truyền cơ bản bằng Python. | [Genetic Algorithms in Python](https://towardsdatascience.com/genetic-algorithm-implementation-in-python-5ab67bb124a6) |
+| 11 | Speed Up Model Inferencing Using Numba+TorchScript | Tăng tốc dự đoán mô hình sử dụng Numba và TorchScript. | [Numba Guide](https://numba.pydata.org/) |
+| 12 | Model Serving and Packaging               | Đóng gói và triển khai mô hình AI thành dịch vụ API. | [TensorFlow Serving](https://www.tensorflow.org/tfx/guide/serving) |
+| 13 | Triton Inference Server                   | Sử dụng NVIDIA Triton để triển khai mô hình AI hiệu suất cao. | [Triton Inference Server](https://developer.nvidia.com/nvidia-triton-inference-server) |
+| 14 | Loss and Metric Functions for Regression  | Giới thiệu các hàm mất mát và đánh giá mô hình hồi quy. | [Scikit-Learn - Loss Functions](https://scikit-learn.org/stable/modules/model_evaluation.html) |
+| 15 | Non-Linear Regression                     | Hồi quy phi tuyến, cách triển khai và ứng dụng thực tế. | [Non-Linear Regression Guide](https://www.statisticshowto.com/probability-and-statistics/regression-analysis/non-linear-regression/) |
+| 16 | Survey on Evolutionary Algorithms         | Tổng quan về các thuật toán tiến hóa và ứng dụng. | [Evolutionary Computation](https://mitpress.mit.edu/books/introduction-evolutionary-computing) |
+
+## Module 6 - Cấp độ Immediate - Đẳng 3:
+Module 6 mở rộng từ hồi quy tuyến tính (Linear Regression) sang hồi quy Logistic và Softmax Regression, giúp hiểu rõ hơn về phân loại nhị phân & đa lớp.
+* Học viên tiếp cận PyTorch, triển khai Multilayer Perceptron (MLP) cho dữ liệu ảnh, văn bản, và dữ liệu bảng.
+
+📌 Dự án thực tế:
+* Time-series Data Project – Dự đoán chính xác bằng mô hình DLinear và NLinear.
+* IoT Project – Điều khiển thiết bị điện tử bằng AI qua cử chỉ.
+
+📌 Nghề nghiệp sau Module 6:
+* ✅ Deep Learning Engineer – Làm việc với PyTorch, tối ưu mô hình phân loại và dự đoán dữ liệu.
+* ✅ Machine Learning Engineer – Ứng dụng Logistic Regression, Softmax Regression vào thực tế.
+* ✅ AI Research Engineer – Nghiên cứu các mô hình AI tiên tiến, làm việc với Loss Functions, Multi-label Classification.
+* ✅ IoT & AI Engineer – Ứng dụng AI vào điều khiển thiết bị thông minh.
+* ✅ MLOps Engineer – Triển khai mô hình AI với Numba, TorchScript, Triton Server.
+
+| #  | Môn Học                                   | Tóm tắt nội dung                               | Link Tài Liệu |
+|----|-------------------------------------------|-----------------------------------------------|--------------|
+| 1  | From Linear Regression to Logistic Regression (Binary Classification) | Hiểu về hồi quy tuyến tính và mở rộng thành hồi quy logistic để phân loại nhị phân. | [StatQuest - Logistic Regression](https://statquest.org/video-index/#regression) |
+| 2  | Logistic Regression - Vectorization and Application | Tối ưu hóa hồi quy logistic bằng vectorization và ứng dụng vào bài toán thực tế. | [DeepAI - Logistic Regression](https://deepai.org/machine-learning-glossary-and-terms/logistic-regression) |
+| 3  | Softmax Regression (Multi-class Classification) | Mở rộng Logistic Regression thành Softmax Regression để phân loại nhiều lớp. | [Softmax Regression Guide](https://www.kdnuggets.com/2021/01/multi-class-classification-softmax-regression.html) |
+| 4  | Pytorch Framework (Implementation for regression and classification) | Học cách triển khai hồi quy và phân loại bằng PyTorch. | [PyTorch Documentation](https://pytorch.org/tutorials/) |
+| 5  | Multilayer Perceptron for Images         | Xây dựng MLP để xử lý dữ liệu hình ảnh và nhận diện đối tượng. | [MLP Guide](https://towardsdatascience.com/multilayer-perceptron-using-tensorflow-2-0-a18954f505be) |
+| 6  | Multilayer Perceptron for Text and Tabular Data | Áp dụng MLP để xử lý dữ liệu dạng bảng và văn bản. | [MLP for NLP](https://towardsdatascience.com/multi-layer-perceptron-using-tensorflow-2-0-a18954f505be) |
+| 7  | Time-series Data Project: Dự đoán chính xác với mô hình DLinear và NLinear | Xây dựng mô hình dự đoán chuỗi thời gian với các phương pháp tuyến tính và phi tuyến. | [Time-Series Forecasting](https://otexts.com/fpp3/) |
+| 8  | IoT Project: Điều khiển thiết bị điện tử qua tương tác cử chỉ | Ứng dụng AI vào điều khiển thiết bị IoT bằng nhận diện cử chỉ. | [AI for IoT](https://www.iotforall.com/machine-learning-for-iot) |
+| 9  | Basic Logistic Regression                | Hiểu về Logistic Regression cơ bản và cách triển khai trong Python. | [Scikit-Learn - Logistic Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html) |
+| 10 | Basic Softmax Regression                 | Hiểu về Softmax Regression và cách ứng dụng vào phân loại nhiều lớp. | [Softmax Regression - TensorFlow](https://www.tensorflow.org/tutorials/keras/classification) |
+| 11 | Basic Multilayer Perceptron              | Xây dựng mạng neural cơ bản với MLP trong Python. | [Multilayer Perceptron - Scikit-Learn](https://scikit-learn.org/stable/modules/neural_networks_supervised.html) |
+| 12 | Multi-labels Classification              | Giới thiệu về bài toán phân loại nhiều nhãn và các phương pháp giải quyết. | [Multi-label Classification](https://scikit-learn.org/stable/modules/multiclass.html) |
+| 13 | Loss Functions for Classification        | Hiểu về các hàm mất mát phổ biến trong phân loại như Cross-Entropy, Hinge Loss. | [Loss Functions Overview](https://towardsdatascience.com/cross-entropy-loss-function-f38c4ec8643e) |
+| 14 | Metric for Classification                | Đánh giá hiệu suất mô hình phân loại bằng Precision, Recall, F1-score. | [Classification Metrics](https://scikit-learn.org/stable/modules/model_evaluation.html#classification-metrics) |
+
+## Module 7 - Cấp độ Advance - Đẳng 1:
+Module 7 đi sâu vào các thành phần quan trọng của mạng nơ-ron: Hàm kích hoạt (Activations), Trọng số khởi tạo (Initializers), và Bộ tối ưu hóa (Optimizers).
+* Học viên nghiên cứu các biến thể của MLP (MLP Variants: Mixer) và cách giải quyết vấn đề Gradient Vanishing.
+
+📌 Dự án thực tế:
+* Tìm hiểu và khắc phục Gradient Vanishing trong MLP.
+* So sánh hiệu suất MLP vs Mixer trên các loại dữ liệu khác nhau.
+
+📌 Nghề nghiệp sau Module 7:
+* ✅ Deep Learning Engineer – Hiểu sâu về cơ chế tối ưu hóa mạng nơ-ron, hàm kích hoạt, và các mô hình MLP nâng cao.
+* ✅ Machine Learning Engineer – Xây dựng và tinh chỉnh mô hình AI, làm việc với MLFlow, AirFlow, Tracking Applications.
+* ✅ MLOps Engineer – Quản lý pipeline huấn luyện AI, theo dõi và quản lý phiên bản mô hình (MLFlow, Logging Applications).
+* ✅ AI Research Engineer – Tập trung vào các hướng nghiên cứu mới về Activations, Initializers, và Optimizers.
+
+| #  | Môn Học                                   | Tóm tắt nội dung                               | Link Tài Liệu |
+|----|-------------------------------------------|-----------------------------------------------|--------------|
+| 1  | Activations                              | Giới thiệu các hàm kích hoạt như ReLU, Sigmoid, Tanh, và Softmax. | [Activation Functions - Deep Learning](https://www.analyticsvidhya.com/blog/2021/03/a-comprehensive-guide-on-deep-learning-activation-functions/) |
+| 2  | Initializers                             | Tìm hiểu về cách khởi tạo trọng số trong mạng Neural như Xavier, He Initialization. | [Weight Initialization Guide](https://towardsdatascience.com/weight-initialization-techniques-in-neural-networks-26c649eb3b78) |
+| 3  | Optimizers for Neural Networks (1)       | Giới thiệu các thuật toán tối ưu như Gradient Descent, Momentum. | [Optimization Algorithms](https://ruder.io/optimizing-gradient-descent/) |
+| 4  | Optimizers for Neural Networks (2)       | Hiểu về Adam, RMSprop và các thuật toán tối ưu nâng cao. | [Adam and RMSprop](https://towardsdatascience.com/gradient-descent-algorithms-and-their-optimizers-9ad7d7c52b7c) |
+| 5  | MLP Variant: Mixer                       | Giới thiệu về MLP Mixer, kiến trúc mới trong Deep Learning. | [MLP Mixer Paper](https://arxiv.org/abs/2105.01601) |
+| 6  | Project: Giải vấn đề Gradient Vanishing trong MLP bằng nhiều cách khác nhau | Phân tích vấn đề Gradient Vanishing trong MLP và các cách khắc phục. | [Gradient Vanishing Problem](https://towardsdatascience.com/the-vanishing-gradient-problem-69bf08b15484) |
+| 7  | Project: So sánh MLP và Mixer cho các dữ liệu khác nhau | Thực hiện nghiên cứu và thử nghiệm để so sánh hiệu suất của MLP và Mixer. | [MLP vs Mixer](https://paperswithcode.com/method/mlp-mixer) |
+| 8  | AirFlow for Scheduling                   | Sử dụng Apache Airflow để lên lịch và quản lý luồng công việc ML. | [Apache Airflow Documentation](https://airflow.apache.org/) |
+| 9  | MLFlow for Model Tracking and Versioning | Quản lý phiên bản mô hình Machine Learning bằng MLFlow. | [MLFlow Guide](https://mlflow.org/docs/latest/index.html) |
+| 10 | Tracking and Logging Applications        | Ghi log và theo dõi quá trình huấn luyện mô hình. | [Logging in ML](https://towardsdatascience.com/why-and-how-to-track-your-machine-learning-experiments-2a86fce3b70d) |
+| 11 | Research Directions for Activations      | Hướng nghiên cứu về các hàm kích hoạt trong mạng nơ-ron. | [Advanced Activations](https://keras.io/api/layers/activations/) |
+| 12 | Research Directions for Initializers     | Hướng nghiên cứu về các phương pháp khởi tạo trọng số tối ưu. | [Weight Initialization](https://arxiv.org/pdf/1502.01852.pdf) |
+| 13 | Research Directions for Optimizers       | Các hướng nghiên cứu mới về thuật toán tối ưu trong Deep Learning. | [Optimization in DL](https://openai.com/research/) |
+
+## Module 8 - Cấp độ Advance - Đẳng 2:
+Module 8 tập trung vào các kiến trúc Deep Learning nâng cao, bao gồm CNN cho ảnh, RNN/LSTM/GRU cho dữ liệu chuỗi thời gian và văn bản, Transformer cho xử lý ngôn ngữ tự nhiên (NLP).
+* Học viên sẽ làm việc với PyTorch, học cách huấn luyện và tổng quát hóa mô hình.
+
+📌 Dự án thực tế:
+* OCR với YOLOv1+CNN – Trích xuất thông tin từ ảnh ID Card.
+* Vision QA – Kết hợp mô hình xử lý ảnh và văn bản.
+
+📌 Nghề nghiệp sau Module 8:
+* ✅ Deep Learning Engineer – Làm việc với CNN, RNN, LSTM, Transformer trong xử lý ảnh và văn bản.
+* ✅ AI Research Engineer – Tập trung vào kiến trúc Deep Learning nâng cao và tối ưu hóa mô hình.
+* ✅ Computer Vision Engineer – Ứng dụng AI vào nhận diện ảnh, OCR, trích xuất thông tin.
+* ✅ NLP Engineer – Làm việc với Transformer, Text Classification, Sequence Modeling.
+* ✅ MLOps Engineer – Tối ưu hóa mô hình với Quantization, Pruning, và Inferencing với Triton, BentoML.
+
+| #  | Môn Học                                   | Tóm tắt nội dung                               | Link Tài Liệu |
+|----|-------------------------------------------|-----------------------------------------------|--------------|
+| 1  | Basic CNN (Image)                         | Giới thiệu về mạng tích chập CNN, kiến trúc cơ bản và ứng dụng. | [CNN Guide](https://towardsdatascience.com/a-guide-to-convolutional-neural-networks-for-computer-vision-817fd20bcf73) |
+| 2  | CNN Training and Generalization           | Học về cách huấn luyện CNN và phương pháp tổng quát hóa mô hình. | [Deep Learning for Computer Vision](https://www.pyimagesearch.com/deep-learning-computer-vision-python/) |
+| 3  | RNN (Time-series and Text)                | Giới thiệu về mạng nơ-ron hồi tiếp (RNN), ứng dụng trong xử lý chuỗi thời gian và văn bản. | [RNN Tutorial](https://towardsdatascience.com/recurrent-neural-networks-d4642c9bc7ce) |
+| 4  | LSTM/GRU (Time-series and Text)           | Học về LSTM và GRU, cải tiến của RNN trong việc xử lý dữ liệu chuỗi. | [Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/) |
+| 5  | Transformer (Encoder - Text Classification) | Giới thiệu về Transformer, cách hoạt động và ứng dụng vào phân loại văn bản. | [Attention Is All You Need](https://arxiv.org/abs/1706.03762) |
+| 6  | Transformer for Image and Time-series Data | Áp dụng Transformer để xử lý dữ liệu hình ảnh và chuỗi thời gian. | [Vision Transformer](https://arxiv.org/abs/2010.11929) |
+| 7  | Image Project: OCR (YoloV10+CNN)          | Xây dựng hệ thống nhận diện ký tự quang học (OCR) sử dụng Yolo và CNN. | [OCR with Deep Learning](https://towardsdatascience.com/optical-character-recognition-ocr-with-deep-learning-6e2fc1b3c0ce) |
+| 8  | Information Extraction from ID Card       | Ứng dụng AI để trích xuất thông tin từ giấy tờ tùy thân. | [AI for Document Processing](https://aws.amazon.com/textract/) |
+| 9  | CI/CD pipeline                            | Tích hợp và triển khai liên tục mô hình AI bằng CI/CD. | [CI/CD for Machine Learning](https://towardsdatascience.com/cicd-in-machine-learning-14c6b82107e1) |
+| 10 | Model Quantization                        | Kỹ thuật giảm kích thước mô hình để tối ưu hóa hiệu suất. | [Quantization in Deep Learning](https://www.tensorflow.org/model_optimization/guide/quantization) |
+| 11 | Model Pruning                             | Loại bỏ các tham số không cần thiết trong mạng Neural để giảm độ phức tạp. | [Pruning Deep Networks](https://arxiv.org/abs/1608.08710) |
+| 12 | Advanced inference tools (Triton and BentoML) | Sử dụng Triton Inference Server và BentoML để triển khai mô hình. | [NVIDIA Triton Server](https://developer.nvidia.com/nvidia-triton-inference-server) |
+| 13 | Advanced CNN Architecture                 | Các mô hình CNN tiên tiến như ResNet, EfficientNet. | [CNN Architectures](https://towardsdatascience.com/a-journey-through-cnns-resnet-to-efficientnet-32d6df57f51c) |
+| 14 | Unsupervised Learning                     | Học không giám sát và các thuật toán như Autoencoder, Clustering. | [Unsupervised Learning Guide](https://scikit-learn.org/stable/unsupervised_learning.html) |
+| 15 | Distillation                              | Kỹ thuật Knowledge Distillation để nén mô hình AI. | [Knowledge Distillation](https://arxiv.org/abs/1503.02531) |
+
+## Module 9 - Cấp độ Advance - Đẳng 3:
+Module 9 tập trung vào Deep Learning cho Computer Vision, bao gồm chuyển đổi miền ảnh (Denoising, Colorization, Super-resolution) và Object Detection (YOLO, Pretrained Models).
+* Học viên sẽ làm việc với UNet, VideoCLIP, Depth Estimation, các công nghệ tiên tiến trong phân tích ảnh.
+
+📌 Dự án thực tế:
+* Footballer Tracking – Theo dõi cầu thủ trong video thể thao.
+* Medical Image Analysis – Phân tích hình ảnh y tế bằng AI.
+
+📌 Nghề nghiệp sau Module 9:
+* ✅ Computer Vision Engineer – Làm việc với Object Detection, Image Segmentation, Video Analysis.
+* ✅ Deep Learning Engineer – Phát triển mô hình AI cho xử lý ảnh y tế, giám sát, và thị giác máy tính.
+* ✅ AI Research Engineer – Nghiên cứu công nghệ tiên tiến Stereo Depth Estimation, Monodepth Estimation.
+* ✅ MLOps Engineer – Tối ưu và triển khai AI vào hệ thống xử lý ảnh thời gian thực.
+
+| #  | Môn Học                                   | Tóm tắt nội dung                               | Link Tài Liệu |
+|----|-------------------------------------------|-----------------------------------------------|--------------|
+| 1  | Domain Conversion - Denoising and Segmentation | Xử lý ảnh bằng kỹ thuật khử nhiễu và phân đoạn hình ảnh. | [Image Denoising Guide](https://arxiv.org/abs/2003.01999) |
+| 2  | Domain Conversion - Colorization and Super-resolution | Chuyển đổi ảnh đen trắng thành ảnh màu và nâng cao độ phân giải bằng Deep Learning. | [Super-resolution using CNNs](https://arxiv.org/abs/1609.04802) |
+| 3  | Object Detection (Yolo, Faster R-CNN)     | Phát hiện đối tượng trong ảnh bằng các mô hình tiên tiến như YOLO và Faster R-CNN. | [YOLO Paper](https://arxiv.org/abs/1506.02640) |
+| 4  | Image Project: Footballer Tracking       | Xây dựng mô hình theo dõi cầu thủ trong các trận đấu bóng đá. | [Object Tracking Guide](https://towardsdatascience.com/multi-object-tracking-in-computer-vision-2c3e02b3eef0) |
+| 5  | Research Project: Advances in Medical Image Analysis | Nghiên cứu các phương pháp mới trong phân tích ảnh y tế bằng Deep Learning. | [Medical Image Analysis](https://www.nature.com/articles/s41592-020-01008-x) |
+| 6  | UNet                                     | Tìm hiểu về UNet, một mô hình mạnh mẽ cho phân đoạn ảnh y tế. | [UNet Paper](https://arxiv.org/abs/1505.04597) |
+| 7  | Object Detection Using Pretrained Models  | Sử dụng các mô hình đã được huấn luyện trước để phát hiện đối tượng trong ảnh. | [TensorFlow Object Detection](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/) |
+| 8  | Yolov1                                   | Hiểu về YOLOv1 và cách triển khai mô hình phát hiện đối tượng. | [YOLOv1 Paper](https://arxiv.org/abs/1506.02640) |
+| 9  | VideoCLIP for Video Classification       | Sử dụng VideoCLIP để phân loại video dựa trên nội dung. | [VideoCLIP Research](https://arxiv.org/abs/2109.14084) |
+| 10 | Stereo Depth Estimation                   | Dự đoán chiều sâu từ ảnh stereo bằng AI. | [Stereo Depth Estimation](https://arxiv.org/abs/2007.11371) |
+| 11 | Monodepth Estimation                      | Dự đoán chiều sâu từ ảnh đơn bằng Deep Learning. | [Monodepth Research](https://arxiv.org/abs/1606.04390) |
+| 12 | Mamba (1)                                 | Giới thiệu về kiến trúc Mamba trong Deep Learning. | [Mamba Architecture](https://arxiv.org/abs/2310.00288) |
+| 13 | Mamba (2)                                 | Hiểu sâu hơn về Mamba và cách triển khai. | [Mamba Paper](https://arxiv.org/abs/2310.00288) |
+| 14 | Mamba: Research Directions                | Các hướng nghiên cứu mới về kiến trúc Mamba. | [Mamba Research](https://arxiv.org/abs/2310.00288) |
 
