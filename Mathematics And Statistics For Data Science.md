@@ -354,7 +354,7 @@ Module 10 tập trung vào Deep Learning cho văn bản, bao gồm Text Classifi
 📌 Dự án thực tế:
 * Xây dựng hệ thống sinh lời thoại cho truyện tranh.
 * Xây dựng hệ thống dịch đa ngôn ngữ.
-* 
+
 📌 Nghề nghiệp sau Module 10:
 * ✅ NLP Engineer – Làm việc với Text Classification, Summarization, Machine Translation.
 * ✅ AI Research Engineer – Phát triển Embedding Models, Tokenization, Contrastive Learning trong NLP.
@@ -381,7 +381,7 @@ Module 10 tập trung vào Deep Learning cho văn bản, bao gồm Text Classifi
 Module 11 tập trung vào các mô hình sinh dữ liệu (Generative Models) như Style Transfer, GAN (CDGAN, Pix2Pix, Cycle GAN), và Diffusion Models.
 * Học viên sẽ thực hành biến đổi phong cách ảnh, tạo dữ liệu tổng hợp, và sinh ảnh bằng AI.
 
-Dự án thực tế:
+📌 Dự án thực tế:
 * Diffusion-based Image Colorization – Tô màu ảnh bằng AI.
 * Image Generation – Sinh ảnh thực tế từ mô hình AI.
 
@@ -390,3 +390,53 @@ Dự án thực tế:
 * ✅ Computer Vision Engineer – Ứng dụng AI trong xử lý ảnh, biến đổi phong cách và phục chế ảnh.
 * ✅ AI Research Engineer – Nghiên cứu các mô hình 3D Data, Flow Matching, Mamba Architectures.
 * ✅ MLOps Engineer – Tối ưu và triển khai AI sáng tạo vào sản phẩm thực tế.
+
+| #  | Môn Học                                   | Tóm tắt nội dung                               | Link Tài Liệu |
+|----|-------------------------------------------|-----------------------------------------------|--------------|
+| 1  | Basic Style Transfer                     | Học về chuyển đổi phong cách ảnh (Neural Style Transfer). | [Neural Style Transfer](https://towardsdatascience.com/neural-style-transfer-explained-using-a-py-torch-implementation-47a2c942b6aa) |
+| 2  | Multi-modal Style Transfer               | Nâng cao phương pháp chuyển đổi phong cách bằng nhiều mô hình khác nhau. | [Multi-style Transfer](https://arxiv.org/abs/1705.06830) |
+| 3  | GAN and CDGAN                            | Giới thiệu về mạng GAN và Conditional GAN (CDGAN). | [GAN Guide](https://arxiv.org/abs/1406.2661) |
+| 4  | Pix2Pix and Cycle GAN                    | Học về Pix2Pix và CycleGAN để chuyển đổi hình ảnh. | [CycleGAN Paper](https://arxiv.org/abs/1703.10593) |
+| 5  | Diffusion Models                         | Hiểu về mô hình khuếch tán (Diffusion Models) và cách hoạt động. | [Diffusion Models Guide](https://arxiv.org/abs/2006.11239) |
+| 6  | Project: Diffusion-based Image Colorization | Áp dụng Diffusion Models vào tô màu ảnh tự động. | [Image Colorization](https://arxiv.org/abs/1603.08511) |
+| 7  | Project: Image Generation                | Xây dựng mô hình sinh ảnh tự động bằng AI. | [Deep Image Prior](https://arxiv.org/abs/1711.10925) |
+| 8  | Basic Style Transfer (Lớp hỗ trợ)        | Ôn tập về chuyển đổi phong cách ảnh. | [Style Transfer Notebook](https://www.tensorflow.org/tutorials/generative/style_transfer) |
+| 9  | GAN (Lớp hỗ trợ)                         | Củng cố kiến thức về GAN và cách huấn luyện mô hình. | [GANs in TensorFlow](https://www.tensorflow.org/tutorials/generative/dcgan) |
+| 10 | Diffusion Models (Lớp hỗ trợ)            | Học về Diffusion Models và ứng dụng của chúng. | [Understanding Diffusion Models](https://huggingface.co/blog/what-are-diffusion-models) |
+| 11 | Advances in Tokenization                 | Phát triển các phương pháp tokenization tiên tiến trong NLP. | [Tokenization Strategies](https://huggingface.co/transformers/preprocessing.html) |
+| 12 | Embedding: Augmented SBERT               | Cải tiến vector biểu diễn văn bản bằng Sentence-BERT. | [SBERT Paper](https://arxiv.org/abs/1908.10084) |
+| 13 | Multi-Granularity Text Embedding         | Biểu diễn văn bản ở nhiều mức độ chi tiết khác nhau. | [Text Embeddings](https://arxiv.org/abs/2004.11544) |
+| 14 | Flow Matching (1)                        | Nghiên cứu thuật toán Flow Matching trong AI. | [Flow Matching Research](https://arxiv.org/abs/2306.01741) |
+| 15 | Flow Matching (2)                        | Áp dụng Flow Matching vào mô hình sinh dữ liệu. | [Flow Matching Paper](https://arxiv.org/abs/2306.01741) |
+
+## Module 12 - Cấp độ Expert - Đẳng 3:
+Module 12 tập trung vào huấn luyện và tinh chỉnh các mô hình ngôn ngữ lớn (LLMs), bao gồm Pretraining GPT, Instruction Tuning, Parameter-Efficient Fine-Tuning, và LLM Deployment với LangChain.
+* Học viên sẽ thực hành xây dựng AI Agents từ đầu, từ lập kế hoạch, trí nhớ, đến hành động (Planning, Memory, and Action), tích hợp API như Gemini.
+
+📌 Dự án thực tế: Xây dựng Vision Language Model – kết hợp xử lý ảnh và ngôn ngữ tự nhiên.
+
+📌 Nghề nghiệp sau Module 12:
+* ✅ LLM Engineer – Làm việc với GPT-based models, Fine-Tuning, Prompt Engineering.
+* ✅ AI Research Engineer – Nghiên cứu mô hình Reinforcement Learning, Graph Neural Networks (GNN), 3D Data Processing.
+* ✅ MLOps Engineer – Triển khai LLMs trên LangChain, tối ưu inference cho ứng dụng thực tế.
+* ✅ Conversational AI Engineer – Xây dựng Chatbots, AI Agents, AI Planning Systems.
+
+| #  | Môn Học                                   | Tóm tắt nội dung                               | Link Tài Liệu |
+|----|-------------------------------------------|-----------------------------------------------|--------------|
+| 1  | Pretraining LLM (GPT)                    | Giới thiệu về quá trình huấn luyện mô hình ngôn ngữ lớn GPT. | [GPT-3 Paper](https://arxiv.org/abs/2005.14165) |
+| 2  | Parameter-Efficient Fine-Tuning          | Tối ưu hóa mô hình LLM bằng kỹ thuật fine-tuning hiệu quả. | [PEFT Guide](https://huggingface.co/docs/peft/index) |
+| 3  | Instruction Tuning (Prompt for Training) | Cải thiện chất lượng mô hình bằng cách huấn luyện với hướng dẫn. | [Instruction Tuning](https://arxiv.org/abs/2204.05862) |
+| 4  | LLM Deployment (LangChain)               |  Triển khai LLM bằng LangChain để xây dựng ứng dụng AI. | [LangChain Docs](https://python.langchain.com/en/latest/) |
+| 5  | High-level Agents for Chatbots           | Phát triển chatbot thông minh với các tác tử cấp cao. | [AI Agents](https://arxiv.org/abs/2305.15074) |
+| 6  | Agents from Scratch for Chatbots (Gemini API) | Xây dựng chatbot từ đầu, tích hợp API Gemini. | [Google Gemini](https://ai.google.dev/) |
+| 7  | Project: Vision Language Model           | Xây dựng mô hình AI kết hợp xử lý ngôn ngữ và hình ảnh. | [Vision-Language Model](https://arxiv.org/abs/2102.03334) |
+| 8  | Reinforcement Learning (CartPole)        | Học cách áp dụng RL vào bài toán điều khiển CartPole. | [RL with OpenAI Gym](https://www.gymlibrary.dev/) |
+| 9  | Reinforcement Learning (DDPG)            | Học tăng cường với thuật toán Deep Deterministic Policy Gradient. | [DDPG Paper](https://arxiv.org/abs/1509.02971) |
+| 10 | Advances in Reinforcement Learning       | Các phương pháp mới nhất trong lĩnh vực Học tăng cường. | [Deep RL Overview](https://spinningup.openai.com/en/latest/) |
+| 11 | GNN (Node Classification)                | Áp dụng Mạng nơ-ron đồ thị (GNN) vào bài toán phân loại nút. | [Graph Neural Networks](https://distill.pub/2021/gnn-intro/) |
+| 12 | GNN (Molecular Property Prediction)      | Dự đoán tính chất phân tử bằng GNN. | [Molecule GNN](https://arxiv.org/abs/2002.03212) |
+| 13 | Advances in GNN                          | Các nghiên cứu mới nhất về Mạng nơ-ron đồ thị. | [GNN Research](https://arxiv.org/abs/2003.00982) |
+| 14 | Classification for 3D Point Cloud Data   | Phân loại dữ liệu điểm 3D bằng Deep Learning. | [PointNet Paper](https://arxiv.org/abs/1612.00593) |
+| 15 | Advances in 3D Point Cloud Data          | Các nghiên cứu mới về xử lý dữ liệu 3D bằng AI. | [3D Deep Learning](https://arxiv.org/abs/2303.02642) |
+| 16 | Research Directions in 3D Data           | Hướng nghiên cứu trong lĩnh vực xử lý dữ liệu 3D. | [3D AI Research](https://arxiv.org/abs/2102.12097) |
+
