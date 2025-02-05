@@ -82,6 +82,8 @@ https://imgur.com/a/KOYQwwz
 
 # 2.Tự động hóa chuyển đổi giọng nói thành văn bản (Speech-to-Text)
 
+Bài gốc [ở đây](https://www.facebook.com/photo/?fbid=9669846533035177&set=gm.1113969847129710&idorvanity=1113089147217780)
+
 Trong thời đại số hóa, việc tự động hóa quy trình làm việc giúp tiết kiệm thời gian và tăng hiệu suất công việc. Một trong những ứng dụng phổ biến là chuyển đổi giọng nói thành văn bản (Speech-to-Text) và gửi kết quả qua email. Trong bài viết này, chúng ta sẽ cùng khám phá một workflow trên n8n giúp tự động hóa quá trình này.
 
 ![Hình ảnh](https://scontent.fhan17-1.fna.fbcdn.net/v/t39.30808-6/476118129_9669846543035176_7887554522809818612_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_eui2=AeFp-DRKDKbSBlH_ZJd1Bq5kGtkfGaEJywMa2R8ZoQnLA9LbqUyyqF8KhDgX0aEGlvU&_nc_ohc=OUXQnNXv9AgQ7kNvgGT1TIB&_nc_oc=AdjC3RfX8p8vnxzKVOeDQilm9nLAGkTYR4dDoECdUIsSl9paOG5c-bJ0OPBLkkdp0g0&_nc_zt=23&_nc_ht=scontent.fhan17-1.fna&_nc_gid=AtvunKb4PrvDz4iPwDmWQeV&oh=00_AYA-B5-nraxzzHKWRT5QJiRw7Q40r-_kNLVoURouZw05Yw&oe=67A8E192)
