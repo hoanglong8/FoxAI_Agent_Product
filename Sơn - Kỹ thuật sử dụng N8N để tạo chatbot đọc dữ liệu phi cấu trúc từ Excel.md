@@ -1,8 +1,6 @@
+# 1.RAG Chatbot Excel - Chatbot hỗ trợ đọc file excel
+
 Bài gốc [ở đây](https://shrub-midnight-a8f.notion.site/RAG-Chatbot-Excel-17e527e535d9808b827ff0c4c77fb976)
-
-# RAG Chatbot Excel
-
-## Chatbot hỗ trợ đọc file excel
 
 Tổng quan: Sử dụng phương pháp RAG với công cụ Pinecone
 
@@ -81,3 +79,62 @@ Diễn Giải:
 https://imgur.com/a/KOYQwwz
 
 [File Workflow n8n.json](https://github.com/hoanglong8/Document-Data-science/blob/main/n8n.json)
+
+# 2.Tự động hóa chuyển đổi giọng nói thành văn bản (Speech-to-Text)
+
+Trong thời đại số hóa, việc tự động hóa quy trình làm việc giúp tiết kiệm thời gian và tăng hiệu suất công việc. Một trong những ứng dụng phổ biến là chuyển đổi giọng nói thành văn bản (Speech-to-Text) và gửi kết quả qua email. Trong bài viết này, chúng ta sẽ cùng khám phá một workflow trên n8n giúp tự động hóa quá trình này.
+
+![Hình ảnh](https://scontent.fhan17-1.fna.fbcdn.net/v/t39.30808-6/476118129_9669846543035176_7887554522809818612_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_eui2=AeFp-DRKDKbSBlH_ZJd1Bq5kGtkfGaEJywMa2R8ZoQnLA9LbqUyyqF8KhDgX0aEGlvU&_nc_ohc=OUXQnNXv9AgQ7kNvgGT1TIB&_nc_oc=AdjC3RfX8p8vnxzKVOeDQilm9nLAGkTYR4dDoECdUIsSl9paOG5c-bJ0OPBLkkdp0g0&_nc_zt=23&_nc_ht=scontent.fhan17-1.fna&_nc_gid=AtvunKb4PrvDz4iPwDmWQeV&oh=00_AYA-B5-nraxzzHKWRT5QJiRw7Q40r-_kNLVoURouZw05Yw&oe=67A8E192)
+
+## Mô tả tổng quan về workflow
+Workflow này được thiết kế để:
+* Nhận file âm thanh hoặc video từ biểu mẫu trực tuyến.
+* Upload file lên Google Drive.
+* Tải file từ Google Drive xuống và gửi đến API DeepGram để chuyển đổi giọng nói thành văn bản.
+* Sử dụng Google Gemini AI để chỉnh sửa và tối ưu hóa kết quả.
+* Xuất dữ liệu ra hai định dạng: TXT (văn bản) và SRT (phụ đề).
+* Upload lại file văn bản lên Google Drive.
+* Gửi kết quả qua email cho người dùng.
+
+## Chi tiết các bước trong workflow:
+1. Nhận file từ biểu mẫu (Form Submission)
+Workflow bắt đầu bằng một biểu mẫu trực tuyến (Form Submission) nơi người dùng tải lên file âm thanh hoặc video cần chuyển đổi. Biểu mẫu này thu thập:
+* File cần xử lý.
+* Email của người nhận kết quả.
+* Ngôn ngữ của nội dung.
+
+2. Phân loại ngôn ngữ bằng Switch Node
+* Một Switch Node được sử dụng để xử lý các file theo từng ngôn ngữ khác nhau (Vietnamese, English, French, Russian...)
+
+3. Upload file lên Google Drive
+* Sau khi nhận được file, workflow sẽ sử dụng Google Drive Upload Node để lưu file lên Google Drive.
+
+4. Tải file xuống và gửi đến DeepGram để chuyển đổi giọng nói thành văn bản
+* File sau đó được tải xuống thông qua Google Drive Download Node.
+* Sử dụng HTTP Request Node để gửi file đến API của DeepGram – một dịch vụ AI mạnh mẽ để chuyển đổi giọng nói thành văn bản.
+
+5. Xử lý văn bản với Google Gemini AI
+* Kết quả từ DeepGram được gửi đến Google Gemini AI để tối ưu hóa, sửa lỗi chính tả và định dạng phù hợp.
+
+6. Xuất văn bản thành file TXT và SRT
+* Văn bản sau khi xử lý sẽ được lưu thành file TXT (dành cho đọc hiểu) và file SRT (dành cho phụ đề video).
+
+7. Upload lại file lên Google Drive
+* Các file TXT và SRT được tải lên Google Drive thông qua Google Drive Upload Node.
+
+8. Sử dụng Wait Node để tránh gửi email quá nhanh
+* Để tránh gửi quá nhiều email trong một khoảng thời gian ngắn, Wait Node được chèn vào trước bước gửi email. Điều này giúp hệ thống hoạt động ổn định và tránh bị giới hạn từ Gmail.
+
+9. Gửi email kết quả cho người dùng
+* Cuối cùng, workflow sử dụng Gmail Node để gửi email chứa link tải file TXT và SRT cho người dùng.
+
+Lợi ích của workflow này:
+* ✅ Tự động hóa hoàn toàn: Giúp tiết kiệm thời gian xử lý thủ công.
+* ✅ Hỗ trợ nhiều ngôn ngữ: Có thể mở rộng sang nhiều ngôn ngữ khác nhau.
+* ✅ Ứng dụng công nghệ AI mạnh mẽ: Kết hợp DeepGram và Google Gemini để cải thiện độ chính xác của văn bản.
+* ✅ Tối ưu hóa hiệu suất: Sử dụng Wait Node để đảm bảo hệ thống gửi email hợp lý.
+* ✅ Tích hợp với Google Drive và Gmail: Giúp dễ dàng quản lý file và gửi kết quả đến người dùng.
+
+Kết luận:
+
+Workflow này là một giải pháp mạnh mẽ để tự động hóa việc chuyển đổi giọng nói thành văn bản, phục vụ cho nhiều ứng dụng như phụ đề video, ghi chú cuộc họp, dịch thuật nội dung... Nếu bạn đang tìm kiếm một cách hiệu quả để xử lý file âm thanh/video, hãy thử triển khai workflow này trên n8n!
