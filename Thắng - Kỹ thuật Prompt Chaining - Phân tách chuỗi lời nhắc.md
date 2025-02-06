@@ -162,4 +162,21 @@ Thay vì yêu cầu ChatGPT viết một bài luận dài ngay lập tức, bạ
 
 ---
 
+# 3.So sánh kỹ thuật Prompt Chaining và Stepwise Prompt
+
+| **Tiêu chí**            | **Prompt Chaining** | **Stepwise Prompt** |
+|-------------------------|--------------------|---------------------|
+| **Khái niệm**           | Chia một yêu cầu lớn thành **chuỗi các prompt liên kết với nhau**, mỗi prompt dựa trên kết quả của prompt trước đó. | Chia yêu cầu lớn thành **các bước nhỏ độc lập**, mỗi bước được thực hiện riêng lẻ. |
+| **Mục đích**           | Duy trì mạch suy nghĩ và tạo kết quả phức tạp bằng cách xây dựng dựa trên phản hồi trước. | Kiểm soát câu trả lời bằng cách xử lý từng phần của yêu cầu theo cách tuần tự. |
+| **Cách hoạt động**     | - Bước 1: Nhận đầu vào ban đầu.  <br> - Bước 2: Dùng kết quả đó làm đầu vào cho bước tiếp theo.  <br> - Bước 3: Tiếp tục đến khi hoàn thành. | - Bước 1: Yêu cầu ChatGPT trả lời một phần nhỏ của vấn đề.  <br> - Bước 2: Hoàn thành từng phần riêng biệt mà không liên kết trực tiếp.  <br> - Bước 3: Kết hợp các phần lại nếu cần. |
+| **Ví dụ**              | Viết một bài báo:  <br> 1️⃣ "Tạo dàn ý cho bài viết về AI trong tài chính."  <br> 2️⃣ "Dùng dàn ý trên, viết đoạn mở đầu."  <br> 3️⃣ "Dựa vào đoạn mở đầu, viết phần thân bài."  <br> 4️⃣ "Tóm tắt nội dung trên và viết kết luận." | Viết bài báo:  <br> 1️⃣ "Liệt kê các ứng dụng của AI trong tài chính."  <br> 2️⃣ "Phân tích ưu điểm và nhược điểm của AI trong tài chính."  <br> 3️⃣ "Gợi ý giải pháp để tối ưu hóa AI trong ngành này." |
+| **Ưu điểm**           | ✅ Giữ được ngữ cảnh, tránh lặp lại thông tin.  <br> ✅ Phù hợp cho yêu cầu phức tạp, cần nhiều bước logic.  <br> ✅ Kết quả mạch lạc và có tính kết nối cao. | ✅ Dễ kiểm soát và chỉnh sửa từng phần.  <br> ✅ Không phụ thuộc vào kết quả trước, giúp linh hoạt hơn.  <br> ✅ Dễ dàng thay đổi hoặc bổ sung các bước mà không ảnh hưởng đến toàn bộ quá trình. |
+| **Nhược điểm**         | ❌ Có thể tích lũy lỗi từ các bước trước.  <br> ❌ Đôi khi mất kiểm soát nếu chuỗi quá dài hoặc phức tạp. | ❌ Mất thời gian ghép nối các phần riêng lẻ.  <br> ❌ Không phù hợp nếu yêu cầu đòi hỏi mạch suy nghĩ liên kết chặt chẽ. |
+| **Khi nào nên dùng?**  | - Khi cần tạo nội dung liên kết chặt chẽ và logic theo từng bước.  <br> - Khi muốn tối ưu hóa quá trình hỏi đáp dài. | - Khi cần kiểm soát từng phần của câu trả lời một cách tách biệt.  <br> - Khi nội dung không yêu cầu tính kết nối cao giữa các bước. |
+
+📌 **Kết luận**:
+- **Prompt Chaining** phù hợp với **các nhiệm vụ phức tạp, liên quan nhiều bước liên tiếp**, giúp xây dựng nội dung có tính logic cao.
+- **Stepwise Prompt** thích hợp khi **muốn tách biệt từng phần câu trả lời để dễ kiểm soát**, phù hợp với các nhiệm vụ đơn lẻ hoặc cần thử nghiệm nhiều hướng đi khác nhau.
+
+🚀 **Tùy vào mục tiêu, bạn có thể kết hợp cả hai kỹ thuật để tối ưu hóa kết quả khi làm việc với ChatGPT!** 😉
 
