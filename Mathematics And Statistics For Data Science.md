@@ -202,24 +202,24 @@ Module 5 là bước đệm vào Deep Learning, tập trung vào Linear Regressi
 * ✅ Data Scientist (Nâng cao) – Ứng dụng Regression và Optimization vào dữ liệu thực tế.
 * ✅ MLOps Engineer – Tối ưu hóa và triển khai mô hình AI vào hệ thống sản xuất.
 
-| #  | Môn Học                                   | Tóm tắt nội dung                               | Link Tài Liệu |
-|----|-------------------------------------------|-----------------------------------------------|--------------|
-| 1  | Linear Regression (L1, L2, and Huber losses) | Hiểu về hồi quy tuyến tính với các hàm mất mát L1, L2, và Huber. | [StatQuest - Regression](https://statquest.org/video-index/#regression) |
-| 2  | Vectorization for Linear Regression (1)   | Tối ưu hóa hồi quy tuyến tính bằng vectorization. | [Linear Regression - Coursera](https://www.coursera.org/learn/machine-learning) |
-| 3  | Vectorization for Linear Regression (2)   | Thực hành sử dụng vectorization trong tối ưu hóa mô hình hồi quy. | [DeepAI - Linear Algebra](https://deepai.org/machine-learning-glossary-and-terms/linear-algebra) |
-| 4  | Randomness and Genetic Algorithms         | Giới thiệu về thuật toán di truyền (GA) và ứng dụng tối ưu hóa. | [Genetic Algorithms - GeeksforGeeks](https://www.geeksforgeeks.org/genetic-algorithms/) |
-| 5  | Genetic Algorithms (Optimization and Linear Regression) | Áp dụng GA để tối ưu hóa hồi quy tuyến tính. | [Evolutionary Optimization](https://towardsdatascience.com/genetic-algorithms-explained-a-python-implementation-874d6103c141) |
-| 6  | Project: Đánh giá các thuật toán trên bài toán xâm nhập mạng | Phân tích và đánh giá hiệu suất thuật toán trên bài toán bảo mật. | [Cybersecurity AI Guide](https://arxiv.org/pdf/1805.05296.pdf) |
-| 7  | Research Directions for GAs               | Hướng nghiên cứu trong thuật toán di truyền và ứng dụng nâng cao. | [Nature Inspired Optimization](https://www.springer.com/gp/book/9783319676680) |
-| 8  | Basic Linear Regression                   | Ôn tập hồi quy tuyến tính và cách triển khai trong Python. | [Linear Regression with Python](https://realpython.com/linear-regression-in-python/) |
-| 9  | Linear Regression Using Numpy             | Xây dựng mô hình hồi quy tuyến tính sử dụng thư viện NumPy. | [NumPy - Linear Algebra](https://numpy.org/doc/stable/reference/routines.linalg.html) |
-| 10 | Basic Genetic Algorithms                  | Cách triển khai thuật toán di truyền cơ bản bằng Python. | [Genetic Algorithms in Python](https://towardsdatascience.com/genetic-algorithm-implementation-in-python-5ab67bb124a6) |
-| 11 | Speed Up Model Inferencing Using Numba+TorchScript | Tăng tốc dự đoán mô hình sử dụng Numba và TorchScript. | [Numba Guide](https://numba.pydata.org/) |
-| 12 | Model Serving and Packaging               | Đóng gói và triển khai mô hình AI thành dịch vụ API. | [TensorFlow Serving](https://www.tensorflow.org/tfx/guide/serving) |
-| 13 | Triton Inference Server                   | Sử dụng NVIDIA Triton để triển khai mô hình AI hiệu suất cao. | [Triton Inference Server](https://developer.nvidia.com/nvidia-triton-inference-server) |
-| 14 | Loss and Metric Functions for Regression  | Giới thiệu các hàm mất mát và đánh giá mô hình hồi quy. | [Scikit-Learn - Loss Functions](https://scikit-learn.org/stable/modules/model_evaluation.html) |
-| 15 | Non-Linear Regression                     | Hồi quy phi tuyến, cách triển khai và ứng dụng thực tế. | [Non-Linear Regression Guide](https://www.statisticshowto.com/probability-and-statistics/regression-analysis/non-linear-regression/) |
-| 16 | Survey on Evolutionary Algorithms         | Tổng quan về các thuật toán tiến hóa và ứng dụng. | [Evolutionary Computation](https://mitpress.mit.edu/books/introduction-evolutionary-computing) |
+| #  | Môn Học                                   | Tóm tắt nội dung                               | Link Tài Liệu | Level |
+|----|-------------------------------------------|-----------------------------------------------|--------------| ------|
+| 1  | Linear Regression (L1, L2, and Huber losses) | Hiểu về hồi quy tuyến tính với các hàm mất mát L1, L2, và Huber. | [StatQuest - Regression](https://statquest.org/video-index/#regression) | Intermediate |
+| 2  | Vectorization for Linear Regression (1)   | Tối ưu hóa hồi quy tuyến tính bằng vectorization. | [Linear Regression - Coursera](https://www.coursera.org/learn/machine-learning) | Elementary |
+| 3  | Vectorization for Linear Regression (2)   | Thực hành sử dụng vectorization trong tối ưu hóa mô hình hồi quy. | [DeepAI - Linear Algebra](https://deepai.org/machine-learning-glossary-and-terms/linear-algebra) | Elementary |
+| 4  | Randomness and Genetic Algorithms         | Giới thiệu về thuật toán di truyền (GA) và ứng dụng tối ưu hóa. | [Genetic Algorithms - GeeksforGeeks](https://www.geeksforgeeks.org/genetic-algorithms/) | Intermediate |
+| 5  | Genetic Algorithms (Optimization and Linear Regression) | Áp dụng GA để tối ưu hóa hồi quy tuyến tính. | [Evolutionary Optimization](https://towardsdatascience.com/genetic-algorithms-explained-a-python-implementation-874d6103c141) | Intermediate |
+| 6  | Project: Đánh giá các thuật toán trên bài toán xâm nhập mạng | Phân tích và đánh giá hiệu suất thuật toán trên bài toán bảo mật. | [Cybersecurity AI Guide](https://arxiv.org/pdf/1805.05296.pdf) | Intermediate |
+| 7  | Research Directions for GAs               | Hướng nghiên cứu trong thuật toán di truyền và ứng dụng nâng cao. | [Nature Inspired Optimization](https://www.springer.com/gp/book/9783319676680) | Intermediate |
+| 8  | Basic Linear Regression                   | Ôn tập hồi quy tuyến tính và cách triển khai trong Python. | [Linear Regression with Python](https://realpython.com/linear-regression-in-python/) | Elementary |
+| 9  | Linear Regression Using Numpy             | Xây dựng mô hình hồi quy tuyến tính sử dụng thư viện NumPy. | [NumPy - Linear Algebra](https://numpy.org/doc/stable/reference/routines.linalg.html) | Elementary |
+| 10 | Basic Genetic Algorithms                  | Cách triển khai thuật toán di truyền cơ bản bằng Python. | [Genetic Algorithms in Python](https://towardsdatascience.com/genetic-algorithm-implementation-in-python-5ab67bb124a6) | Intermediate |
+| 11 | Speed Up Model Inferencing Using Numba+TorchScript | Tăng tốc dự đoán mô hình sử dụng Numba và TorchScript. | [Numba Guide](https://numba.pydata.org/) | Intermediate |
+| 12 | Model Serving and Packaging               | Đóng gói và triển khai mô hình AI thành dịch vụ API. | [TensorFlow Serving](https://www.tensorflow.org/tfx/guide/serving) | Advanced |
+| 13 | Triton Inference Server                   | Sử dụng NVIDIA Triton để triển khai mô hình AI hiệu suất cao. | [Triton Inference Server](https://developer.nvidia.com/nvidia-triton-inference-server) | Advanced |
+| 14 | Loss and Metric Functions for Regression  | Giới thiệu các hàm mất mát và đánh giá mô hình hồi quy. | [Scikit-Learn - Loss Functions](https://scikit-learn.org/stable/modules/model_evaluation.html) | Elementary |
+| 15 | Non-Linear Regression                     | Hồi quy phi tuyến, cách triển khai và ứng dụng thực tế. | [Non-Linear Regression Guide](https://www.statisticshowto.com/probability-and-statistics/regression-analysis/non-linear-regression/) | Elementary |
+| 16 | Survey on Evolutionary Algorithms         | Tổng quan về các thuật toán tiến hóa và ứng dụng. | [Evolutionary Computation](https://mitpress.mit.edu/books/introduction-evolutionary-computing) | |
 
 ## Module 6 - Cấp độ Intermediate - Đẳng 3:
 Module 6 mở rộng từ hồi quy tuyến tính (Linear Regression) sang hồi quy Logistic và Softmax Regression, giúp hiểu rõ hơn về phân loại nhị phân & đa lớp.
@@ -236,22 +236,22 @@ Module 6 mở rộng từ hồi quy tuyến tính (Linear Regression) sang hồi
 * ✅ IoT & AI Engineer – Ứng dụng AI vào điều khiển thiết bị thông minh.
 * ✅ MLOps Engineer – Triển khai mô hình AI với Numba, TorchScript, Triton Server.
 
-| #  | Môn Học                                   | Tóm tắt nội dung                               | Link Tài Liệu |
-|----|-------------------------------------------|-----------------------------------------------|--------------|
-| 1  | From Linear Regression to Logistic Regression (Binary Classification) | Hiểu về hồi quy tuyến tính và mở rộng thành hồi quy logistic để phân loại nhị phân. | [StatQuest - Logistic Regression](https://statquest.org/video-index/#regression) |
-| 2  | Logistic Regression - Vectorization and Application | Tối ưu hóa hồi quy logistic bằng vectorization và ứng dụng vào bài toán thực tế. | [DeepAI - Logistic Regression](https://deepai.org/machine-learning-glossary-and-terms/logistic-regression) |
-| 3  | Softmax Regression (Multi-class Classification) | Mở rộng Logistic Regression thành Softmax Regression để phân loại nhiều lớp. | [Softmax Regression Guide](https://www.kdnuggets.com/2021/01/multi-class-classification-softmax-regression.html) |
-| 4  | Pytorch Framework (Implementation for regression and classification) | Học cách triển khai hồi quy và phân loại bằng PyTorch. | [PyTorch Documentation](https://pytorch.org/tutorials/) |
-| 5  | Multilayer Perceptron for Images         | Xây dựng MLP để xử lý dữ liệu hình ảnh và nhận diện đối tượng. | [MLP Guide](https://towardsdatascience.com/multilayer-perceptron-using-tensorflow-2-0-a18954f505be) |
-| 6  | Multilayer Perceptron for Text and Tabular Data | Áp dụng MLP để xử lý dữ liệu dạng bảng và văn bản. | [MLP for NLP](https://towardsdatascience.com/multi-layer-perceptron-using-tensorflow-2-0-a18954f505be) |
-| 7  | Time-series Data Project: Dự đoán chính xác với mô hình DLinear và NLinear | Xây dựng mô hình dự đoán chuỗi thời gian với các phương pháp tuyến tính và phi tuyến. | [Time-Series Forecasting](https://otexts.com/fpp3/) |
-| 8  | IoT Project: Điều khiển thiết bị điện tử qua tương tác cử chỉ | Ứng dụng AI vào điều khiển thiết bị IoT bằng nhận diện cử chỉ. | [AI for IoT](https://www.iotforall.com/machine-learning-for-iot) |
-| 9  | Basic Logistic Regression                | Hiểu về Logistic Regression cơ bản và cách triển khai trong Python. | [Scikit-Learn - Logistic Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html) |
-| 10 | Basic Softmax Regression                 | Hiểu về Softmax Regression và cách ứng dụng vào phân loại nhiều lớp. | [Softmax Regression - TensorFlow](https://www.tensorflow.org/tutorials/keras/classification) |
-| 11 | Basic Multilayer Perceptron              | Xây dựng mạng neural cơ bản với MLP trong Python. | [Multilayer Perceptron - Scikit-Learn](https://scikit-learn.org/stable/modules/neural_networks_supervised.html) |
-| 12 | Multi-labels Classification              | Giới thiệu về bài toán phân loại nhiều nhãn và các phương pháp giải quyết. | [Multi-label Classification](https://scikit-learn.org/stable/modules/multiclass.html) |
-| 13 | Loss Functions for Classification        | Hiểu về các hàm mất mát phổ biến trong phân loại như Cross-Entropy, Hinge Loss. | [Loss Functions Overview](https://towardsdatascience.com/cross-entropy-loss-function-f38c4ec8643e) |
-| 14 | Metric for Classification                | Đánh giá hiệu suất mô hình phân loại bằng Precision, Recall, F1-score. | [Classification Metrics](https://scikit-learn.org/stable/modules/model_evaluation.html#classification-metrics) |
+| #  | Môn Học                                   | Tóm tắt nội dung                               | Link Tài Liệu | Level |
+|----|-------------------------------------------|-----------------------------------------------|--------------| -------|
+| 1  | From Linear Regression to Logistic Regression (Binary Classification) | Hiểu về hồi quy tuyến tính và mở rộng thành hồi quy logistic để phân loại nhị phân. | [StatQuest - Logistic Regression](https://statquest.org/video-index/#regression) |  Elementary |
+| 2  | Logistic Regression - Vectorization and Application | Tối ưu hóa hồi quy logistic bằng vectorization và ứng dụng vào bài toán thực tế. | [DeepAI - Logistic Regression](https://deepai.org/machine-learning-glossary-and-terms/logistic-regression) |  Elementary |
+| 3  | Softmax Regression (Multi-class Classification) | Mở rộng Logistic Regression thành Softmax Regression để phân loại nhiều lớp. | [Softmax Regression Guide](https://www.kdnuggets.com/2021/01/multi-class-classification-softmax-regression.html) | Elementary |
+| 4  | Pytorch Framework (Implementation for regression and classification) | Học cách triển khai hồi quy và phân loại bằng PyTorch. | [PyTorch Documentation](https://pytorch.org/tutorials/) | Elementary |
+| 5  | Multilayer Perceptron for Images         | Xây dựng MLP để xử lý dữ liệu hình ảnh và nhận diện đối tượng. | [MLP Guide](https://towardsdatascience.com/multilayer-perceptron-using-tensorflow-2-0-a18954f505be) | Intermediate |
+| 6  | Multilayer Perceptron for Text and Tabular Data | Áp dụng MLP để xử lý dữ liệu dạng bảng và văn bản. | [MLP for NLP](https://towardsdatascience.com/multi-layer-perceptron-using-tensorflow-2-0-a18954f505be) | Intermediate |
+| 7  | Time-series Data Project: Dự đoán chính xác với mô hình DLinear và NLinear | Xây dựng mô hình dự đoán chuỗi thời gian với các phương pháp tuyến tính và phi tuyến. | [Time-Series Forecasting](https://otexts.com/fpp3/) | Elementary |
+| 8  | IoT Project: Điều khiển thiết bị điện tử qua tương tác cử chỉ | Ứng dụng AI vào điều khiển thiết bị IoT bằng nhận diện cử chỉ. | [AI for IoT](https://www.iotforall.com/machine-learning-for-iot) | Advanced |
+| 9  | Basic Logistic Regression                | Hiểu về Logistic Regression cơ bản và cách triển khai trong Python. | [Scikit-Learn - Logistic Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html) | Elementary |
+| 10 | Basic Softmax Regression                 | Hiểu về Softmax Regression và cách ứng dụng vào phân loại nhiều lớp. | [Softmax Regression - TensorFlow](https://www.tensorflow.org/tutorials/keras/classification) | Elementary |
+| 11 | Basic Multilayer Perceptron              | Xây dựng mạng neural cơ bản với MLP trong Python. | [Multilayer Perceptron - Scikit-Learn](https://scikit-learn.org/stable/modules/neural_networks_supervised.html) | Elementary |
+| 12 | Multi-labels Classification              | Giới thiệu về bài toán phân loại nhiều nhãn và các phương pháp giải quyết. | [Multi-label Classification](https://scikit-learn.org/stable/modules/multiclass.html) | Elementary |
+| 13 | Loss Functions for Classification        | Hiểu về các hàm mất mát phổ biến trong phân loại như Cross-Entropy, Hinge Loss. | [Loss Functions Overview](https://towardsdatascience.com/cross-entropy-loss-function-f38c4ec8643e) | Elementary |
+| 14 | Metric for Classification                | Đánh giá hiệu suất mô hình phân loại bằng Precision, Recall, F1-score. | [Classification Metrics](https://scikit-learn.org/stable/modules/model_evaluation.html#classification-metrics) | Elementary |
 
 ## Module 7 - Cấp độ Advanced - Đẳng 1:
 Module 7 đi sâu vào các thành phần quan trọng của mạng nơ-ron: Hàm kích hoạt (Activations), Trọng số khởi tạo (Initializers), và Bộ tối ưu hóa (Optimizers).
