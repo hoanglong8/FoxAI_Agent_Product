@@ -1,4 +1,4 @@
-## Khái niệm Prompt Chaining
+# 1.Kỹ thuật Prompt Chaining
 Prompt Chaining là kỹ thuật chia nhỏ một tác vụ phức tạp thành một chuỗi các bước nhỏ, mỗi bước được giải quyết thông qua một prompt riêng biệt. Quá trình này có nghĩa là kết quả đầu ra của prompt ở bước trước sẽ được sử dụng làm đầu vào cho bước tiếp theo.
 
 ![Hình ảnh](https://scontent.fhan17-1.fna.fbcdn.net/v/t39.30808-6/476233904_122197652438079187_1572653832622564964_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_eui2=AeFxSfbF4vVqchb4P09umCacwNdE3GBn-U_A10TcYGf5TzTELliE5hb_kC6uj1eVJNA&_nc_ohc=jziIdgEAU7UQ7kNvgEZ6gKm&_nc_oc=AdggMCD0ehYD91FKuZRaC4XIqN8hzGSdKUlxW4nKbewvuYw6ZH1it9B5N1f0PpbQnRU&_nc_zt=23&_nc_ht=scontent.fhan17-1.fna&_nc_gid=AhLuKeFv_1fnXE1xihJptfs&oh=00_AYDcTu7f-yxOOJb0w0X_EdiILYdCwIK2zZred7VVhZEhDA&oe=67A79C81)
@@ -99,4 +99,67 @@ Kiểm thử tích hợp (integration testing): Đảm bảo chatbot hoạt đ�
 * Triển khai prototype: Dùng Prompt 5 để mô tả quy trình tích hợp và triển khai thử nghiệm chatbot ERP.
 * Thiết lập kiểm thử: Cuối cùng, dùng Prompt 6 để xác định quy trình kiểm thử toàn diện từ chức năng, hiệu năng đến bảo mật.
 
-Việc áp dụng phương pháp prompt chaining như trên cho phép quá trình phát triển chatbot ERP trở nên có cấu trúc, dễ kiểm soát và hiệu quả hơn, đảm bảo rằng mỗi bước được xây dựng dựa trên kết quả của bước trước đó. Qua đó, hệ thống chatbot và tác nhân AI sẽ đáp ứng tốt yêu cầu của dự án ERP, từ định nghĩa yêu cầu đến kiểm thử hệ thống hoàn chỉnh.
+# 2.Kỹ thuật Stepwise Prompt
+
+## 2.1. Khái niệm
+👉 **Stepwise Prompt** (nhắc nhở từng bước) là cách bạn **chia nhỏ yêu cầu phức tạp** thành nhiều câu hỏi hoặc bước nhỏ hơn, giúp ChatGPT trả lời chính xác và hiệu quả hơn.
+
+### 📝 Ví dụ:  
+Thay vì yêu cầu ChatGPT viết một bài luận dài ngay lập tức, bạn có thể chia nhỏ như sau:
+1️⃣ **Bước 1:** Yêu cầu tạo dàn ý.  
+2️⃣ **Bước 2:** Viết từng đoạn một theo dàn ý.  
+3️⃣ **Bước 3:** Yêu cầu chỉnh sửa hoặc bổ sung nội dung.  
+
+### 💡 Lợi ích:
+✅ Cải thiện chất lượng câu trả lời.  
+✅ Dễ điều chỉnh và tối ưu câu trả lời theo nhu cầu.  
+✅ Giúp ChatGPT "hiểu" vấn đề tốt hơn.  
+
+---
+
+## 2.2. Tại sao nên dùng Stepwise Prompt?
+- **📌 Tránh câu trả lời chung chung**: Nếu bạn đặt một câu hỏi quá lớn, ChatGPT có thể trả lời chung chung và không đi sâu vào chi tiết.
+- **📌 Dễ kiểm soát hướng đi**: Bạn có thể điều chỉnh câu trả lời từng bước, thay vì phải sửa một đoạn văn bản dài.
+- **📌 Giúp cải thiện độ chính xác**: ChatGPT hoạt động tốt hơn khi xử lý thông tin có cấu trúc.
+
+---
+
+## 2.3. Cách sử dụng Stepwise Prompt hiệu quả
+### ✅ Cách 1: Chia nhỏ vấn đề phức tạp thành từng bước
+- **Ví dụ:** Bạn muốn ChatGPT viết một bài quảng cáo sản phẩm.
+  - ❌ Yêu cầu không tốt:  
+    ```text
+    "Hãy viết một bài quảng cáo cho sản phẩm của tôi."
+    ```
+  - ✅ Yêu cầu tốt hơn:
+    1. `"Mô tả đặc điểm nổi bật của sản phẩm này."`
+    2. `"Viết một đoạn giới thiệu hấp dẫn cho sản phẩm này."`
+    3. `"Viết lời kêu gọi hành động mạnh mẽ để kết thúc quảng cáo."`
+
+### ✅ Cách 2: Hỏi từng phần thay vì hỏi tất cả cùng lúc
+- **Ví dụ:** Bạn muốn ChatGPT giúp tạo một kế hoạch kinh doanh.
+  - ❌ `"Viết kế hoạch kinh doanh hoàn chỉnh cho một quán cà phê."`
+  - ✅ Tách nhỏ như sau:
+    1. `"Xây dựng mục tiêu kinh doanh cho quán cà phê."`
+    2. `"Phân tích thị trường và đối thủ cạnh tranh."`
+    3. `"Gợi ý chiến lược marketing để thu hút khách hàng."`
+
+### ✅ Cách 3: Lặp lại câu hỏi với các góc nhìn khác
+- **Ví dụ:** Bạn muốn tìm ý tưởng kinh doanh.
+  - Bước 1: `"Gợi ý 5 ý tưởng kinh doanh sáng tạo."`
+  - Bước 2: `"Phân tích ưu nhược điểm của từng ý tưởng."`
+  - Bước 3: `"Gợi ý cách thực hiện một trong những ý tưởng này với ngân sách thấp."`
+
+---
+
+## 2.4. So sánh Stepwise Prompt vs. Prompt thông thường
+
+| **Tiêu chí**          | **Prompt thông thường** | **Stepwise Prompt** |
+|----------------|------------------|-----------------|
+| Độ chính xác  | 👎 Dễ trả lời chung chung | 👍 Cụ thể, chi tiết |
+| Kiểm soát kết quả | 👎 Ít kiểm soát | 👍 Dễ điều chỉnh từng bước |
+| Hiệu quả sử dụng | 👎 Không tối ưu | 👍 Tối ưu theo từng bước |
+
+---
+
+
