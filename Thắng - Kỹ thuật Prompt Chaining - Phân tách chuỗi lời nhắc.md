@@ -1,3 +1,8 @@
+# Nội dung
+1.[Kỹ thuật Prompt Chaining](https://github.com/hoanglong8/Document-Data-science/blob/main/Th%E1%BA%AFng%20-%20K%E1%BB%B9%20thu%E1%BA%ADt%20Prompt%20Chaining%20-%20Ph%C3%A2n%20t%C3%A1ch%20chu%E1%BB%97i%20l%E1%BB%9Di%20nh%E1%BA%AFc.md)
+2.[Kỹ thuật Stepwise Prompt](https://github.com/hoanglong8/Document-Data-science/blob/main/Th%E1%BA%AFng%20-%20K%E1%BB%B9%20thu%E1%BA%ADt%20Prompt%20Chaining%20-%20Ph%C3%A2n%20t%C3%A1ch%20chu%E1%BB%97i%20l%E1%BB%9Di%20nh%E1%BA%AFc.md)
+3.[So sánh 2 kỹ thuật](https://github.com/hoanglong8/Document-Data-science/blob/main/Th%E1%BA%AFng%20-%20K%E1%BB%B9%20thu%E1%BA%ADt%20Prompt%20Chaining%20-%20Ph%C3%A2n%20t%C3%A1ch%20chu%E1%BB%97i%20l%E1%BB%9Di%20nh%E1%BA%AFc.md)
+
 # 1.Kỹ thuật Prompt Chaining
 Prompt Chaining là kỹ thuật chia nhỏ một tác vụ phức tạp thành một chuỗi các bước nhỏ, mỗi bước được giải quyết thông qua một prompt riêng biệt. Quá trình này có nghĩa là kết quả đầu ra của prompt ở bước trước sẽ được sử dụng làm đầu vào cho bước tiếp theo.
 
