@@ -187,3 +187,60 @@ Thay vì yêu cầu ChatGPT viết một bài luận dài ngay lập tức, bạ
 
 🚀 **Tùy vào mục tiêu, bạn có thể kết hợp cả hai kỹ thuật để tối ưu hóa kết quả khi làm việc với ChatGPT!** 😉
 
+# 4.Kỹ thuật Prompt trong API ChatGPT
+
+Bước 1: Đăng ký tài khoản OpenAI và lấy API Key
+* Truy cập trang web của OpenAI: https://platform.openai.com/
+* Đăng ký hoặc đăng nhập vào tài khoản của bạn.
+* Vào mục API Keys tại: https://platform.openai.com/account/api-keys
+* Nhấn Create new secret key để tạo một API Key mới. Sao chép và lưu trữ API Key này ở nơi an toàn (vì OpenAI sẽ không hiển thị lại nó).
+
+Bước 2: Cài đặt thư viện OpenAI
+* Mở terminal (hoặc command prompt) và chạy lệnh sau để cài đặt thư viện OpenAI:
+```bash
+pip install openai
+```
+
+Bước 3: Gọi API ChatGPT bằng Python
+* Dưới đây là một đoạn code mẫu để gửi yêu cầu đến API của ChatGPT:
+```python
+import openai
+
+# Thay thế bằng API Key của bạn
+API_KEY = "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"
+
+# Khởi tạo client
+client = openai.OpenAI(api_key=API_KEY)
+
+# Gọi API với GPT-4o
+response = client.chat.completions.create(
+    model="gpt-4o",  # Sử dụng mô hình GPT-4o
+    messages=[
+        {"role": "system", "content": "Bạn là một chuyên gia ChatGPT và RAG trong Langchain"},
+        {"role": "user", "content": "Với vai trò là 1 chuyên gia, bạn hãy hướng dẫn tôi cách tùy chỉnh 'max token' và 'stop' trong API của OpenAI."},
+    ],
+    temperature=0.7
+)
+
+# In kết quả phản hồi
+print(response.choices[0].message.content)
+```
+
+Bước 4: Các tham số quan trọng:
+* model: Chọn mô hình, ví dụ "gpt-4" hoặc "gpt-3.5-turbo".
+* messages: Danh sách tin nhắn theo vai trò:
+* "system": Định nghĩa cách AI nên phản hồi.
+* "user": Tin nhắn từ người dùng.
+* "assistant": Tin nhắn từ AI (chỉ cần thiết nếu bạn muốn tiếp tục cuộc hội thoại trước đó).
+* temperature: Điều chỉnh độ sáng tạo của AI (0 = ít sáng tạo, 1 = sáng tạo hơn).
+* max token: là tham số quy định số lượng token tối đa mà mô hình có thể sinh ra. Ví dụ: max_tokens=50 sẽ giới hạn số lượng token sinh ra là 50.
+* stop: là tham số quy định chuỗi ký tự mà mô hình sẽ dừng sinh ra token khi gặp phải. Nếu bạn muốn dừng sinh ra token khi gặp một từ hoặc cụm từ cụ thể, bạn có thể sử dụng tham số này. Ví dụ: stop=['\n'] sẽ dừng sinh ra token khi gặp ký tự xuống dòng.
+
+
+Bước 5: Tích hợp API vào ứng dụng
+Bạn có thể sử dụng API của ChatGPT trong các ứng dụng như:
+
+Web App: Dùng Flask hoặc FastAPI để xây dựng chatbot.
+Power BI: Kết nối API để phân tích dữ liệu.
+Automation: Viết script Python tự động hóa công việc.
+Nếu bạn muốn triển khai trên server hoặc ứng dụng lớn hơn, hãy xem thêm tài liệu chính thức tại https://platform.openai.com/docs/.
