@@ -7,7 +7,7 @@
 ---
 
 # 2.Khóa học của VietAI: 
-## Cấp độ Beginners: 15 buổi kiến thức nền
+## Cấp độ Beginner: 15 buổi kiến thức nền
 
 | #  | Môn Học                                   | Tóm tắt nội dung                               | Link Tài Liệu | Level |
 |----|-------------------------------------------|-----------------------------------------------|--------------|---------|
@@ -30,28 +30,28 @@
 
 [Quizze](https://github.com/PacktPublishing/Statistics-Mathematics-for-Data-Science-Data-Analytics/tree/main/Quizzes) cuối phần 1.
 
-## Cấp độ Immediate: 15 buổi kiến thức nền
+## Cấp độ Intermediate: 15 buổi kiến thức nền
 
-| #  | Môn Học                                   | Tóm tắt nội dung                               | Link Tài Liệu |
-|----|-------------------------------------------|-----------------------------------------------|--------------|
-| 1  | Math and Python (1) - Logarithm and Exponential Functions | Giới thiệu về logarit và hàm mũ, ứng dụng trong lập trình Python. | [Khan Academy - Logarithms](https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:exp-log) |
-| 2  | Python & Math Problem                     | Giải quyết các bài toán toán học bằng Python, bao gồm số học và phương trình. | [GeeksforGeeks - Math in Python](https://www.geeksforgeeks.org/python-math-module/) |
-| 3  | Basic Linear Algebra                     | Ôn tập đại số tuyến tính, ma trận và vector, nền tảng quan trọng cho Machine Learning. | [MIT OpenCourseWare - Linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/) |
-| 4  | Step into List Data Structure            | Học về danh sách (list), cách tổ chức và xử lý dữ liệu dạng danh sách trong lập trình. | [Python Docs - Data Structures](https://docs.python.org/3/tutorial/datastructures.html) |
-| 5  | Python Basic Algorithms with List        | Hiểu các thuật toán cơ bản trên danh sách, bao gồm tìm kiếm, sắp xếp và xử lý dữ liệu. | [Algorithm Visualizer](https://algorithm-visualizer.org/) |
-| 6  | Step into Image Data (Numpy, OpenCV)     | Làm quen với dữ liệu hình ảnh, sử dụng NumPy và OpenCV để xử lý ảnh. | [OpenCV Guide](https://opencv.org/) |
-| 7  | Basic Hand Linear Regression             | Hiểu về hồi quy tuyến tính cơ bản, cách tính toán hệ số hồi quy bằng tay. | [StatQuest - Linear Regression](https://statquest.org/video-index/#regression) |
-| 8  | Linear Regression                        | Phát triển mô hình hồi quy tuyến tính, tối ưu hóa tham số và đánh giá mô hình. | [Coursera - Regression Models](https://www.coursera.org/learn/regression-models) |
-| 9  | Tabular Data & Pandas                     | Giới thiệu về dữ liệu bảng, xử lý và thao tác dữ liệu bằng thư viện Pandas. | [Pandas Documentation](https://pandas.pydata.org/docs/) |
-| 10 | Linear Regression Project                 | Ứng dụng hồi quy tuyến tính vào bài toán thực tế, phân tích và đánh giá kết quả. | [Hands-On Machine Learning (Ch.4)](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/) |
-| 11 | Matrix Exercises                          | Bài tập thực hành về ma trận, phép biến đổi và ứng dụng trong lập trình. | [MIT OpenCourseWare - Linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/) |
-| 12 | Matrix Manipulation (Linear Algebra)      | Xử lý và biến đổi ma trận, ứng dụng vào Machine Learning và AI. | [DeepAI - Linear Algebra for ML](https://deepai.org/machine-learning-glossary-and-terms/linear-algebra) |
-| 13 | Essential Library (Matplotlib, Seaborn, Scikit-Learn, …) | Tìm hiểu và sử dụng các thư viện quan trọng cho trực quan hóa dữ liệu và Machine Learning. | [Scikit-Learn Documentation](https://scikit-learn.org/stable/) |
-| 14 | TensorFlow Practice                       | Thực hành với TensorFlow, xây dựng mô hình Machine Learning đơn giản. | [TensorFlow Guide](https://www.tensorflow.org/tutorials) |
-| 15 | PyTorch + TensorFlow Practice             | So sánh và thực hành với hai thư viện phổ biến trong Deep Learning: PyTorch và TensorFlow. | [PyTorch Documentation](https://pytorch.org/tutorials/) |
+| #  | Môn Học                                   | Tóm tắt nội dung                               | Link Tài Liệu | Level |
+|----|-------------------------------------------|-----------------------------------------------|--------------| ------- |
+| 1  | Math and Python (1) - Logarithm and Exponential Functions | Giới thiệu về logarit và hàm mũ, ứng dụng trong lập trình Python. | [Khan Academy - Logarithms](https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:exp-log) | Elementary |
+| 2  | Python & Math Problem                     | Giải quyết các bài toán toán học bằng Python, bao gồm số học và phương trình. | [GeeksforGeeks - Math in Python](https://www.geeksforgeeks.org/python-math-module/) | Elementary |
+| 3  | Basic Linear Algebra                     | Ôn tập đại số tuyến tính, ma trận và vector, nền tảng quan trọng cho Machine Learning. | [MIT OpenCourseWare - Linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/) | Elementary |
+| 4  | Step into List Data Structure            | Học về danh sách (list), cách tổ chức và xử lý dữ liệu dạng danh sách trong lập trình. | [Python Docs - Data Structures](https://docs.python.org/3/tutorial/datastructures.html) | Elementary |
+| 5  | Python Basic Algorithms with List        | Hiểu các thuật toán cơ bản trên danh sách, bao gồm tìm kiếm, sắp xếp và xử lý dữ liệu. | [Algorithm Visualizer](https://algorithm-visualizer.org/) | Elementary |
+| 6  | Step into Image Data (Numpy, OpenCV)     | Làm quen với dữ liệu hình ảnh, sử dụng NumPy và OpenCV để xử lý ảnh. | [OpenCV Guide](https://opencv.org/) | Elementary |
+| 7  | Basic Hand Linear Regression             | Hiểu về hồi quy tuyến tính cơ bản, cách tính toán hệ số hồi quy bằng tay. | [StatQuest - Linear Regression](https://statquest.org/video-index/#regression) | Elementary |
+| 8  | Linear Regression                        | Phát triển mô hình hồi quy tuyến tính, tối ưu hóa tham số và đánh giá mô hình. | [Coursera - Regression Models](https://www.coursera.org/learn/regression-models) | Elementary |
+| 9  | Tabular Data & Pandas                     | Giới thiệu về dữ liệu bảng, xử lý và thao tác dữ liệu bằng thư viện Pandas. | [Pandas Documentation](https://pandas.pydata.org/docs/) | Elementary |
+| 10 | Linear Regression Project                 | Ứng dụng hồi quy tuyến tính vào bài toán thực tế, phân tích và đánh giá kết quả. | [Hands-On Machine Learning (Ch.4)](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/) | Elementary |
+| 11 | Matrix Exercises                          | Bài tập thực hành về ma trận, phép biến đổi và ứng dụng trong lập trình. | [MIT OpenCourseWare - Linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/) | Elementary |
+| 12 | Matrix Manipulation (Linear Algebra)      | Xử lý và biến đổi ma trận, ứng dụng vào Machine Learning và AI. | [DeepAI - Linear Algebra for ML](https://deepai.org/machine-learning-glossary-and-terms/linear-algebra) | Elementary |
+| 13 | Essential Library (Matplotlib, Seaborn, Scikit-Learn, …) | Tìm hiểu và sử dụng các thư viện quan trọng cho trực quan hóa dữ liệu và Machine Learning. | [Scikit-Learn Documentation](https://scikit-learn.org/stable/) | Elementary |
+| 14 | TensorFlow Practice                       | Thực hành với TensorFlow, xây dựng mô hình Machine Learning đơn giản. | [TensorFlow Guide](https://www.tensorflow.org/tutorials) | Intermediate |
+| 15 | PyTorch + TensorFlow Practice             | So sánh và thực hành với hai thư viện phổ biến trong Deep Learning: PyTorch và TensorFlow. | [PyTorch Documentation](https://pytorch.org/tutorials/) | Intermediate |
 
 # 3.Khóa học chuyên sâu của AI Vietnam:
-## Module 1 - Cấp độ Beginnes - Đẳng 1:
+## Module 1 - Cấp độ Beginners - Đẳng 1:
 
 📌 Module 1 – Nền tảng vững chắc cho AI & Data Science:
 * Module 1 không yêu cầu kinh nghiệm lập trình trước, phù hợp cho người mới bắt đầu.
@@ -70,18 +70,18 @@
 
 | #  | Môn Học                                   | Tóm tắt nội dung                               | Link Tài Liệu |
 |----|-------------------------------------------|-----------------------------------------------|--------------|
-| 1  | Data Structure (List–IoU, Top-K Searching) | Giới thiệu về cấu trúc dữ liệu danh sách, thuật toán tìm kiếm Top-K và IoU. | [GeeksforGeeks - Data Structures](https://www.geeksforgeeks.org/data-structures/) |
-| 2  | Data Structure (Non-maximum suppression and Histogram) | Tìm hiểu về thuật toán loại bỏ cực đại (NMS) và ứng dụng histogram trong xử lý dữ liệu. | [OpenCV - Histogram](https://docs.opencv.org/master/dc/da5/tutorial_py_histograms.html) |
-| 3  | Data Structure (Graph and Tree)          | Học về cây và đồ thị, các thuật toán tìm kiếm và duyệt trên đồ thị. | [Khan Academy - Graphs](https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation) |
-| 4  | OOP with Python (Custom PyTorch Class)   | Lập trình hướng đối tượng với Python, tạo class tùy chỉnh trong PyTorch. | [Real Python - OOP](https://realpython.com/python3-object-oriented-programming/) |
-| 5  | Searching Algorithms                     | Học về các thuật toán tìm kiếm như tìm kiếm nhị phân, DFS, BFS. | [GeeksforGeeks - Searching Algorithms](https://www.geeksforgeeks.org/searching-algorithms/) |
-| 6  | Sorting Algorithms                       | Các thuật toán sắp xếp phổ biến như QuickSort, MergeSort, HeapSort. | [Sorting Algorithm Visualizer](https://visualgo.net/en/sorting) |
-| 7  | Tree Data Structure (and KDTree)         | Cấu trúc dữ liệu cây, ứng dụng KD-Tree trong tìm kiếm không gian. | [Scipy KDTree Documentation](https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.KDTree.html) |
-| 8  | Dữ liệu bảng và time-series              | Phân tích dữ liệu dạng bảng và chuỗi thời gian (Time Series). | [Time Series Forecasting Guide](https://otexts.com/fpp3/) |
-| 9  | Dữ liệu ảnh và video                     | Xử lý dữ liệu ảnh và video, các kỹ thuật tiền xử lý và trích xuất đặc trưng. | [Deep Learning for Computer Vision](https://www.pyimagesearch.com/deep-learning-computer-vision-python/) |
-| 10 | Dữ liệu văn bản và âm thanh              | Giới thiệu về NLP và xử lý âm thanh với Python. | [Speech Processing Guide](https://www.kdnuggets.com/2020/02/complete-guide-speech-recognition.html) |
+| 1  | Data Structure (List–IoU, Top-K Searching) | Giới thiệu về cấu trúc dữ liệu danh sách, thuật toán tìm kiếm Top-K và IoU. | [GeeksforGeeks - Data Structures](https://www.geeksforgeeks.org/data-structures/) | Intermediate |
+| 2  | Data Structure (Non-maximum suppression and Histogram) | Tìm hiểu về thuật toán loại bỏ cực đại (NMS) và ứng dụng histogram trong xử lý dữ liệu. | [OpenCV - Histogram](https://docs.opencv.org/master/dc/da5/tutorial_py_histograms.html) | Advanced| 
+| 3  | Data Structure (Graph and Tree)          | Học về cây và đồ thị, các thuật toán tìm kiếm và duyệt trên đồ thị. | [Khan Academy - Graphs](https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation) | Advanced |
+| 4  | OOP with Python (Custom PyTorch Class)   | Lập trình hướng đối tượng với Python, tạo class tùy chỉnh trong PyTorch. | [Real Python - OOP](https://realpython.com/python3-object-oriented-programming/) | Intermediate |
+| 5  | Searching Algorithms                     | Học về các thuật toán tìm kiếm như tìm kiếm nhị phân, DFS, BFS. | [GeeksforGeeks - Searching Algorithms](https://www.geeksforgeeks.org/searching-algorithms/) | Advanced |
+| 6  | Sorting Algorithms                       | Các thuật toán sắp xếp phổ biến như QuickSort, MergeSort, HeapSort. | [Sorting Algorithm Visualizer](https://visualgo.net/en/sorting) | Advanced | 
+| 7  | Tree Data Structure (and KDTree)         | Cấu trúc dữ liệu cây, ứng dụng KD-Tree trong tìm kiếm không gian. | [Scipy KDTree Documentation](https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.KDTree.html) | Intermediate |
+| 8  | Dữ liệu bảng và time-series              | Phân tích dữ liệu dạng bảng và chuỗi thời gian (Time Series). | [Time Series Forecasting Guide](https://otexts.com/fpp3/) | Intermediate |
+| 9  | Dữ liệu ảnh và video                     | Xử lý dữ liệu ảnh và video, các kỹ thuật tiền xử lý và trích xuất đặc trưng. | [Deep Learning for Computer Vision](https://www.pyimagesearch.com/deep-learning-computer-vision-python/) | Advanced |
+| 10 | Dữ liệu văn bản và âm thanh              | Giới thiệu về NLP và xử lý âm thanh với Python. | [Speech Processing Guide](https://www.kdnuggets.com/2020/02/complete-guide-speech-recognition.html) | Advanced|
 
-## Module 2 - Cấp độ Beginnes - Đẳng 2:
+## Module 2 - Cấp độ Beginners - Đẳng 2:
 Module 2 chuyên sâu hơn với Xác suất thống kê, Thống kê ứng dụng, Phân loại dữ liệu, Ma trận, Correlation Coefficient – những kiến thức cốt lõi để hiểu và triển khai thuật toán AI.
 * Học viên được thực hành với Numpy, SQL, thuật toán cây, đồ thị, lập trình động, giúp tối ưu hóa dữ liệu và thuật toán trong AI.
 
@@ -100,20 +100,20 @@ Module 2 chuyên sâu hơn với Xác suất thống kê, Thống kê ứng dụ
   * ✅ Kết nối Toán học với Lập trình, sẵn sàng cho nghiên cứu hoặc ứng dụng AI thực tiễn.
 
 
-| #  | Môn Học                                   | Tóm tắt nội dung                               | Link Tài Liệu |
-|----|-------------------------------------------|-----------------------------------------------|--------------|
-| 1  | Lập trình Numpy: Vector and Matrix       | Giới thiệu về Numpy, cách thao tác với vector và ma trận trong Python. | [NumPy Documentation](https://numpy.org/doc/) |
-| 2  | Đo mức độ tương đồng của dữ liệu using Cosine similarity | Hiểu về độ đo Cosine similarity và ứng dụng trong tìm kiếm tương tự. | [Scikit-Learn - Cosine Similarity](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise.cosine_similarity.html) |
-| 3  | Xác suất cơ bản và ứng dụng vào AI       | Học về xác suất cơ bản, quy luật phân phối và ứng dụng trong AI. | [Khan Academy - Probability](https://www.khanacademy.org/math/statistics-probability/probability-library) |
-| 4  | Phân loại dữ liệu dùng Naive Bayes classifier | Tìm hiểu về thuật toán Naive Bayes trong phân loại dữ liệu. | [Scikit-Learn - Naive Bayes](https://scikit-learn.org/stable/modules/naive_bayes.html) |
-| 5  | Thống kê cơ bản và ứng dụng vào AI        | Giới thiệu về các khái niệm thống kê cơ bản và cách áp dụng vào Machine Learning. | [StatQuest - Statistics](https://statquest.org/video-index/#statistics) |
-| 6  | Ứng dụng Correlation Coefficient vào các bài toán thực tế | Hiểu về hệ số tương quan và ứng dụng trong phân tích dữ liệu. | [Khan Academy - Correlation](https://www.khanacademy.org/math/statistics-probability/describing-relationships-quantitative-data) |
-| 7  | Tree Algorithm                           | Giới thiệu về thuật toán cây, cách xây dựng và ứng dụng trong AI. | [GeeksforGeeks - Tree Data Structure](https://www.geeksforgeeks.org/binary-tree-data-structure/) |
-| 8  | Graph Algorithms                         | Các thuật toán đồ thị phổ biến như Dijkstra, Floyd-Warshall, BFS, DFS. | [GeeksforGeeks - Graph Algorithms](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/) |
-| 9  | Dynamic Programming                      | Học về lập trình động, cách tối ưu hóa bài toán bằng quy hoạch động. | [Dynamic Programming Guide](https://www.geeksforgeeks.org/dynamic-programming/) |
-| 10 | Database - SQL (1)                       | Cơ bản về SQL, cách truy vấn dữ liệu từ cơ sở dữ liệu. | [W3Schools - SQL](https://www.w3schools.com/sql/) |
-| 11 | Database - SQL (2)                       | Các thao tác nâng cao với SQL như JOIN, GROUP BY, HAVING. | [Mode - SQL Tutorial](https://mode.com/sql-tutorial/) |
-| 12 | Database - SQL (3)                       | Xử lý dữ liệu lớn với SQL, tối ưu truy vấn và indexing. | [SQL Indexing Guide](https://use-the-index-luke.com/) |
+| #  | Môn Học                                   | Tóm tắt nội dung                               | Link Tài Liệu | Level |
+|----|-------------------------------------------|-----------------------------------------------|--------------| ------- |
+| 1  | Lập trình Numpy: Vector and Matrix       | Giới thiệu về Numpy, cách thao tác với vector và ma trận trong Python. | [NumPy Documentation](https://numpy.org/doc/) | Elementary |
+| 2  | Đo mức độ tương đồng của dữ liệu using Cosine similarity | Hiểu về độ đo Cosine similarity và ứng dụng trong tìm kiếm tương tự. | [Scikit-Learn - Cosine Similarity](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise.cosine_similarity.html) | Elementary |
+| 3  | Xác suất cơ bản và ứng dụng vào AI       | Học về xác suất cơ bản, quy luật phân phối và ứng dụng trong AI. | [Khan Academy - Probability](https://www.khanacademy.org/math/statistics-probability/probability-library) | Elementary |
+| 4  | Phân loại dữ liệu dùng Naive Bayes classifier | Tìm hiểu về thuật toán Naive Bayes trong phân loại dữ liệu. | [Scikit-Learn - Naive Bayes](https://scikit-learn.org/stable/modules/naive_bayes.html) | Elementary |
+| 5  | Thống kê cơ bản và ứng dụng vào AI        | Giới thiệu về các khái niệm thống kê cơ bản và cách áp dụng vào Machine Learning. | [StatQuest - Statistics](https://statquest.org/video-index/#statistics) | Elementary |
+| 6  | Ứng dụng Correlation Coefficient vào các bài toán thực tế | Hiểu về hệ số tương quan và ứng dụng trong phân tích dữ liệu. | [Khan Academy - Correlation](https://www.khanacademy.org/math/statistics-probability/describing-relationships-quantitative-data) | Elementary |
+| 7  | Tree Algorithm                           | Giới thiệu về thuật toán cây, cách xây dựng và ứng dụng trong AI. | [GeeksforGeeks - Tree Data Structure](https://www.geeksforgeeks.org/binary-tree-data-structure/) | Intermediate |
+| 8  | Graph Algorithms                         | Các thuật toán đồ thị phổ biến như Dijkstra, Floyd-Warshall, BFS, DFS. | [GeeksforGeeks - Graph Algorithms](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/) | Advanced |
+| 9  | Dynamic Programming                      | Học về lập trình động, cách tối ưu hóa bài toán bằng quy hoạch động. | [Dynamic Programming Guide](https://www.geeksforgeeks.org/dynamic-programming/) | Advanced |
+| 10 | Database - SQL (1)                       | Cơ bản về SQL, cách truy vấn dữ liệu từ cơ sở dữ liệu. | [W3Schools - SQL](https://www.w3schools.com/sql/) | Elementary |
+| 11 | Database - SQL (2)                       | Các thao tác nâng cao với SQL như JOIN, GROUP BY, HAVING. | [Mode - SQL Tutorial](https://mode.com/sql-tutorial/) | Intermediate |
+| 12 | Database - SQL (3)                       | Xử lý dữ liệu lớn với SQL, tối ưu truy vấn và indexing. | [SQL Indexing Guide](https://use-the-index-luke.com/) | Intermediate |
 
 ## Module 3 - Cấp độ Beginners - Đẳng 3:
 Module 3 tập trung vào khoa học dữ liệu (Data Science) và các thuật toán máy học (Machine Learning - ML) cơ bản.
@@ -133,24 +133,24 @@ Module 3 tập trung vào khoa học dữ liệu (Data Science) và các thuật
   * ✅ Làm chủ kỹ thuật xử lý dữ liệu lớn, lưu trữ và quản lý dữ liệu trong AI.
   * ✅ Sẵn sàng tham gia các nhóm nghiên cứu AI hoặc phát triển sản phẩm AI thực tế.
 
-| #  | Môn Học                                   | Tóm tắt nội dung                               | Link Tài Liệu |
-|----|-------------------------------------------|-----------------------------------------------|--------------|
-| 1  | Data Visualization and Analysis (1)      | Giới thiệu về trực quan hóa dữ liệu, biểu đồ và biểu diễn dữ liệu. | [Seaborn Guide](https://seaborn.pydata.org/) |
-| 2  | Data Visualization and Analysis (2)      | Phân tích dữ liệu bằng biểu đồ, sử dụng Matplotlib và Seaborn. | [Matplotlib Documentation](https://matplotlib.org/stable/contents.html) |
-| 3  | K-Mean                                   | Thuật toán phân cụm K-Means và ứng dụng trong phân tích dữ liệu. | [Scikit-Learn - KMeans](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html) |
-| 4  | K Nearest Neighbor (KNN)                 | Thuật toán KNN, cách hoạt động và ứng dụng trong phân loại dữ liệu. | [KNN Algorithm](https://www.datacamp.com/tutorial/k-nearest-neighbor-classification-scikit-learn) |
-| 5  | Bài toán phân loại dùng Decision Tree    | Giới thiệu về cây quyết định, cách xây dựng và áp dụng vào phân loại dữ liệu. | [Decision Tree Guide](https://scikit-learn.org/stable/modules/tree.html) |
-| 6  | Bài toán dự đoán dùng Decision Tree      | Áp dụng cây quyết định vào các bài toán dự báo. | [Machine Learning Mastery - Decision Trees](https://machinelearningmastery.com/implement-decision-tree-algorithm-scratch-python/) |
-| 7  | Text Project: Phân loại chủ đề của một bài báo | Ứng dụng Machine Learning vào xử lý văn bản, phân loại chủ đề. | [NLTK - Text Classification](https://www.nltk.org/book/ch06.html) |
-| 8  | Tabular Data Project: Phân loại khả năng mắc bệnh tim dựa vào các triệu chứng | Xây dựng mô hình phân loại bệnh tim dựa trên dữ liệu bảng. | [Heart Disease Dataset - Kaggle](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset) |
-| 9  | ETL Pipelines                            | Giới thiệu về quy trình trích xuất, biến đổi và tải dữ liệu (ETL). | [ETL Basics](https://towardsdatascience.com/etl-extract-transform-load-explained-4428e9a4c21e) |
-| 10 | PySpark for Data Processing              | Xử lý dữ liệu lớn bằng PySpark, các thao tác trên RDD và DataFrame. | [PySpark Documentation](https://spark.apache.org/docs/latest/api/python/getting_started/index.html) |
-| 11 | Cloud for Data Storage and Management    | Lưu trữ dữ liệu trên cloud, ứng dụng trong Big Data. | [AWS Data Lakes Guide](https://aws.amazon.com/data-lakes-and-analytics/) |
-| 12 | Decomposition and Applications           | Phân rã dữ liệu, ứng dụng trong xử lý tín hiệu và AI. | [Matrix Decomposition - SciPy](https://docs.scipy.org/doc/scipy/reference/generated/scipy.linalg.lu.html) |
-| 13 | SVD và ứng dụng                          | Singular Value Decomposition (SVD) và ứng dụng trong giảm chiều dữ liệu. | [SVD Tutorial](https://towardsdatascience.com/singular-value-decomposition-svd-8c2f72e264f) |
-| 14 | PCA và ứng dụng                          | Phân tích thành phần chính (PCA) và ứng dụng trong giảm chiều dữ liệu. | [PCA Guide](https://scikit-learn.org/stable/modules/decomposition.html#principal-component-analysis-pca) |
+| #  | Môn Học                                   | Tóm tắt nội dung                               | Link Tài Liệu |  Level |
+|----|-------------------------------------------|-----------------------------------------------|--------------| ------- |
+| 1  | Data Visualization and Analysis (1)      | Giới thiệu về trực quan hóa dữ liệu, biểu đồ và biểu diễn dữ liệu. | [Seaborn Guide](https://seaborn.pydata.org/) | Elementary |
+| 2  | Data Visualization and Analysis (2)      | Phân tích dữ liệu bằng biểu đồ, sử dụng Matplotlib và Seaborn. | [Matplotlib Documentation](https://matplotlib.org/stable/contents.html) | Elementary |
+| 3  | K-Mean                                   | Thuật toán phân cụm K-Means và ứng dụng trong phân tích dữ liệu. | [Scikit-Learn - KMeans](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html) | Elementary |
+| 4  | K Nearest Neighbor (KNN)                 | Thuật toán KNN, cách hoạt động và ứng dụng trong phân loại dữ liệu. | [KNN Algorithm](https://www.datacamp.com/tutorial/k-nearest-neighbor-classification-scikit-learn) | Elementary |
+| 5  | Bài toán phân loại dùng Decision Tree    | Giới thiệu về cây quyết định, cách xây dựng và áp dụng vào phân loại dữ liệu. | [Decision Tree Guide](https://scikit-learn.org/stable/modules/tree.html) | Intermediate |
+| 6  | Bài toán dự đoán dùng Decision Tree      | Áp dụng cây quyết định vào các bài toán dự báo. | [Machine Learning Mastery - Decision Trees](https://machinelearningmastery.com/implement-decision-tree-algorithm-scratch-python/) | Intermediate |
+| 7  | Text Project: Phân loại chủ đề của một bài báo | Ứng dụng Machine Learning vào xử lý văn bản, phân loại chủ đề. | [NLTK - Text Classification](https://www.nltk.org/book/ch06.html) | Intermediate |
+| 8  | Tabular Data Project: Phân loại khả năng mắc bệnh tim dựa vào các triệu chứng | Xây dựng mô hình phân loại bệnh tim dựa trên dữ liệu bảng. | [Heart Disease Dataset - Kaggle](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset) | Intermediate |
+| 9  | ETL Pipelines                            | Giới thiệu về quy trình trích xuất, biến đổi và tải dữ liệu (ETL). | [ETL Basics](https://towardsdatascience.com/etl-extract-transform-load-explained-4428e9a4c21e) | Elementary |
+| 10 | PySpark for Data Processing              | Xử lý dữ liệu lớn bằng PySpark, các thao tác trên RDD và DataFrame. | [PySpark Documentation](https://spark.apache.org/docs/latest/api/python/getting_started/index.html) | Intermediate |
+| 11 | Cloud for Data Storage and Management    | Lưu trữ dữ liệu trên cloud, ứng dụng trong Big Data. | [AWS Data Lakes Guide](https://aws.amazon.com/data-lakes-and-analytics/) | Intermediate |
+| 12 | Decomposition and Applications           | Phân rã dữ liệu, ứng dụng trong xử lý tín hiệu và AI. | [Matrix Decomposition - SciPy](https://docs.scipy.org/doc/scipy/reference/generated/scipy.linalg.lu.html) | Intermediate |
+| 13 | SVD và ứng dụng                          | Singular Value Decomposition (SVD) và ứng dụng trong giảm chiều dữ liệu. | [SVD Tutorial](https://towardsdatascience.com/singular-value-decomposition-svd-8c2f72e264f) | Elementary | 
+| 14 | PCA và ứng dụng                          | Phân tích thành phần chính (PCA) và ứng dụng trong giảm chiều dữ liệu. | [PCA Guide](https://scikit-learn.org/stable/modules/decomposition.html#principal-component-analysis-pca) | Elementary |
 
-## Module 4 - Cấp độ Immediate - Đẳng 1:
+## Module 4 - Cấp độ Intermediate - Đẳng 1:
 Module 4 tập trung vào các thuật toán học máy nâng cao (Advanced Machine Learning), đặc biệt trên dữ liệu bảng (tabular data) và chuỗi thời gian (time-series data).
 
 * Học viên được đào tạo chuyên sâu về Random Forest, Gradient Boosting (XGBoost, LightGBM, CatBoost) – những thuật toán mạnh nhất trong AI hiện nay.
@@ -172,8 +172,8 @@ Module 4 tập trung vào các thuật toán học máy nâng cao (Advanced Mach
   * ✅ Chuẩn bị cho các công việc yêu cầu Machine Learning nâng cao, như AI for Finance, AI for Healthcare.
   * ✅ Mở rộng khả năng nghiên cứu AI, sẵn sàng bước vào Deep Learning và AI triển khai thực tế.
 
-| #  | Môn Học                                   | Tóm tắt nội dung                               | Link Tài Liệu |
-|----|-------------------------------------------|-----------------------------------------------|--------------|
+| #  | Môn Học                                   | Tóm tắt nội dung                               | Link Tài Liệu | Level |
+|----|-------------------------------------------|-----------------------------------------------|--------------| ------- |
 | 1  | Random Forest                            | Giới thiệu thuật toán Random Forest, cách hoạt động và ứng dụng. | [Scikit-Learn - Random Forest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html) |
 | 2  | AdaBoost                                 | Tìm hiểu về Adaptive Boosting (AdaBoost) và ứng dụng trong phân loại. | [AdaBoost Tutorial](https://towardsdatascience.com/understanding-adaboost-2f94f22d5bfe) |
 | 3  | Gradient Boost                           | Hiểu về Gradient Boosting, cách sử dụng và ứng dụng trong AI. | [XGBoost Documentation](https://xgboost.readthedocs.io/en/stable/) |
@@ -189,7 +189,7 @@ Module 4 tập trung vào các thuật toán học máy nâng cao (Advanced Mach
 | 13 | PySpark for Data Processing              | Xử lý dữ liệu lớn với PySpark, làm việc với RDD và DataFrame. | [PySpark API](https://spark.apache.org/docs/latest/api/python/) |
 | 14 | SVM                                      | Giới thiệu về Support Vector Machines (SVM), cách hoạt động và ứng dụng. | [Scikit-Learn - SVM](https://scikit-learn.org/stable/modules/svm.html) |
 
-## Module 5 - Cấp độ Immediate - Đẳng 2:
+## Module 5 - Cấp độ Intermediate - Đẳng 2:
 Module 5 là bước đệm vào Deep Learning, tập trung vào Linear Regression nâng cao (L1, L2, Huber losses), vector hóa và thuật toán tiến hóa (Genetic Algorithms).
 * Học viên học cách tối ưu hóa mô hình ML, tăng tốc suy luận với Numba, TorchScript, và triển khai mô hình bằng Triton Inference Server.
 
@@ -221,7 +221,7 @@ Module 5 là bước đệm vào Deep Learning, tập trung vào Linear Regressi
 | 15 | Non-Linear Regression                     | Hồi quy phi tuyến, cách triển khai và ứng dụng thực tế. | [Non-Linear Regression Guide](https://www.statisticshowto.com/probability-and-statistics/regression-analysis/non-linear-regression/) |
 | 16 | Survey on Evolutionary Algorithms         | Tổng quan về các thuật toán tiến hóa và ứng dụng. | [Evolutionary Computation](https://mitpress.mit.edu/books/introduction-evolutionary-computing) |
 
-## Module 6 - Cấp độ Immediate - Đẳng 3:
+## Module 6 - Cấp độ Intermediate - Đẳng 3:
 Module 6 mở rộng từ hồi quy tuyến tính (Linear Regression) sang hồi quy Logistic và Softmax Regression, giúp hiểu rõ hơn về phân loại nhị phân & đa lớp.
 * Học viên tiếp cận PyTorch, triển khai Multilayer Perceptron (MLP) cho dữ liệu ảnh, văn bản, và dữ liệu bảng.
 
@@ -253,7 +253,7 @@ Module 6 mở rộng từ hồi quy tuyến tính (Linear Regression) sang hồi
 | 13 | Loss Functions for Classification        | Hiểu về các hàm mất mát phổ biến trong phân loại như Cross-Entropy, Hinge Loss. | [Loss Functions Overview](https://towardsdatascience.com/cross-entropy-loss-function-f38c4ec8643e) |
 | 14 | Metric for Classification                | Đánh giá hiệu suất mô hình phân loại bằng Precision, Recall, F1-score. | [Classification Metrics](https://scikit-learn.org/stable/modules/model_evaluation.html#classification-metrics) |
 
-## Module 7 - Cấp độ Advance - Đẳng 1:
+## Module 7 - Cấp độ Advanced - Đẳng 1:
 Module 7 đi sâu vào các thành phần quan trọng của mạng nơ-ron: Hàm kích hoạt (Activations), Trọng số khởi tạo (Initializers), và Bộ tối ưu hóa (Optimizers).
 * Học viên nghiên cứu các biến thể của MLP (MLP Variants: Mixer) và cách giải quyết vấn đề Gradient Vanishing.
 
@@ -283,7 +283,7 @@ Module 7 đi sâu vào các thành phần quan trọng của mạng nơ-ron: Hà
 | 12 | Research Directions for Initializers     | Hướng nghiên cứu về các phương pháp khởi tạo trọng số tối ưu. | [Weight Initialization](https://arxiv.org/pdf/1502.01852.pdf) |
 | 13 | Research Directions for Optimizers       | Các hướng nghiên cứu mới về thuật toán tối ưu trong Deep Learning. | [Optimization in DL](https://openai.com/research/) |
 
-## Module 8 - Cấp độ Advance - Đẳng 2:
+## Module 8 - Cấp độ Advanced - Đẳng 2:
 Module 8 tập trung vào các kiến trúc Deep Learning nâng cao, bao gồm CNN cho ảnh, RNN/LSTM/GRU cho dữ liệu chuỗi thời gian và văn bản, Transformer cho xử lý ngôn ngữ tự nhiên (NLP).
 * Học viên sẽ làm việc với PyTorch, học cách huấn luyện và tổng quát hóa mô hình.
 
@@ -421,22 +421,22 @@ Module 12 tập trung vào huấn luyện và tinh chỉnh các mô hình ngôn 
 * ✅ MLOps Engineer – Triển khai LLMs trên LangChain, tối ưu inference cho ứng dụng thực tế.
 * ✅ Conversational AI Engineer – Xây dựng Chatbots, AI Agents, AI Planning Systems.
 
-| #  | Môn Học                                   | Tóm tắt nội dung                               | Link Tài Liệu |
-|----|-------------------------------------------|-----------------------------------------------|--------------|
-| 1  | Pretraining LLM (GPT)                    | Giới thiệu về quá trình huấn luyện mô hình ngôn ngữ lớn GPT. | [GPT-3 Paper](https://arxiv.org/abs/2005.14165) |
-| 2  | Parameter-Efficient Fine-Tuning          | Tối ưu hóa mô hình LLM bằng kỹ thuật fine-tuning hiệu quả. | [PEFT Guide](https://huggingface.co/docs/peft/index) |
-| 3  | Instruction Tuning (Prompt for Training) | Cải thiện chất lượng mô hình bằng cách huấn luyện với hướng dẫn. | [Instruction Tuning](https://arxiv.org/abs/2204.05862) |
-| 4  | LLM Deployment (LangChain)               |  Triển khai LLM bằng LangChain để xây dựng ứng dụng AI. | [LangChain Docs](https://python.langchain.com/en/latest/) |
-| 5  | High-level Agents for Chatbots           | Phát triển chatbot thông minh với các tác tử cấp cao. | [AI Agents](https://arxiv.org/abs/2305.15074) |
-| 6  | Agents from Scratch for Chatbots (Gemini API) | Xây dựng chatbot từ đầu, tích hợp API Gemini. | [Google Gemini](https://ai.google.dev/) |
-| 7  | Project: Vision Language Model           | Xây dựng mô hình AI kết hợp xử lý ngôn ngữ và hình ảnh. | [Vision-Language Model](https://arxiv.org/abs/2102.03334) |
-| 8  | Reinforcement Learning (CartPole)        | Học cách áp dụng RL vào bài toán điều khiển CartPole. | [RL with OpenAI Gym](https://www.gymlibrary.dev/) |
-| 9  | Reinforcement Learning (DDPG)            | Học tăng cường với thuật toán Deep Deterministic Policy Gradient. | [DDPG Paper](https://arxiv.org/abs/1509.02971) |
-| 10 | Advances in Reinforcement Learning       | Các phương pháp mới nhất trong lĩnh vực Học tăng cường. | [Deep RL Overview](https://spinningup.openai.com/en/latest/) |
-| 11 | GNN (Node Classification)                | Áp dụng Mạng nơ-ron đồ thị (GNN) vào bài toán phân loại nút. | [Graph Neural Networks](https://distill.pub/2021/gnn-intro/) |
-| 12 | GNN (Molecular Property Prediction)      | Dự đoán tính chất phân tử bằng GNN. | [Molecule GNN](https://arxiv.org/abs/2002.03212) |
-| 13 | Advances in GNN                          | Các nghiên cứu mới nhất về Mạng nơ-ron đồ thị. | [GNN Research](https://arxiv.org/abs/2003.00982) |
-| 14 | Classification for 3D Point Cloud Data   | Phân loại dữ liệu điểm 3D bằng Deep Learning. | [PointNet Paper](https://arxiv.org/abs/1612.00593) |
-| 15 | Advances in 3D Point Cloud Data          | Các nghiên cứu mới về xử lý dữ liệu 3D bằng AI. | [3D Deep Learning](https://arxiv.org/abs/2303.02642) |
-| 16 | Research Directions in 3D Data           | Hướng nghiên cứu trong lĩnh vực xử lý dữ liệu 3D. | [3D AI Research](https://arxiv.org/abs/2102.12097) |
+| #  | Môn Học                                   | Tóm tắt nội dung                               | Link Tài Liệu | Level |
+|----|-------------------------------------------|-----------------------------------------------|--------------| ------- |
+| 1  | Pretraining LLM (GPT)                    | Giới thiệu về quá trình huấn luyện mô hình ngôn ngữ lớn GPT. | [GPT-3 Paper](https://arxiv.org/abs/2005.14165) | Advanced |
+| 2  | Parameter-Efficient Fine-Tuning          | Tối ưu hóa mô hình LLM bằng kỹ thuật fine-tuning hiệu quả. | [PEFT Guide](https://huggingface.co/docs/peft/index) | Advanced |
+| 3  | Instruction Tuning (Prompt for Training) | Cải thiện chất lượng mô hình bằng cách huấn luyện với hướng dẫn. | [Instruction Tuning](https://arxiv.org/abs/2204.05862) | Advanced |
+| 4  | LLM Deployment (LangChain)               |  Triển khai LLM bằng LangChain để xây dựng ứng dụng AI. | [LangChain Docs](https://python.langchain.com/en/latest/) | Advanced |
+| 5  | High-level Agents for Chatbots           | Phát triển chatbot thông minh với các tác tử cấp cao. | [AI Agents](https://arxiv.org/abs/2305.15074) | Advanced |
+| 6  | Agents from Scratch for Chatbots (Gemini API) | Xây dựng chatbot từ đầu, tích hợp API Gemini. | [Google Gemini](https://ai.google.dev/) | Advanced |
+| 7  | Project: Vision Language Model           | Xây dựng mô hình AI kết hợp xử lý ngôn ngữ và hình ảnh. | [Vision-Language Model](https://arxiv.org/abs/2102.03334) | Advanced |
+| 8  | Reinforcement Learning (CartPole)        | Học cách áp dụng RL vào bài toán điều khiển CartPole. | [RL with OpenAI Gym](https://www.gymlibrary.dev/) | Advanced |
+| 9  | Reinforcement Learning (DDPG)            | Học tăng cường với thuật toán Deep Deterministic Policy Gradient. | [DDPG Paper](https://arxiv.org/abs/1509.02971) | Advanced |
+| 10 | Advances in Reinforcement Learning       | Các phương pháp mới nhất trong lĩnh vực Học tăng cường. | [Deep RL Overview](https://spinningup.openai.com/en/latest/) | Advanced |
+| 11 | GNN (Node Classification)                | Áp dụng Mạng nơ-ron đồ thị (GNN) vào bài toán phân loại nút. | [Graph Neural Networks](https://distill.pub/2021/gnn-intro/) | Advanced |
+| 12 | GNN (Molecular Property Prediction)      | Dự đoán tính chất phân tử bằng GNN. | [Molecule GNN](https://arxiv.org/abs/2002.03212) | Advanced |
+| 13 | Advances in GNN                          | Các nghiên cứu mới nhất về Mạng nơ-ron đồ thị. | [GNN Research](https://arxiv.org/abs/2003.00982) | Advanced |
+| 14 | Classification for 3D Point Cloud Data   | Phân loại dữ liệu điểm 3D bằng Deep Learning. | [PointNet Paper](https://arxiv.org/abs/1612.00593) | Advanced |
+| 15 | Advances in 3D Point Cloud Data          | Các nghiên cứu mới về xử lý dữ liệu 3D bằng AI. | [3D Deep Learning](https://arxiv.org/abs/2303.02642) | Advanced |
+| 16 | Research Directions in 3D Data           | Hướng nghiên cứu trong lĩnh vực xử lý dữ liệu 3D. | [3D AI Research](https://arxiv.org/abs/2102.12097) | Advanced |
 
