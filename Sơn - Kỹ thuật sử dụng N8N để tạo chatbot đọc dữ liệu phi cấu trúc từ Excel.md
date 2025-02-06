@@ -1,6 +1,8 @@
 # Nội dung
 1.[Xây dựng chatbot private hỗ trợ truy vấn và phản hồi dữ liệu phi cấu trúc bằng N8N](https://github.com/hoanglong8/Document-Data-science/blob/main/S%C6%A1n%20-%20K%E1%BB%B9%20thu%E1%BA%ADt%20s%E1%BB%AD%20d%E1%BB%A5ng%20N8N%20%C4%91%E1%BB%83%20t%E1%BA%A1o%20chatbot%20%C4%91%E1%BB%8Dc%20d%E1%BB%AF%20li%E1%BB%87u%20phi%20c%E1%BA%A5u%20tr%C3%BAc%20t%E1%BB%AB%20Excel.md)
+
 2.[Xây dựng workflow speech-to-text bằng N8N](https://github.com/hoanglong8/Document-Data-science/blob/main/S%C6%A1n%20-%20K%E1%BB%B9%20thu%E1%BA%ADt%20s%E1%BB%AD%20d%E1%BB%A5ng%20N8N%20%C4%91%E1%BB%83%20t%E1%BA%A1o%20chatbot%20%C4%91%E1%BB%8Dc%20d%E1%BB%AF%20li%E1%BB%87u%20phi%20c%E1%BA%A5u%20tr%C3%BAc%20t%E1%BB%AB%20Excel.md)
+
 3.Xây dựng workflow tự động dịch văn bản bằng N8N
 
 # 1.RAG Chatbot Excel - Chatbot hỗ trợ đọc file excel
