@@ -267,21 +267,21 @@ Module 7 đi sâu vào các thành phần quan trọng của mạng nơ-ron: Hà
 * ✅ MLOps Engineer – Quản lý pipeline huấn luyện AI, theo dõi và quản lý phiên bản mô hình (MLFlow, Logging Applications).
 * ✅ AI Research Engineer – Tập trung vào các hướng nghiên cứu mới về Activations, Initializers, và Optimizers.
 
-| #  | Môn Học                                   | Tóm tắt nội dung                               | Link Tài Liệu |
-|----|-------------------------------------------|-----------------------------------------------|--------------|
-| 1  | Activations                              | Giới thiệu các hàm kích hoạt như ReLU, Sigmoid, Tanh, và Softmax. | [Activation Functions - Deep Learning](https://www.analyticsvidhya.com/blog/2021/03/a-comprehensive-guide-on-deep-learning-activation-functions/) |
-| 2  | Initializers                             | Tìm hiểu về cách khởi tạo trọng số trong mạng Neural như Xavier, He Initialization. | [Weight Initialization Guide](https://towardsdatascience.com/weight-initialization-techniques-in-neural-networks-26c649eb3b78) |
-| 3  | Optimizers for Neural Networks (1)       | Giới thiệu các thuật toán tối ưu như Gradient Descent, Momentum. | [Optimization Algorithms](https://ruder.io/optimizing-gradient-descent/) |
-| 4  | Optimizers for Neural Networks (2)       | Hiểu về Adam, RMSprop và các thuật toán tối ưu nâng cao. | [Adam and RMSprop](https://towardsdatascience.com/gradient-descent-algorithms-and-their-optimizers-9ad7d7c52b7c) |
-| 5  | MLP Variant: Mixer                       | Giới thiệu về MLP Mixer, kiến trúc mới trong Deep Learning. | [MLP Mixer Paper](https://arxiv.org/abs/2105.01601) |
-| 6  | Project: Giải vấn đề Gradient Vanishing trong MLP bằng nhiều cách khác nhau | Phân tích vấn đề Gradient Vanishing trong MLP và các cách khắc phục. | [Gradient Vanishing Problem](https://towardsdatascience.com/the-vanishing-gradient-problem-69bf08b15484) |
-| 7  | Project: So sánh MLP và Mixer cho các dữ liệu khác nhau | Thực hiện nghiên cứu và thử nghiệm để so sánh hiệu suất của MLP và Mixer. | [MLP vs Mixer](https://paperswithcode.com/method/mlp-mixer) |
-| 8  | AirFlow for Scheduling                   | Sử dụng Apache Airflow để lên lịch và quản lý luồng công việc ML. | [Apache Airflow Documentation](https://airflow.apache.org/) |
-| 9  | MLFlow for Model Tracking and Versioning | Quản lý phiên bản mô hình Machine Learning bằng MLFlow. | [MLFlow Guide](https://mlflow.org/docs/latest/index.html) |
-| 10 | Tracking and Logging Applications        | Ghi log và theo dõi quá trình huấn luyện mô hình. | [Logging in ML](https://towardsdatascience.com/why-and-how-to-track-your-machine-learning-experiments-2a86fce3b70d) |
-| 11 | Research Directions for Activations      | Hướng nghiên cứu về các hàm kích hoạt trong mạng nơ-ron. | [Advanced Activations](https://keras.io/api/layers/activations/) |
-| 12 | Research Directions for Initializers     | Hướng nghiên cứu về các phương pháp khởi tạo trọng số tối ưu. | [Weight Initialization](https://arxiv.org/pdf/1502.01852.pdf) |
-| 13 | Research Directions for Optimizers       | Các hướng nghiên cứu mới về thuật toán tối ưu trong Deep Learning. | [Optimization in DL](https://openai.com/research/) |
+| #  | Môn Học                                   | Tóm tắt nội dung                               | Link Tài Liệu | Level |
+|----|-------------------------------------------|-----------------------------------------------|--------------| ------ |
+| 1  | Activations                              | Giới thiệu các hàm kích hoạt như ReLU, Sigmoid, Tanh, và Softmax. | [Activation Functions - Deep Learning](https://www.analyticsvidhya.com/blog/2021/03/a-comprehensive-guide-on-deep-learning-activation-functions/) | Intermediate |
+| 2  | Initializers                             | Tìm hiểu về cách khởi tạo trọng số trong mạng Neural như Xavier, He Initialization. | [Weight Initialization Guide](https://towardsdatascience.com/weight-initialization-techniques-in-neural-networks-26c649eb3b78) |  Intermediate |
+| 3  | Optimizers for Neural Networks (1)       | Giới thiệu các thuật toán tối ưu như Gradient Descent, Momentum. | [Optimization Algorithms](https://ruder.io/optimizing-gradient-descent/) |  Intermediate |
+| 4  | Optimizers for Neural Networks (2)       | Hiểu về Adam, RMSprop và các thuật toán tối ưu nâng cao. | [Adam and RMSprop](https://towardsdatascience.com/gradient-descent-algorithms-and-their-optimizers-9ad7d7c52b7c) |  Intermediate |
+| 5  | MLP Variant: Mixer                       | Giới thiệu về MLP Mixer, kiến trúc mới trong Deep Learning. | [MLP Mixer Paper](https://arxiv.org/abs/2105.01601) |  Advanced |
+| 6  | Project: Giải vấn đề Gradient Vanishing trong MLP bằng nhiều cách khác nhau | Phân tích vấn đề Gradient Vanishing trong MLP và các cách khắc phục. | [Gradient Vanishing Problem](https://towardsdatascience.com/the-vanishing-gradient-problem-69bf08b15484) |  Intermediate |
+| 7  | Project: So sánh MLP và Mixer cho các dữ liệu khác nhau | Thực hiện nghiên cứu và thử nghiệm để so sánh hiệu suất của MLP và Mixer. | [MLP vs Mixer](https://paperswithcode.com/method/mlp-mixer) |  Advanced |
+| 8  | AirFlow for Scheduling                   | Sử dụng Apache Airflow để lên lịch và quản lý luồng công việc ML. | [Apache Airflow Documentation](https://airflow.apache.org/) |  Intermediate |
+| 9  | MLFlow for Model Tracking and Versioning | Quản lý phiên bản mô hình Machine Learning bằng MLFlow. | [MLFlow Guide](https://mlflow.org/docs/latest/index.html) |  Intermediate |
+| 10 | Tracking and Logging Applications        | Ghi log và theo dõi quá trình huấn luyện mô hình. | [Logging in ML](https://towardsdatascience.com/why-and-how-to-track-your-machine-learning-experiments-2a86fce3b70d) |  Intermediate |
+| 11 | Research Directions for Activations      | Hướng nghiên cứu về các hàm kích hoạt trong mạng nơ-ron. | [Advanced Activations](https://keras.io/api/layers/activations/) |  Advanced |
+| 12 | Research Directions for Initializers     | Hướng nghiên cứu về các phương pháp khởi tạo trọng số tối ưu. | [Weight Initialization](https://arxiv.org/pdf/1502.01852.pdf) |  Advanced |
+| 13 | Research Directions for Optimizers       | Các hướng nghiên cứu mới về thuật toán tối ưu trong Deep Learning. | [Optimization in DL](https://openai.com/research/) |  Advanced |
 
 ## Module 8 - Cấp độ Advanced - Đẳng 2:
 Module 8 tập trung vào các kiến trúc Deep Learning nâng cao, bao gồm CNN cho ảnh, RNN/LSTM/GRU cho dữ liệu chuỗi thời gian và văn bản, Transformer cho xử lý ngôn ngữ tự nhiên (NLP).
@@ -300,21 +300,21 @@ Module 8 tập trung vào các kiến trúc Deep Learning nâng cao, bao gồm C
 
 | #  | Môn Học                                   | Tóm tắt nội dung                               | Link Tài Liệu |
 |----|-------------------------------------------|-----------------------------------------------|--------------|
-| 1  | Basic CNN (Image)                         | Giới thiệu về mạng tích chập CNN, kiến trúc cơ bản và ứng dụng. | [CNN Guide](https://towardsdatascience.com/a-guide-to-convolutional-neural-networks-for-computer-vision-817fd20bcf73) |
-| 2  | CNN Training and Generalization           | Học về cách huấn luyện CNN và phương pháp tổng quát hóa mô hình. | [Deep Learning for Computer Vision](https://www.pyimagesearch.com/deep-learning-computer-vision-python/) |
-| 3  | RNN (Time-series and Text)                | Giới thiệu về mạng nơ-ron hồi tiếp (RNN), ứng dụng trong xử lý chuỗi thời gian và văn bản. | [RNN Tutorial](https://towardsdatascience.com/recurrent-neural-networks-d4642c9bc7ce) |
-| 4  | LSTM/GRU (Time-series and Text)           | Học về LSTM và GRU, cải tiến của RNN trong việc xử lý dữ liệu chuỗi. | [Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/) |
-| 5  | Transformer (Encoder - Text Classification) | Giới thiệu về Transformer, cách hoạt động và ứng dụng vào phân loại văn bản. | [Attention Is All You Need](https://arxiv.org/abs/1706.03762) |
-| 6  | Transformer for Image and Time-series Data | Áp dụng Transformer để xử lý dữ liệu hình ảnh và chuỗi thời gian. | [Vision Transformer](https://arxiv.org/abs/2010.11929) |
-| 7  | Image Project: OCR (YoloV10+CNN)          | Xây dựng hệ thống nhận diện ký tự quang học (OCR) sử dụng Yolo và CNN. | [OCR with Deep Learning](https://towardsdatascience.com/optical-character-recognition-ocr-with-deep-learning-6e2fc1b3c0ce) |
-| 8  | Information Extraction from ID Card       | Ứng dụng AI để trích xuất thông tin từ giấy tờ tùy thân. | [AI for Document Processing](https://aws.amazon.com/textract/) |
-| 9  | CI/CD pipeline                            | Tích hợp và triển khai liên tục mô hình AI bằng CI/CD. | [CI/CD for Machine Learning](https://towardsdatascience.com/cicd-in-machine-learning-14c6b82107e1) |
-| 10 | Model Quantization                        | Kỹ thuật giảm kích thước mô hình để tối ưu hóa hiệu suất. | [Quantization in Deep Learning](https://www.tensorflow.org/model_optimization/guide/quantization) |
-| 11 | Model Pruning                             | Loại bỏ các tham số không cần thiết trong mạng Neural để giảm độ phức tạp. | [Pruning Deep Networks](https://arxiv.org/abs/1608.08710) |
-| 12 | Advanced inference tools (Triton and BentoML) | Sử dụng Triton Inference Server và BentoML để triển khai mô hình. | [NVIDIA Triton Server](https://developer.nvidia.com/nvidia-triton-inference-server) |
-| 13 | Advanced CNN Architecture                 | Các mô hình CNN tiên tiến như ResNet, EfficientNet. | [CNN Architectures](https://towardsdatascience.com/a-journey-through-cnns-resnet-to-efficientnet-32d6df57f51c) |
-| 14 | Unsupervised Learning                     | Học không giám sát và các thuật toán như Autoencoder, Clustering. | [Unsupervised Learning Guide](https://scikit-learn.org/stable/unsupervised_learning.html) |
-| 15 | Distillation                              | Kỹ thuật Knowledge Distillation để nén mô hình AI. | [Knowledge Distillation](https://arxiv.org/abs/1503.02531) |
+| 1  | Basic CNN (Image)                         | Giới thiệu về mạng tích chập CNN, kiến trúc cơ bản và ứng dụng. | [CNN Guide](https://towardsdatascience.com/a-guide-to-convolutional-neural-networks-for-computer-vision-817fd20bcf73) | Intermediate |
+| 2  | CNN Training and Generalization           | Học về cách huấn luyện CNN và phương pháp tổng quát hóa mô hình. | [Deep Learning for Computer Vision](https://www.pyimagesearch.com/deep-learning-computer-vision-python/) | Intermediate |
+| 3  | RNN (Time-series and Text)                | Giới thiệu về mạng nơ-ron hồi tiếp (RNN), ứng dụng trong xử lý chuỗi thời gian và văn bản. | [RNN Tutorial](https://towardsdatascience.com/recurrent-neural-networks-d4642c9bc7ce) | Intermediate |
+| 4  | LSTM/GRU (Time-series and Text)           | Học về LSTM và GRU, cải tiến của RNN trong việc xử lý dữ liệu chuỗi. | [Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/) | Intermediate |
+| 5  | Transformer (Encoder - Text Classification) | Giới thiệu về Transformer, cách hoạt động và ứng dụng vào phân loại văn bản. | [Attention Is All You Need](https://arxiv.org/abs/1706.03762) | Advanced |
+| 6  | Transformer for Image and Time-series Data | Áp dụng Transformer để xử lý dữ liệu hình ảnh và chuỗi thời gian. | [Vision Transformer](https://arxiv.org/abs/2010.11929) | Advanced |
+| 7  | Image Project: OCR (YoloV10+CNN)          | Xây dựng hệ thống nhận diện ký tự quang học (OCR) sử dụng Yolo và CNN. | [OCR with Deep Learning](https://towardsdatascience.com/optical-character-recognition-ocr-with-deep-learning-6e2fc1b3c0ce) | Advanced |
+| 8  | Information Extraction from ID Card       | Ứng dụng AI để trích xuất thông tin từ giấy tờ tùy thân. | [AI for Document Processing](https://aws.amazon.com/textract/) | Advanced |
+| 9  | CI/CD pipeline                            | Tích hợp và triển khai liên tục mô hình AI bằng CI/CD. | [CI/CD for Machine Learning](https://towardsdatascience.com/cicd-in-machine-learning-14c6b82107e1) | Advanced |
+| 10 | Model Quantization                        | Kỹ thuật giảm kích thước mô hình để tối ưu hóa hiệu suất. | [Quantization in Deep Learning](https://www.tensorflow.org/model_optimization/guide/quantization) | Advanced |
+| 11 | Model Pruning                             | Loại bỏ các tham số không cần thiết trong mạng Neural để giảm độ phức tạp. | [Pruning Deep Networks](https://arxiv.org/abs/1608.08710) | Advanced |
+| 12 | Advanced inference tools (Triton and BentoML) | Sử dụng Triton Inference Server và BentoML để triển khai mô hình. | [NVIDIA Triton Server](https://developer.nvidia.com/nvidia-triton-inference-server) | Advanced |
+| 13 | Advanced CNN Architecture                 | Các mô hình CNN tiên tiến như ResNet, EfficientNet. | [CNN Architectures](https://towardsdatascience.com/a-journey-through-cnns-resnet-to-efficientnet-32d6df57f51c) | Advanced |
+| 14 | Unsupervised Learning                     | Học không giám sát và các thuật toán như Autoencoder, Clustering. | [Unsupervised Learning Guide](https://scikit-learn.org/stable/unsupervised_learning.html) | Intermediate |
+| 15 | Distillation                              | Kỹ thuật Knowledge Distillation để nén mô hình AI. | [Knowledge Distillation](https://arxiv.org/abs/1503.02531) | Advanced |
 
 ## Module 9 - Cấp độ Advance - Đẳng 3:
 Module 9 tập trung vào Deep Learning cho Computer Vision, bao gồm chuyển đổi miền ảnh (Denoising, Colorization, Super-resolution) và Object Detection (YOLO, Pretrained Models).
@@ -330,22 +330,22 @@ Module 9 tập trung vào Deep Learning cho Computer Vision, bao gồm chuyển 
 * ✅ AI Research Engineer – Nghiên cứu công nghệ tiên tiến Stereo Depth Estimation, Monodepth Estimation.
 * ✅ MLOps Engineer – Tối ưu và triển khai AI vào hệ thống xử lý ảnh thời gian thực.
 
-| #  | Môn Học                                   | Tóm tắt nội dung                               | Link Tài Liệu |
-|----|-------------------------------------------|-----------------------------------------------|--------------|
-| 1  | Domain Conversion - Denoising and Segmentation | Xử lý ảnh bằng kỹ thuật khử nhiễu và phân đoạn hình ảnh. | [Image Denoising Guide](https://arxiv.org/abs/2003.01999) |
-| 2  | Domain Conversion - Colorization and Super-resolution | Chuyển đổi ảnh đen trắng thành ảnh màu và nâng cao độ phân giải bằng Deep Learning. | [Super-resolution using CNNs](https://arxiv.org/abs/1609.04802) |
-| 3  | Object Detection (Yolo, Faster R-CNN)     | Phát hiện đối tượng trong ảnh bằng các mô hình tiên tiến như YOLO và Faster R-CNN. | [YOLO Paper](https://arxiv.org/abs/1506.02640) |
-| 4  | Image Project: Footballer Tracking       | Xây dựng mô hình theo dõi cầu thủ trong các trận đấu bóng đá. | [Object Tracking Guide](https://towardsdatascience.com/multi-object-tracking-in-computer-vision-2c3e02b3eef0) |
-| 5  | Research Project: Advances in Medical Image Analysis | Nghiên cứu các phương pháp mới trong phân tích ảnh y tế bằng Deep Learning. | [Medical Image Analysis](https://www.nature.com/articles/s41592-020-01008-x) |
-| 6  | UNet                                     | Tìm hiểu về UNet, một mô hình mạnh mẽ cho phân đoạn ảnh y tế. | [UNet Paper](https://arxiv.org/abs/1505.04597) |
-| 7  | Object Detection Using Pretrained Models  | Sử dụng các mô hình đã được huấn luyện trước để phát hiện đối tượng trong ảnh. | [TensorFlow Object Detection](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/) |
-| 8  | Yolov1                                   | Hiểu về YOLOv1 và cách triển khai mô hình phát hiện đối tượng. | [YOLOv1 Paper](https://arxiv.org/abs/1506.02640) |
-| 9  | VideoCLIP for Video Classification       | Sử dụng VideoCLIP để phân loại video dựa trên nội dung. | [VideoCLIP Research](https://arxiv.org/abs/2109.14084) |
-| 10 | Stereo Depth Estimation                   | Dự đoán chiều sâu từ ảnh stereo bằng AI. | [Stereo Depth Estimation](https://arxiv.org/abs/2007.11371) |
-| 11 | Monodepth Estimation                      | Dự đoán chiều sâu từ ảnh đơn bằng Deep Learning. | [Monodepth Research](https://arxiv.org/abs/1606.04390) |
-| 12 | Mamba (1)                                 | Giới thiệu về kiến trúc Mamba trong Deep Learning. | [Mamba Architecture](https://arxiv.org/abs/2310.00288) |
-| 13 | Mamba (2)                                 | Hiểu sâu hơn về Mamba và cách triển khai. | [Mamba Paper](https://arxiv.org/abs/2310.00288) |
-| 14 | Mamba: Research Directions                | Các hướng nghiên cứu mới về kiến trúc Mamba. | [Mamba Research](https://arxiv.org/abs/2310.00288) |
+| #  | Môn Học                                   | Tóm tắt nội dung                               | Link Tài Liệu | Level |
+|----|-------------------------------------------|-----------------------------------------------|--------------| --------|
+| 1  | Domain Conversion - Denoising and Segmentation | Xử lý ảnh bằng kỹ thuật khử nhiễu và phân đoạn hình ảnh. | [Image Denoising Guide](https://arxiv.org/abs/2003.01999) | Advanced | 
+| 2  | Domain Conversion - Colorization and Super-resolution | Chuyển đổi ảnh đen trắng thành ảnh màu và nâng cao độ phân giải bằng Deep Learning. | [Super-resolution using CNNs](https://arxiv.org/abs/1609.04802) | Advanced |
+| 3  | Object Detection (Yolo, Faster R-CNN)     | Phát hiện đối tượng trong ảnh bằng các mô hình tiên tiến như YOLO và Faster R-CNN. | [YOLO Paper](https://arxiv.org/abs/1506.02640) | Advanced |
+| 4  | Image Project: Footballer Tracking       | Xây dựng mô hình theo dõi cầu thủ trong các trận đấu bóng đá. | [Object Tracking Guide](https://towardsdatascience.com/multi-object-tracking-in-computer-vision-2c3e02b3eef0) | Advanced |
+| 5  | Research Project: Advances in Medical Image Analysis | Nghiên cứu các phương pháp mới trong phân tích ảnh y tế bằng Deep Learning. | [Medical Image Analysis](https://www.nature.com/articles/s41592-020-01008-x) | Advanced |
+| 6  | UNet                                     | Tìm hiểu về UNet, một mô hình mạnh mẽ cho phân đoạn ảnh y tế. | [UNet Paper](https://arxiv.org/abs/1505.04597) | Advanced |
+| 7  | Object Detection Using Pretrained Models  | Sử dụng các mô hình đã được huấn luyện trước để phát hiện đối tượng trong ảnh. | [TensorFlow Object Detection](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/) | Advanced |
+| 8  | Yolov1                                   | Hiểu về YOLOv1 và cách triển khai mô hình phát hiện đối tượng. | [YOLOv1 Paper](https://arxiv.org/abs/1506.02640) | Advanced |
+| 9  | VideoCLIP for Video Classification       | Sử dụng VideoCLIP để phân loại video dựa trên nội dung. | [VideoCLIP Research](https://arxiv.org/abs/2109.14084) | Advanced |
+| 10 | Stereo Depth Estimation                   | Dự đoán chiều sâu từ ảnh stereo bằng AI. | [Stereo Depth Estimation](https://arxiv.org/abs/2007.11371) | Advanced |
+| 11 | Monodepth Estimation                      | Dự đoán chiều sâu từ ảnh đơn bằng Deep Learning. | [Monodepth Research](https://arxiv.org/abs/1606.04390) | Advanced |
+| 12 | Mamba (1)                                 | Giới thiệu về kiến trúc Mamba trong Deep Learning. | [Mamba Architecture](https://arxiv.org/abs/2310.00288) | Advanced |
+| 13 | Mamba (2)                                 | Hiểu sâu hơn về Mamba và cách triển khai. | [Mamba Paper](https://arxiv.org/abs/2310.00288) | Advanced |
+| 14 | Mamba: Research Directions                | Các hướng nghiên cứu mới về kiến trúc Mamba. | [Mamba Research](https://arxiv.org/abs/2310.00288) | Advanced |
 
 ## Module 10 - Cấp độ Expert - Đẳng 1:
 Module 10 tập trung vào Deep Learning cho văn bản, bao gồm Text Classification, POS Tagging, Summarization, Text Generation, Machine Translation.
@@ -363,19 +363,19 @@ Module 10 tập trung vào Deep Learning cho văn bản, bao gồm Text Classifi
 
 | #  | Môn Học                                   | Tóm tắt nội dung                               | Link Tài Liệu |
 |----|-------------------------------------------|-----------------------------------------------|--------------|
-| 1  | From Text Classification to POS Tagging  | Học về phân loại văn bản và gán nhãn từ loại (POS Tagging) trong NLP. | [POS Tagging](https://www.nltk.org/book/ch05.html) |
-| 2  | NER for Medical Data                     | Nhận diện thực thể có tên (NER) trong dữ liệu y tế. | [Named Entity Recognition](https://spacy.io/api/entityrecognizer) |
-| 3  | Summarization                            | Xây dựng mô hình tóm tắt văn bản bằng Deep Learning. | [Text Summarization](https://towardsdatascience.com/abstractive-text-summarization-using-transformers-in-python-59f72e02025f) |
-| 4  | Text Generation                          | Học cách tạo văn bản tự động bằng mô hình AI như GPT. | [Text Generation Guide](https://huggingface.co/blog/how-to-generate) |
-| 5  | Machine Translation                      | Dịch máy bằng các mô hình như Transformer, seq2seq. | [Neural Machine Translation](https://jalammar.github.io/illustrated-transformer/) |
+| 1  | From Text Classification to POS Tagging  | Học về phân loại văn bản và gán nhãn từ loại (POS Tagging) trong NLP. | [POS Tagging](https://www.nltk.org/book/ch05.html) | Advanced |
+| 2  | NER for Medical Data                     | Nhận diện thực thể có tên (NER) trong dữ liệu y tế. | [Named Entity Recognition](https://spacy.io/api/entityrecognizer) | Advanced |
+| 3  | Summarization                            | Xây dựng mô hình tóm tắt văn bản bằng Deep Learning. | [Text Summarization](https://towardsdatascience.com/abstractive-text-summarization-using-transformers-in-python-59f72e02025f) | Advanced |
+| 4  | Text Generation                          | Học cách tạo văn bản tự động bằng mô hình AI như GPT. | [Text Generation Guide](https://huggingface.co/blog/how-to-generate) | Advanced |
+| 5  | Machine Translation                      | Dịch máy bằng các mô hình như Transformer, seq2seq. | [Neural Machine Translation](https://jalammar.github.io/illustrated-transformer/) | Advanced |
 | 6  | Project: Xây dựng hệ thống sinh lời thoại cho truyện tranh | Ứng dụng NLP để tạo hội thoại tự động cho truyện tranh. | [Chatbot NLP](https://towardsdatascience.com/how-to-build-your-own-chatbot-using-deep-learning-bb41f970e281) |
-| 7  | Project: Xây dựng hệ thống dịch đa ngôn ngữ | Phát triển hệ thống dịch tự động nhiều ngôn ngữ bằng AI. | [Multilingual NLP](https://arxiv.org/abs/1907.05019) |
-| 8  | Question Answering                       | Xây dựng hệ thống trả lời câu hỏi sử dụng NLP. | [QA with Transformers](https://huggingface.co/transformers/task_summary.html#question-answering) |
-| 9  | Document Retrieval                       | Truy xuất tài liệu từ kho dữ liệu bằng mô hình NLP. | [Information Retrieval](https://www.oreilly.com/library/view/introduction-to-information/9781408297211/) |
-| 10 | Speech Recognition                       | Nhận diện giọng nói bằng mô hình AI như Wav2Vec. | [Speech Recognition](https://huggingface.co/blog/fine-tune-xlsr-wav2vec2) |
-| 11 | Advances in Tokenization                 | Học về các kỹ thuật tokenization hiện đại trong NLP. | [Tokenization Techniques](https://huggingface.co/transformers/preprocessing.html) |
-| 12 | Embedding: Augment SBERT                 | Cải tiến vector biểu diễn văn bản bằng Sentence-BERT. | [SBERT Documentation](https://www.sbert.net/) |
-| 13 | Multi-Granularity Text Embedding         | Nghiên cứu phương pháp embedding đa cấp độ cho văn bản. | [Word Embeddings](https://jalammar.github.io/illustrated-word2vec/) |
+| 7  | Project: Xây dựng hệ thống dịch đa ngôn ngữ | Phát triển hệ thống dịch tự động nhiều ngôn ngữ bằng AI. | [Multilingual NLP](https://arxiv.org/abs/1907.05019) | Advanced |
+| 8  | Question Answering                       | Xây dựng hệ thống trả lời câu hỏi sử dụng NLP. | [QA with Transformers](https://huggingface.co/transformers/task_summary.html#question-answering) | Advanced |
+| 9  | Document Retrieval                       | Truy xuất tài liệu từ kho dữ liệu bằng mô hình NLP. | [Information Retrieval](https://www.oreilly.com/library/view/introduction-to-information/9781408297211/) | Advanced |
+| 10 | Speech Recognition                       | Nhận diện giọng nói bằng mô hình AI như Wav2Vec. | [Speech Recognition](https://huggingface.co/blog/fine-tune-xlsr-wav2vec2) | Advanced |
+| 11 | Advances in Tokenization                 | Học về các kỹ thuật tokenization hiện đại trong NLP. | [Tokenization Techniques](https://huggingface.co/transformers/preprocessing.html) | Advanced |
+| 12 | Embedding: Augment SBERT                 | Cải tiến vector biểu diễn văn bản bằng Sentence-BERT. | [SBERT Documentation](https://www.sbert.net/) | Advanced |
+| 13 | Multi-Granularity Text Embedding         | Nghiên cứu phương pháp embedding đa cấp độ cho văn bản. | [Word Embeddings](https://jalammar.github.io/illustrated-word2vec/) | Advanced |
 
 ## Module 11 - Cấp độ Expert - Đẳng 2:
 Module 11 tập trung vào các mô hình sinh dữ liệu (Generative Models) như Style Transfer, GAN (CDGAN, Pix2Pix, Cycle GAN), và Diffusion Models.
@@ -391,23 +391,23 @@ Module 11 tập trung vào các mô hình sinh dữ liệu (Generative Models) n
 * ✅ AI Research Engineer – Nghiên cứu các mô hình 3D Data, Flow Matching, Mamba Architectures.
 * ✅ MLOps Engineer – Tối ưu và triển khai AI sáng tạo vào sản phẩm thực tế.
 
-| #  | Môn Học                                   | Tóm tắt nội dung                               | Link Tài Liệu |
-|----|-------------------------------------------|-----------------------------------------------|--------------|
-| 1  | Basic Style Transfer                     | Học về chuyển đổi phong cách ảnh (Neural Style Transfer). | [Neural Style Transfer](https://towardsdatascience.com/neural-style-transfer-explained-using-a-py-torch-implementation-47a2c942b6aa) |
-| 2  | Multi-modal Style Transfer               | Nâng cao phương pháp chuyển đổi phong cách bằng nhiều mô hình khác nhau. | [Multi-style Transfer](https://arxiv.org/abs/1705.06830) |
-| 3  | GAN and CDGAN                            | Giới thiệu về mạng GAN và Conditional GAN (CDGAN). | [GAN Guide](https://arxiv.org/abs/1406.2661) |
-| 4  | Pix2Pix and Cycle GAN                    | Học về Pix2Pix và CycleGAN để chuyển đổi hình ảnh. | [CycleGAN Paper](https://arxiv.org/abs/1703.10593) |
-| 5  | Diffusion Models                         | Hiểu về mô hình khuếch tán (Diffusion Models) và cách hoạt động. | [Diffusion Models Guide](https://arxiv.org/abs/2006.11239) |
-| 6  | Project: Diffusion-based Image Colorization | Áp dụng Diffusion Models vào tô màu ảnh tự động. | [Image Colorization](https://arxiv.org/abs/1603.08511) |
-| 7  | Project: Image Generation                | Xây dựng mô hình sinh ảnh tự động bằng AI. | [Deep Image Prior](https://arxiv.org/abs/1711.10925) |
-| 8  | Basic Style Transfer (Lớp hỗ trợ)        | Ôn tập về chuyển đổi phong cách ảnh. | [Style Transfer Notebook](https://www.tensorflow.org/tutorials/generative/style_transfer) |
-| 9  | GAN (Lớp hỗ trợ)                         | Củng cố kiến thức về GAN và cách huấn luyện mô hình. | [GANs in TensorFlow](https://www.tensorflow.org/tutorials/generative/dcgan) |
-| 10 | Diffusion Models (Lớp hỗ trợ)            | Học về Diffusion Models và ứng dụng của chúng. | [Understanding Diffusion Models](https://huggingface.co/blog/what-are-diffusion-models) |
-| 11 | Advances in Tokenization                 | Phát triển các phương pháp tokenization tiên tiến trong NLP. | [Tokenization Strategies](https://huggingface.co/transformers/preprocessing.html) |
-| 12 | Embedding: Augmented SBERT               | Cải tiến vector biểu diễn văn bản bằng Sentence-BERT. | [SBERT Paper](https://arxiv.org/abs/1908.10084) |
-| 13 | Multi-Granularity Text Embedding         | Biểu diễn văn bản ở nhiều mức độ chi tiết khác nhau. | [Text Embeddings](https://arxiv.org/abs/2004.11544) |
-| 14 | Flow Matching (1)                        | Nghiên cứu thuật toán Flow Matching trong AI. | [Flow Matching Research](https://arxiv.org/abs/2306.01741) |
-| 15 | Flow Matching (2)                        | Áp dụng Flow Matching vào mô hình sinh dữ liệu. | [Flow Matching Paper](https://arxiv.org/abs/2306.01741) |
+| #  | Môn Học                                   | Tóm tắt nội dung                               | Link Tài Liệu | Level |
+|----|-------------------------------------------|-----------------------------------------------|--------------| --------|
+| 1  | Basic Style Transfer                     | Học về chuyển đổi phong cách ảnh (Neural Style Transfer). | [Neural Style Transfer](https://towardsdatascience.com/neural-style-transfer-explained-using-a-py-torch-implementation-47a2c942b6aa) | Advanced |
+| 2  | Multi-modal Style Transfer               | Nâng cao phương pháp chuyển đổi phong cách bằng nhiều mô hình khác nhau. | [Multi-style Transfer](https://arxiv.org/abs/1705.06830) | Advanced |
+| 3  | GAN and CDGAN                            | Giới thiệu về mạng GAN và Conditional GAN (CDGAN). | [GAN Guide](https://arxiv.org/abs/1406.2661) | Advanced |
+| 4  | Pix2Pix and Cycle GAN                    | Học về Pix2Pix và CycleGAN để chuyển đổi hình ảnh. | [CycleGAN Paper](https://arxiv.org/abs/1703.10593) | Advanced |
+| 5  | Diffusion Models                         | Hiểu về mô hình khuếch tán (Diffusion Models) và cách hoạt động. | [Diffusion Models Guide](https://arxiv.org/abs/2006.11239) | Advanced |
+| 6  | Project: Diffusion-based Image Colorization | Áp dụng Diffusion Models vào tô màu ảnh tự động. | [Image Colorization](https://arxiv.org/abs/1603.08511) | Advanced |
+| 7  | Project: Image Generation                | Xây dựng mô hình sinh ảnh tự động bằng AI. | [Deep Image Prior](https://arxiv.org/abs/1711.10925) | Advanced |
+| 8  | Basic Style Transfer (Lớp hỗ trợ)        | Ôn tập về chuyển đổi phong cách ảnh. | [Style Transfer Notebook](https://www.tensorflow.org/tutorials/generative/style_transfer) | Advanced |
+| 9  | GAN (Lớp hỗ trợ)                         | Củng cố kiến thức về GAN và cách huấn luyện mô hình. | [GANs in TensorFlow](https://www.tensorflow.org/tutorials/generative/dcgan) | Advanced |
+| 10 | Diffusion Models (Lớp hỗ trợ)            | Học về Diffusion Models và ứng dụng của chúng. | [Understanding Diffusion Models](https://huggingface.co/blog/what-are-diffusion-models) | Advanced |
+| 11 | Advances in Tokenization                 | Phát triển các phương pháp tokenization tiên tiến trong NLP. | [Tokenization Strategies](https://huggingface.co/transformers/preprocessing.html) | Advanced |
+| 12 | Embedding: Augmented SBERT               | Cải tiến vector biểu diễn văn bản bằng Sentence-BERT. | [SBERT Paper](https://arxiv.org/abs/1908.10084) | Advanced |
+| 13 | Multi-Granularity Text Embedding         | Biểu diễn văn bản ở nhiều mức độ chi tiết khác nhau. | [Text Embeddings](https://arxiv.org/abs/2004.11544) | Advanced |
+| 14 | Flow Matching (1)                        | Nghiên cứu thuật toán Flow Matching trong AI. | [Flow Matching Research](https://arxiv.org/abs/2306.01741) | Advanced |
+| 15 | Flow Matching (2)                        | Áp dụng Flow Matching vào mô hình sinh dữ liệu. | [Flow Matching Paper](https://arxiv.org/abs/2306.01741) | Advanced |
 
 ## Module 12 - Cấp độ Expert - Đẳng 3:
 Module 12 tập trung vào huấn luyện và tinh chỉnh các mô hình ngôn ngữ lớn (LLMs), bao gồm Pretraining GPT, Instruction Tuning, Parameter-Efficient Fine-Tuning, và LLM Deployment với LangChain.
