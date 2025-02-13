@@ -1,5 +1,5 @@
 # AI Agents - Huyền Chip tóm lược một cách ngắn gọn
-
+Link bài gốc [ở đây](https://huyenchip.com//2025/01/07/agents.html)
 ## Lời nói đầu
 Nhiều người coi các tác nhân thông minh là mục tiêu cuối cùng của AI. Cuốn sách kinh điển của Stuart Russell và Peter Norvig, Artificial Intelligence: A Modern Approach (Prentice Hall, 1995), định nghĩa lĩnh vực nghiên cứu AI là “ nghiên cứu và thiết kế các tác nhân hợp lý ” .
 
@@ -27,8 +27,8 @@ Có sự phụ thuộc mạnh mẽ giữa môi trường của tác nhân và b�
 
 Hình 6-8 cho thấy hình ảnh trực quan của SWE-agent (Yang và cộng sự, 2024), một tác nhân được xây dựng trên GPT-4. Môi trường của nó là máy tính có thiết bị đầu cuối và hệ thống tệp. Bộ hành động của nó bao gồm điều hướng kho lưu trữ, tìm kiếm tệp, xem tệp và chỉnh sửa dòng.
 
-[Image 6-8](https://imgur.com/a/WBFAAvQ)
-Hình 6-8. SWE-agent là một tác nhân mã hóa có môi trường là máy tính và các hành động của nó bao gồm điều hướng, tìm kiếm, xem tệp và chỉnh sửa
+[Hình 6-8.](https://imgur.com/a/WBFAAvQ)
+SWE-agent là một tác nhân mã hóa có môi trường là máy tính và các hành động của nó bao gồm điều hướng, tìm kiếm, xem tệp và chỉnh sửa
 
 Một tác nhân AI có nhiệm vụ thực hiện các nhiệm vụ thường do người dùng cung cấp. Trong một tác nhân AI, AI là bộ não xử lý nhiệm vụ, lập kế hoạch cho một chuỗi hành động để đạt được nhiệm vụ này và xác định xem nhiệm vụ đã được hoàn thành hay chưa.
 
@@ -114,10 +114,11 @@ Các nhiệm vụ phức tạp đòi hỏi phải lập kế hoạch. Đầu ra 
 Nếu bạn đã từng tham gia bất kỳ cuộc họp lập kế hoạch nào, bạn sẽ biết rằng lập kế hoạch rất khó. Là một vấn đề tính toán quan trọng, lập kế hoạch được nghiên cứu kỹ lưỡng và sẽ cần nhiều tập để trình bày. Tôi sẽ chỉ có thể trình bày sơ lược ở đây.
 
 ### Tổng quan về kế hoạch
-Với một nhiệm vụ, có nhiều cách có thể giải quyết, nhưng không phải tất cả đều dẫn đến kết quả thành công. Trong số các giải pháp đúng, một số hiệu quả hơn những giải pháp khác. Hãy xem xét truy vấn, "How many companies without revenue have raised at least $1 billion?", và hai giải pháp ví dụ:
+Với một nhiệm vụ, có nhiều cách có thể giải quyết, nhưng không phải tất cả đều dẫn đến kết quả thành công. Trong số các giải pháp đúng, một số hiệu quả hơn những giải pháp khác. Hãy xem xét truy vấn, `"How many companies without revenue have raised at least $1 billion?"`, và hai giải pháp ví dụ:
 
 * Tìm tất cả các công ty không có doanh thu, sau đó lọc theo số tiền huy động được.
 * Tìm tất cả các công ty đã huy động được ít nhất 1 tỷ đô la, sau đó lọc theo doanh thu.
+
 Lựa chọn thứ hai hiệu quả hơn. Có nhiều công ty không có doanh thu hơn là các công ty đã huy động được 1 tỷ đô la. Chỉ với hai lựa chọn này, một tác nhân thông minh nên chọn lựa chọn 2.
 
 Bạn có thể kết hợp lập kế hoạch với thực hiện trong cùng một lời nhắc. Ví dụ, bạn đưa ra lời nhắc cho mô hình, yêu cầu nó suy nghĩ từng bước (chẳng hạn như với lời nhắc chuỗi suy nghĩ), rồi thực hiện tất cả các bước đó trong một lời nhắc. Nhưng nếu mô hình đưa ra một kế hoạch 1.000 bước mà thậm chí không đạt được mục tiêu thì sao? Nếu không có sự giám sát, một tác nhân có thể chạy các bước đó trong nhiều giờ, lãng phí thời gian và tiền bạc vào các cuộc gọi API, trước khi bạn nhận ra rằng nó không đi đến đâu cả.
@@ -130,3 +131,62 @@ Nếu kế hoạch được tạo ra được đánh giá là không tốt, bạ
 
 Nếu kế hoạch bao gồm các công cụ bên ngoài, lệnh gọi hàm sẽ được gọi. Đầu ra từ việc thực hiện kế hoạch này sau đó sẽ cần được đánh giá lại. Lưu ý rằng kế hoạch được tạo không nhất thiết phải là kế hoạch đầu cuối cho toàn bộ tác vụ. Nó có thể là một kế hoạch nhỏ cho một tác vụ phụ. Toàn bộ quy trình trông giống như Hình 6-9.
 
+[Hình 6-9.](https://imgur.com/vmpZDUp)
+Tách rời kế hoạch và thực hiện để chỉ những kế hoạch đã được xác thực mới được thực hiện
+
+Hệ thống của bạn hiện có ba thành phần: `một để tạo kế hoạch`, `một để xác thực kế hoạch` và `một để thực hiện kế hoạch`. Nếu bạn coi mỗi thành phần là một tác nhân, thì đây có thể được coi là hệ thống đa tác nhân. Vì hầu hết các quy trình làm việc của tác nhân đều đủ phức tạp để liên quan đến nhiều thành phần, nên hầu hết các tác nhân đều là đa tác nhân.
+
+Để tăng tốc quá trình, thay vì tạo kế hoạch tuần tự, bạn có thể tạo nhiều kế hoạch song song và yêu cầu người đánh giá chọn kế hoạch hứa hẹn nhất. Đây là một sự đánh đổi khác về độ trễ–chi phí, vì tạo nhiều kế hoạch cùng lúc sẽ phát sinh thêm chi phí.
+
+Lập kế hoạch đòi hỏi phải hiểu được ý định đằng sau một nhiệm vụ: người dùng đang cố gắng làm gì với truy vấn này? Một trình phân loại ý định thường được sử dụng để giúp các tác nhân lập kế hoạch. Như được trình bày trong Chương 5 trong phần “Chia các nhiệm vụ phức tạp thành các nhiệm vụ con đơn giản hơn ” , phân loại ý định có thể được thực hiện bằng cách sử dụng một lời nhắc khác hoặc một mô hình phân loại được đào tạo cho nhiệm vụ này. Cơ chế phân loại ý định có thể được coi là một tác nhân khác trong hệ thống đa tác nhân của bạn.
+
+Biết được mục đích có thể giúp nhân viên chọn đúng công cụ. Ví dụ, đối với bộ phận hỗ trợ khách hàng, nếu truy vấn liên quan đến thanh toán, nhân viên có thể cần truy cập vào công cụ để lấy lại các khoản thanh toán gần đây của người dùng. Nhưng nếu truy vấn liên quan đến cách đặt lại mật khẩu, nhân viên có thể cần truy cập vào chức năng lấy lại tài liệu.
+
+```Mẹo :
+Một số truy vấn có thể nằm ngoài phạm vi của tác nhân. Bộ phân loại ý định phải có khả năng phân loại các yêu cầu để IRRELEVANTtác nhân có thể lịch sự từ chối các yêu cầu đó thay vì lãng phí FLOP để đưa ra các giải pháp không thể.
+```
+Cho đến nay, chúng tôi đã giả định rằng tác nhân tự động hóa cả ba giai đoạn: tạo kế hoạch, xác thực kế hoạch và thực hiện kế hoạch. Trên thực tế, con người có thể tham gia vào bất kỳ giai đoạn nào để hỗ trợ quá trình và giảm thiểu rủi ro.
+
+* Một chuyên gia con người có thể cung cấp một kế hoạch, xác nhận một kế hoạch hoặc thực hiện một phần của một kế hoạch. Ví dụ, đối với các nhiệm vụ phức tạp mà một tác nhân gặp khó khăn khi tạo ra toàn bộ kế hoạch, một chuyên gia con người có thể cung cấp một kế hoạch cấp cao mà tác nhân có thể mở rộng.
+* Nếu một kế hoạch liên quan đến các hoạt động rủi ro, chẳng hạn như cập nhật cơ sở dữ liệu hoặc hợp nhất thay đổi mã, hệ thống có thể yêu cầu sự chấp thuận rõ ràng của con người trước khi thực hiện hoặc chuyển giao cho con người thực hiện các hoạt động này. Để thực hiện được điều này, bạn cần xác định rõ mức độ tự động hóa mà một tác nhân có thể có cho mỗi hành động.
+
+Tóm lại, việc giải quyết một nhiệm vụ thường bao gồm các quy trình sau. Lưu ý rằng phản xạ không phải là bắt buộc đối với một tác nhân, nhưng nó sẽ thúc đẩy đáng kể hiệu suất của tác nhân.
+
+* Tạo kế hoạch : đưa ra kế hoạch để hoàn thành nhiệm vụ này. Kế hoạch là một chuỗi các hành động có thể quản lý được, vì vậy quá trình này còn được gọi là phân tích nhiệm vụ.
+* Phản ánh và sửa lỗi : đánh giá kế hoạch đã tạo. Nếu đó là kế hoạch tồi, hãy tạo một kế hoạch mới.
+* Thực hiện : thực hiện các hành động được nêu trong kế hoạch đã tạo. Điều này thường liên quan đến việc gọi các hàm cụ thể.
+* Suy ngẫm và sửa lỗi : khi nhận được kết quả hành động, hãy đánh giá những kết quả này và xác định xem mục tiêu đã đạt được chưa. Xác định và sửa lỗi. Nếu mục tiêu chưa hoàn thành, hãy lập kế hoạch mới.
+
+Bạn đã thấy một số kỹ thuật để lập kế hoạch và phản ánh trong cuốn sách này. Khi bạn yêu cầu một mô hình "suy nghĩ từng bước", bạn đang yêu cầu nó phân tích một nhiệm vụ. Khi bạn yêu cầu một mô hình "xác minh xem câu trả lời của bạn có đúng không", bạn đang yêu cầu nó phản ánh.
+
+### Mô hình nền tảng như những người lập kế hoạch
+Một câu hỏi mở là các mô hình nền tảng có thể lập kế hoạch tốt như thế nào. Nhiều nhà nghiên cứu tin rằng các mô hình nền tảng, ít nhất là những mô hình được xây dựng trên các mô hình ngôn ngữ tự hồi quy, không thể. Nhà khoa học AI trưởng của Meta, Yann LeCun tuyên bố chắc chắn rằng các LLM tự hồi quy không thể lập kế hoạch (2023).
+
+Mặc dù có nhiều bằng chứng giai thoại cho thấy LLM không có khả năng lập kế hoạch tốt, nhưng vẫn chưa rõ liệu đó là do chúng ta không biết cách sử dụng LLM đúng cách hay vì về cơ bản, LLM không có khả năng lập kế hoạch.
+
+Về bản chất, lập kế hoạch là một vấn đề tìm kiếm . Bạn tìm kiếm giữa các con đường khác nhau hướng tới mục tiêu, dự đoán kết quả (phần thưởng) của mỗi con đường và chọn con đường có kết quả hứa hẹn nhất. Thông thường, bạn có thể xác định rằng không có con đường nào có thể đưa bạn đến mục tiêu.
+
+Tìm kiếm thường yêu cầu quay lại . Ví dụ, hãy tưởng tượng bạn đang ở một bước có hai hành động khả thi: A và B. Sau khi thực hiện hành động A, bạn vào trạng thái không hứa hẹn, vì vậy bạn cần quay lại trạng thái trước đó để thực hiện hành động B.
+
+Một số người cho rằng mô hình hồi quy tự động chỉ có thể tạo ra các hành động tiến. Nó không thể quay lại để tạo ra các hành động thay thế. Vì lý do này, họ kết luận rằng các mô hình hồi quy tự động không thể lập kế hoạch. Tuy nhiên, điều này không nhất thiết đúng. Sau khi thực hiện một đường dẫn với hành động A, nếu mô hình xác định rằng đường dẫn này không hợp lý, nó có thể sửa đổi đường dẫn bằng hành động B thay thế, thực sự là quay lại. Mô hình cũng luôn có thể bắt đầu lại và chọn một đường dẫn khác.
+
+Cũng có thể là LLM là những người lập kế hoạch kém vì họ không được cung cấp các công cụ cần thiết để lập kế hoạch. Để lập kế hoạch, cần phải biết không chỉ các hành động khả thi mà còn cả kết quả tiềm năng của từng hành động . Ví dụ đơn giản, giả sử bạn muốn đi bộ lên núi. Các hành động tiềm năng của bạn là rẽ phải, rẽ trái, quay lại hoặc đi thẳng. Tuy nhiên, nếu rẽ phải khiến bạn rơi xuống vực, bạn có thể không cân nhắc đến hành động này. Về mặt kỹ thuật, một hành động đưa bạn từ trạng thái này sang trạng thái khác và cần phải biết trạng thái kết quả để xác định có nên thực hiện hành động hay không.
+
+Điều này có nghĩa là việc thúc đẩy một mô hình chỉ tạo ra một chuỗi hành động giống như kỹ thuật thúc đẩy chuỗi suy nghĩ phổ biến là không đủ. Bài báo “ Lý luận với Mô hình Ngôn ngữ là Lập kế hoạch với Mô hình Thế giới ” (Hao và cộng sự, 2023) lập luận rằng một LLM, bằng cách chứa rất nhiều thông tin về thế giới, có khả năng dự đoán kết quả của mỗi hành động. LLM này có thể kết hợp dự đoán kết quả này để tạo ra các kế hoạch mạch lạc.
+
+Ngay cả khi AI không thể lập kế hoạch, nó vẫn có thể là một phần của một người lập kế hoạch. Có thể tăng cường LLM bằng một công cụ tìm kiếm và hệ thống theo dõi trạng thái để giúp nó lập kế hoạch.
+
+Thanh bên: Mô hình nền tảng (FM) so với các nhà lập kế hoạch học tăng cường (RL)
+
+Tác nhân là một khái niệm cốt lõi trong RL, được định nghĩa trên Wikipedia là một lĩnh vực “ liên quan đến cách một tác nhân thông minh phải thực hiện các hành động trong một môi trường năng động để tối đa hóa phần thưởng tích lũy ” .
+
+Các tác nhân RL và các tác nhân FM có nhiều điểm tương đồng. Cả hai đều được đặc trưng bởi môi trường và các hành động có thể xảy ra. Sự khác biệt chính là cách thức hoạt động của các nhà lập kế hoạch.
+
+Trong một tác nhân RL, trình lập kế hoạch được đào tạo bởi một thuật toán RL. Việc đào tạo trình lập kế hoạch RL này có thể tốn nhiều thời gian và tài nguyên.
+Trong một tác nhân FM, mô hình là người lập kế hoạch. Mô hình này có thể được nhắc nhở hoặc tinh chỉnh để cải thiện khả năng lập kế hoạch của nó và thường đòi hỏi ít thời gian và ít tài nguyên hơn.
+Tuy nhiên, không có gì ngăn cản tác nhân FM kết hợp các thuật toán RL để cải thiện hiệu suất của nó. Tôi nghi ngờ rằng về lâu dài, các tác nhân FM và tác nhân RL sẽ hợp nhất.
+
+### Tạo kế hoạch
+Cách đơn giản nhất để biến một mô hình thành một trình tạo kế hoạch là sử dụng kỹ thuật nhắc nhở. Hãy tưởng tượng rằng bạn muốn tạo một tác nhân để giúp khách hàng tìm hiểu về các sản phẩm tại Kitty Vogue. Bạn cấp cho tác nhân này quyền truy cập vào ba công cụ bên ngoài: truy xuất sản phẩm theo giá, truy xuất các sản phẩm hàng đầu và truy xuất thông tin sản phẩm. Sau đây là ví dụ về lời nhắc để tạo kế hoạch. Lời nhắc này chỉ nhằm mục đích minh họa. Lời nhắc sản xuất có thể phức tạp hơn.
+
+#### NHẮC NHỞ CỦA HỆ THỐNG :
