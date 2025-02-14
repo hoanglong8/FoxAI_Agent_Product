@@ -140,7 +140,7 @@ Video giới thiệu về LLM:
 |GFPGAN|[GFPGAN](https://github.com/TencentARC/GFPGAN)|Mục tiêu phát triển các thuật toán thực tế để phục hồi khuôn mặt trong thế giới hiện tại.|
 |SUPUR|[SUPUR](https://github.com/Fanghua-Yu/SUPIR)|Ứng dụng phục hồi ảnh mờ.|
 |HeyGen|[HeyGen AI](https://www.heygen.com/)|Công cụ AI dịch video, hỗ trợ đa ngôn ngữ.|
-|D.id|D.id||
+|CogVideo|[CogVideo](https://github.com/THUDM/CogVideo)|text and image to video generation, có thể chạy local hoặc [web](https://gokuai.org/)|
 |Persona|[Persona AI](https://persona.com/)|Trình tạo AI chatbot và nhân vật ảo.|
 |Midjourney|[Midjourney](https://www.midjourney.com/)|AI tạo hình ảnh nghệ thuật từ văn bản.|
 |Shortcut|[Shortcut](https://github.com/mltframework/shotcut)|A free, open source, cross-platform video editor.|
