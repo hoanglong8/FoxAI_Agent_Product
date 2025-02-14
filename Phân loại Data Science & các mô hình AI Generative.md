@@ -119,6 +119,7 @@ Video giới thiệu về LLM:
 |BERT|[GitHub](https://github.com/google-research/bert)|Mô hình NLP từ Google, hỗ trợ các tác vụ xử lý ngôn ngữ tự nhiên.|
 |LLaMA 3.1|[GitHub](https://github.com/facebookresearch/llama)|Mô hình LLM từ Meta AI, với nhiều phiên bản từ [7B](https://github.com/meta-llama/llama3) đến 65B.|
 |LlaMa-Zero|[GitHub](https://github.com/ggerganov/llama.cpp)|Mô hình LLM được chưng cất, nhỏ gọn hơn và [bản Việt hóa](https://github.com/pham-tuan-binh/llama.zero) có thể chạy trên USB (xem video [hướng dẫn](https://www.youtube.com/watch?v=SM-fFsE9EDU&ab_channel=BuildWithBinh)).|
+|Ktransformers|[Ktransformers](https://github.com/kvcache-ai/ktransformers)|A Flexible Framework for Experiencing Cutting-edge LLM Inference Optimizations|
 |PhoGPT|[VinAI](https://github.com/VinAIResearch/PhoGPT)|Mô hình ngôn ngữ lớn tiếng Việt với 3,7 tỷ tham số, được huấn luyện trên 102 tỷ token tiếng Việt.|
 |ViGPT|[VinBigdata](https://github.com/phamvanhoang9/vigpt_chatbot)|Mô hình ngôn ngữ lớn tiếng Việt, sở hữu hơn 600GB dữ liệu tiếng Việt từ nhiều lĩnh vực như pháp luật, lịch sử, văn hóa.|
 |Zalo AI LLM|[Zalo.AI](https://zalo.ai/)|Mô hình ngôn ngữ lớn tiếng Việt do Zalo AI phát triển, dựa trên kiến trúc Transformer|
