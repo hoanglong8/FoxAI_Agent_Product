@@ -194,6 +194,7 @@ Video giới thiệu về LLM:
 |WisprFlow|[Wispr AI](https://wispr.ai/)|Công cụ AI hỗ trợ nhập văn bản bằng giọng nói.|
 |NotebookLM|[NotebookLM](https://notebooklm.google/)|Trợ lý ghi chú AI từ Google.|
 |CrewAI|[CrewAI](https://github.com/crewAIInc/crewAI)|Framework for orchestrating role-playing, autonomous AI agents.|
+|localGPT|[localGPT](https://github.com/PromtEngineer/localGPT)|Chat with your documents on your local device using GPT models. No data leaves your device and 100% private.|
 
 ---
 
