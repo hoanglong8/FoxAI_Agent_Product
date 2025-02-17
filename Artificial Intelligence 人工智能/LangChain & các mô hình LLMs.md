@@ -1,4 +1,4 @@
-## Khái niệm
+# Khái niệm
 * LangChain là một khung phần mềm giúp đơn giản hóa việc xây dựng các ứng dụng được hỗ trợ bởi các mô hình ngôn ngữ lớn (LLM). Nó cung cấp các công cụ và trừu tượng để cải thiện khả năng tùy biến, độ chính xác và mức độ liên quan của thông tin mà các mô hình này tạo ra.
 * Được ra mắt vào tháng 10 năm 2022 bởi Harrison Chase và nhanh chóng trở nên phổ biến, với sự đóng góp từ hàng trăm cộng tác viên trên GitHub.
 
@@ -34,3 +34,9 @@ Trong khi đó, LangChain giống như một người quản lý nhà bếp:
 * Nấu nhiều món ăn hơn, kể cả những món mới (có tính tự học tập).
 * Sử dụng nguyên liệu tốt nhất có sẵn (có tính phân tích).
 * Nấu ăn theo sở thích cá nhân của bạn (cá nhân hóa dữ liệu).
+
+# Các tính năng Deep Reasearch trong LLMs:
+* DeepReasearch OpenAI bản o3
+* DeepReasearch của Claude 3
+* DeepSearch của Perflexity
+* DeepSearch của Google Gemini: https://gemini.0est.com/
