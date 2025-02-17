@@ -58,4 +58,4 @@ Trong khi đó, LangChain giống như một người quản lý nhà bếp:
 * [Wit.ai](https://github.com/wit-ai/node-wit) : một trình xây dựng chatbot được thiết kế cho Facebook Messenger
 * [BotMan](https://github.com/botman/botman) : Chatbot dựa trên PHP
 * [DeepPavlov](https://github.com/deeppavlov/DeepPavlov) : Thư viện nguồn mở dành cho các hệ thống chatbot deep learning end2end.
-* [HuggingChat](https://github.com/huggingface/chat-ui) : các mô hình mã nguồn mở dựa trên GPT
+* [HuggingChat](https://github.com/huggingface/chat-ui) : Các [chatbot](https://huggingface.co/chat/) dựa trên mô hình LLM mã nguồn mở như Llama, DeepSeek...
