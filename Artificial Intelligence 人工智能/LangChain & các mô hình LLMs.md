@@ -39,4 +39,13 @@ Trong khi đó, LangChain giống như một người quản lý nhà bếp:
 * DeepReasearch OpenAI bản o3
 * DeepReasearch của Claude 3
 * DeepSearch của Perflexity
-* DeepSearch của Google Gemini: https://gemini.0est.com/
+* DeepSearch của Google Gemini: đang miễn phí tại https://gemini.0est.com/
+
+## Video hướng dẫn cài đặt
+
+* LangChain Step-by-Step Tutorial Series for Absolute Beginners: Installation: Video này sẽ hướng dẫn bạn các bước cần thiết để thiết lập một môi trường mã hóa mạnh mẽ được điều chỉnh để phát triển LangChain.
+* LangChain: How to Use - Beginner's Guide | Step-by-Step Tutorial: Video này sẽ hướng dẫn bạn quy trình sử dụng LangChain, từ những điều cơ bản về cài đặt và thiết lập khuôn khổ đến các tính năng nâng cao hơn như tích hợp với các nguồn dữ liệu khác và triển khai ứng dụng của bạn.
+* LangChain Installation and Setup with OpenAI ChatGPT model: Video này sẽ chỉ cho bạn cách cài đặt LangChain và thiết lập với mô hình OpenAI ChatGPT.
+* Installing Langchain & Hello World Example: Trong video này, chúng ta sẽ xem qua một ví dụ về thế giới xin chào bằng Langchain trong Google Colab. Chúng tôi chỉ cho bạn cách cài đặt gói, đặt khóa API của bạn và sau đó sử dụng một mô hình để tạo tên cho một khung nguồn mở.
+* Pip Install LangChain | Python: Trong video này, bạn sẽ tìm hiểu cách cài đặt LangChain trong python Large Language Model (LLM) - LangChain.
+
