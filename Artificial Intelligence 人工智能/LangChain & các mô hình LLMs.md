@@ -52,10 +52,10 @@ Trong khi đó, LangChain giống như một người quản lý nhà bếp:
 ## 8 chatbot mã nguồn mở tốt nhất hiện nay (theo N8N)
 
 * [Botpress](https://github.com/botpress/botpress) : giải pháp trực quan, không cần mã cho luồng trò chuyện
-* Microsoft Bot Framework : lý tưởng cho các bot phức tạp trong hệ sinh thái Microsoft
+* [Microsoft Bot Framework](https://github.com/microsoft/botframework-sdk) : lý tưởng cho các bot phức tạp trong hệ sinh thái Microsoft
 * [Rasa](https://github.com/paulpierre/RasaGPT) : [Chatbot](https://github.com/RasaHQ/rasa) doanh nghiệp tùy chỉnh dựa trên Python
-* Tock : hoàn hảo cho các thiết bị nhúng có hoặc không có kết nối Internet
-* Wit.ai : một trình xây dựng chatbot được thiết kế cho Facebook Messenger
-* BotMan : Chatbot dựa trên PHP
-* DeepPavlov : một khuôn khổ AI cho các chatbot và trợ lý ảo tinh vi
-* HuggingChat : các mô hình mã nguồn mở dựa trên GPT
+* [Tock](https://github.com/tock/tock) : hoàn hảo cho các thiết bị nhúng có hoặc không có kết nối Internet
+* [Wit.ai](https://github.com/wit-ai/node-wit) : một trình xây dựng chatbot được thiết kế cho Facebook Messenger
+* [BotMan](https://github.com/botman/botman) : Chatbot dựa trên PHP
+* [DeepPavlov](https://github.com/deeppavlov/DeepPavlov) : Thư viện nguồn mở dành cho các hệ thống chatbot deep learning end2end.
+* [HuggingChat](https://github.com/huggingface/chat-ui) : các mô hình mã nguồn mở dựa trên GPT
