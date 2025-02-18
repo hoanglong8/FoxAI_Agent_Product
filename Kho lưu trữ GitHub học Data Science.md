@@ -181,3 +181,25 @@ Kho lưu trữ có đầy đủ các ví dụ và ứng dụng mẫu bao gồm R
 Khám phá cách MongoDB tích hợp vào các đường ống RAG và AI Agent, đóng vai trò là vector db, cơ sở dữ liệu vận hành (operational db) và memory provider.
 
 ![1.1](https://scontent-hkg4-1.xx.fbcdn.net/v/t39.30808-6/480337864_1081526003776539_600834311917390722_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_eui2=AeESKmD6MWnOWtaTDZLgLrg6693A9_c0Ap7r3cD39zQCnp4JjGpMRFink7ktSSyEomk&_nc_ohc=8HcfOVK3hSMQ7kNvgHpUlKB&_nc_oc=AdiaKsrsD2Bymu8E6q3swOPVwtoQsYtQaHoC8slQaXzRolsPSHR2eS_-kTX9HF9AG_cPr3RpESaMl3UL4-ZaFnh2&_nc_zt=23&_nc_ht=scontent-hkg4-1.xx&_nc_gid=AlVe4AuDjcpXKd4g5LSy7Aw&oh=00_AYCaJ-JjRltm2vpcgC_eDtw5jU7NWTwjk_F_TRDyMcn9uQ&oe=67BA7E41)
+
+2.[Awesome MLLs Dataset](https://github.com/lmmlzn/Awesome-LLMs-Datasets)
+
+Tổng hợp 444 datasets phổ biến hiện nay được dùng để huấn luyện các mô hình LLMs được tổng hợp trong bài nghiên cứu trên [Arxiv sau](https://arxiv.org/pdf/2402.18041).
+
+Các bộ dữ liệu datasets được chia theo 5 chiều phân tích:
+- Pre-training Corpora (dữ liệu tiền huấn luyện),
+- Fine-tuning Instruction Datasets (dữ liệu tinh chỉnh),
+- Preference Datasets (dữ liệu ưu tiên),
+- Evaluation Datasets (dữ liệu đánh giá),
+- Traditional NLP Datasets (dữ liệu ngôn ngữ tự nhiên).
+
+New dataset sections have been added: Multi-modal Large Language Models (MLLMs) Datasets, Retrieval Augmented Generation (RAG) Datasets.
+
+3.[Agno](https://github.com/agno-agi/agno)
+
+Agno is a lightweight library (thư viện) for building multi-modal Agents (mô hình đa tác nhân), tài liệu hướng dẫn [tại đây](https://docs.agno.com/introduction).
+
+4.[ProtonX](https://github.com/bangoc123/drop-rag)
+
+Đây là công cụ xây dựng chatbot RAG (Retrieval Augmented Generation) của team ProtonX Việt Nam.
+
