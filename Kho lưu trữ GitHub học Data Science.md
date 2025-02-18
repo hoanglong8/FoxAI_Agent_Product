@@ -1,11 +1,6 @@
-**21+ kho lưu trữ GitHub để làm chủ khoa học dữ liệu, khoa học máy tính, kỹ sư dữ liệu, phân tích dữ liệu**
+# Tổng hợp các kho lưu trữ GitHub
 
-Học khoa học dữ liệu thông qua các khóa học tương tác, sách, hướng dẫn, ví dụ về mã, dự án và các khóa học miễn phí dựa trên chương trình giảng dạy hàng đầu của trường đại học. 
-
-Ngoài ra, hãy truy cập các câu hỏi phỏng vấn và các phương pháp hay nhất bởi Abid Ali Awan , Trợ lý biên tập viên KDnuggets vào ngày 11 tháng 7 năm 2024 trong Khoa học dữ liệu.
-
-Học khoa học dữ liệu thông qua các khóa học hoặc video trên YouTube có thể trở nên đơn điệu vì nó thường liên quan đến việc tiếp nhận thông tin một cách thụ động. Bạn không phải nhúng tay vào, thử nghiệm hoặc thực sự xây dựng bất cứ thứ gì. Bạn chỉ đơn giản là tiếp thu nội dung từ màn hình. Nhưng nếu tôi nói với bạn rằng có một cách hấp dẫn và hiệu quả hơn để nắm bắt các công cụ và khái niệm khoa học dữ liệu thì sao? Đúng vậy. Hôm nay, chúng ta sẽ khám phá 10 kho lưu trữ GitHub sẽ giúp bạn nắm vững các khái niệm khoa học dữ liệu thông qua các khóa học tương tác, sách, hướng dẫn, ví dụ về mã, dự án, khóa học miễn phí dựa trên chương trình giảng dạy hàng đầu của trường đại học, câu hỏi phỏng vấn và các phương pháp hay nhất.
-
+## Về Data Science
 **1.Virgilio: Your Data Science Mentor**
 Hướng dẫn toàn diện về học Khoa học Dữ liệu trực tuyến, cung cấp nội dung có cấu trúc, hướng dẫn và tài nguyên cho người mới bắt đầu.
 
@@ -175,3 +170,12 @@ Liên kết: [Computer Science](https://github.com/ossu/computer-science)
 Số lượng forks: 21.9k
 Số lượng stars: 173k
 Số người theo dõi: 5821
+
+## Chatbot
+1.[MongoDB's Generative AI](https://github.com/mongodb-developer/GenAI-Showcase)
+
+![1](https://scontent-hkg1-2.xx.fbcdn.net/v/t39.30808-6/480315663_1082146970381109_5674202645901957198_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_eui2=AeHPV__LC6ZJ8uBncREkkSG5-7Ous-uhArT7s66z66ECtMC1XSJg1BAmyz9Amwj9Snc&_nc_ohc=YPgJweHVPiAQ7kNvgG3JkRt&_nc_oc=AdjHiVjMxcvX6tMRfsVLQiexnPVwE0ijXhLA_tiJz8T4uf85b2_xocUH8XvTPn9dKJIib2EhGrFjDtTYL-N90fhJ&_nc_zt=23&_nc_ht=scontent-hkg1-2.xx&_nc_gid=AGMWWWikQ1OAd0_aj0pw7ee&oh=00_AYB-ABOewvZ15y4OwXi5iYQkMFBycZb-XzZKrgxcmSTyZw&oe=67BA949D)
+
+Kho lưu trữ có đầy đủ các ví dụ và ứng dụng mẫu bao gồm Retrieval-Augmented Generation (RAG), AI Agents và các trường hợp sử dụng cụ thể trong ngành.
+
+Khám phá cách MongoDB tích hợp vào các đường ống RAG và AI Agent, đóng vai trò là vector db, cơ sở dữ liệu vận hành (operational db) và memory provider.
