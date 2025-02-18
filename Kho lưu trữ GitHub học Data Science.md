@@ -179,3 +179,5 @@ Số người theo dõi: 5821
 Kho lưu trữ có đầy đủ các ví dụ và ứng dụng mẫu bao gồm Retrieval-Augmented Generation (RAG), AI Agents và các trường hợp sử dụng cụ thể trong ngành.
 
 Khám phá cách MongoDB tích hợp vào các đường ống RAG và AI Agent, đóng vai trò là vector db, cơ sở dữ liệu vận hành (operational db) và memory provider.
+
+![1.1](https://scontent-hkg4-1.xx.fbcdn.net/v/t39.30808-6/480337864_1081526003776539_600834311917390722_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_eui2=AeESKmD6MWnOWtaTDZLgLrg6693A9_c0Ap7r3cD39zQCnp4JjGpMRFink7ktSSyEomk&_nc_ohc=8HcfOVK3hSMQ7kNvgHpUlKB&_nc_oc=AdiaKsrsD2Bymu8E6q3swOPVwtoQsYtQaHoC8slQaXzRolsPSHR2eS_-kTX9HF9AG_cPr3RpESaMl3UL4-ZaFnh2&_nc_zt=23&_nc_ht=scontent-hkg4-1.xx&_nc_gid=AlVe4AuDjcpXKd4g5LSy7Aw&oh=00_AYCaJ-JjRltm2vpcgC_eDtw5jU7NWTwjk_F_TRDyMcn9uQ&oe=67BA7E41)
