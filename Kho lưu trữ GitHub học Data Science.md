@@ -1,6 +1,6 @@
 # Tổng hợp các kho lưu trữ GitHub
 
-## Về Data Science
+## A.Về Data Science
 **1.Virgilio: Your Data Science Mentor**
 Hướng dẫn toàn diện về học Khoa học Dữ liệu trực tuyến, cung cấp nội dung có cấu trúc, hướng dẫn và tài nguyên cho người mới bắt đầu.
 
@@ -171,7 +171,7 @@ Số lượng forks: 21.9k
 Số lượng stars: 173k
 Số người theo dõi: 5821
 
-## Chatbot
+## B.Về Chatbot
 1.[MongoDB's Generative AI](https://github.com/mongodb-developer/GenAI-Showcase)
 
 ![1](https://scontent-hkg1-2.xx.fbcdn.net/v/t39.30808-6/480315663_1082146970381109_5674202645901957198_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_eui2=AeHPV__LC6ZJ8uBncREkkSG5-7Ous-uhArT7s66z66ECtMC1XSJg1BAmyz9Amwj9Snc&_nc_ohc=YPgJweHVPiAQ7kNvgG3JkRt&_nc_oc=AdjHiVjMxcvX6tMRfsVLQiexnPVwE0ijXhLA_tiJz8T4uf85b2_xocUH8XvTPn9dKJIib2EhGrFjDtTYL-N90fhJ&_nc_zt=23&_nc_ht=scontent-hkg1-2.xx&_nc_gid=AGMWWWikQ1OAd0_aj0pw7ee&oh=00_AYB-ABOewvZ15y4OwXi5iYQkMFBycZb-XzZKrgxcmSTyZw&oe=67BA949D)
