@@ -106,7 +106,7 @@ Video giới thiệu về LLM:
 |Tên mô hình|Link nguồn|Tóm tắt|
 |---|---|---|
 |Awesome-LLM|[Tổng hợp LLM](https://github.com/Hannibal046/Awesome-LLM)|Danh sách các bài báo chọn lọc về các mô hình ngôn ngữ lớn như ChatGPT, DeepSeek, Qwen2.5-Max... cùng framework huấn luyện, các công cụ triển khai LLM, các khóa học, check-points và API|
-|Các mô hình tiếng Anh|
+|||Các mô hình tiếng Anh|
 |![Logo OpenAI](https://avatars.githubusercontent.com/u/14957082?s=48&v=4) OpenAI|[GitHub](https://github.com/openai/openai-python)|Hiện chưa công khai mã nguồn, kết nối thông qua OpenAI API ([pypi.org/project/openai](https://pypi.org/project/openai/)) và [ChatGPT-2](https://github.com/openai/gpt-2)|
 |Mistral 7B|[Mistral AI](https://mistral.ai/news/announcing-mistral-7b/)|Tinh chỉnh mô hình Mistral-7B trên [GPU 3090s, A100s, H100s](https://github.com/abacaj/fine-tune-mistral)|
 |Claude 3.5 Sonet|[Anthropic](https://www.anthropic.com/)|Hiện chưa công khai mã nguồn|
@@ -117,7 +117,7 @@ Video giới thiệu về LLM:
 |GPT-Neo|[GitHub](https://github.com/EleutherAI/gpt-neo)|Mô hình LLM mở, tương đương GPT-3, do EleutherAI phát triển.|
 |BERT|[GitHub](https://github.com/google-research/bert)|Mô hình NLP từ Google, hỗ trợ các tác vụ xử lý ngôn ngữ tự nhiên.|
 |LLaMA 3.1|[GitHub](https://github.com/facebookresearch/llama)|Mô hình LLM từ Meta AI, với nhiều phiên bản từ [7B](https://github.com/meta-llama/llama3) đến 65B.|
-|Các mô hình tiếng Trung|
+|||Các mô hình tiếng Trung|
 |![Logo DeepSeek](https://avatars.githubusercontent.com/u/148330874?s=48&v=4) DeepSeek| [GitHub](https://github.com/deepseek-ai/DeepSeek-R1)|Mã nguồn mở bản [R1](https://github.com/deepseek-ai/DeepSeek-R1) và [V3](https://github.com/deepseek-ai/DeepSeek-V3)|
 |DeepSeek-Zero|[GitHub](https://github.com/Jiayi-Pan/TinyZero)|DeepSeek Tiny Zero - mô hình ngôn ngữ nhỏ chưng cất lại từ DeepSeek|
 |Qwen-2.5|[Qwen-2.5](https://github.com/QwenLM/Qwen2.5)|LLMs của Alibaba gồm có mô hình [2.5](https://github.com/QwenLM/Qwen2.5) và [VL](https://github.com/QwenLM/Qwen)|
@@ -125,7 +125,10 @@ Video giới thiệu về LLM:
 |Kimi|[Kimi](https://github.com/MoonshotAI/Kimi-k1.5)|LLMs của Moonshot AI có [API](https://github.com/LLM-Red-Team/kimi-free-api)|
 |Yi|[Yi-1.5-34B](https://github.com/01-ai/Yi)|Top 7 large language models open-source trained from scratch by 01.ai|
 |Ktransformers|[Ktransformers](https://github.com/kvcache-ai/ktransformers)|A Flexible Framework for Experiencing Cutting-edge LLM Inference Optimizations|
-|Các mô hình tiếng Việt|
+|Ernie 4.0 của Baidu|||
+|Doubao 1.5 Pro của ByteDance|||
+|XGPT AI của ThreatBook|||
+|||Các mô hình tiếng Việt|
 |PhoGPT|[VinAI](https://github.com/VinAIResearch/PhoGPT)|Mô hình ngôn ngữ lớn tiếng Việt với 3,7 tỷ tham số, được huấn luyện trên 102 tỷ token tiếng Việt.|
 |ViGPT|[VinBigdata](https://github.com/phamvanhoang9/vigpt_chatbot)|Mô hình ngôn ngữ lớn tiếng Việt của VinBigdata, sở hữu hơn 600GB dữ liệu tiếng Việt từ nhiều lĩnh vực như pháp luật, lịch sử, văn hóa.|
 |LlaMa-Zero|[GitHub](https://github.com/ggerganov/llama.cpp)|Mô hình LLM được chưng cất, nhỏ gọn hơn và [bản Việt hóa](https://github.com/pham-tuan-binh/llama.zero) có thể chạy trên USB (xem video [hướng dẫn](https://www.youtube.com/watch?v=SM-fFsE9EDU&ab_channel=BuildWithBinh)).|
