@@ -126,7 +126,7 @@ Video giới thiệu về LLM:
 |GLM-4|[GLM-4](https://github.com/THUDM/GLM-4)|GLM-4 series of Zhipu AI: Open Multilingual Multimodal Chat LMs 开源多语言多模态对话模型|
 |Kimi|[Kimi](https://github.com/MoonshotAI/Kimi-k1.5)|LLMs của Moonshot AI có [API](https://github.com/LLM-Red-Team/kimi-free-api)|
 |Yi|[Yi-1.5-34B](https://github.com/01-ai/Yi)|Top 7 large language models open-source trained from scratch by 01.ai|
-|Ktransformers|[Ktransformers](https://github.com/kvcache-ai/ktransformers)|A Flexible Framework for Experiencing Cutting-edge LLM Inference Optimizations|
+|Ktransformers|[Ktransformers](https://github.com/kvcache-ai/ktransformers)|Cho phép các mô hình LLM như DeepSeek-R1 hoạt động hiệu quả ngay trên máy tính cá nhân hoặc máy trạm|
 |Ernie|Baidu||
 |Doubao|ByteDance||
 |XGPT AI|ThreatBook||
