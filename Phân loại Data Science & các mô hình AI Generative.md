@@ -109,11 +109,12 @@ Video giới thiệu về LLM:
 |![Logo OpenAI](https://avatars.githubusercontent.com/u/14957082?s=48&v=4) OpenAI|[GitHub](https://github.com/openai/openai-python)|Hiện chưa công khai mã nguồn, kết nối thông qua OpenAI API ([pypi.org/project/openai](https://pypi.org/project/openai/)) và [ChatGPT-2](https://github.com/openai/gpt-2)|
 |![Logo DeepSeek](https://avatars.githubusercontent.com/u/148330874?s=48&v=4) DeepSeek| [GitHub](https://github.com/deepseek-ai/DeepSeek-R1)|Mã nguồn mở bản [R1](https://github.com/deepseek-ai/DeepSeek-R1) và [V3](https://github.com/deepseek-ai/DeepSeek-V3)|
 |DeepSeek-Zero|[GitHub](https://github.com/Jiayi-Pan/TinyZero)|DeepSeek Tiny Zero - mô hình ngôn ngữ nhỏ chưng cất lại từ DeepSeek|
-|Qwen-2.5Max|[Alibaba](https://qwenlm.github.io/blog/qwen2.5-max/)|Hiện chưa công khai mã nguồn|
+|Qwen-2.5|[Qwen-2.5](https://github.com/QwenLM/Qwen2.5)|LLMs của Alibaba gồm có mô hình [2.5](https://github.com/QwenLM/Qwen2.5) và [VL](https://github.com/QwenLM/Qwen)|
 |Mistral 7B|[Mistral AI](https://mistral.ai/news/announcing-mistral-7b/)|Tinh chỉnh mô hình Mistral-7B trên [GPU 3090s, A100s, H100s](https://github.com/abacaj/fine-tune-mistral)|
 |Claude 3.5 Sonet|[Anthropic](https://www.anthropic.com/)|Hiện chưa công khai mã nguồn|
 |Gemini|[Google](https://gemini.google.com/)|Hiện chưa công khai mã nguồn|
 |Grok|[X.com](https://x.ai/)|Hiện chưa công khai mã nguồn|
+|GLM-4|[GLM-4](https://github.com/THUDM/GLM-4)|GLM-4 series: Open Multilingual Multimodal Chat LMs 开源多语言多模态对话模型|
 |Perplexity|[Perplexity.Ai](https://www.perplexity.ai/)|Hiện chưa công khai mã nguồn|
 |GPT-Neo|[GitHub](https://github.com/EleutherAI/gpt-neo)|Mô hình LLM mở, tương đương GPT-3, do EleutherAI phát triển.|
 |BERT|[GitHub](https://github.com/google-research/bert)|Mô hình NLP từ Google, hỗ trợ các tác vụ xử lý ngôn ngữ tự nhiên.|
