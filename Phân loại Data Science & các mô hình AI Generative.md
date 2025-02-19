@@ -113,16 +113,19 @@ Video giới thiệu về LLM:
 |Mistral 7B|[Mistral AI](https://mistral.ai/news/announcing-mistral-7b/)|Tinh chỉnh mô hình Mistral-7B trên [GPU 3090s, A100s, H100s](https://github.com/abacaj/fine-tune-mistral)|
 |Claude 3.5 Sonet|[Anthropic](https://www.anthropic.com/)|Hiện chưa công khai mã nguồn|
 |Gemini|[Google](https://gemini.google.com/)|Hiện chưa công khai mã nguồn|
-|Grok|[X.com](https://x.ai/)|Hiện chưa công khai mã nguồn|
-|GLM-4|[GLM-4](https://github.com/THUDM/GLM-4)|GLM-4 series: Open Multilingual Multimodal Chat LMs 开源多语言多模态对话模型|
-|Perplexity|[Perplexity.Ai](https://www.perplexity.ai/)|Hiện chưa công khai mã nguồn|
+|Grok|[X.com](https://x.ai/)|Mới chỉ công khai [Grok-1](https://github.com/xai-org/grok-1)|
+|GLM-4|[GLM-4](https://github.com/THUDM/GLM-4)|GLM-4 series of Zhipu AI: Open Multilingual Multimodal Chat LMs 开源多语言多模态对话模型|
+|Kimi|[Kimi](https://github.com/MoonshotAI/Kimi-k1.5)|LLMs của Moonshot AI có [API](https://github.com/LLM-Red-Team/kimi-free-api)|
+|Perplexity|[Perplexity.Ai](https://www.perplexity.ai/)|Hiện đã có thể sử dụng DeepSeek R1 trên bản Cloud|
+|OLMo|[OLMo](https://github.com/allenai/OLMo)|Modeling, training, eval, and inference code for OLMo|
+|Yi|[Yi-1.5-34B](https://github.com/01-ai/Yi)|Top 7 large language models open-source trained from scratch by 01.ai|
 |GPT-Neo|[GitHub](https://github.com/EleutherAI/gpt-neo)|Mô hình LLM mở, tương đương GPT-3, do EleutherAI phát triển.|
 |BERT|[GitHub](https://github.com/google-research/bert)|Mô hình NLP từ Google, hỗ trợ các tác vụ xử lý ngôn ngữ tự nhiên.|
 |LLaMA 3.1|[GitHub](https://github.com/facebookresearch/llama)|Mô hình LLM từ Meta AI, với nhiều phiên bản từ [7B](https://github.com/meta-llama/llama3) đến 65B.|
 |LlaMa-Zero|[GitHub](https://github.com/ggerganov/llama.cpp)|Mô hình LLM được chưng cất, nhỏ gọn hơn và [bản Việt hóa](https://github.com/pham-tuan-binh/llama.zero) có thể chạy trên USB (xem video [hướng dẫn](https://www.youtube.com/watch?v=SM-fFsE9EDU&ab_channel=BuildWithBinh)).|
 |Ktransformers|[Ktransformers](https://github.com/kvcache-ai/ktransformers)|A Flexible Framework for Experiencing Cutting-edge LLM Inference Optimizations|
 |PhoGPT|[VinAI](https://github.com/VinAIResearch/PhoGPT)|Mô hình ngôn ngữ lớn tiếng Việt với 3,7 tỷ tham số, được huấn luyện trên 102 tỷ token tiếng Việt.|
-|ViGPT|[VinBigdata](https://github.com/phamvanhoang9/vigpt_chatbot)|Mô hình ngôn ngữ lớn tiếng Việt, sở hữu hơn 600GB dữ liệu tiếng Việt từ nhiều lĩnh vực như pháp luật, lịch sử, văn hóa.|
+|ViGPT|[VinBigdata](https://github.com/phamvanhoang9/vigpt_chatbot)|Mô hình ngôn ngữ lớn tiếng Việt của VinBigdata, sở hữu hơn 600GB dữ liệu tiếng Việt từ nhiều lĩnh vực như pháp luật, lịch sử, văn hóa.|
 |Zalo AI LLM|[Zalo.AI](https://zalo.ai/)|Mô hình ngôn ngữ lớn tiếng Việt do Zalo AI phát triển, dựa trên kiến trúc Transformer|
 |Sailor2|[GitHub](https://github.com/sail-sg/sailor2)|Mô hình AI hỗ trợ các ngôn ngữ Đông Nam Á, bao gồm tiếng Việt.|
 |Vietcuna|[GitHub](https://github.com/vilm-ai)|Mô hình ngôn ngữ dành riêng cho tiếng Việt, từ nhóm VILM-AI.|
