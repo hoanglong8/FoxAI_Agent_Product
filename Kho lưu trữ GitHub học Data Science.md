@@ -203,3 +203,26 @@ Agno is a lightweight library (thư viện) for building multi-modal Agents (mô
 
 Đây là công cụ xây dựng chatbot RAG (Retrieval Augmented Generation) của team ProtonX Việt Nam.
 
+5.[Botpress](https://github.com/botpress/botpress)
+
+![Tạo chatbot](https://user-images.githubusercontent.com/10071388/248040379-8aee1b03-c483-4040-8ee0-741554310e88.png)
+
+ Botpress is a leading chatbot development platform suitable for making tailored open-source chatbots for free. These bots are able to deal with various functions such as customer support, sales, and marketing.
+
+The platform allows developers to customize chatbots as per their business requirements. Botpress leverages natural language processing (NLP) to understand and interpret human language, providing a more human-like interaction. It comes with an intuitive visual flow builder that enables users to design conversation flows, manage content, and implement user interfaces.
+
+6.[Rasa](https://github.com/RasaHQ/rasa)
+
+Tạo chatbot trên website bằng [N8N](https://giapducthang.com/tao-cua-so-chat-de-tu-van-khach-hang-bang-ai-ngay-tren-website-bang-n8n.html), mã nguồn mở making custom corporate chatbots with Python.
+
+7.[Tock](https://github.com/theopenconversationkit/tock)
+
+Tạo chatbot
+
+8.[Wit.ai](https://github.com/wit-ai/pywit)
+
+Tạo chatbot trên FB messenger
+
+9.[BotMan](https://github.com/botman/botman)
+
+10.
