@@ -12,6 +12,8 @@ Hãy tưởng tượng **Data Analyst, Data Engineer, Data Scientist, và AI Eng
 
 -AI Engineer: Kỹ sư hiệu ứng đặc biệt, đưa AI vào thực tiễn.
 
+<img src="https://scontent.fhan5-3.fna.fbcdn.net/v/t39.30808-6/477572667_606230428863886_4164337875086250564_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_eui2=AeEHvr5lOjGrXhZ8m9tUd2v-a71UyxOL4TNrvVTLE4vhM3VgAQmJ_hwpzVgcpndLbkw&_nc_ohc=M0VSzYv-dPQQ7kNvgHO3-sy&_nc_oc=AdiJKIj9vIl68q5dJJP_AjgFK3S_yt4Z4JFDAd75J_I-VUYOCoGh7H8sYbBt8nLhGvs&_nc_zt=23&_nc_ht=scontent.fhan5-3.fna&_nc_gid=AJZmqc0PiJ3pEnmHoc9P5BV&oh=00_AYBAhPFN2VhTNcKWxgMqD1vathGqmuZi0L6WNGCdAKSX3w&oe=67BB7902" alt="Hình ảnh" width="60%" />
+
 **1. Data Engineer - người thiết kế hậu trường, sân khấu**
 * Nhiệm vụ: thiết lập kho dữ liệu để các nhóm khác có thể dễ dàng truy cập và sử dụng.
 * Vai trò: Xây dựng hệ thống lưu trữ dữ liệu, thiết lập cơ sở hạ tầng, đảm bảo dữ liệu được thu thập, làm sạch và sẵn sàng để sử dụng.
