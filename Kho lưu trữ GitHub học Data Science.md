@@ -156,3 +156,17 @@ BotMan là một thư viện PHP mã nguồn mở tiện dụng giúp đơn gi�
 
 DeepPavlov là một thư viện mã nguồn mở cho các hệ thống đối thoại đầu cuối học sâu, chatbot và trợ lý ảo. Trong danh sách các nền tảng chatbot ngày nay, đây là dự án tiên tiến nhất xuất hiện từ lâu trước ChatGPT. DeepPavlov cho phép các nhà phát triển xây dựng, thử nghiệm và triển khai các chatbot hàng đầu. Tuy nhiên, nền tảng này đòi hỏi các kỹ năng đáng kể về lập trình và ML.
 
+11.[HuggingFace](https://github.com/huggingface/chat-ui)
+
+![Ảnh](https://blog.n8n.io/content/images/size/w1000/2023/08/huggingchat.png)
+
+Mô hình chạy chatbot trên Llama2, DeepSeek mã nguồn mở
+
+12.Kết hợp với N8N
+
+Khi người dùng muốn tích hợp chatbot vào hệ sinh thái doanh nghiệp của mình, kết nối với phần mềm cũ hoặc chỉ muốn xây dựng chức năng tùy chỉnh thì phải sử dụng N8N.
+
+Một ví dụ chatbot kết hợp với Telegram
+
+![Hình ảnh](https://blog.n8n.io/content/images/size/w1000/2023/08/bot_workflow2.png)
+
