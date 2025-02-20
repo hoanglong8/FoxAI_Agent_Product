@@ -126,11 +126,33 @@ This is Tock, the open source conversational AI toolkit và another [Tock](https
 💬 Contact: https://gitter.im/tockchat/Lobby
 
 8.[Wit.ai](https://github.com/wit-ai/pywit)
+![Ảnh](https://blog.n8n.io/content/images/size/w1000/2023/08/witai.png)
 
-Tạo chatbot trên FB messenger
+Đây là nền tảng xây dựng chatbot của Meta cho phép các nhà phát triển tạo giao diện đàm thoại cho nhiều ứng dụng khác nhau như nền tảng nhắn tin và trợ lý giọng nói.
+
+Nền tảng này sử dụng thuật toán xử lý ngôn ngữ tự nhiên (NLP) và máy học để hiểu và phản hồi thông tin đầu vào của người dùng, giúp doanh nghiệp dễ dàng tự động hóa tương tác với khách hàng và cải thiện trải nghiệm khách hàng tổng thể. Mặc dù Wit.ai là một dự án nguồn mở, các thành phần chính quan trọng như công cụ NLU chỉ chạy trên đám mây.
+
+**Các tính năng chính:**
+* Composer – trình chỉnh sửa trực quan giúp tạo luồng trò chuyện theo cách ít mã hóa;
+* Wit.ai xử lý việc đào tạo mô hình, do đó các nhà phát triển chatbot cần cung cấp ví dụ và tạo danh sách các ý định và phản hồi;
+* SDK được cung cấp cho một số ngôn ngữ, chẳng hạn như Node.js, Python, Go, Ruby và Unity.
 
 9.[BotMan](https://github.com/botman/botman)
+![Ảnh](https://blog.n8n.io/content/images/size/w1000/2023/08/botman.png)
 
-A framework agnostic PHP library to build chat bots (website: botman.io)
+**Tổng quan:** 
 
-10.
+BotMan là một thư viện PHP mã nguồn mở tiện dụng giúp đơn giản hóa việc tạo chatbot, xem thêm tại [website](https://botman.io/).
+
+**Các tính năng chính:**
+
+* Không phụ thuộc vào framework: nghĩa là BotMan hỗ trợ bất kỳ framework PHP nào;
+* Hỗ trợ nhiều nền tảng nhắn tin, bao gồm Slack, Telegram, HipChat, Facebook Messenger, WeChat cũng như bất kỳ ứng dụng nào khác thông qua trình điều khiển API;
+* Chức năng NLU không được cung cấp cùng với BotMan. Điều này có nghĩa là phát hiện ý định phải được thực hiện thông qua các nhà cung cấp khác, chẳng hạn như Rasa NLU và ChatGPT.
+
+10.[DeepPavlov](https://github.com/deeppavlov/DeepPavlov)
+
+![Ảnh](https://blog.n8n.io/content/images/size/w1000/2023/08/deeppavlov.png)
+
+DeepPavlov là một thư viện mã nguồn mở cho các hệ thống đối thoại đầu cuối học sâu, chatbot và trợ lý ảo. Trong danh sách các nền tảng chatbot ngày nay, đây là dự án tiên tiến nhất xuất hiện từ lâu trước ChatGPT. DeepPavlov cho phép các nhà phát triển xây dựng, thử nghiệm và triển khai các chatbot hàng đầu. Tuy nhiên, nền tảng này đòi hỏi các kỹ năng đáng kể về lập trình và ML.
+
