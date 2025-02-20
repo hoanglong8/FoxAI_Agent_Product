@@ -165,7 +165,7 @@ DeepPavlov là một thư viện mã nguồn mở cho các hệ thống đối t
 
 Mô hình chạy chatbot trên Llama2, DeepSeek mã nguồn mở
 
-12.Kết hợp với N8N
+12.[Kết hợp N8N với các công cụ khác](https://github.com/hoanglong8/FoxAI-Data-Analyst/blob/main/Chi%E1%BA%BFn%20l%C6%B0%E1%BB%A3c%20SP/Chatbot_SAP.md)
 
 Khi người dùng muốn tích hợp chatbot vào hệ sinh thái doanh nghiệp của mình, kết nối với phần mềm cũ hoặc chỉ muốn xây dựng chức năng tùy chỉnh thì phải sử dụng N8N.
 
