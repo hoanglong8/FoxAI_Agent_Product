@@ -11,7 +11,7 @@ Explains the unique responsibilities of AI product managers and their role in tr
 Introduces the AI Product Development Lifecycle framework to systematically guide products through ideation, prototyping, testing, and
 deployment
 
-### Chapter 3, “Essential AI PM Knowledge”
+### Chapter 3, “Essential AI Product Manager Knowledge”
 Covers essential AI concepts, including the AI lifecycle and fundamentals of AI algorithms and how they translate into user impacting features
 
 ### Chapter 4, “The AI PM’s Day-to-Day”
