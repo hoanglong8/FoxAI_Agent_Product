@@ -190,3 +190,84 @@ Tuy nhiên, không có gì ngăn cản tác nhân FM kết hợp các thuật to
 Cách đơn giản nhất để biến một mô hình thành một trình tạo kế hoạch là sử dụng kỹ thuật nhắc nhở. Hãy tưởng tượng rằng bạn muốn tạo một tác nhân để giúp khách hàng tìm hiểu về các sản phẩm tại Kitty Vogue. Bạn cấp cho tác nhân này quyền truy cập vào ba công cụ bên ngoài: truy xuất sản phẩm theo giá, truy xuất các sản phẩm hàng đầu và truy xuất thông tin sản phẩm. Sau đây là ví dụ về lời nhắc để tạo kế hoạch. Lời nhắc này chỉ nhằm mục đích minh họa. Lời nhắc sản xuất có thể phức tạp hơn.
 
 #### NHẮC NHỞ CỦA HỆ THỐNG :
+
+```
+Propose a plan to solve the task. You have access to 5 actions:
+
+* get_today_date()
+* fetch_top_products(start_date, end_date, num_products)
+* fetch_product_info(product_name)
+* generate_query(task_history, tool_output)
+* generate_response(query)
+
+The plan must be a sequence of valid actions.
+
+Examples
+Task: "Tell me about Fruity Fedora"
+Plan: [fetch_product_info, generate_query, generate_response]
+
+Task: "What was the best selling product last week?"
+Plan: [fetch_top_products, generate_query, generate_response]
+
+Task: {USER INPUT}
+Plan:
+
+```
+
+Có hai điều cần lưu ý về ví dụ này:
+* Định dạng kế hoạch được sử dụng ở đây—danh sách các hàm có tham số được tác nhân suy ra—chỉ là một trong nhiều cách để cấu trúc luồng điều khiển của tác nhân.
+* Chức năng này `generate_query` lấy lịch sử hiện tại của tác vụ và các đầu ra công cụ gần đây nhất để tạo truy vấn đưa vào trình tạo phản hồi. Đầu ra công cụ ở mỗi bước được thêm vào lịch sử tác vụ.
+
+Với thông tin đầu vào của người dùng là “Giá của sản phẩm bán chạy nhất tuần trước là bao nhiêu”, một kế hoạch được tạo ra có thể trông như thế này:
+
+* get_time()
+* fetch_top_products()
+* fetch_product_info()
+* generate_query()
+* generate_response()
+
+Bạn có thể tự hỏi, "Còn các tham số cần thiết cho từng chức năng thì sao?" Các tham số chính xác rất khó dự đoán trước vì chúng thường được trích xuất từ ​​các đầu ra công cụ trước đó. Nếu bước đầu tiên, `get_time()`, đầu ra "2030-09-13", tác nhân có thể lý giải rằng các tham số cho bước tiếp theo nên được gọi với các tham số sau:
+
+```
+fetch_top_products(
+    start_date="2030-09-07",
+    end_date="2030-09-13",
+    num_products=1
+)
+```
+
+Thông thường, không có đủ thông tin để xác định giá trị tham số chính xác cho một hàm. Ví dụ, nếu người dùng hỏi "Giá trung bình của các sản phẩm bán chạy nhất là bao nhiêu?", câu trả lời cho các câu hỏi sau đây không rõ ràng:
+
+* Người dùng muốn xem bao nhiêu sản phẩm bán chạy nhất?
+* Người dùng muốn biết những sản phẩm bán chạy nhất tuần trước, tháng trước hay mọi thời đại?
+
+Điều này có nghĩa là các mô hình thường phải đưa ra dự đoán và dự đoán đó có thể sai.
+
+Vì cả chuỗi hành động và các tham số liên quan đều được tạo ra bởi các mô hình AI, nên chúng có thể bị ảo giác. Ảo giác có thể khiến mô hình gọi một hàm không hợp lệ hoặc gọi một hàm hợp lệ nhưng với các tham số sai. Các kỹ thuật để cải thiện hiệu suất của mô hình nói chung có thể được sử dụng để cải thiện khả năng lập kế hoạch của mô hình.
+
+#### Mẹo giúp người đại lý lập kế hoạch tốt hơn.
+
+* Viết lời nhắc hệ thống tốt hơn với nhiều ví dụ hơn.
+* Cung cấp mô tả tốt hơn về các công cụ và thông số của chúng để mô hình hiểu rõ hơn.
+* Viết lại các hàm để làm cho chúng đơn giản hơn, chẳng hạn như tái cấu trúc một hàm phức tạp thành hai hàm đơn giản hơn.
+* Sử dụng mô hình mạnh hơn. Nhìn chung, mô hình mạnh hơn sẽ lập kế hoạch tốt hơn.
+* Tinh chỉnh một mô hình để tạo kế hoạch.
+
+### Gọi hàm
+Nhiều nhà cung cấp mô hình cung cấp công cụ sử dụng cho mô hình của họ, thực sự biến mô hình của họ thành tác nhân. Một công cụ là một hàm. Do đó, việc gọi một công cụ thường được gọi là gọi hàm . Các API mô hình khác nhau hoạt động khác nhau, nhưng nhìn chung, gọi hàm hoạt động như sau:
+
+* Tạo một danh mục công cụ. Khai báo tất cả các công cụ mà bạn có thể muốn mô hình sử dụng. Mỗi công cụ được mô tả theo điểm nhập thực thi (ví dụ: tên hàm), tham số và tài liệu hướng dẫn (ví dụ: chức năng thực hiện và tham số cần có).
+* Chỉ định công cụ mà tác nhân có thể sử dụng cho truy vấn.
+
+Vì các truy vấn khác nhau có thể cần các công cụ khác nhau, nhiều API cho phép bạn chỉ định danh sách các công cụ đã khai báo để sử dụng cho mỗi truy vấn. Một số API cho phép bạn kiểm soát việc sử dụng công cụ hơn nữa bằng các thiết lập sau:
+* required: mô hình phải sử dụng ít nhất một công cụ.
+* none: mô hình không nên sử dụng bất kỳ công cụ nào.
+* auto: mô hình quyết định sử dụng công cụ nào.
+
+Gọi hàm được minh họa trong Hình 6-10. Điều này được viết bằng mã giả để làm cho nó đại diện cho nhiều API. Để sử dụng một API cụ thể, vui lòng tham khảo tài liệu của API đó.
+
+![Hình 6-10](https://huyenchip.com/assets/pics/agents/3-function-calling.png)
+
+Với một truy vấn, một tác nhân được định nghĩa như trong Hình 6-10 sẽ tự động tạo ra các công cụ để sử dụng và các tham số của chúng. Một số API gọi hàm sẽ đảm bảo rằng chỉ các hàm hợp lệ được tạo ra, mặc dù chúng không thể đảm bảo các giá trị tham số chính xác.
+
+Ví dụ, với truy vấn của người dùng "40 pound bằng bao nhiêu kilôgam?", tác nhân có thể quyết định rằng cần một công cụ `lbs_to_kg_tool` có một giá trị tham số là 40. Phản hồi của tác nhân có thể trông như thế này.
