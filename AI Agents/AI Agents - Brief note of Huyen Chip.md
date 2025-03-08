@@ -27,7 +27,8 @@ Có sự phụ thuộc mạnh mẽ giữa môi trường của tác nhân và b�
 
 Hình 6-8 cho thấy hình ảnh trực quan của SWE-agent (Yang và cộng sự, 2024), một tác nhân được xây dựng trên GPT-4. Môi trường của nó là máy tính có thiết bị đầu cuối và hệ thống tệp. Bộ hành động của nó bao gồm điều hướng kho lưu trữ, tìm kiếm tệp, xem tệp và chỉnh sửa dòng.
 
-[Hình 6-8.](https://imgur.com/a/WBFAAvQ)
+![Hình 6-8](https://huyenchip.com/assets/pics/agents/1-swe-agent.png)
+
 SWE-agent là một tác nhân mã hóa có môi trường là máy tính và các hành động của nó bao gồm điều hướng, tìm kiếm, xem tệp và chỉnh sửa
 
 Một tác nhân AI có nhiệm vụ thực hiện các nhiệm vụ thường do người dùng cung cấp. Trong một tác nhân AI, AI là bộ não xử lý nhiệm vụ, lập kế hoạch cho một chuỗi hành động để đạt được nhiệm vụ này và xác định xem nhiệm vụ đã được hoàn thành hay chưa.
@@ -131,7 +132,8 @@ Nếu kế hoạch được tạo ra được đánh giá là không tốt, bạ
 
 Nếu kế hoạch bao gồm các công cụ bên ngoài, lệnh gọi hàm sẽ được gọi. Đầu ra từ việc thực hiện kế hoạch này sau đó sẽ cần được đánh giá lại. Lưu ý rằng kế hoạch được tạo không nhất thiết phải là kế hoạch đầu cuối cho toàn bộ tác vụ. Nó có thể là một kế hoạch nhỏ cho một tác vụ phụ. Toàn bộ quy trình trông giống như Hình 6-9.
 
-[Hình 6-9.](https://imgur.com/vmpZDUp)
+![Hình 6-9](https://huyenchip.com/assets/pics/agents/2-agent-pattern.png)
+
 Tách rời kế hoạch và thực hiện để chỉ những kế hoạch đã được xác thực mới được thực hiện
 
 Hệ thống của bạn hiện có ba thành phần: `một để tạo kế hoạch`, `một để xác thực kế hoạch` và `một để thực hiện kế hoạch`. Nếu bạn coi mỗi thành phần là một tác nhân, thì đây có thể được coi là hệ thống đa tác nhân. Vì hầu hết các quy trình làm việc của tác nhân đều đủ phức tạp để liên quan đến nhiều thành phần, nên hầu hết các tác nhân đều là đa tác nhân.
