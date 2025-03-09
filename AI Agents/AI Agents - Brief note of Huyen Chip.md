@@ -272,4 +272,137 @@ Gọi hàm được minh họa trong Hình 6-10. Điều này được viết b�
 
 Với một truy vấn, một tác nhân được định nghĩa như trong Hình 6-10 sẽ tự động tạo ra các công cụ để sử dụng và các tham số của chúng. Một số API gọi hàm sẽ đảm bảo rằng chỉ các hàm hợp lệ được tạo ra, mặc dù chúng không thể đảm bảo các giá trị tham số chính xác.
 
-Ví dụ, với truy vấn của người dùng "40 pound bằng bao nhiêu kilôgam?", tác nhân có thể quyết định rằng cần một công cụ `lbs_to_kg_tool` có một giá trị tham số là 40. Phản hồi của tác nhân có thể trông như thế này.
+Ví dụ, với truy vấn của người dùng "40 pound bằng bao nhiêu kilôgam?", tác nhân có thể quyết định rằng cần một công cụ `lbs_to_kg_tool` có một giá trị tham số là 40. Phản hồi của tác nhân có thể trông như thế này:
+```
+response = ModelResponse(
+    finish_reason='tool_calls',
+    message=chat.Message(
+        content=None,
+        role='assistant',
+        tool_calls=[
+            ToolCall(
+                function=Function(
+                    arguments='{"lbs":40}',
+                    name='lbs_to_kg'),
+                type='function')
+        ])
+)
+```
+Từ phản hồi này, bạn có thể kích hoạt chức năng `lbs_to_kg(lbs=40)` và sử dụng đầu ra của nó để tạo phản hồi cho người dùng.
+
+* Mẹo: Khi làm việc với các tác nhân, hãy luôn yêu cầu hệ thống báo cáo các giá trị tham số mà nó sử dụng cho mỗi lệnh gọi hàm. Kiểm tra các giá trị này để đảm bảo chúng chính xác.
+
+#### Mức độ chi tiết của kế hoạch
+Kế hoạch là lộ trình phác thảo các bước cần thiết để hoàn thành một nhiệm vụ. Lộ trình có thể có nhiều mức độ chi tiết khác nhau. Để lập kế hoạch cho một năm, kế hoạch theo quý có cấp độ cao hơn so với kế hoạch theo tháng, và ngược lại, kế hoạch theo tuần cũng có cấp độ cao hơn so với kế hoạch theo tuần.
+
+Có một sự đánh đổi giữa lập kế hoạch/thực hiện. Một kế hoạch chi tiết khó tạo ra hơn, nhưng dễ thực hiện hơn. Một kế hoạch cấp cao hơn dễ tạo ra hơn, nhưng khó thực hiện hơn. Một cách tiếp cận để tránh sự đánh đổi này là lập kế hoạch theo thứ bậc. Đầu tiên, sử dụng một trình lập kế hoạch để tạo ra một kế hoạch cấp cao, chẳng hạn như kế hoạch theo quý. Sau đó, đối với mỗi quý, sử dụng cùng một trình lập kế hoạch hoặc một trình lập kế hoạch khác để tạo ra một kế hoạch theo tháng.
+
+Cho đến nay, tất cả các ví dụ về kế hoạch được tạo đều sử dụng tên hàm chính xác, rất chi tiết. Một vấn đề với cách tiếp cận này là kho công cụ của tác nhân có thể thay đổi theo thời gian. Ví dụ, hàm để lấy ngày hiện tại `get_time()` có thể được đổi tên thành `get_current_time()`. Khi một công cụ thay đổi, bạn sẽ cần cập nhật lời nhắc và tất cả các ví dụ của mình. Sử dụng tên hàm chính xác cũng khiến việc sử dụng lại trình lập kế hoạch trong các trường hợp sử dụng khác nhau với các API công cụ khác nhau trở nên khó khăn hơn.
+
+Nếu trước đó bạn đã tinh chỉnh một mô hình để tạo ra các kế hoạch dựa trên kho công cụ cũ, bạn sẽ cần tinh chỉnh lại mô hình trên kho công cụ mới.
+
+Để tránh vấn đề này, các kế hoạch cũng có thể được tạo ra bằng ngôn ngữ tự nhiên hơn, ở cấp độ cao hơn so với tên hàm dành riêng cho miền. Ví dụ, với truy vấn "Giá của sản phẩm bán chạy nhất tuần trước là bao nhiêu", một tác nhân có thể được hướng dẫn để đưa ra một kế hoạch trông như thế này:
+
+* get current date
+* retrieve the best-selling product last week
+* retrieve product information
+* generate query
+* generate response
+
+Sử dụng nhiều ngôn ngữ tự nhiên hơn giúp trình tạo kế hoạch của bạn trở nên mạnh mẽ hơn trước những thay đổi trong API công cụ. Nếu mô hình của bạn được đào tạo chủ yếu bằng ngôn ngữ tự nhiên, thì có khả năng nó sẽ hiểu và tạo kế hoạch bằng ngôn ngữ tự nhiên tốt hơn và ít có khả năng gây ảo giác hơn.
+
+Nhược điểm của cách tiếp cận này là bạn cần một trình biên dịch để biên dịch từng hành động ngôn ngữ tự nhiên thành các lệnh có thể thực hiện được. [Chameleon](https://arxiv.org/abs/2304.09842) (Lu và cộng sự, 2023) gọi trình biên dịch này là trình tạo chương trình. Tuy nhiên, biên dịch là một nhiệm vụ đơn giản hơn nhiều so với lập kế hoạch và có thể được thực hiện bởi các mô hình yếu hơn với rủi ro ảo giác thấp hơn.
+
+#### Kế hoạch phức tạp
+
+Các ví dụ về kế hoạch cho đến nay đều là tuần tự: hành động tiếp theo trong kế hoạch luôn được thực hiện sau khi hành động trước đó được thực hiện. Thứ tự mà các hành động có thể được thực hiện được gọi là luồng điều khiển. Dạng tuần tự chỉ là một loại luồng điều khiển. Các loại luồng điều khiển khác bao gồm song song, câu lệnh if và vòng lặp for. Danh sách bên dưới cung cấp tổng quan về từng luồng điều khiển, bao gồm tuần tự để so sánh:
+
+* Tuần tự
+
+Thực hiện tác vụ B sau khi tác vụ A hoàn tất, có thể là do tác vụ B phụ thuộc vào tác vụ A. Ví dụ, truy vấn SQL chỉ có thể được thực hiện sau khi nó được dịch từ đầu vào ngôn ngữ tự nhiên.
+
+* Song song
+
+Thực hiện nhiệm vụ A và B cùng lúc. Ví dụ, với truy vấn “Tìm cho tôi những sản phẩm bán chạy nhất dưới 100 đô la”, trước tiên, một tác nhân có thể lấy 100 sản phẩm bán chạy nhất và, đối với mỗi sản phẩm này, lấy giá của sản phẩm đó.
+
+* Câu lệnh If
+
+Thực hiện nhiệm vụ B hoặc nhiệm vụ C tùy thuộc vào đầu ra từ bước trước. Ví dụ, trước tiên, tác nhân kiểm tra báo cáo thu nhập của NVIDIA. Dựa trên báo cáo này, sau đó có thể quyết định bán hoặc mua cổ phiếu NVIDIA. Bài đăng của [Anthropic](https://www.anthropic.com/research/building-effective-agents) gọi mô hình này là “định tuyến”.
+
+* Vòng lặp For
+
+Lặp lại việc thực hiện nhiệm vụ A cho đến khi một điều kiện cụ thể được đáp ứng. Ví dụ, tiếp tục tạo số ngẫu nhiên cho đến khi một số nguyên tố.
+
+Các luồng điều khiển khác nhau này được trực quan hóa trong Hình 6-11.
+![Hình 6-11](https://huyenchip.com/assets/pics/agents/4-agent-control-flow.png)
+
+Hình 6-11. Ví dụ về các lệnh khác nhau trong đó một kế hoạch có thể được thực hiện
+
+Trong kỹ thuật phần mềm truyền thống, các điều kiện cho luồng điều khiển là chính xác. Với các tác nhân được hỗ trợ bởi AI, các mô hình AI xác định luồng điều khiển. Các kế hoạch có luồng điều khiển không tuần tự khó tạo ra và chuyển thành các lệnh thực thi hơn.
+
+* Mẹo:
+
+Khi đánh giá một khuôn khổ tác nhân, hãy kiểm tra luồng điều khiển nào mà nó hỗ trợ. Ví dụ, nếu hệ thống cần duyệt mười trang web, liệu nó có thể thực hiện đồng thời không? Thực hiện song song có thể giảm đáng kể độ trễ mà người dùng cảm nhận được.
+
+#### Phản ánh và sửa lỗi
+Ngay cả những kế hoạch tốt nhất cũng cần được đánh giá và điều chỉnh liên tục để tối đa hóa cơ hội thành công. Mặc dù phản ánh không hoàn toàn cần thiết để một đại lý hoạt động, nhưng nó là cần thiết để một đại lý thành công.
+
+Có nhiều nơi trong quá trình thực hiện nhiệm vụ mà việc phản ánh có thể hữu ích:
+
+* Sau khi nhận được yêu cầu của người dùng để đánh giá xem yêu cầu đó có khả thi hay không.
+* Sau khi lập kế hoạch ban đầu để đánh giá xem kế hoạch có hợp lý hay không.
+* Sau mỗi bước thực hiện cần đánh giá xem nó có đi đúng hướng không.
+* Sau khi toàn bộ kế hoạch đã được thực hiện để xác định xem nhiệm vụ đã được hoàn thành hay chưa.
+* Suy ngẫm và sửa lỗi là hai cơ chế khác nhau song hành với nhau. Suy ngẫm tạo ra những hiểu biết giúp phát hiện ra lỗi cần sửa.
+
+Có thể thực hiện phản ánh với cùng một tác nhân với lời nhắc tự phê bình. Cũng có thể thực hiện với một thành phần riêng biệt, chẳng hạn như một người chấm điểm chuyên biệt: một mô hình đưa ra điểm số cụ thể cho mỗi kết quả.
+
+Được đề xuất lần đầu tiên bởi [ReAct](https://arxiv.org/abs/2210.03629) (Yao và cộng sự, 2022), việc đan xen giữa lý trí và hành động đã trở thành một mô hình chung cho các tác nhân. Yao và cộng sự đã sử dụng thuật ngữ “lý luận” để bao hàm cả lập kế hoạch và phản ánh. Ở mỗi bước, tác nhân được yêu cầu giải thích suy nghĩ của mình (lập kế hoạch), thực hiện hành động, sau đó phân tích các quan sát (phản ánh), cho đến khi tác nhân coi nhiệm vụ đã hoàn thành. Tác nhân thường được nhắc nhở, sử dụng các ví dụ, để tạo ra đầu ra theo định dạng sau:
+
+```
+Thought 1: …
+Act 1: …
+Observation 1: …
+
+… [continue until reflection determines that the task is finished] …
+
+Thought N: … 
+Act N: Finish [Response to query]
+```
+Hình 6-12 cho thấy ví dụ về một tác nhân tuân theo khuôn khổ ReAct để trả lời câu hỏi từ [HotpotQA](https://arxiv.org/abs/1809.09600) (Yang và cộng sự, 2018), một chuẩn mực cho việc trả lời câu hỏi nhiều bước.
+
+![Hình 6-12](https://huyenchip.com/assets/pics/agents/5-ReAct.png)
+
+Hình 6-12: Một tác nhân ReAct đang hoạt động.
+
+Bạn có thể triển khai phản ánh trong bối cảnh có nhiều tác nhân: một tác nhân lập kế hoạch và thực hiện hành động, còn tác nhân khác đánh giá kết quả sau mỗi bước hoặc sau một số bước.
+
+Nếu phản hồi của tác nhân không hoàn thành nhiệm vụ, bạn có thể nhắc tác nhân suy nghĩ về lý do tại sao nó không hoàn thành và cách cải thiện. Dựa trên gợi ý này, tác nhân tạo ra một kế hoạch mới. Điều này cho phép các tác nhân học hỏi từ những sai lầm của họ.
+
+Ví dụ, với một tác vụ tạo mã hóa, người đánh giá có thể đánh giá rằng mã được tạo ra không đạt ⅓ các trường hợp thử nghiệm. Sau đó, tác nhân phản ánh rằng nó không đạt vì không tính đến các mảng mà tất cả các số đều âm. Sau đó, tác nhân tạo mã mới, tính đến tất cả các mảng âm.
+
+Đây là cách tiếp cận mà [Reflexion](https://arxiv.org/abs/2303.11366) (Shinn và cộng sự, 2023) đã thực hiện. Trong khuôn khổ này, phản ánh được chia thành hai mô-đun: một người đánh giá đánh giá kết quả và một mô-đun tự phản ánh phân tích những gì đã sai. Hình 6-13 cho thấy các ví dụ về các tác nhân Reflexion đang hoạt động. Các tác giả đã sử dụng thuật ngữ "quỹ đạo" để chỉ một kế hoạch. Ở mỗi bước, sau khi đánh giá và tự phản ánh, tác nhân đề xuất một quỹ đạo mới.
+
+![Hình 6-13](https://huyenchip.com/assets/pics/agents/6-reflexion.png)
+
+Hình 6-13. Ví dụ về cách hoạt động của tác nhân Reflexion.
+
+So với việc tạo kế hoạch, phản ánh tương đối dễ triển khai và có thể mang lại sự cải thiện hiệu suất đáng ngạc nhiên. Nhược điểm của cách tiếp cận này là độ trễ và chi phí. Suy nghĩ, quan sát và đôi khi là hành động có thể cần rất nhiều mã thông báo để tạo, điều này làm tăng chi phí và độ trễ mà người dùng cảm nhận, đặc biệt là đối với các tác vụ có nhiều bước trung gian. Để thúc đẩy các tác nhân của họ tuân theo định dạng, cả tác giả ReAct và Reflexion đều sử dụng rất nhiều ví dụ trong lời nhắc của họ. Điều này làm tăng chi phí tính toán mã thông báo đầu vào và làm giảm không gian ngữ cảnh có sẵn cho các thông tin khác.
+
+Lựa chọn công cụ
+Vì các công cụ thường đóng vai trò quan trọng trong thành công của nhiệm vụ, nên việc lựa chọn công cụ cần được cân nhắc cẩn thận. Các công cụ cung cấp cho tác nhân của bạn phụ thuộc vào môi trường và nhiệm vụ, nhưng cũng phụ thuộc vào mô hình AI cung cấp năng lượng cho tác nhân.
+
+Không có hướng dẫn hoàn hảo nào về cách chọn bộ công cụ tốt nhất. Tài liệu của Agent bao gồm nhiều danh mục công cụ. Ví dụ:
+
+* [Toolformer](https://arxiv.org/abs/2302.04761) (Schick và cộng sự, 2023) đã tinh chỉnh GPT-J để học 5 công cụ.
+* [Chameleon](https://arxiv.org/abs/2304.09842) (Lu và cộng sự, 2023) sử dụng 13 công cụ.
+* [Gorilla](https://arxiv.org/abs/2305.15334) (Patil và cộng sự, 2023) đã cố gắng nhắc nhở các tác nhân chọn lệnh gọi API phù hợp trong số 1.645 API.
+Nhiều công cụ hơn cung cấp cho tác nhân nhiều khả năng hơn. Tuy nhiên, càng có nhiều công cụ, càng khó để sử dụng chúng hiệu quả. Tương tự như việc con người khó thành thạo một bộ công cụ lớn. Thêm công cụ cũng có nghĩa là tăng mô tả công cụ, có thể không phù hợp với bối cảnh của mô hình.
+
+Giống như nhiều quyết định khác khi xây dựng ứng dụng AI, việc lựa chọn công cụ đòi hỏi phải thử nghiệm và phân tích. Sau đây là một số điều bạn có thể làm để giúp bạn quyết định:
+
+So sánh hiệu suất hoạt động của tác nhân khi sử dụng các bộ công cụ khác nhau.
+Thực hiện nghiên cứu cắt bỏ để xem hiệu suất của tác nhân giảm bao nhiêu nếu một công cụ bị loại khỏi kho của nó. Nếu có thể loại bỏ một công cụ mà không làm giảm hiệu suất, hãy loại bỏ nó.
+Tìm kiếm các công cụ mà tác nhân thường mắc lỗi. Nếu một công cụ tỏ ra quá khó để tác nhân sử dụng—ví dụ, nhắc nhở nhiều và thậm chí tinh chỉnh cũng không thể khiến mô hình học cách sử dụng nó—hãy thay đổi công cụ.
+Vẽ biểu đồ phân phối các lệnh gọi công cụ để xem công cụ nào được sử dụng nhiều nhất và công cụ nào được sử dụng ít nhất. Hình 6-14 cho thấy sự khác biệt trong các mẫu sử dụng công cụ của GPT-4 và ChatGPT trong [Chameleon](https://arxiv.org/abs/2304.09842) (Lu và cộng sự, 2023).
+
