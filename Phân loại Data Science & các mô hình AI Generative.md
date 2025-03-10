@@ -250,4 +250,4 @@ Video giới thiệu về LLM:
 |[Public APIs](https://github.com/public-apis/public-apis)|https://github.com/public-apis/public-apis|A collective list of free APIs|
 |[Build your own X](https://github.com/codecrafters-io/build-your-own-x)|https://github.com/codecrafters-io/build-your-own-x|Master programming by recreating your favorite technologies from scratch.|
 |[LMStudio](https://github.com/lmstudio-ai/lms)|https://github.com/lmstudio-ai/lms|LMStudio đã cho phép lập trình viên sắp tới có thể chỉnh sửa, thiết lập APIs để kết nối các ứng dụng khác.|
-|[Jina-Deep Research](https://github.com/jina-ai/node-DeepResearch)|https://github.com/jina-ai/node-DeepResearch|Keep searching, reading webpages, reasoning until it finds the answer (or exceeding the token budget).|
+|[Jina-Deep Research](https://github.com/jina-ai/node-DeepResearch)|https://github.com/jina-ai/node-DeepResearch|[Jina](https://lmstudio.ai/blog/introducing-lmstudio-sdk?fbclid=IwY2xjawI7I5dleHRuA2FlbQIxMQABHdKtBu62_DrUNJaE_IpmzwIMDMyu0sltHs6_Cx3Ns851s0R0oxAHnVRCVA_aem_UPd3vlYMoX1MJfa3T14SNw) keep searching, reading webpages, reasoning until it finds the answer (or exceeding the token budget).|
