@@ -166,6 +166,7 @@ Video giới thiệu về LLM:
 |---|---|---|
 |Mango RVC|[Mango-RVC-fork](https://github.com/Mangio621/Mangio-RVC-Fork)|Một nhánh thử nghiệm của kho lưu trữ Retrieval-based-Voice-Conversion-WebUI|
 |Applio RVC|[Applio-RVC-fork](https://github.com/SayanoAI/Applio-RVC-Fork)|Tạo sinh, nhân bản và TTS, được fork từ [bản gốc](https://github.com/IAHispano/Applio)|
+|[F5-TTS](https://github.com/SWivid/F5-TTS)|https://github.com/SWivid/F5-TTS|[Official code](https://arxiv.org/abs/2410.06885) for "F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching".|
 |Delphi|Delphi AI|AI tạo văn bản và giọng nói, giúp cá nhân hóa nội dung.|
 |ElevenLabs|[ElevenLabs.io](https://elevenlabs.io/)|AI tạo giọng nói chân thực.|
 |Suno|[Suno AI](https://suno.com/)|AI tạo nhạc tự động.|
@@ -186,16 +187,24 @@ Video giới thiệu về LLM:
 
 ---
 
-## 1.1.Nhóm các mô hình Thị giác máy tính
+## 1.1.Nhóm các mô hình Thị giác máy tính và OCR
 |Tên mô hình|Link nguồn|Tóm tắt|
 |---|---|---|
 |[Ultralytics](https://github.com/ultralytics/ultralytics?tab=readme-ov-file) YOLO11|https://github.com/ultralytics/ultralytics?tab=readme-ov-file|Ứng dụng AI để phát hiện và theo dõi đối tượng, phân đoạn trường hợp, phân loại hình ảnh và ước tính tư thế|
 |[Roboflow](https://roboflow.com/)|https://roboflow.com/|Quản lý các workflow tự động về nhận diện hình ảnh|
 |[Pyresearch](https://github.com/pyresearch/notebooks?tab=readme-ov-file)|https://github.com/pyresearch/notebooks?tab=readme-ov-file|Dự án Pyresearch|
+|[TesseractOCR](https://github.com/tesseract-ocr/tesseract)|https://tesseract-ocr.github.io/|[Tesseract](https://github.com/naptha/tesseract.js) hỗ trợ unicode (UTF-8) và có thể nhận dạng hơn 100 ngôn ngữ và hỗ trợ nhiều định dạng hình ảnh bao gồm PNG, JPEG và TIFF.|
+|[VietOCR-Pbcquoc](https://github.com/pbcquoc/vietocr)|https://github.com/pbcquoc/vietocr|[DORI](https://dorify.net/vi) là end-to-end OCR platform, hỗ trợ các bạn đánh nhãn, huấn luyện, deploy mô hình dễ dàng.|
+|[EasyOCR](https://github.com/JaidedAI/EasyOCR)|https://github.com/JaidedAI/EasyOCR|[JaideAI](https://www.jaided.ai/) OCR with 80+ supported languages and all popular writing scripts including Latin, Chinese, Arabic, Devanagari, Cyrillic and etc.|
+|[PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)|https://github.com/PaddlePaddle/PaddleOCR|Awesome multilingual OCR toolkits based on PaddlePaddle (practical ultra lightweight OCR system, support 80+ languages recognition.|
+|[TrOCR](https://huggingface.co/docs/transformers/en/model_doc/trocr)|https://huggingface.co/docs/transformers/en/model_doc/trocr|The TrOCR model was proposed in TrOCR: Transformer-based Optical Character Recognition with Pre-trained Models.|
+|[VietOCR-Flash2](https://huggingface.co/datasets/5CD-AI/Viet-OCR-VQA-flash2)|https://huggingface.co/datasets/5CD-AI/Viet-OCR-VQA-flash2|[Vintern-1B:](https://arxiv.org/abs/2408.12480) An Efficient Multimodal Large Language Model for Vietnamese.|
+|[Vi-OCR_VQA](https://huggingface.co/datasets/LR-AI-Labs/vi-OCR_VQA)|https://huggingface.co/datasets/LR-AI-Labs/vi-OCR_VQA|Dataset 33.000 dòng data từ ảnh bìa sách của các NXB ở Việt Nam|
+
 
 ---
 
-## 1.2.Nhóm các mô hình tác nhân nhân tạo (AI Agent & Robotics)
+## 1.2.Nhóm các mô hình tác tử nhân tạo (AI Agent) & Robotics tự động hóa
 |Tên mô hình|Link nguồn|Tóm tắt|
 |---|---|---|
 |![Logo N8N](https://avatars.githubusercontent.com/u/45487711?s=48&v=4) [N8N](https://github.com/n8n-io/n8n)|https://github.com/n8n-io/n8n|Tự động hóa (Automate workflow) quy trình làm việc kết hợp hơn 400 node tác vụ, self-host hoặc cloud|
@@ -208,6 +217,7 @@ Video giới thiệu về LLM:
 |NotebookLM|[NotebookLM](https://notebooklm.google/)|Trợ lý ghi chú AI từ Google.|
 |CrewAI|[CrewAI](https://github.com/crewAIInc/crewAI)|Framework for orchestrating role-playing, autonomous AI agents.|
 |localGPT|[localGPT](https://github.com/PromtEngineer/localGPT)|Chat with your documents on your local device using GPT models. No data leaves your device and 100% private.|
+|[OpenManus](https://github.com/mannaandpoem/OpenManus)|https://github.com/mannaandpoem/OpenManus|Manus is coming open, manus guide [tại đây](https://github.com/hodorwang/manus-guide)|
 
 ---
 
@@ -225,3 +235,5 @@ Video giới thiệu về LLM:
 |---|---|---|
 |Đào coin|[Rainbow Miner](https://github.com/RainbowMiner/RainbowMiner)|Khai thác GPU với chức năng chuyển đổi lợi nhuận thông minh giữa các nhóm khai thác, thuật toán, thợ đào, sử dụng mọi tổ hợp thiết bị có thể (NVIDIA, AMD, CPU).|
 |Đào coin|[MultiPoolMiner](https://github.com/MultiPoolMiner/MultiPoolMiner)|Giám sát các nhóm khai thác tiền điện tử theo thời gian thực để tìm ra nhóm có lợi nhuận cao nhất cho máy của bạn. Kiểm soát bất kỳ thợ đào nào có sẵn thông qua dòng lệnh.|
+|[Ghi chú Notes](https://github.com/siyuan-note/siyuan)|[Siyuan](https://b3log.org/siyuan)|A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang.|
+
