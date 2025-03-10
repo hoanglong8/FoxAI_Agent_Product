@@ -249,3 +249,5 @@ Video giới thiệu về LLM:
 |[Ghi chú Notes](https://github.com/siyuan-note/siyuan)|[Siyuan](https://b3log.org/siyuan)|A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang.|
 |[Public APIs](https://github.com/public-apis/public-apis)|https://github.com/public-apis/public-apis|A collective list of free APIs|
 |[Build your own X](https://github.com/codecrafters-io/build-your-own-x)|https://github.com/codecrafters-io/build-your-own-x|Master programming by recreating your favorite technologies from scratch.|
+|[LMStudio](https://github.com/lmstudio-ai/lms)|https://github.com/lmstudio-ai/lms|LMStudio đã cho phép lập trình viên sắp tới có thể chỉnh sửa, thiết lập APIs để kết nối các ứng dụng khác.|
+|[Jina-Deep Research](https://github.com/jina-ai/node-DeepResearch)|https://github.com/jina-ai/node-DeepResearch|Keep searching, reading webpages, reasoning until it finds the answer (or exceeding the token budget).|
