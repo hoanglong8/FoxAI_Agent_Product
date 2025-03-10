@@ -98,6 +98,12 @@ Hãy tưởng tượng **Data Analyst, Data Engineer, Data Scientist, và AI Eng
 
 ---
 
+## 5.0.Xem trending các repo
+
+Truy cập https://trendshift.io/ để cập nhật các [Repo](https://github.com/liweiyi88/trendshift-backend/tree/main) và Devs trên top GitHub.
+
+![Hình ảnh](https://d4.alternativeto.net/FY2OqJRvcg0ASlPaj6W-4QZIvyhwQaytBIzocTzONbA/rs:fit:2400:2400:0/g:ce:0:0/YWJzOi8vZGlzdC9zL3RyZW5kc2hpZnQtaW9fNjU4NzA5X2Z1bGwucG5n.jpg)
+
 ## 5.1.Nhóm các mô hình ngôn ngữ lớn LLM & tạo sinh văn bản
 
 ![Hình ảnh động](https://github.com/Hannibal046/Awesome-LLM/raw/main/resources/image8.gif)
@@ -241,4 +247,5 @@ Video giới thiệu về LLM:
 |Đào coin|[Rainbow Miner](https://github.com/RainbowMiner/RainbowMiner)|Khai thác GPU với chức năng chuyển đổi lợi nhuận thông minh giữa các nhóm khai thác, thuật toán, thợ đào, sử dụng mọi tổ hợp thiết bị có thể (NVIDIA, AMD, CPU).|
 |Đào coin|[MultiPoolMiner](https://github.com/MultiPoolMiner/MultiPoolMiner)|Giám sát các nhóm khai thác tiền điện tử theo thời gian thực để tìm ra nhóm có lợi nhuận cao nhất cho máy của bạn. Kiểm soát bất kỳ thợ đào nào có sẵn thông qua dòng lệnh.|
 |[Ghi chú Notes](https://github.com/siyuan-note/siyuan)|[Siyuan](https://b3log.org/siyuan)|A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang.|
-
+|[Public APIs](https://github.com/public-apis/public-apis)|https://github.com/public-apis/public-apis|A collective list of free APIs|
+|[Build your own X](https://github.com/codecrafters-io/build-your-own-x)|https://github.com/codecrafters-io/build-your-own-x|Master programming by recreating your favorite technologies from scratch.|
