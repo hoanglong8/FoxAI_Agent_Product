@@ -200,7 +200,12 @@ Video giới thiệu về LLM:
 |[TrOCR](https://huggingface.co/docs/transformers/en/model_doc/trocr)|https://huggingface.co/docs/transformers/en/model_doc/trocr|The TrOCR model was proposed in TrOCR: Transformer-based Optical Character Recognition with Pre-trained Models.|
 |[VietOCR-Flash2](https://huggingface.co/datasets/5CD-AI/Viet-OCR-VQA-flash2)|https://huggingface.co/datasets/5CD-AI/Viet-OCR-VQA-flash2|[Vintern-1B:](https://arxiv.org/abs/2408.12480) An Efficient Multimodal Large Language Model for Vietnamese.|
 |[Vi-OCR_VQA](https://huggingface.co/datasets/LR-AI-Labs/vi-OCR_VQA)|https://huggingface.co/datasets/LR-AI-Labs/vi-OCR_VQA|Dataset 33.000 dòng data từ ảnh bìa sách của các NXB ở Việt Nam|
-
+|[OlmOCR](https://github.com/allenai/olmocr)|https://github.com/allenai/olmocr|Toolkit for linearizing PDFs for LLM datasets/training|
+|[ShareX](https://github.com/ShareX/ShareX)|https://github.com/ShareX/ShareX|ShareX is a free and open source program that lets you capture or record any area of your screen|
+|[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|https://github.com/hiroi-sora/Umi-OCR|OCR software, free and offline. 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。|
+|[MinerU](https://github.com/opendatalab/MinerU)|https://github.com/opendatalab/MinerU|A high-quality tool for convert PDF to Markdown and JSON.一站式开源高质量数据提取工具，将PDF转换成Markdown和JSON格式。|
+|[OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF)|https://github.com/ocrmypdf/OCRmyPDF|OCRmyPDF adds an OCR text layer to scanned PDF files, allowing them to be searched|
+|[LaTeX-OCR](https://github.com/lukas-blecher/LaTeX-OCR)|https://github.com/lukas-blecher/LaTeX-OCR|pix2tex: Using a ViT to convert images of equations into LaTeX code.|
 
 ---
 
