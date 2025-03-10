@@ -211,7 +211,8 @@ Video giới thiệu về LLM:
 |[Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)|https://github.com/hiroi-sora/Umi-OCR|OCR software, free and offline. 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。|
 |[MinerU](https://github.com/opendatalab/MinerU)|https://github.com/opendatalab/MinerU|A high-quality tool for convert PDF to Markdown and JSON.一站式开源高质量数据提取工具，将PDF转换成Markdown和JSON格式。|
 |[OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF)|https://github.com/ocrmypdf/OCRmyPDF|OCRmyPDF adds an OCR text layer to scanned PDF files, allowing them to be searched|
-|[LaTeX-OCR](https://github.com/lukas-blecher/LaTeX-OCR)|https://github.com/lukas-blecher/LaTeX-OCR|pix2tex: Using a ViT to convert images of equations into LaTeX code.|
+|[LaTeX-OCR](https://github.com/lukas-blecher/LaTeX-OCR)|https://github.com/lukas-blecher/LaTeX-OCR|pix2tex: Using a ViT to convert images of equations into LaTeX code (nhận diện công thức toán học).|
+|CohereForAI/[aya-vision-8b](https://huggingface.co/CohereForAI/aya-vision-8b) |https://huggingface.co/CohereForAI/aya-vision-8b|C4AI Aya Vision 8B is an open weights research release of an 8-billion parameter model with advanced capabilities optimized for a variety of vision-language use cases, including OCR, captioning, visual reasoning, summarization, question answering, code...|
 
 ---
 
@@ -229,6 +230,7 @@ Video giới thiệu về LLM:
 |CrewAI|[CrewAI](https://github.com/crewAIInc/crewAI)|Framework for orchestrating role-playing, autonomous AI agents.|
 |localGPT|[localGPT](https://github.com/PromtEngineer/localGPT)|Chat with your documents on your local device using GPT models. No data leaves your device and 100% private.|
 |[OpenManus](https://github.com/mannaandpoem/OpenManus)|https://github.com/mannaandpoem/OpenManus|Manus is coming open, manus guide [tại đây](https://github.com/hodorwang/manus-guide)|
+|[Goose 1](https://huggingface.co/BlinkDL/rwkv7-g1)|https://github.com/BlinkDL/RWKV-LM|[Goose 1](https://github.com/block/goose)'s an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM|
 
 ---
 
