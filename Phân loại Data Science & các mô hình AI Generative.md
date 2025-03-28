@@ -220,14 +220,17 @@ Video giới thiệu về LLM:
 
 ---
 
-## 1.2.Nhóm các mô hình tác tử nhân tạo (AI Agent) & Robotics tự động hóa
+## 1.2.Nhóm các mô hình Chatbot & tác tử nhân tạo (AI Agent)
 |Tên mô hình|Link nguồn|Tóm tắt|
 |---|---|---|
 |![Logo N8N](https://avatars.githubusercontent.com/u/45487711?s=48&v=4) [N8N](https://github.com/n8n-io/n8n)|https://github.com/n8n-io/n8n|Tự động hóa (Automate workflow) quy trình làm việc kết hợp hơn 400 node tác vụ, self-host hoặc cloud|
 |Dify|[Dify](https://github.com/langgenius/dify)|Thiết lập quy trình làm việc AI, đường ống RAG để tăng khả năng của tác nhân, quản lý mô hình và tăng tính giám sát.|
-|RASA|[Rasa](https://github.com/RasaHQ/rasa)|Thiết lập Chatbot open-source trên Fb messenger, Telegram...|
+|RASA|[Rasa](https://github.com/RasaHQ/rasa)|Thiết lập Chatbot phiên bản thường và phiên bản [Webchat](https://github.com/botfront/rasa-webchat) open-source trên Fb messenger, Telegram...|
 |Botpress|[Botpress](https://github.com/botpress/botpress)|The open-source hub to build & deploy GPT/LLM Agents|
-|
+|ChatbotUI|[ChatbotUI](https://github.com/mckaywrigley/chatbot-ui)|Giao diện hiện đại giống ChatGPT|
+|Chaskiq|[Chaskiq](https://github.com/chaskiq/chaskiq)||
+|Vuechat|[Vuechat](https://github.com/advanced-chat/vue-advanced-chat)||
+|Rocketchat|[Rocketchat](https://github.com/RocketChat/Rocket.Chat)||
 |Groq-deep-researcher|[Groq](https://github.com/thanh-abaii/groq-deep-researcher?fbclid=IwY2xjawIOSBFleHRuA2FlbQIxMAABHRq82yH9DVFbylCEzm1VFFh8h9OIfUK6DlxbxQA1jArghDYEfZ49vh3LHw_aem_wGKW2VGZByj7K8GAJf4xqw)|Trợ lý nghiên cứu web hoàn toàn tự động, sử dụng bất kỳ mô hình LLM nào được cung cấp bởi Groq.|
 |Perplexica|[GitHub](https://github.com/ItzCrazyKns/Perplexica)|Perplexica là một công cụ tìm kiếm deep research, giải pháp thay thế nguồn mở cho Perplexity|
 |Adobe PDF Chat|[Adobe PDF Chat](https://www.adobe.com/)|Công cụ AI hỗ trợ đọc và phân tích tài liệu PDF.|
@@ -256,7 +259,10 @@ Video giới thiệu về LLM:
 |Đào coin|[Rainbow Miner](https://github.com/RainbowMiner/RainbowMiner)|Khai thác GPU với chức năng chuyển đổi lợi nhuận thông minh giữa các nhóm khai thác, thuật toán, thợ đào, sử dụng mọi tổ hợp thiết bị có thể (NVIDIA, AMD, CPU).|
 |Đào coin|[MultiPoolMiner](https://github.com/MultiPoolMiner/MultiPoolMiner)|Giám sát các nhóm khai thác tiền điện tử theo thời gian thực để tìm ra nhóm có lợi nhuận cao nhất cho máy của bạn. Kiểm soát bất kỳ thợ đào nào có sẵn thông qua dòng lệnh.|
 |[Ghi chú Notes](https://github.com/siyuan-note/siyuan)|[Siyuan](https://b3log.org/siyuan)|A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang.|
-|[Public APIs](https://github.com/public-apis/public-apis)|https://github.com/public-apis/public-apis|A collective list of free APIs|
+|[Public APIs](https://github.com/public-apis/public-apis)|https://github.com/public-apis/public-apis|Bộ sưu tập hàng trăm free APIs|
 |[Build your own X](https://github.com/codecrafters-io/build-your-own-x)|https://github.com/codecrafters-io/build-your-own-x|Master programming by recreating your favorite technologies from scratch.|
 |[LMStudio](https://github.com/lmstudio-ai/lms)|https://github.com/lmstudio-ai/lms|LMStudio đã cho phép lập trình viên sắp tới có thể chỉnh sửa, thiết lập APIs để kết nối các ứng dụng khác.|
 |[Jina-Deep Research](https://github.com/jina-ai/node-DeepResearch)|https://github.com/jina-ai/node-DeepResearch|[Jina](https://lmstudio.ai/blog/introducing-lmstudio-sdk?fbclid=IwY2xjawI7I5dleHRuA2FlbQIxMQABHdKtBu62_DrUNJaE_IpmzwIMDMyu0sltHs6_Cx3Ns851s0R0oxAHnVRCVA_aem_UPd3vlYMoX1MJfa3T14SNw) keep searching, reading webpages, reasoning until it finds the answer (or exceeding the token budget).|
+|Hello-Algo|[Hello-Algo](https://github.com/krahets/hello-algo)|Khóa học cấp tốc về cấu trúc dữ liệu và thuật toán với hình ảnh minh họa động và mã code có sẵn|
+|Programing Books|[GitHub](https://github.com/EbookFoundation/free-programming-books)|Freely available programming books|
+
