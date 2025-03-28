@@ -98,11 +98,15 @@ Hãy tưởng tượng **Data Analyst, Data Engineer, Data Scientist, và AI Eng
 
 ---
 
-## 5.0.Xem trending các repo
+## 5.0.Tổng quan
+
+* Xem trending các repo:
 
 Truy cập https://trendshift.io/ để cập nhật các [Repo](https://github.com/liweiyi88/trendshift-backend/tree/main) và Devs trên top GitHub.
 
 ![Hình ảnh](https://d4.alternativeto.net/FY2OqJRvcg0ASlPaj6W-4QZIvyhwQaytBIzocTzONbA/rs:fit:2400:2400:0/g:ce:0:0/YWJzOi8vZGlzdC9zL3RyZW5kc2hpZnQtaW9fNjU4NzA5X2Z1bGwucG5n.jpg)
+
+* Xem [Market Place](https://github.com/marketplace) - các ứng dụng mở rộng trên GitHub như ChatGPT, 
 
 ## 5.1.Nhóm các mô hình ngôn ngữ lớn LLM & tạo sinh văn bản
 
@@ -221,6 +225,9 @@ Video giới thiệu về LLM:
 |---|---|---|
 |![Logo N8N](https://avatars.githubusercontent.com/u/45487711?s=48&v=4) [N8N](https://github.com/n8n-io/n8n)|https://github.com/n8n-io/n8n|Tự động hóa (Automate workflow) quy trình làm việc kết hợp hơn 400 node tác vụ, self-host hoặc cloud|
 |Dify|[Dify](https://github.com/langgenius/dify)|Thiết lập quy trình làm việc AI, đường ống RAG để tăng khả năng của tác nhân, quản lý mô hình và tăng tính giám sát.|
+|RASA|[Rasa](https://github.com/RasaHQ/rasa)|Thiết lập Chatbot open-source trên Fb messenger, Telegram...|
+|Botpress|[Botpress](https://github.com/botpress/botpress)|The open-source hub to build & deploy GPT/LLM Agents|
+|
 |Groq-deep-researcher|[Groq](https://github.com/thanh-abaii/groq-deep-researcher?fbclid=IwY2xjawIOSBFleHRuA2FlbQIxMAABHRq82yH9DVFbylCEzm1VFFh8h9OIfUK6DlxbxQA1jArghDYEfZ49vh3LHw_aem_wGKW2VGZByj7K8GAJf4xqw)|Trợ lý nghiên cứu web hoàn toàn tự động, sử dụng bất kỳ mô hình LLM nào được cung cấp bởi Groq.|
 |Perplexica|[GitHub](https://github.com/ItzCrazyKns/Perplexica)|Perplexica là một công cụ tìm kiếm deep research, giải pháp thay thế nguồn mở cho Perplexity|
 |Adobe PDF Chat|[Adobe PDF Chat](https://www.adobe.com/)|Công cụ AI hỗ trợ đọc và phân tích tài liệu PDF.|
