@@ -137,7 +137,9 @@ Bắt đầu bằng cách điều hướng Agent Marketplace để tích hợp c
 
 Cuối cùng, nó giới thiệu cách chạy ứng dụng và gửi truy vấn để lấy kết quả, cung cấp cho người mới bắt đầu cái nhìn tổng quan toàn diện về việc phát triển tác nhân AI.
 
-![Video](https://youtu.be/2SHH1T_uPqU)
+Hãy cùng xem video hướng dẫn nhanh sau:
+
+[![Video](https://cdn.prod.website-files.com/637e5037f3ef83b76dcfc8f9/673bb7f864b42696d6e46d16_build%20ai%20agents.webp)](https://youtu.be/2SHH1T_uPqU)
 
 ## Xu hướng thị trường và tác động của các tác nhân AI
 
