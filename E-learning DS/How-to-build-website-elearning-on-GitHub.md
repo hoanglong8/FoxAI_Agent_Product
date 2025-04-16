@@ -2,7 +2,9 @@
 
 ## Mục Tiêu
 
-Tài liệu này sẽ hướng dẫn bạn cách tạo một website đào tạo nội bộ cho nhân viên, tương tự như trang Hugging Face Agents Course. Website sẽ giúp theo dõi tiến độ học tập, chất lượng khóa học và cấp chứng chỉ khi người dùng hoàn thành khóa học.
+Tài liệu này sẽ hướng dẫn bạn cách tạo một website đào tạo nội bộ cho nhân viên, tương tự như trang [Hugging Face Agents Course](https://huggingface.co/learn/agents-course/unit0/introduction). Website sẽ giúp theo dõi `tiến độ học tập`, `chất lượng khóa học` và `cấp chứng chỉ` khi người dùng hoàn thành khóa học.
+
+![Hình](https://huggingface.co/datasets/agents-course/course-images/resolve/main/en/unit0/thumbnail.jpg)
 
 ## Cấu Trúc Website
 
@@ -41,7 +43,102 @@ Tài liệu này sẽ hướng dẫn bạn cách tạo một website đào tạo
 
 ### **Frontend: Xây dựng Giao diện Người Dùng**
 
-1. **Cài đặt Framework Frontend**:
+**1.Cài đặt Framework Frontend**:
    - Dùng **Vue.js** hoặc **React.js** để xây dựng giao diện người dùng. Ví dụ, với Vue.js:
-   ```bash
+```bash
    vue create training-portal
+```
+
+Sau đó, cài đặt các thư viện cần thiết:
+
+```bash
+npm install vue-router axios bootstrap
+```
+
+**2.Tạo các trang chính:**
+
+Trang đăng nhập và đăng ký: Tạo các form để người dùng đăng nhập và đăng ký.
+
+Trang khóa học: Hiển thị các khóa học với các bài học, tài liệu và video.
+
+Trang tiến độ và kết quả: Cung cấp thông tin về các bài học đã hoàn thành và điểm số của người dùng.
+
+Trang chứng chỉ: Tạo chức năng cấp chứng chỉ khi người dùng hoàn thành khóa học.
+
+**3.Liên kết với Backend:**
+
+Sử dụng Axios để gửi yêu cầu tới API backend. Ví dụ:
+
+```javascript
+
+axios.get('/api/progress')
+  .then(response => {
+    // xử lý dữ liệu trả về
+  })
+  .catch(error => {
+    console.log(error);
+  });
+```
+
+### Backend: Xây dựng API
+
+**1.Cài đặt Node.js và Express.js:**
+
+```bash
+
+mkdir backend
+cd backend
+npm init -y
+npm install express mongoose jsonwebtoken bcryptjs
+```
+**2.Xây dựng các API chính:**
+
+**2.1.API đăng nhập/đăng ký:**
+
+```javascript
+
+const express = require('express');
+const app = express();
+const jwt = require('jsonwebtoken');
+
+app.post('/api/login', (req, res) => {
+  // Xác thực người dùng và trả về JWT
+  const token = jwt.sign({ userId: user.id }, 'secret', { expiresIn: '1h' });
+  res.json({ token });
+});
+```
+
+**2.2.API quản lý khóa học:**
+
+```javascript
+
+app.get('/api/courses', (req, res) => {
+  // Trả về danh sách khóa học
+});
+
+app.post('/api/progress', (req, res) => {
+  // Cập nhật tiến độ của người dùng
+});
+```
+**2.3.API cấp chứng chỉ:**
+
+```javascript
+
+app.post('/api/certificates', (req, res) => {
+  // Tạo chứng chỉ dưới dạng PDF
+});
+```
+**3.Tạo cơ sở dữ liệu:**
+Sử dụng MongoDB hoặc PostgreSQL để lưu trữ dữ liệu người dùng, khóa học và tiến độ.
+
+```javascript
+
+const mongoose = require('mongoose');
+const userSchema = new mongoose.Schema({
+  email: String,
+  password: String,
+  progress: Array, // Danh sách bài học đã hoàn thành
+});
+
+const User = mongoose.model('User', userSchema);
+```
