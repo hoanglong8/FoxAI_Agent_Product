@@ -1,0 +1,8 @@
+title: "Website E-learning"
+description: "Trang web đào tạo nội bộ"
+baseurl: ""
+url: "https://hoanglong8.github.io" # Địa chỉ GitHub Pages của bạn
+
+# Các cài đặt khác của Jekyll
+markdown: kramdown
+theme: minima
