@@ -1,0 +1,35 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # Hoặc nhánh mà bạn muốn theo dõi
+    paths:
+      - '**/*.md'  # Theo dõi tất cả các file .md trong repository
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Jekyll
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '2.7'  # Cài đặt Ruby, tùy thuộc vào yêu cầu của bạn
+
+    - name: Install dependencies
+      run: |
+        gem install bundler
+        bundle install
+
+    - name: Build Jekyll site
+      run: bundle exec jekyll build
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./_site
