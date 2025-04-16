@@ -3,9 +3,9 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main # Hoặc nhánh mà bạn muốn theo dõi
+      - main
     paths:
-      - '**/*.md'  # Theo dõi tất cả các file .md trong repository
+      - '**/*.md'
 
 jobs:
   build:
@@ -15,21 +15,22 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Set up Jekyll
+    - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '3.1.0'  # Cập nhật lên Ruby version >= 3.1.0
+        ruby-version: '3.1.0'
 
     - name: Install dependencies
       run: |
-        gem install bundler
-        bundle install
+        gem install bundler -v 2.6.8  # Cài đặt bundler nếu chưa có
+        bundle install  # Cài đặt các dependencies từ Gemfile
 
     - name: Build Jekyll site
-      run: bundle exec jekyll build
+      run: |
+        bundle exec jekyll build  # Xây dựng trang web với Jekyll
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./_site
+        publish_dir: ./_site  # Chỉ định thư mục _site để deploy lên GitHub Pages
