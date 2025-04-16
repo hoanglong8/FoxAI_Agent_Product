@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Khóa học về Toán học và Thống kê cho Khoa học dữ liệu"
+date: 2023-03-05
+categories: e-learning
+---
 # 1.Khóa học của Deeplearning.AI
 
 [Mathematics for Machine Learning and Data Science Specialization](https://www.deeplearning.ai/courses/mathematics-for-machine-learning-and-data-science-specialization/)

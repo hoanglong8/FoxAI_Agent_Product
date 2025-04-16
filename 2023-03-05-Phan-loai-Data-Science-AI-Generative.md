@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Phân loại Data Science và AI tạo sinh"
+date: 2023-03-05
+categories: e-learning
+---
 # A.Phân loại các nhánh của Khoa học dữ liệu và ứng dụng của chúng
 
 <img src="https://positivethinking.tech/wp-content/uploads/2023/06/data_science_venn_diagram.png" alt="Hình ảnh" width="50%" />

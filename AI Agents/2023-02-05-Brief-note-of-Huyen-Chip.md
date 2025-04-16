@@ -1,4 +1,10 @@
-# AI Agents - Huyền Chip tóm lược một cách ngắn gọn
+---
+layout: post
+title: "AI Agents - Huyền Chip tóm lược"
+date: 2023-02-05
+categories: e-learning
+---
+# AI Agents - Huyền Chip tóm lược
 Link bài gốc [ở đây](https://huyenchip.com//2025/01/07/agents.html)
 ## Lời nói đầu
 Nhiều người coi các tác nhân thông minh là mục tiêu cuối cùng của AI. Cuốn sách kinh điển của Stuart Russell và Peter Norvig, Artificial Intelligence: A Modern Approach (Prentice Hall, 1995), định nghĩa lĩnh vực nghiên cứu AI là “ nghiên cứu và thiết kế các tác nhân hợp lý ” .

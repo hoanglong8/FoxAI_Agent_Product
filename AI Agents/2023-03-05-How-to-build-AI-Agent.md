@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Cách xây dựng tác nhân AI cho người mới bắt đầu"
+date: 2023-03-05
+categories: e-learning
+---
 # Cách xây dựng tác nhân AI cho người mới bắt đầu: [Hướng dẫn từng bước toàn diện](https://www.trantorinc.com/blog/how-to-build-ai-agents)
 
 ![Hình](https://www.trantorinc.com/wp-content/uploads/2025/02/Beginners-Guide-to-Building-AI-Agents-_-1000-x-500-_-Main-copy.jpg)
