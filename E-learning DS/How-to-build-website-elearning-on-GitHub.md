@@ -129,7 +129,8 @@ app.post('/api/certificates', (req, res) => {
 });
 ```
 **3.Tạo cơ sở dữ liệu:**
-Sử dụng MongoDB hoặc PostgreSQL để lưu trữ dữ liệu người dùng, khóa học và tiến độ.
+
+**3.1.Sử dụng MongoDB hoặc PostgreSQL để lưu trữ dữ liệu người dùng, khóa học và tiến độ.**
 
 ```javascript
 
@@ -142,3 +143,37 @@ const userSchema = new mongoose.Schema({
 
 const User = mongoose.model('User', userSchema);
 ```
+
+**3.2.Chứng chỉ**
+Tạo chứng chỉ PDF khi người dùng hoàn thành khóa học sử dụng thư viện jsPDF:
+
+```javascript
+
+const jsPDF = require('jspdf');
+
+function generateCertificate(userName, courseName) {
+  const doc = new jsPDF();
+  doc.text('Chứng chỉ hoàn thành khóa học', 10, 10);
+  doc.text(`Người học: ${userName}`, 10, 20);
+  doc.text(`Khóa học: ${courseName}`, 10, 30);
+  doc.save('certificate.pdf');
+}
+```
+**3.3.Thống kê và báo cáo tiến độ**
+Tạo các API để thống kê tiến độ học tập, bao gồm số lượng bài học đã hoàn thành, điểm số trung bình, số người tham gia, v.v.
+
+**3.4.Tích hợp với các công cụ khác (Tùy chọn)**
+Bạn có thể tích hợp hệ thống này với các công cụ như:
+
+-Slack: Gửi thông báo khi người dùng hoàn thành khóa học.
+
+-Google Sheets: Lưu trữ kết quả và thống kê.
+
+-LMS (Learning Management System): Kết hợp hệ thống đào tạo với các nền tảng quản lý học tập.
+
+**3.5.Triển khai và cấp chứng chỉ**
+Cấp chứng chỉ dưới dạng PDF khi người dùng hoàn thành khóa học, lưu trữ chứng chỉ trong cơ sở dữ liệu và gửi qua email.
+
+Tạo API để cấp chứng chỉ và gửi email cho người dùng có chứng chỉ mới.
+
+-Hết- 
