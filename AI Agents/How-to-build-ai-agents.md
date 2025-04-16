@@ -116,12 +116,78 @@ Cải thiện chatbot của bạn bằng cách thêm nhiều quy tắc hơn ho�
 **Bước 5: Đào tạo Agent (Dành cho Agent đang học)**
 
 Nếu bạn chọn tác nhân dựa trên ML, hãy làm theo các bước bổ sung sau:
-Thu thập dữ liệu: Lấy dữ liệu nguồn từ các nền tảng như Kaggle hoặc các API có liên quan.
-Tiền xử lý dữ liệu: Làm sạch và định dạng dữ liệu để đào tạo hiệu quả.
-Chọn một mô hình: Bắt đầu với các thuật toán đơn giản như hồi quy logistic.
-Đào tạo và xác thực: Chia tập dữ liệu của bạn thành tập đào tạo và tập kiểm tra để đo độ chính xác.
-Ví dụ: Xây dựng hệ thống phát hiện thư rác bằng cách sử dụng tập dữ liệu email để phân loại thư một cách chính xác.Bước 6: Kiểm tra và triển khai
+   - Thu thập dữ liệu: Lấy dữ liệu nguồn từ các nền tảng như Kaggle hoặc các API có liên quan.
+   - Tiền xử lý dữ liệu: Làm sạch và định dạng dữ liệu để đào tạo hiệu quả.
+   - Chọn một mô hình: Bắt đầu với các thuật toán đơn giản như hồi quy logistic.
+   - Đào tạo và xác thực: Chia tập dữ liệu của bạn thành tập đào tạo và tập kiểm tra để đo độ chính xác.
+
+Ví dụ: Xây dựng hệ thống phát hiện thư rác bằng cách sử dụng tập dữ liệu email để phân loại thư một cách chính xác.
+
+**Bước 6: Kiểm tra và triển khai**
+
 Sau khi phát triển, việc thử nghiệm và triển khai kỹ lưỡng là rất quan trọng:
-Kiểm tra: Xác thực tác nhân của bạn trong các tình huống thực tế để đảm bảo độ tin cậy.
-Triển khai: Sử dụng các nền tảng đám mây như AWS , Azure hoặc Heroku để lưu trữ và mở rộng giải pháp của bạn.
-ThưởngBài hướng dẫn “Cách xây dựng tác nhân AI cho người mới bắt đầu” của TheAIGRID cung cấp hướng dẫn từng bước để tạo ứng dụng dựa trên tác nhân AI.Bắt đầu bằng cách điều hướng Agent Marketplace để tích hợp các plugin, chẳng hạn như Amazon Shopping Agent, và trình bày cách thử nghiệm các tác nhân này trong môi trường sân chơi. Sau đó, hướng dẫn sẽ đề cập đến việc tạo mã ứng dụng, lấy thông tin xác thực như khóa API và ID tổ chức, và thiết lập môi trường phát triển bằng Streamlit.Cuối cùng, nó giới thiệu cách chạy ứng dụng và gửi truy vấn để lấy kết quả, cung cấp cho người mới bắt đầu cái nhìn tổng quan toàn diện về việc phát triển tác nhân AI.
+   - Kiểm tra: Xác thực tác nhân của bạn trong các tình huống thực tế để đảm bảo độ tin cậy.
+   - Triển khai: Sử dụng các nền tảng đám mây như AWS , Azure hoặc Heroku để lưu trữ và mở rộng giải pháp của bạn.
+
+**Bonus**
+
+Bài hướng dẫn “Cách xây dựng tác nhân AI cho người mới bắt đầu” của TheAIGRID cung cấp hướng dẫn từng bước để tạo ứng dụng dựa trên tác nhân AI.
+
+Bắt đầu bằng cách điều hướng Agent Marketplace để tích hợp các plugin, chẳng hạn như Amazon Shopping Agent, và trình bày cách thử nghiệm các tác nhân này trong môi trường sân chơi. Sau đó, hướng dẫn sẽ đề cập đến việc tạo mã ứng dụng, lấy thông tin xác thực như khóa API và ID tổ chức, và thiết lập môi trường phát triển bằng Streamlit.
+
+Cuối cùng, nó giới thiệu cách chạy ứng dụng và gửi truy vấn để lấy kết quả, cung cấp cho người mới bắt đầu cái nhìn tổng quan toàn diện về việc phát triển tác nhân AI.
+
+![Video](https://youtu.be/2SHH1T_uPqU)
+
+## Xu hướng thị trường và tác động của các tác nhân AI
+
+Bối cảnh cho các tác nhân AI đang phát triển nhanh chóng, được thúc đẩy bởi sự tăng trưởng mạnh mẽ của thị trường và các khoản đầu tư đáng kể:
+
+![Hình](https://www.trantorinc.com/wp-content/uploads/2025/02/Beginners-Guide-to-Building-AI-Agents-_-1000-x-830-_-2.png)
+
+Tăng trưởng thị trường
+   - Dự báo: Thị trường tác nhân AI dự kiến ​​sẽ tăng trưởng đáng kể, với quy mô thị trường dự kiến ​​đạt 47,01 tỷ đô la vào năm 2030. Sự gia tăng này phản ánh việc áp dụng ngày càng tăng các giải pháp AI trên nhiều lĩnh vực khác nhau.
+
+Tác động công việc
+   - Tự động hóa so với Sáng tạo: Trong khi các tác nhân AI dự kiến ​​sẽ tự động hóa tới 300 triệu việc làm , chúng sẽ đồng thời tạo ra 97 triệu việc làm mới vào năm 2025. Hiệu ứng kép này nhấn mạnh tiềm năng chuyển đổi của AI đối với lực lượng lao động.
+
+Dịch vụ khách hàng
+   - Hiệu quả trong dịch vụ: AI dự kiến ​​sẽ xử lý 80% mọi tương tác với khách hàng vào năm 2030. Các tác nhân AI đang trở thành một phần không thể thiếu trong việc hợp lý hóa quy trình dịch vụ khách hàng, giảm thời gian chờ đợi và cung cấp hỗ trợ 24/7.
+
+Sự chấp nhận và tin tưởng
+   - Tâm lý người tiêu dùng: Khoảng 28% mọi người hoàn toàn tin tưởng AI và 42% nhìn chung chấp nhận AI . Đáng chú ý, người tiêu dùng Gen Z rất thoải mái với các tác nhân AI, đặc biệt là trong việc tạo nội dung được cá nhân hóa.
+
+Tiến bộ công nghệ
+   - Hệ thống đa tác nhân: Các tác nhân AI hiện đại đang phát triển thành các hệ thống đa tác nhân có thể phân bổ nhiệm vụ và hợp tác giải quyết các thách thức phức tạp.
+   - Phân tích dữ liệu đa phương thức: Tích hợp nhiều loại dữ liệu khác nhau (văn bản, hình ảnh, âm thanh) cho phép tạo ra các ứng dụng tinh vi và thích ứng hơn.
+
+Đầu tư và Phát triển
+   - Các nhà lãnh đạo ngành: Các khoản đầu tư đáng kể vào công nghệ AI đang được thực hiện bởi những gã khổng lồ như Microsoft, IBM và OpenAI. Các công ty này đang phát triển các tác nhân AI tiên tiến cho nhiều ứng dụng khác nhau, tiếp tục mở rộng ranh giới về những gì AI có thể đạt được.
+
+## Công cụ và tài nguyên cho người mới bắt đầu
+
+![Hình](https://www.trantorinc.com/wp-content/uploads/2025/02/Beginners-Guide-to-Building-AI-Agents-_-1000-x-500-_-4-copy.jpg)
+
+Để đẩy nhanh hành trình học cách xây dựng tác nhân AI cho người mới bắt đầu, hãy cân nhắc khai thác các tài nguyên sau:
+- Khóa học trực tuyến: Khám phá các nền tảng như `AI For Everyone của Coursera` và `Python for AI của Udemy` để xây dựng nền tảng vững chắc.
+- Cộng đồng: Tham gia `cộng đồng trên GitHub`, `MachineLearning của Reddit` và `Stack Overflow` để chia sẻ kiến ​​thức và khắc phục sự cố.
+- Bộ dữ liệu: Tận dụng `dữ liệu từ Kaggle` hoặc `Kho lưu trữ máy học UCI` để đào tạo và kiểm tra mô hình của bạn.
+- Mô hình được đào tạo trước: Sử dụng các tài nguyên như `Hugging Face Transformers` và `TensorFlow Hub` để khởi động dự án của bạn.
+
+## Những thách thức phổ biến và cách vượt qua chúng
+- Chất lượng dữ liệu: Độ chính xác của tác nhân AI của bạn phụ thuộc rất nhiều vào chất lượng dữ liệu. Đảm bảo bạn dọn dẹp và xử lý trước các tập dữ liệu của mình một cách tỉ mỉ.
+- Tài nguyên tính toán: Bắt đầu với quy mô nhỏ bằng cách sử dụng GPU đám mây miễn phí (ví dụ: Google Colab) và mở rộng quy mô khi cần thiết.
+- Các vấn đề tích hợp: Kiểm tra sớm các API (như Twilio cho chatbot SMS) có thể ngăn ngừa các rào cản tích hợp.
+Khả năng mở rộng: Thiết kế mã của bạn theo dạng mô-đun để dễ dàng nâng cấp và bảo trì.
+
+## FoxAI có thể giúp bạn xây dựng các tác nhân AI như thế nào
+
+Việc xây dựng các tác nhân AI đòi hỏi sự kết hợp giữa chuyên môn về mã hóa, khoa học dữ liệu và tích hợp hệ thống—những thách thức mà FoxAI có đủ khả năng giải quyết. Sau đây là cách chúng tôi hỗ trợ hành trình của bạn:
+- Giải pháp AI tùy chỉnh: Cho dù bạn cần chatbot , công cụ đề xuất hay phân tích dự đoán , chúng tôi đều tạo ra các giải pháp phù hợp.
+- Phát triển toàn diện: Từ khâu hình thành ý tưởng và xử lý dữ liệu đến đào tạo và triển khai mô hình, nhóm của chúng tôi luôn đồng hành cùng bạn trong từng bước thực hiện.
+- Hỗ trợ tích hợp: Chúng tôi đảm bảo tích hợp liền mạch với các hệ thống hiện có của bạn như CRM hoặc ERP.
+- Đào tạo và bảo trì: Sự hỗ trợ liên tục của chúng tôi giúp các tác nhân AI của bạn luôn được cập nhật và hoạt động tốt nhất.
+
+## Phần kết luận
+
+Bắt đầu hành trình học cách xây dựng các tác nhân AI cho người mới bắt đầu vừa thú vị vừa có sức mạnh. Với định nghĩa rõ ràng về vấn đề của bạn, lựa chọn đúng các công cụ và khuôn khổ, cùng quy trình phát triển lặp đi lặp lại, ngay cả người mới bắt đầu cũng có thể tạo ra các tác nhân AI có chức năng cao. Hơn nữa, với sự tăng trưởng đáng kể của thị trường, bối cảnh việc làm đang thay đổi và các khoản đầu tư mạnh mẽ từ các nhà lãnh đạo trong ngành, tương lai của các tác nhân AI có vẻ vô cùng hứa hẹn.Bằng cách tận dụng các nguồn tài nguyên trực tuyến, tham gia vào cộng đồng và cân nhắc sự hỗ trợ của chuyên gia từ các công ty như FoxAI, bạn đang trên đường biến những ý tưởng sáng tạo của mình thành hiện thực. Hãy đón nhận thử thách, thử nghiệm thường xuyên và để sự sáng tạo của bạn thúc đẩy sự phát triển của các hệ thống thông minh định hình công nghệ của tương lai.
