@@ -182,4 +182,128 @@ Cấp chứng chỉ dưới dạng PDF khi người dùng hoàn thành khóa h�
 
 Tạo API để cấp chứng chỉ và gửi email cho người dùng có chứng chỉ mới.
 
--Hết- 
+## 4. Gửi kết quả lên Server (Server-Side Processing)
+
+**Mô tả:** Sau khi người dùng hoàn thành bài quiz, dữ liệu sẽ được gửi đến server để lưu trữ, xử lý hoặc phân tích thêm. Sau đó, bạn có thể lưu điểm, tên người dùng, hoặc các thông tin khác vào cơ sở dữ liệu.
+
+**Lưu trữ:** Kết quả sẽ được lưu vào cơ sở dữ liệu của bạn (SQL hoặc NoSQL).
+
+**Kỹ thuật:** Bạn sẽ cần một backend (ví dụ: Node.js, Django, Flask, v.v.) để nhận kết quả từ form và lưu vào cơ sở dữ liệu.
+
+Ví dụ (Gửi kết quả lên Server):
+
+**4.1.Frontend (JavaScript):** 
+Khi người dùng nhấn "Submit", kết quả sẽ được gửi tới server qua một API (sử dụng fetch hoặc XMLHttpRequest).
+
+```javascript
+function submitQuiz() {
+    const answers = {
+        question1: 'Paris',
+        question2: '4'
+    };
+
+    let score = 0;
+    const form = document.getElementById('quiz-form');
+    const userAnswers = {
+        question1: form.querySelector('input[name="question1"]:checked'),
+        question2: form.querySelector('input[name="question2"]:checked')
+    };
+
+    if (userAnswers.question1 && userAnswers.question1.value === answers.question1) {
+        score++;
+    }
+
+    if (userAnswers.question2 && userAnswers.question2.value === answers.question2) {
+        score++;
+    }
+
+    // Gửi kết quả lên server
+    const quizData = {
+        score: score,
+        answers: {
+            question1: userAnswers.question1.value,
+            question2: userAnswers.question2.value
+        }
+    };
+
+    fetch('/submit-quiz', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(quizData)
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log('Success:', data);
+        document.getElementById('result').textContent = `You scored ${score} out of 2.`;
+    })
+    .catch((error) => {
+        console.error('Error:', error);
+    });
+}
+```
+
+**4.2.Backend (Node.js Express ví dụ):**
+```javascript
+const express = require('express');
+const app = express();
+const bodyParser = require('body-parser');
+
+// Middleware để xử lý dữ liệu JSON
+app.use(bodyParser.json());
+
+// API endpoint để nhận kết quả quiz
+app.post('/submit-quiz', (req, res) => {
+    const { score, answers } = req.body;
+
+    // Lưu kết quả vào cơ sở dữ liệu hoặc thực hiện xử lý khác
+    console.log('Score:', score);
+    console.log('Answers:', answers);
+
+    // Trả về thông báo thành công
+    res.json({ message: 'Quiz submitted successfully!', score: score });
+});
+
+// Lắng nghe port 3000
+app.listen(3000, () => {
+    console.log('Server is running on http://localhost:3000');
+});
+```
+Giải thích:
+
+Frontend: Gửi dữ liệu qua một API (/submit-quiz).
+
+Backend: Nhận và xử lý dữ liệu từ frontend, sau đó có thể lưu vào cơ sở dữ liệu (ví dụ MongoDB, PostgreSQL) để phân tích sau.
+
+**4.3. Gửi kết quả qua email (Optional)**
+Nếu bạn muốn gửi kết quả quiz tới người dùng qua email, bạn có thể tích hợp dịch vụ gửi email vào backend của mình (ví dụ: sử dụng Nodemailer với Node.js).
+
+```javascript
+const nodemailer = require('nodemailer');
+
+const transporter = nodemailer.createTransport({
+    service: 'gmail',
+    auth: {
+        user: 'your-email@gmail.com',
+        pass: 'your-email-password'
+    }
+});
+
+const mailOptions = {
+    from: 'your-email@gmail.com',
+    to: 'user-email@example.com',
+    subject: 'Your Quiz Results',
+    text: `You scored ${score} out of 2.`
+};
+
+transporter.sendMail(mailOptions, function(error, info) {
+    if (error) {
+        console.log(error);
+    } else {
+        console.log('Email sent: ' + info.response);
+    }
+});
+```
+---
+FoxAI E-Learning Platform - Nâng cao kiến thức nhân viên, phát triển công ty!
