@@ -3,7 +3,7 @@
 
 ### 1. **Đặt vấn đề - Product Thinking**
 
-**Problem:** Khách hàng gặp khó khăn khi không thể mở khóa thẻ ghi nợ do quên mã PIN hoặc do một số lỗi khác. Thay vì yêu cầu nhân viên hỗ trợ trực tiếp, chatbot có thể giải quyết vấn đề này thông qua quy trình tự động, tiết kiệm thời gian và nâng cao trải nghiệm khách hàng.
+**Problem:** Khách hàng của ngân hàng SHB gặp khó khăn khi không thể mở khóa thẻ ghi nợ do quên mã PIN hoặc do một số lỗi khác. Thay vì yêu cầu nhân viên tổng đài hoặc giao dịch viên hỗ trợ trực tiếp, chatbot có thể giải quyết vấn đề này thông qua quy trình tự động, tiết kiệm thời gian và nâng cao trải nghiệm khách hàng.
 
 **Solution:** Xây dựng một hệ thống chatbot có khả năng nhận diện yêu cầu mở khóa thẻ, xác thực thông tin khách hàng, kiểm tra trạng thái thẻ và thực hiện yêu cầu mở khóa nếu thỏa mãn các điều kiện.
 
